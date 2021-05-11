@@ -1,0 +1,182 @@
+<div id="home-page" class="index-section home-section">
+	<div class="home-page-content overlay-{{ section.settings.home-page-background-overlay }}">
+		{% if section.settings.home-page-bg %}
+			<span class="prlx-bg prlx-bg--{{ section.id }} no-js lazyload overlay-{{ section.settings.home-page-background-overlay }}"
+				data-bgset="{% include 'bgset', image: section.settings.home-page-bg %}"
+				data-sizes="auto"
+				data-parent-fit="cover"></span>
+			<noscript>
+				<span class="prlx-bg prlx-bg--{{ section.id }} overlay-{{ section.settings.home-page-background-overlay }}" style="background-image: url('{{ section.settings.home-page-bg | img_url: '2048x2048' }}')"></span>
+			</noscript>
+		{% endif %}
+			{% for block in section.blocks %}
+			<div class="wrapper wrapper--margins" {{ block.shopify_attributes }}>
+				{% if block.settings.block_title != blank %}<h2 class="home-section-title">{{ block.settings.block_title | escape }}</h2>{% endif %}
+				<div class="rte">
+					{{ block.settings.content }}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": {
+    "de": "Bild mit Textüberlagerung",
+    "en": "Image with text overlay",
+    "es": "Imagen con texto",
+    "fr": "Image et texte superposé",
+    "it": "Immagine con testo",
+    "ja": "テキストオーバーレイ付き画像",
+    "nl": "Foto met tekstoverlay",
+    "pt-BR": "Imagem com texto",
+    "zh-CN": "带文本叠加的图片",
+    "zh-TW": "附文字疊加的圖片"
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "home-page-bg",
+      "label": {
+        "de": "Hintergrundbild",
+        "en": "Background image",
+        "es": "Imagen de fondo",
+        "fr": "Image de fond",
+        "it": "Immagine di sfondo",
+        "ja": "背景画像",
+        "nl": "Achtergrondafbeelding",
+        "pt-BR": "Imagem de fundo",
+        "zh-CN": "背景图片",
+        "zh-TW": "背景圖片"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "home-page-background-overlay",
+      "label": {
+        "de": "Ein weißes Overlay zum Hintergrundbild hinzufügen",
+        "en": "Add white overlay on background image",
+        "es": "Agrega superposición blanca sobre la imagen de fondo.",
+        "fr": "Ajouter une superposition blanche sur l'image d'arrière-plan",
+        "it": "Sovrapponi filtro bianco all'immagine di sfondo",
+        "ja": "背景画像に白のオーバーレイを追加する",
+        "nl": "Voeg een witte overlay toe op de achtergrondafbeelding",
+        "pt-BR": "Adicionar sobreposição de branco na imagem de plano de fundo",
+        "zh-CN": "在背景图片上添加白色叠加",
+        "zh-TW": "在背景圖片上新增白色疊加層"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": {
+        "de": "Text",
+        "en": "Text",
+        "es": "Texto",
+        "fr": "Texte",
+        "it": "Testo",
+        "ja": "テキスト",
+        "nl": "Tekst",
+        "pt-BR": "Texto",
+        "zh-CN": "文本",
+        "zh-TW": "文字"
+      },
+      "settings": [
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": {
+            "de": "Titel",
+            "en": "Heading",
+            "es": "Título",
+            "fr": "Titre",
+            "it": "Heading",
+            "ja": "見出し",
+            "nl": "Kop",
+            "pt-BR": "Título",
+            "zh-CN": "标题",
+            "zh-TW": "標題"
+          },
+          "default": {
+            "de": "Über Ihre Marke sprechen",
+            "en": "Talk about your brand",
+            "es": "Habla de tu marca",
+            "fr": "Parlez de votre marque",
+            "it": "Parla del tuo brand",
+            "ja": "あなたのブランドについて語る",
+            "nl": "Vertel over uw merk",
+            "pt-BR": "Fale sobre a sua marca",
+            "zh-CN": "谈论您的品牌",
+            "zh-TW": "描述您的品牌"
+          }
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": {
+            "de": "Text",
+            "en": "Text",
+            "es": "Texto",
+            "fr": "Texte",
+            "it": "Testo",
+            "ja": "テキスト",
+            "nl": "Tekst",
+            "pt-BR": "Texto",
+            "zh-CN": "文本",
+            "zh-TW": "文字"
+          },
+          "default": {
+            "de": "<p>Nutzen Sie diesen Text, um Infos über Ihre Marke mitzuteilen. Beschreiben Sie ein Produkt, kündigen Sie etwas an oder heißen Sie Kunden willkommen.</p>",
+            "en": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "es": "<p>Usa este texto para compartir información sobre tu marca con tus clientes. Describe un producto, comparte anuncios o recibe clientes en tu tienda.</p>",
+            "fr": "<p>Utilisez ce texte pour partager des informations sur votre marque. Décrivez un produit, partagez des annonces, ou souhaitez la bienvenue à vos clients.</p>",
+            "it": "<p>Utilizza questo testo per condividere le informazioni sul tuo brand con i clienti. Descrivi un prodotto, condividi gli annunci o dai il benvenuto ai clienti nel tuo negozio.</p>",
+            "ja": "<p>このテキストを使用して、あなたのブランドに関する情報をお客様と共有します。商品を説明したり、告知の共有をしたり、あるいはあなたのストアのお客様を歓迎します。</p>",
+            "nl": "<p>Gebruik deze tekst om informatie over uw merk te delen met uw klanten. Beschrijf een product, deel aankondigingen of verwelkom klanten in uw winkel.</p>",
+            "pt-BR": "<p>Use este texto para compartilhar informações sobre sua marca com seus clientes. Descreva um produto, compartilhe anúncios ou receba os clientes em sua loja.</p>",
+            "zh-CN": "<p>使用此文本与您的客户分享有关您品牌的信息。描述产品、分享公告或欢迎客户访问您的商店。</p>",
+            "zh-TW": "<p>您可以用這段文字和客戶分享品牌資訊、描述產品、分享公告，或歡迎客戶光臨您的商店。</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "de": "Bild mit Textüberlagerung",
+        "en": "Image with text overlay",
+        "es": "Imagen con texto",
+        "fr": "Image et texte superposé",
+        "it": "Immagine con testo",
+        "ja": "テキストオーバーレイ付き画像",
+        "nl": "Foto met tekstoverlay",
+        "pt-BR": "Imagem com sobreposição de texto",
+        "zh-CN": "带文本叠加的图片",
+        "zh-TW": "附文字疊加的圖片"
+      },
+      "category": {
+        "de": "Foto",
+        "en": "Image",
+        "es": "Imagen",
+        "fr": "Image",
+        "it": "Immagine",
+        "ja": "画像",
+        "nl": "Afbeelding",
+        "pt-BR": "Imagem",
+        "zh-CN": "图片",
+        "zh-TW": "圖片"
+      },
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

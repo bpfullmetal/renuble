@@ -1,0 +1,156 @@
+<div id="home-blog" class="index-section home-section">
+	<div class="home-blog">
+		<div class="wrapper wrapper--margins">
+		{%- assign blog = blogs[section.settings.blog] -%}
+
+			{% if blogs[section.settings.blog] != blank %}
+
+			  {% if section.settings.title != blank %}
+			    <h2 class="home-section-title">{{ section.settings.title | escape }}</h2>
+			  {% endif %}
+
+			{% paginate blog.articles by section.settings.post_limit %}
+
+			<div class="blog-list">
+
+				{% for article in blog.articles %}
+				  {% include 'blog_item' with blog.comments_enabled? %}
+				{% endfor %}
+
+			</div>
+
+			{% if paginate.next.is_link %}
+			  <p class="text-center"><a class="btn btn--large btn--outline btn--dark" href="{{ blog.url }}">More posts</a></p>
+			{% endif %}
+
+			{% assign sp_paginate_by = paginate.page_size %}{% endpaginate %}
+
+			{% else %}
+
+			<!-- onboarding -->
+			<div class="onboarding">
+				<h2 class="home-section-title">{{ 'homepage.onboarding.section_title' | t }}</h2>
+				<p>{{ 'homepage.onboarding.no_content' | t }}</p>
+			</div>
+
+			{% endif %}
+
+		</div>
+	</div>
+</div>
+
+
+
+{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{% schema %}
+{
+  "name": {
+    "de": "Blogposts",
+    "en": "Blog posts",
+    "es": "Entradas del blog",
+    "fr": "Articles de blog",
+    "it": "Articoli del blog",
+    "ja": "ブログ記事",
+    "nl": "Blogberichten",
+    "pt-BR": "Posts do blog",
+    "zh-CN": "博客文章",
+    "zh-TW": "部落格文章"
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "de": "Header",
+        "en": "Header",
+        "es": "Encabezado",
+        "fr": "En-tête",
+        "it": "Header",
+        "ja": "ヘッダー",
+        "nl": "Koptekst",
+        "pt-BR": "Cabeçalho",
+        "zh-CN": "标头",
+        "zh-TW": "標頭"
+      },
+      "default": {
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fr": "Blog",
+        "it": "Blog",
+        "ja": "ブログ",
+        "nl": "Blog",
+        "pt-BR": "Blog",
+        "zh-CN": "博客",
+        "zh-TW": "部落格"
+      }
+    },
+    {
+      "id": "blog",
+      "type": "blog",
+      "label": {
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fr": "Blog",
+        "it": "Blog",
+        "ja": "ブログ",
+        "nl": "Blog",
+        "pt-BR": "Blog",
+        "zh-CN": "博客",
+        "zh-TW": "部落格"
+      }
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": {
+        "de": "Posts",
+        "en": "Posts",
+        "es": "Publicaciones",
+        "fr": "Articles",
+        "it": "Articoli",
+        "ja": "投稿",
+        "nl": "Berichten",
+        "pt-BR": "Posts",
+        "zh-CN": "文章",
+        "zh-TW": "貼文"
+      },
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 3
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "de": "Blogposts",
+        "en": "Blog posts",
+        "es": "Entradas del blog",
+        "fr": "Articles de blog",
+        "it": "Articoli del blog",
+        "ja": "ブログ記事",
+        "nl": "Blogberichten",
+        "pt-BR": "Posts do blog",
+        "zh-CN": "博客文章",
+        "zh-TW": "部落格文章"
+      },
+      "category": {
+        "de": "Blog",
+        "en": "Blog",
+        "es": "Blog",
+        "fr": "Blog",
+        "it": "Blog",
+        "ja": "ブログ",
+        "nl": "Blog",
+        "pt-BR": "Blog",
+        "zh-CN": "博客",
+        "zh-TW": "部落格"
+      },
+      "settings": {
+        "blog": "News"
+      }
+    }
+  ]
+}
+{% endschema %}

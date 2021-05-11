@@ -1,0 +1,48 @@
+<div class="faq-accordion" data-section-id="{{ section.id }}" data-section-type="faq-accordion">
+	<div class="faq-list">
+		<div class="jumpstart-accordion">
+		  {% for block in section.blocks %}
+
+				<div class="section section-{{ block.id }} {% if forloop.first == true %}opened{% endif %}" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+					<h3 class="h4 title">{{ block.settings.faq_question | escape }}</h3>
+					<div class="content">{{ block.settings.faq_answer }}</div>
+				</div>
+
+		  {% endfor %}
+		</div>
+	</div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "FAQs",
+  "settings": [
+    {
+      "type": "header",
+      "content": "FAQ Questions"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "FAQs",
+      "settings": [
+        {
+          "type": "text",
+          "id": "faq_question",
+          "default": "Question",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "faq_answer",
+          "default": "<p>Answer</p>",
+          "label": "Answer"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

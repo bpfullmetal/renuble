@@ -1,0 +1,547 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_bg_alt": "#f9f9f9",
+    "color_primary": "#33856b",
+    "color_secondary": "#141414",
+    "color_borders": "#e9e9e9",
+    "color_text_titles": "#111111",
+    "color_text_general": "#343434",
+    "color_text_alternate": "#7a7a7a",
+    "color_text_buttons": "#ffffff",
+    "color_drawer_background": "#000000",
+    "color_drawer_text": "#ffffff",
+    "color_footer_bg": "#000000",
+    "color_footer_text": "#757575",
+    "typography_headings": "raleway_n5",
+    "typography_body": "raleway_n5",
+    "favicon": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+    "share_image": "",
+    "social_twitter": "https:\/\/twitter.com\/re_nuble",
+    "social_facebook": "https:\/\/facebook.com\/re-nuble",
+    "social_google": "",
+    "social_youtube": "",
+    "social_vimeo": "",
+    "social_pinterest": "https:\/\/www.pinterest.com\/renuble\/",
+    "social_snapchat": "",
+    "social_tumblr": "",
+    "social_instagram": "https:\/\/www.instagram.com\/re_nuble",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/re-nuble",
+    "social_flickr": "",
+    "social_email": "info@re-nuble.com",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Re-Nuble-Logo-Medium-Transparent_6.58.44_PM.png",
+          "logo_use_inverted": true,
+          "logo-inverted": "shopify:\/\/shop_images\/Re-Nuble-Logo-Medium-Transparent_6.58.44_PM.png",
+          "logo_max_width": "250",
+          "main_linklist": "main-menu",
+          "menu_style": "classic",
+          "menu_text_color": "is-dark",
+          "menu_product": "",
+          "show_announcement": false,
+          "home_page_only": true,
+          "announcement_text": "Announce something here",
+          "announcement_color_bg": "#429c80",
+          "announcement_color_text": "#ffffff"
+        }
+      },
+      "video": {
+        "type": "video",
+        "disabled": true,
+        "settings": {
+          "heading": "Video",
+          "video_url": "",
+          "video_text_color": "video-text-dark"
+        }
+      },
+      "feature-rows": {
+        "type": "feature-rows",
+        "settings": {
+          "text_color": "#ffffff",
+          "background_color": "#33856b",
+          "home-featured-align": "left-img",
+          "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.jpg",
+          "home-featured-title": "Bringing Back Closed Loop Food",
+          "home-featured-content": "<p><\/p><p><\/p><p><strong>Re-Nuble is an MWBE-certified agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming.<\/strong><\/p><p><\/p><p>Our closed-loop process transforms unrecoverable food byproducts into organic goods while eliminating landfill waste and greenhouse gasses. We are founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.<\/p>",
+          "home-featured-btn-label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-1": {
+            "type": "text",
+            "settings": {
+              "home-features-icon": "pagelines",
+              "home-features-title": "Food Waste As Water-Soluble Nutrients Compatible for Soilless Systems",
+              "home-features-content": "<p>Re-Nuble&#x27;s nutrient delivery system&#x27;s production of biologically active compounds from robust bacterial communities, allows for lower nitrate concentrations (in ppms). A farm is able to achieve similar crop growth at a fraction of the nitrate concentration due to robust micro bacterial activity. <\/p>",
+              "width": "33%"
+            }
+          },
+          "feature-columns-2": {
+            "type": "text",
+            "settings": {
+              "home-features-icon": "money",
+              "home-features-title": "When Going Green Makes Dollars And Sense",
+              "home-features-content": "<p>Our cost competitive organic nutrients are comparable in price to mineral salts, while the only commercially used organic alternative is up to 69% more expensive.<\/p>",
+              "width": "33%"
+            }
+          },
+          "feature-columns-0": {
+            "type": "text",
+            "settings": {
+              "home-features-icon": "compass",
+              "home-features-title": "Organic Nutrients That Are All The Way Real",
+              "home-features-content": "<p><\/p><p>We steward transparency in our nutrients as much as we appreciate it in our food supply chain.<\/p>",
+              "width": "33%"
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-1",
+          "feature-columns-2",
+          "feature-columns-0"
+        ],
+        "settings": {
+          "title": "Technology Benefits"
+        }
+      },
+      "kickstarter": {
+        "type": "kickstarter",
+        "disabled": true,
+        "settings": {
+          "home-kickstarter-title": "Crowdfunding",
+          "home-kickstarter-subtitle": "Campaign tracker",
+          "home-kickstarter-style": "pie",
+          "home-kickstarter-percent": "75",
+          "home-kickstarter-amount": "$1000",
+          "home-kickstarter-backers": "10",
+          "home-kickstarter-url": "https:\/\/www.shopify.com"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {}
+          },
+          "slideshow-1": {
+            "type": "image",
+            "settings": {}
+          },
+          "slideshow-2": {
+            "type": "image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "slideshow-1",
+          "slideshow-2"
+        ],
+        "settings": {}
+      },
+      "faq": {
+        "type": "faq",
+        "disabled": true,
+        "blocks": {
+          "faq-0": {
+            "type": "text",
+            "settings": {
+              "home-faq-title": "Question and answers",
+              "home-faq-content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+            }
+          },
+          "faq-1": {
+            "type": "text",
+            "settings": {
+              "home-faq-title": "Question and answer",
+              "home-faq-content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+            }
+          },
+          "faq-2": {
+            "type": "text",
+            "settings": {
+              "home-faq-title": "Question and answer",
+              "home-faq-content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "faq-0",
+          "faq-1",
+          "faq-2"
+        ],
+        "settings": {
+          "title": "FAQ"
+        }
+      },
+      "home-product": {
+        "type": "home-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "",
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "featured-blog": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Re-Nuble Blog",
+          "blog": "re-nuble",
+          "post_limit": 3
+        }
+      },
+      "featured-content": {
+        "type": "featured-content",
+        "blocks": {
+          "featured-content-0": {
+            "type": "text",
+            "settings": {
+              "block_title": "At Re-Nuble We Believe...",
+              "content": "<p>that like humans, plants have the ability to heal themselves by generating their own plant vigor using botanical solutions. <\/p><p><\/p><p>We will demonstrate to society that our global food waste streams can serve as a viable and cost efficient way to easily source eco-friendly, biodegradable, and nontoxic plant based solutions for food production. By focusing on sourcing locally available organic inputs for controlled environment agriculture, we can dramatically reduce the fertilizer supply chain&#x27;s carbon emissions and further support the increased movement towards sustainable and regenerative farming.<\/p><p><\/p><p>Check out what inspired our Founder, Tinia Pina, to start Re-Nuble in Food Tank&#x27;s interview found <a href=\"https:\/\/foodtank.com\/news\/2017\/08\/tinia-pina\/\" title=\"https:\/\/foodtank.com\/news\/2017\/08\/tinia-pina\/\"><strong>here<\/strong><\/a>.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "featured-content-0"
+        ],
+        "settings": {
+          "home-page-background-overlay": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_logo": "shopify:\/\/shop_images\/re_nuble_logo_large_transparent_coperight.png",
+          "footer_logo_max_width": "800",
+          "footer_newsletter_enable": false,
+          "subheading": "<p>Keep me in the loop<\/p>",
+          "footer_linklist": "",
+          "show_payment_icons": false
+        }
+      },
+      "1560284845715": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "FOR THOSE WHO WANT TO DIG DEEPER",
+          "subheading": "<p><strong>Receive the deepest and latest<\/strong><\/p><p><\/p><p>Industry insights, updates, and Re-Nuble&#x27;s product information sent straight to your inbox.<\/p><p><\/p><p>Contact us to arrange a <strong>free trial<\/strong> at info@re-nuble.com.<\/p>"
+        }
+      },
+      "1587563869588": {
+        "type": "hubspot-form",
+        "settings": {
+          "header_title": "Curious about how this could work for you?",
+          "header_text": "Let's talk"
+        }
+      },
+      "faq-page": {
+        "type": "faq-page",
+        "blocks": {
+          "1595620661487": {
+            "type": "text",
+            "settings": {
+              "faq_question": "Why are we doing this?",
+              "faq_answer": "<p>In the current market, other organic-based alternatives pale in performance with regards to sterility and consistency in nutrient delivery. Other&nbsp;soilless farming fertilizers on the market contain chemicals and synthetics not found in our products &ndash; something that sets us apart and addresses the&nbsp;need to grow food and plants indoors using non-toxic, bio-derived fertilizers that are safe and affordable for every-day use.&nbsp;<\/p>\n<p><\/p>\n<p>We help communities and farms around the world reimagine food waste, by transforming it into an important renewable nutrient for closed-loop agriculture.<\/p>"
+            }
+          },
+          "1595620702759": {
+            "type": "text",
+            "settings": {
+              "faq_question": "What makes your products different?",
+              "faq_answer": "<p>Organic-based, soil and hydroponic liquid fertilizers are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. Our products, derived from vegetative food waste, offer the same performance as a mineral salts but up to 2x more cost effective. Soilless farms will not encounter clogging with our fertilizers which are often caused by other organic fertilizers. Our products are easier to ship &amp; store and furthermore, we reduce the high labor and input costs from frequent organic nutrient monitoring and EC\/pH adjustments.<br><br>We provide a way for soilless farms to practice more sustainable farming methods. By using our nutrient delivery system, we reduce a&nbsp;farm's need for nutrient flushing, allowing for more vigorous root growth and more efficient water and nutrient usage over time. Our technology also promotes the production and maintenance of a diverse bacterial community that is more similar to organic-certified soil farming than mineral salts.<\/p>"
+            }
+          },
+          "1595620728894": {
+            "type": "text",
+            "settings": {
+              "faq_question": "How do your products work?",
+              "faq_answer": "<p>In soilless farming applications, used together with our nutrient delivery system, our nutrient solutions are mixed into an aerated reservoir that is monitored with pH and electroconductivity (EC) sensors.&nbsp;We have formulated Re-Nuble&rsquo;s products to cater to most&nbsp;conventional soilless growing operations; our product application is&nbsp;similar to most nutrient solutions currently available on the market.&nbsp;<\/p>"
+            }
+          },
+          "1595620752673": {
+            "type": "text",
+            "settings": {
+              "faq_question": "Is our product organic and if not, why?",
+              "faq_answer": "<p>Currently, Re-Nuble products are not certified organic, but are made from 100% natural vegetative waste. We source verified organic waste that still contains valuable nutrients, so it can be harvested. While we are currently not organic certified as we are waiting for internal review for the certification process, we&rsquo;re confident that we&rsquo;ll be able to get our products certified, making it easier for&nbsp;soilless growers everywhere to grow certified organic food.<\/p>"
+            }
+          },
+          "1595620770733": {
+            "type": "text",
+            "settings": {
+              "faq_question": "For what types of growing operations are your products best suited?",
+              "faq_answer": "<p>Our products are ideal for&nbsp;soilless farms of all sizes and growing methods. &nbsp;We are confident in our products&rsquo; suitability for the growth of a variety of crops, among which include leafy greens, and lettuce.<\/p>"
+            }
+          },
+          "1595620785153": {
+            "type": "text",
+            "settings": {
+              "faq_question": "Does it work with aquaponics?  Aeroponics?",
+              "faq_answer": "<p>We have not fully experimented with the Re-Nuble product in aquaponics, but plan on developing a formula for these systems. We also have not tested Re-Nuble products with aeroponic systems. Due to the mechanics of those growing systems, we do not recommend using Re-Nuble products for aeroponic systems at this time.<\/p>"
+            }
+          },
+          "1595620848530": {
+            "type": "text",
+            "settings": {
+              "faq_question": "Is the food waste we use organic?  If not, what’s the possibility that chemicals and pesticides used to grow that food affects the ‘organic’ nature of the solution?",
+              "faq_answer": "<p>We source only organic-certified produce waste from wholesale produce distributor(s). This is because our manufacturing process involves pasteurization and accelerated composting that breaks down the compounds of any residue that may have existed, such as pesticides, herbicides, etc.&nbsp;<strong><a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\">This<\/a>&nbsp;<\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>"
+            }
+          },
+          "1595620867305": {
+            "type": "text",
+            "settings": {
+              "faq_question": "How does your product perform compared to chemical alternatives on the market?",
+              "faq_answer": "<p>We believe that higher quality doesn&rsquo;t mean higher cost, because with closed loop agriculture, we&rsquo;re just turbo-charging how nature designed it to be. After numerous trials we have found that plants receiving our&nbsp;solutions grow at a similar rate to many synthetic mineral salt&nbsp;solutions currently on the market, which is a large achievement in the world of soilless growth formulas. &nbsp;The main&nbsp;difference is that our product is sourced from vegetative waste,&nbsp;not the mined, unsustainable ingredients used in most nutrient&nbsp;solutions growers use today.&nbsp;&nbsp;<\/p>"
+            }
+          },
+          "1595620877608": {
+            "type": "text",
+            "settings": {
+              "faq_question": "How does your product perform compared to chemical alternatives on the market?",
+              "faq_answer": "<p>Given the debate over the last few years pertaining to whether hydroponics and aquaponics are indeed organic, we should look no further to the importance of microbiology in the food systems than to the biggest objections to their addition, which was soil conservation and having a robust microbiological presence.&nbsp; &nbsp;Our products allow for a robust microbial community that grows in both quantity and diversity over time. It is believed by some that these activities create and catalyze ingredients for the plants that make them more robust, grow faster, and make a better tasting and more healthy food product.<\/p>"
+            }
+          },
+          "1595620897809": {
+            "type": "text",
+            "settings": {
+              "faq_question": "I don't see my question here.",
+              "faq_answer": "<p>Have a question not addressed here? Please&nbsp;<a href=\"https:\/\/www.re-nuble.com\/pages\/contact-us\" title=\"https:\/\/www.re-nuble.com\/pages\/contact-us\"><strong>contact us<\/strong><\/a>; we&rsquo;d love to&nbsp;hear from you!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1595620661487",
+          "1595620702759",
+          "1595620728894",
+          "1595620752673",
+          "1595620770733",
+          "1595620785153",
+          "1595620848530",
+          "1595620867305",
+          "1595620877608",
+          "1595620897809"
+        ],
+        "settings": {}
+      },
+      "hubspot-form-page": {
+        "type": "hubspot-form-page",
+        "settings": {
+          "header_image": "shopify:\/\/shop_images\/logo.jpg"
+        }
+      },
+      "1596041899290": {
+        "type": "featured-content",
+        "settings": {
+          "home-page-background-overlay": false
+        }
+      },
+      "1596065185817": {
+        "type": "slideshow",
+        "blocks": {
+          "1596065185817-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1596065185817-0"
+        ],
+        "settings": {}
+      },
+      "1617825409ce921979": {
+        "type": "feature-rows",
+        "disabled": true,
+        "settings": {
+          "text_color": "#343434",
+          "background_color": "#ffffff",
+          "home-featured-align": "left-img",
+          "image": "shopify:\/\/shop_images\/soilless.jpg",
+          "home-featured-title": "What is Soilless Farming?",
+          "home-featured-content": "<p>The growing of crops in different media besides soil, or in aerated water blended with nutrient solutions<\/p>",
+          "home-featured-btn-label": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "feature-rows",
+      "feature-columns",
+      "1617825409ce921979",
+      "1587563869588",
+      "featured-blog",
+      "featured-content",
+      "1560284845715",
+      "1596065185817",
+      "kickstarter",
+      "faq",
+      "slideshow",
+      "home-product",
+      "1596041899290"
+    ]
+  },
+  "presets": {
+    "Jumpstart": {
+      "color_body_bg": "#ffffff",
+      "color_body_bg_alt": "#f9f9f9",
+      "color_primary": "#33856B",
+      "color_secondary": "#141414",
+      "color_borders": "#e9e9e9",
+      "color_text_titles": "#111111",
+      "color_text_general": "#343434",
+      "color_text_alternate": "#7a7a7a",
+      "color_text_buttons": "#ffffff",
+      "color_drawer_background": "#000000",
+      "color_drawer_text": "#ffffff",
+      "color_footer_bg": "#000000",
+      "color_footer_text": "#757575",
+      "typography_headings": "montserrat_n5",
+      "typography_body": "raleway_n5",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "video": {
+          "type": "video",
+          "settings": {}
+        },
+        "feature-rows": {
+          "type": "feature-rows",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {}
+        },
+        "kickstarter": {
+          "type": "kickstarter",
+          "settings": {}
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1",
+            "slideshow-2"
+          ],
+          "settings": {}
+        },
+        "faq": {
+          "type": "faq",
+          "blocks": {
+            "faq-0": {
+              "type": "text",
+              "settings": {}
+            },
+            "faq-1": {
+              "type": "text",
+              "settings": {}
+            },
+            "faq-2": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "faq-0",
+            "faq-1",
+            "faq-2"
+          ],
+          "settings": {}
+        },
+        "home-product": {
+          "type": "home-product",
+          "settings": {}
+        },
+        "featured-blog": {
+          "type": "featured-blog",
+          "settings": {
+            "blog": "news"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "blocks": {
+            "featured-content-0": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-content-0"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "video",
+        "feature-rows",
+        "feature-columns",
+        "featured-content",
+        "kickstarter",
+        "faq",
+        "slideshow",
+        "home-product",
+        "featured-blog"
+      ]
+    }
+  }
+}

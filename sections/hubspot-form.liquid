@@ -1,0 +1,56 @@
+<div id="home-hubspot-form" class="index-section home-section">
+  <div class="wrapper wrapper--margins text-center">
+    <div style="margin-bottom: 2rem;">
+      {% if section.settings.header_title %}
+        <h2>{{ section.settings.header_title }}</h2>
+      {% endif %}
+      {% if section.settings.header_title %}
+        <h4 class="hubspot-header-text">
+          {{ section.settings.header_text }}
+      	</h4>
+      {% endif %}
+    </div>
+    <a class="btn btn--regular btn--fill btn--color" href="/pages/contact-us">Contact Us</a>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Hubspot Form",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Display hubspot form"
+    },
+	{
+	  "type": "text",
+	  "label": "Header",
+      "id": "header_title"
+	},
+    {
+	  "type": "text",
+	  "label": "Text",
+      "id": "header_text"
+	}
+  ],
+  "presets": [
+    {
+      "name": "Hubspot Form",
+      "category": {
+        "de": "Promotional",
+        "en": "Promotional",
+        "es": "Promocional",
+        "fr": "Promotionnel",
+        "it": "Promozionale",
+        "ja": "プロモーション用",
+        "nl": "Promotioneel",
+        "pt-BR": "Promocional",
+        "zh-CN": "促销",
+        "zh-TW": "宣傳活動"
+      }
+    }
+  ]
+}
+{% endschema %}

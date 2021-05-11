@@ -1,0 +1,21 @@
+{% assign header_title = page.title %}
+{% include 'page_header' with header_title %}
+
+<div class="wrapper wrapper--margins wrapper__article">
+  
+  <!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "1585803",
+	formId: "9bb32bea-5205-4014-b409-3ad321e3d358"
+});
+</script>
+  
+  
+  <div class="rte">
+    {{ page.content }}
+  </div>
+</div>

@@ -1,0 +1,69 @@
+{% assign header_title = page.title %}
+{% include 'page_header' with header_title %}
+
+<div class="wrapper wrapper--margins" style="padding-top: 0; padding-bottom: 4rem;">
+
+  <div class="rte">
+    {{ page.content }}
+  </div>
+
+  <div class="contact-form text-center">
+    {% comment %}
+    <div style="margin-bottom: 2rem;" class="contact-form-header">
+      {% if section.settings.header_image %}
+        <div class="contact-header-image">
+          {% assign header_image = section.settings.header_image %}
+          {% assign img_url = header_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            <img class="no-js lazyload"
+                  data-src="{{ img_url }}"
+                  data-widths="[320, 360, 375, 414, 568, 684, 720, 732, 736, 768, 1024, 1200, 1296, 1512, 1728, 1944, 2048, 4472]"
+                  data-aspectratio="{{ header_image.aspect_ratio }}"
+                  data-sizes="auto"
+                  data-parent-fit="width"
+                  alt="{{ header_image.alt }}" />
+                  <noscript>
+                    <img src="{{ header_image | img_url: '1200x' }}"
+                      srcset="{{ header_image | img_url: '1200x' }} 1x, {{ header_image | img_url: '1200x', scale: 2 }} 2x"
+                      alt="{{ header_image.alt }}"  style="opacity:1;">
+                  </noscript>
+        </div>
+      {% endif %}
+      <div class="h2"><strong>Can our vegetative food waste-based nutrients serve your crops?</strong></div>
+      <div class="h2"><strong>Will our closed-loop method reduce your need for synthetic nutrients which are 2x more expensive?</strong></div>
+      <div class="form-subtext">
+        <p class="h4"><strong>We'd love to help you navigate through this to make the most informed decision.</strong></p>
+        <p class="h4"><strong>Drop us a line. We'd be happy to chat.</strong></p>
+      </div>
+    </div>
+    {% endcomment %}
+    <!--[if lte IE 8]>
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        portalId: "1585803",
+        formId: "25c0b545-cdc6-4208-8582-6ee691a61ebe"
+      });
+    </script>
+
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Contact Form Page",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contact Form Settings"
+    },
+    {
+      "type": "image_picker",
+      "label": "Header image",
+      "id": "header_image"
+    }
+  ]
+}
+{% endschema %}

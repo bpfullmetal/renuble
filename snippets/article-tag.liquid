@@ -1,0 +1,19 @@
+{% assign article_tag = empty %}
+{% assign article_tag_color = empty %}
+{% if article.tags contains 'Article' %}
+  {% assign article_tag = 'Article' %}
+  {% assign article_tag_color = '#33856b' %}
+{% elsif article.tags contains 'Press Release' %}
+  {% assign article_tag = 'Press Release' %}
+  {% assign article_tag_color = '#8fb955' %}
+{% elsif article.tags contains 'News' %}
+  {% assign article_tag = 'News' %}
+  {% assign article_tag_color = '#000000' %}
+{% endif %}
+{%- if article_tag != empty -%}
+  <p class="article-tag-wrapper">
+    <span class="uppercase article-tag" style="background-color: {{ article_tag_color }}; color: white;">
+      {{ article_tag }}
+    </span>
+  </p>
+{%- endif -%}
