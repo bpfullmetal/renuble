@@ -25,7 +25,11 @@
   <meta name="theme-color" content="{{ settings.color_primary }}">
 
   {% comment %}{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}{% endcomment %}
+  {{ 'font-awesome.css' | asset_url | stylesheet_tag }}
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
+  {{ 'slick.css' | asset_url | stylesheet_tag }}
+  {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
 
   <script>
     var theme = {
@@ -54,6 +58,9 @@
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'slick.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'jquery.fancybox.min.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   {% comment %}{{ '//cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js' | script_tag }}{% endcomment %}
 
@@ -68,8 +75,8 @@
 <!-- XO-InsertCode -->
 {% include "xo-insertcode-header" %}
 <!-- End: XO-InsertCode Header-->
-  
-  
+
+
 </head>
 
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >

@@ -1962,6 +1962,7 @@ $(document).ready(function() {
   sections.register('home-kickstarter', theme.Kickstarter);
   sections.register('home-faq', theme.FAQs);
   sections.register('faq-accordion', theme.FAQs);
+  sections.register('product-accordion', theme.FAQs);
   sections.register('feature-collection', theme.Collection);
   sections.register('map-section', theme.Maps);
   sections.register('search', theme.Search);

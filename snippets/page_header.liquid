@@ -3,9 +3,7 @@
 <div class="header__custom display-table parallax-bg">
 	<div class="display-table-cell prlx-txt">
 		<div class="wrapper wrapper--margins">
-			{% if template.name == 'article' %}
-				{% render 'article-tag', article: article %}
-			{% endif %}
+
 			<h1 itemprop="name">{{ header_title }}</h1>
 
 			{% if template.name == 'article' %}

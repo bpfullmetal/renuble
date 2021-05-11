@@ -1,5 +1,5 @@
 <div id="home-page" class="index-section home-section">
-	<div class="home-page-content overlay-{{ section.settings.home-page-background-overlay }}">
+	<div class="home-page-content overlay-{{ section.settings.home-page-background-overlay }} {{ section.settings.section-class }}">
 		{% if section.settings.home-page-bg %}
 			<span class="prlx-bg prlx-bg--{{ section.id }} no-js lazyload overlay-{{ section.settings.home-page-background-overlay }}"
 				data-bgset="{% include 'bgset', image: section.settings.home-page-bg %}"
@@ -15,8 +15,12 @@
 				<div class="rte">
 					{{ block.settings.content }}
 				</div>
+              {% unless section.settings.home-featured-btn-label == blank %}
+                <a class="btn btn--regular btn--outline btn--light" href="{{ section.settings.home-featured-btn-url }}">{{ section.settings.home-featured-btn-label | escape }}</a>
+              {% endunless %}
 			</div>
 		{% endfor %}
+
 	</div>
 </div>
 
@@ -52,6 +56,21 @@
         "zh-CN": "背景图片",
         "zh-TW": "背景圖片"
       }
+    },
+    {
+      "type": "text",
+      "id": "home-featured-btn-label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "home-featured-btn-url",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "section-class",
+      "label": "Section Class"
     },
     {
       "type": "checkbox",

@@ -1,4 +1,7 @@
 <div class="index-section home-section">
+  {% unless section.settings.home-featured-fullscreen %}
+    <div class="wrapper">
+  {%endunless%}
 	<style>
 		#home-imagebox-{{ section.id }},
 		#home-imagebox-{{ section.id }} .placeholder-background.imagebox {
@@ -60,6 +63,10 @@
 			</div>
 		</div>
 	</div>
+    {% unless section.settings.home-featured-fullscreen %}
+      </div>
+    {%endunless%}
+
 </div>
 
 
@@ -265,6 +272,11 @@
         "zh-CN": "按钮链接",
         "zh-TW": "按鈕連結"
       }
+    },
+    {
+      "type": "checkbox",
+      "id": "home-featured-fullscreen",
+      "label": "Full width"
     }
   ],
   "presets": [
