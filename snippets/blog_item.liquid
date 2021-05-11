@@ -6,6 +6,8 @@
 
     <div class="display-table-cell">
 
+      {% render 'article-tag', article: article %}
+
       <h2 class="h3 article__title">{{ article.title }}</h2>
 
       {% if article.image %}
@@ -14,7 +16,7 @@
           data-widths="[220,440,880]"
           data-sizes="auto"
           data-parent-fit="cover">
-        </figure>  
+        </figure>
         <noscript>
         <figure class="article__img" style="background-image:url('{{ article.image | img_url: '440x440', scale: 2 }}')">
           <img src="{{ article.image | img_url: '440x440' }}"
