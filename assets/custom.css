@@ -1065,6 +1065,17 @@ svg:not(:root) {
   display: none;
 }
 
+#footer-social {
+  list-style-type: none;
+  margin: 0 -.5rem;
+  padding: 0 1rem;
+}
+
+#footer-social li {
+  padding: 0 .5rem;
+  display: inline-block;
+}
+
 @media ( max-width: 1024px ) {
   #site-footer .footer-search-form {
     flex-direction: column;
