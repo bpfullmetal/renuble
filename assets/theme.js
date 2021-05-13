@@ -1995,7 +1995,7 @@ $(document).ready(function() {
 
       if (showSignupPopup) {
         $('#newsletter-popup').addClass('show');
-        // document.cookie = 'subscribe_for_newsletter=true'
+        document.cookie = 'subscribe_for_newsletter=true'
       }
     }, 10000)
 

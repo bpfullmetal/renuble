@@ -650,8 +650,15 @@ svg:not(:root) {
 .home-section-title {
   font-size: 35px !important;
   font-family: Raleway, sans-serif !important;
-  color: #cdff87 !important;
+  color: #1f1f1f !important;
+  text-transform: capitalize;
+}
 
+#contact_form p {
+  color: #000;
+  font-family: 'Avenir LT Std';
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .download_pdf_section .home-section-title {
