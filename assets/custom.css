@@ -1,43 +1,3 @@
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('AvenirLTStd-Roman.woff2') format('woff2'),
-        url('AvenirLTStd-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('AvenirLTStd-Black.woff2') format('woff2'),
-        url('AvenirLTStd-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('AvenirLTStd-Book.woff2') format('woff2'),
-        url('AvenirLTStd-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('Avenir-Medium.woff2') format('woff2'),
-        url('Avenir-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
-
-.header__custom.offer_text{ padding-top: 120px; }
 .header__custom.offer_text .prlx-txt{ background: #019579 }
 .header__custom.offer_text .prlx-txt .wrapper{ color: #fff; font-size: 20px; font-weight: bold; padding: 20px 0;}
 .header__custom.offer_text .prlx-txt .wrapper p {margin: 0; }
@@ -50,8 +10,9 @@
 
 .how_make_section{ background: #00947a; padding: 50px 0; }
 
-.product-template .header__custom.offer_text {
-  padding-top: 70px;
+.product-template .product-wrapper {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .header__custom {
@@ -153,8 +114,8 @@
 }
 
 .perfect_growing_section {
-  padding-top: 30px;
-  margin-bottom: 50px;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .perfect_growing_section h2,
@@ -393,12 +354,12 @@
 	margin: 0;
 }
 
-@media (max-width:1314px) {
-	.header__custom.offer_text {
-		padding-top: 70px;
-	}
-}
 
+@media only screen and (min-width: 768px) {
+  .product-template .product__image {
+
+  }
+}
 
 @media (max-width:1025px) {
 	.product__image  {
@@ -798,7 +759,7 @@ svg:not(:root) {
   text-align: center;
   text-transform: none;
   font-size: 46px;
-  font-family: 'Avenir LT Std';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
@@ -822,6 +783,33 @@ svg:not(:root) {
   border: 0;
 }
 
+#home-blog .blog-list .article .flex {
+  flex-direction: column;
+}
+
+.template-blog .blog-list .article .flex {
+  flex-direction: column;
+}
+
+.template-blog .blog-list .article {
+  text-align: center;
+}
+.template-blog .blog-list .article:not(:last-of-type) {
+  border-bottom: 1px solid #E9E9E9;
+}
+.template-blog .blog-list .article .article__img {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .template-blog .blog-list .article .flex {
+    flex-direction: row;
+  }
+  .template-blog .blog-list .article {
+    text-align: left;
+  }
+}
+
 #home-blog .blog-list .article .display-table-cell {
   display: flex;
   flex-direction: column;
@@ -830,7 +818,7 @@ svg:not(:root) {
   flex-wrap: nowrap;
 }
 
-#home-blog .blog-list .article .display-table-cell .article__img {
+#home-blog .blog-list .article .article__img {
   position: static;
   order: -1;
   margin-bottom: 25px;
@@ -839,7 +827,7 @@ svg:not(:root) {
 }
 
 #home-blog .blog-list h2 {
-  font-family: 'Avenir LT Std' !important;
+  font-family: 'raleway' !important;
   font-style: normal !important;
   font-weight: 800 !important;
   font-size: 20px !important;
@@ -853,7 +841,7 @@ svg:not(:root) {
 }
 
 #home-blog .blog-list .article__meta {
-  font-family: 'Avenir LT Std' !important;
+  font-family: 'raleway' !important;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -867,7 +855,7 @@ svg:not(:root) {
 }
 
 #home-blog .blog-list + .text-center .btn {
-  font-family: 'Avenir LT Std';
+  font-family: 'raleway';
   font-size: 19px;
   font-style: normal;
   font-weight: 500;
@@ -893,7 +881,7 @@ svg:not(:root) {
 }
 
 .certificate-list-blog h3 {
-  font-family: 'Avenir LT Std';
+  font-family: 'raleway';
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
@@ -969,24 +957,30 @@ svg:not(:root) {
 
 #site-footer {
   border-top: 7px solid #8EB753;
-  padding: 27px 0;
+  padding: 27px 2rem;
   background-color: #fff;
 }
 
 #site-footer .footer-blocks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  padding-bottom: 1rem;
+  width: 100%;
+  position: relative;
 }
 
 #site-footer .footer-blocks .footer-section {
-  width: 30%;
+  flex: 1;
+  padding: 0 1rem;
+}
+
+#site-footer .footer-blocks .footer-section ul {
+  margin: 0;
 }
 
 #site-footer .footer-blocks .footer-section .footer-title {
-  font-family: 'Avenir LT Std';
-  font-size: 18px;
+  font-family: 'raleway';
+  font-size: 1rem;
   font-style: normal;
   font-weight: 800;
   line-height: 1.4;
@@ -996,10 +990,8 @@ svg:not(:root) {
 }
 
 #site-footer .footer-blocks .footer-section .footer-content {
-  font-family: 'Avenir LT Std';
-  font-size: 18px;
+  font-family: 'raleway';
   font-style: normal;
-  line-height: 1.6;
   color: #000;
   font-weight: 500;
 }
@@ -1009,11 +1001,11 @@ svg:not(:root) {
 }
 
 #site-footer .footer-logo {
-  margin-bottom: 60px;
+  margin-bottom: 2rem;
 }
 
 #site-footer .footer-logo img {
-  width: 360px;
+  width: 280px;
   height: auto;
 }
 
@@ -1028,7 +1020,7 @@ svg:not(:root) {
   margin-right: 10px;
   background: #F9F9F9;
   border: 1px solid #000000;
-  font-family: 'Avenir LT Std';
+  font-family: 'raleway';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1043,7 +1035,7 @@ svg:not(:root) {
   margin: 0;
   color: #ffffff;
   background-color: #019577;
-  font-family: 'Avenir LT Std';
+  font-family: 'raleway';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1056,7 +1048,7 @@ svg:not(:root) {
 } */
 
 #site-footer .wrapper {
-  width: 95%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1074,22 +1066,29 @@ svg:not(:root) {
     align-content: stretch;
   }
 
+  #site-footer .footer-blocks .footer-section {
+    width: 50%;
+    flex: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  #site-footer .footer-blocks .footer-section.search-section {
+
+  }
+
   #site-footer .footer-search-form input[name="q"] {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
 
-  #site-footer .footer-blocks .footer-section .footer-content {
-    font-size: 16px;
-  }
 }
 
 @media ( max-width: 767px ) {
   #site-footer .footer-blocks .footer-section {
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
   }
 
   #site-footer .footer-blocks .footer-section:last-child {
@@ -1119,6 +1118,7 @@ svg:not(:root) {
 
 .faq-block {
 	padding: 12px 0;
+  margin-bottom: 1rem;
 }
 
 .faq-block .faq-question {
