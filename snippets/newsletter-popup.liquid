@@ -4,6 +4,18 @@
   <div class="newsletter-popup__wrapper"></div>
 
   <div class="popup-container">
+    <div class="background-image">
+      {% if settings.newsletter_image %}
+        <span class="prlx-bg prlx-bg--newsletter-popup no-js lazyload overlay-false"
+          data-bgset="{% include 'bgset', image: settings.newsletter_image %}"
+          data-sizes="auto"
+          data-parent-fit="cover"></span>
+        <noscript>
+          <span class="prlx-bg prlx-bg--newsletter-popup overlay-false" style="background-image: url('{{ settings.newsletter_image | img_url: '1024x1024' }}')"></span>
+        </noscript>
+      {% endif %}
+    </div>
+    
     {% section 'newsletter' %}
   
     <div id="popup-close-button" class="popup-close-button"></div>
