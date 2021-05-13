@@ -1979,6 +1979,40 @@ $(document).ready(function() {
     'use strict';
 
     /* Elements */
+    /* -----      Subscribe popup for newsletter     ----- */
+
+    // Show signup popup for newsletter after 10s
+    setTimeout(function() {
+      var signupCookie = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('subscribe_for_newsletter='));
+      
+      var showSignupPopup = false
+      if (signupCookie !== undefined) {
+        var cookieValue = signupCookie.split('=')[1];
+        if (cookieValue === 'true') {
+          showSignupPopup = false
+        } else {
+          showSignupPopup = true
+        }
+      } else {
+        showSignupPopup = true
+      }
+
+      if (showSignupPopup) {
+        $('#newsletter-popup').addClass('show');
+        // document.cookie = 'subscribe_for_newsletter=true'
+      }
+    }, 10000)
+
+    $(document).on('click', '#newsletter-popup .popup-container #popup-close-button', function() {
+      $('#newsletter-popup').removeClass('show');
+    });
+  
+    $(document).on('click', '#newsletter-popup .newsletter-popup__wrapper', function(e) {
+      e.stopPropagation();
+      $('#newsletter-popup').removeClass('show');
+    });
 
     /* eslint-disable */
     var $html = $('html'),
