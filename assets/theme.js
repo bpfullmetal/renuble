@@ -764,7 +764,7 @@ theme.Header = (function() {
       });
       // Make drawer a11y accessible
       timber.cache.$navBar.attr('aria-hidden', 'false');
-      $('#re-nuble .main-content').css('padding-top', '100px')
+      $('.main-content').css('padding-top', '100px')
       fitNav();
       $(window).on('resize', $.debounce(250, fitNav));
     });
@@ -781,8 +781,11 @@ theme.Header = (function() {
       .addClass('btn--regular btn--light');
     // Make drawer a11y unaccessible
     timber.cache.$navBar.attr('aria-hidden', 'true');
-    $('#re-nuble .main-content').css('padding-top', '71px')
+    $('.main-content').css('padding-top', '71px')
     cache.$allLinks.attr('tabindex', '-1');
+    if (cache.$body.hasClass('header-expanded')) {
+      cache.$body.removeClass('header-expanded');
+    }
   }
 
   function expandMenu() {
@@ -796,8 +799,11 @@ theme.Header = (function() {
     cache.$mobileMenu.css('height', '100%');
     // Make drawer a11y accessible
     timber.cache.$navBar.attr('aria-hidden', 'false');
-    $('#re-nuble .main-content').css('padding-top', '100px')
+    $('.main-content').css('padding-top', '100px')
     cache.$allLinks.attr('tabindex', '');
+    if (!cache.$body.hasClass('header-expanded')) {
+      cache.$body.addClass('header-expanded');
+    }
   }
 
   function stickyHeader() {
@@ -1790,7 +1796,7 @@ theme.infiniteBlog = function() {
             if ($infinite.length > 0) {
               $infiniteURL
                 .removeClass('btn--disabled')
-                .text('More posts')
+                .text('More publications')
                 .prop('href', $infinite.children('a').prop('href'));
             } else {
               $infiniteURL.text('All posts loaded');

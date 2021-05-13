@@ -23,69 +23,44 @@
   {% endif %}
   </div>
 
-  <div class="footer-blocks wrapper">
-    <!-- {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'text' %}
-        <div class="footer-section">
-          <h3 class="footer-title">{{ block.settings.title | escape }}</h3>
-          <div class="footer-content">
-            {{ block.settings.richtext }}
-          </div>
-        </div>
-        {% when 'menu' %}
+  <div class="wrapper">
+    <div class="footer-blocks">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'text' %}
+
           <div class="footer-section">
-            <h3 class="footer-title">{{ block.settings.menu_title | escape }}</h3>
-            <ul {{ block.shopify_attributes }}>
-              {% for link in linklists[block.settings.menu].links %}
-                <li><a href={{link.url}} {% if link.type == "http_link" %}target="_blank"{% endif %}>{{ link.title}}</a></li>
-              {% endfor %}
-            </ul>
+            <h3 class="footer-title">{{ block.settings.title | escape }}</h3>
+            <div class="footer-content">
+              {{ block.settings.richtext }}
+            </div>
           </div>
-      {% endcase %}
-    {% endfor %} -->
+          {% when 'menu' %}
+            <div class="footer-section">
+              <h3 class="footer-title">{{ block.settings.menu_title | escape }}</h3>
+              <ul {{ block.shopify_attributes }}>
+                {% for link in linklists[block.settings.menu].links %}
+                  <li><a href={{link.url}} {% if link.type == "http_link" %}target="_blank"{% endif %}>{{ link.title}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+        {% endcase %}
+      {% endfor %}
 
-    <div class="footer-section">
-      <h3 class="footer-title">ABOUT</h3>
-      <div class="footer-content">
-        <p>
-          Re-Nuble's nutrient delivery system's production of biologically active compounds from robust bacterial communities, 
-          allows for lower nitrate concentrations (in ppms). A farm is able to achieve similar crop growth at a fraction of 
-          the nitrate concentration due to robust micro bacterial activity. 
-        </p>
+      {% if section.settings.footer_footer_search %}
+      <div class="footer-section search-section">
+        <h3 class="footer-title">SEARCH</h3>
+        <div class="footer-content">
+          <form action="/search" method="get" class="footer-search-form text-center" role="search">
+            <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search">
+            <button type="submit" class="btn btn--regular btn--dark btn--fill">
+              SEARCH
+            </button>
+          </form>
+        </div>
       </div>
+      {% endif %}
     </div>
-
-    <div class="footer-section">
-      <h3 class="footer-title">CONTACT</h3>
-      <div class="footer-content">
-        <p>
-          <strong>Re-Nuble</strong>
-          <br />
-          Address, NY
-          <br />
-          555-555-5555
-          <br />
-          info@renuble.com
-          <br />
-          sales@renuble.com
-        </p>
-      </div>
-    </div>
-
-    {% if section.settings.footer_footer_search %}
-    <div class="footer-section">
-      <h3 class="footer-title">SEARCH</h3>
-      <div class="footer-content">
-        <form action="/search" method="get" class="footer-search-form text-center" role="search">
-          <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search">
-          <button type="submit" class="btn btn--regular btn--dark btn--fill">
-            SEARCH
-          </button>
-        </form>
-      </div>
-    </div>
-    {% endif %}
   </div>
 </footer>
 

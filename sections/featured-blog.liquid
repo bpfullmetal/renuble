@@ -14,13 +14,13 @@
 			<div class="blog-list">
 
 				{% for article in blog.articles %}
-				  {% include 'blog_item' with blog.comments_enabled? %}
+				  {% include 'blog_item', comments: blog.comments_enabled?, centered: true %}
 				{% endfor %}
 
 			</div>
 
 			{% if paginate.next.is_link %}
-			  <p class="text-center"><a class="btn btn--large btn--outline btn--dark" href="{{ blog.url }}">More posts</a></p>
+			  <p class="text-center"><a class="btn btn--large btn--outline btn--dark" href="{{ blog.url }}">More Publications</a></p>
 			{% endif %}
 
 			{% assign sp_paginate_by = paginate.page_size %}{% endpaginate %}

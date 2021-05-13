@@ -11,12 +11,12 @@
 
     <div class="blog-list">
       {% for article in blog.articles %}
-        {% include 'blog_item' with blog.comments_enabled? %}
+        {% include 'blog_item', comments: blog.comments_enabled?, centered: false, social: true %}
       {% endfor %}
     </div>
 
     {% if paginate.next.is_link %}
-      <div id="infinite-link"><a class="btn btn--large btn--outline btn--dark" href="{{ paginate.next.url }}">More posts</a></div>
+      <div id="infinite-link"><a class="btn btn--large btn--outline btn--dark" href="{{ paginate.next.url }}">More Publications</a></div>
     {% endif %}
 
   {% endpaginate %}
