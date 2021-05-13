@@ -1001,7 +1001,7 @@ svg:not(:root) {
   font-style: normal;
   line-height: 1.6;
   color: #000;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #site-footer .footer-blocks .footer-section .footer-content strong {
