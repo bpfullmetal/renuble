@@ -6291,6 +6291,118 @@ hr.thin-line {
 
 }
 
+#newsletter-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000099;
+  opacity: 0;
+  z-index: -1;
+  transition: all 1s ease-in-out;
+
+  &.show {
+    opacity: 1;
+    z-index: 99;
+
+    .popup-container {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .newsletter-popup__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+  }
+
+  .popup-container {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 70%;
+    max-width: 600px;
+    max-height: 400px;
+    background-color: #41927b;
+    transition: all 0.5s ease 0.5s;
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  .popup-close-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 30px;
+      height: 3px;
+      background-color: #fff;
+      transform: rotate(45deg);
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      width: 30px;
+      height: 3px;
+      background-color: #fff;
+      transform: rotate(-45deg);
+    }
+  }
+
+  #shopify-section-newsletter {
+    background: transparent;
+    margin: auto;
+
+    .wrapper.wrapper--margins {
+      padding: 0;
+  
+      form {
+        padding: 0;
+
+        .home-section-title {
+          color: #fff !important;
+          text-transform: capitalize;
+
+          &::after {
+            background: #8eb753;
+          }
+        }
+
+        p {
+          color: #fff;
+          font-size: 20px;
+        }
+
+        button {
+          background: #242424;
+
+          &:hover {
+            background: #3c3c3c;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media all and (max-width: $small) {
 
   .password-input-group {
