@@ -1203,3 +1203,8 @@ svg:not(:root) {
 .template-product .page__sharing svg * {
   fill: #8EB753;
 }
+
+/* */
+.social-icons__list {
+  display: flex;
+}
