@@ -531,7 +531,8 @@ svg:not(:root) {
     vertical-align: middle;
     fill: currentColor;
 }
-.download_pdf_section{ padding: 200px; }
+.download_pdf_section{ padding: 200px; color: white; }
+.download_pdf_section .home-section-title { color: white!important; }
 .download_pdf_section .wrapper{ background: #019578; text-align: center; padding: 100px; }
 
 
@@ -983,6 +984,17 @@ svg:not(:root) {
 
 #site-footer .footer-blocks .footer-section ul {
   margin: 0;
+  padding: 0;
+}
+
+#site-footer .footer-blocks .footer-section ul li a {
+  color: #41927b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#site-footer .footer-blocks .footer-section ul li a:hover {
+  color: black;
 }
 
 #site-footer .footer-blocks .footer-section .footer-title {
@@ -1063,17 +1075,6 @@ svg:not(:root) {
 #site-footer .wrapper::before,
 #site-footer .wrapper::after {
   display: none;
-}
-
-#footer-social {
-  list-style-type: none;
-  margin: 0 -.5rem;
-  padding: 0 1rem;
-}
-
-#footer-social li {
-  padding: 0 .5rem;
-  display: inline-block;
 }
 
 @media ( max-width: 1024px ) {

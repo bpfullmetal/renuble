@@ -185,7 +185,7 @@ $headerFontStyle: {{ header_family.style }};
 $bodyFontStack: {{ base_family.family }}, {{ base_family.fallback_families }};
 $bodyFontWeight: {{ base_family.weight }};
 $bodyFontWeightSemiBold: {{ base_family_semi_bold.weight | default: 600 }};
-$bodyFontWeightBold: {{ base_family_bold.weight | default: 700 }};
+$bodyFontWeightBold: 700;
 $bodyFontStyle: {{ base_family.style }};
 $baseFontSize: 14px;
 
@@ -1086,7 +1086,7 @@ em {
   font-style: italic;
 }
 
-b, strong {
+b, strong, .font-bold {
   font-weight: $bodyFontWeightBold;
 }
 
@@ -1112,6 +1112,29 @@ a {
   &:hover {
     color: $colorBtnPrimaryHover;
   }
+}
+
+.w-16 {
+  width: 2rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mw-750 {
+  max-width: 750px;
+}
+.mt-12 {
+  margin-top: 2rem;
+}
+.mt-20 {
+  margin-top: 4rem;
+}
+.text-primary {
+  color: $colorPrimary;
+}
+.border-primary {
+  border-color: $colorPrimary;
 }
 
 /* -- Blockquotes -- */
@@ -4799,6 +4822,8 @@ hr.thin-line {
 
   form {
     margin-top: 0;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
   }
 
   label {
