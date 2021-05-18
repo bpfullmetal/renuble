@@ -612,6 +612,10 @@ svg:not(:root) {
 .home-section-title {
   font-size: 35px !important;
   font-family: Raleway, sans-serif !important;
+  color: #cdff87 !important;
+}
+
+#home-newsletter .home-section-title {
   color: #1f1f1f !important;
   text-transform: capitalize;
 }
