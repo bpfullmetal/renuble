@@ -1,5 +1,5 @@
 {% comment %}
-	SEO Manager - tag search v1.0
+	SEO Manager - tag search v2.0
 	purpose: gather all tags used in a collection
 	usage: /search?view=SEOManagerTags&q=collection-slug
 	Copyright (c) venntov
@@ -15,19 +15,15 @@
 {% endcomment %}
 
 {% layout none %}
+
 {% assign output = "" %}
 
-{% for collection in collections %}
-	{% if collection.handle == search.terms %}
-		{% if collection.all_tags.size > 0 %}
-    	{% for tag in collection.all_tags %}
-    		{% if output contains tag %}
-    		{% else %}
-          {% capture output %}{{ output }},{{tag}}{% endcapture %}
-	      {% endif %}
-			{% endfor %}
-		{% endif %}
-	{% endif %}
-{% endfor %}
+  {% for collection in collections %}
+    {% if collection.handle == search.terms %}
+      {% if collection.all_tags.size > 0 %}
+        {% capture output %}{{ collection.all_tags | join: ', ' }}{% endcapture %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 
-{{ output | strip_newlines | remove_first: "," }}
+{{ output | replace: ', ', ','}}
