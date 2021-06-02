@@ -372,6 +372,7 @@ timber.productPage = function(options) {
   var $productImage = $('#ProductPhotoImg'),
     $addToCart = $('#AddToCart'),
     $productPrice = $('#ProductPrice'),
+    $unitLimit = $('#unit-limit'),
     $comparePrice = $('#ComparePrice'),
     $quantityElements = $('.quantity-selector, label + .js-qty'),
     $addToCartText = $('#AddToCartText');
@@ -1052,6 +1053,7 @@ theme.Product = (function() {
     selectors: {
       addToCart: '#AddToCart',
       productPrice: '#ProductPrice',
+      unitLimit: '#unit-limit',
       comparePrice: '#ComparePrice',
       addToCartText: '#AddToCartText',
       quantityElements: '.quantity-selector',
@@ -1073,6 +1075,7 @@ theme.Product = (function() {
         productLink: '.product__content--link-' + sectionId,
         addToCart: '#AddToCart-' + sectionId,
         productPrice: '#ProductPrice-' + sectionId,
+        unitLimit: '#unit-limit-' + sectionId,
         comparePrice: '#ComparePrice-' + sectionId,
         addToCartText: '#AddToCartText-' + sectionId,
         quantityElements: '#quantity-selector-' + sectionId,
@@ -1232,6 +1235,18 @@ theme.Product = (function() {
         $(this.settings.selectors.productPrice).html(
           Shopify.formatMoney(variant.price, theme.settings.moneyFormat)
         );
+
+        if ( $(this.settings.selectors.unitLimit).length ) {
+
+          if ( variant.inventory_quantity <= 0 ) {
+            $(this.settings.selectors.unitLimit).show()
+            $(this.settings.selectors.unitLimit).html(
+              `<strong>Only ${$(this.settings.selectors.unitLimit).data('unit-limit') - ( variant.inventory_quantity * -1 )} units available -- pre-order now!</strong>`
+            );
+          } else {
+            $(this.settings.selectors.unitLimit).hide()
+          }
+        }
 
         // Show SKU
         $(this.settings.selectors.SKU).html(variant.sku);
@@ -1986,7 +2001,7 @@ $(document).ready(function() {
       var signupCookie = document.cookie
         .split('; ')
         .find(row => row.startsWith('subscribe_for_newsletter='));
-      
+
       var showSignupPopup = false
       if (signupCookie !== undefined) {
         var cookieValue = signupCookie.split('=')[1];
@@ -2008,7 +2023,7 @@ $(document).ready(function() {
     $(document).on('click', '#newsletter-popup .popup-container #popup-close-button', function() {
       $('#newsletter-popup').removeClass('show');
     });
-  
+
     $(document).on('click', '#newsletter-popup .newsletter-popup__wrapper', function(e) {
       e.stopPropagation();
       $('#newsletter-popup').removeClass('show');
