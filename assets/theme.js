@@ -1802,8 +1802,9 @@ theme.infiniteBlog = function() {
         dataType: 'html',
         success: function(data) {
           var $data = $(data),
-            $posts = $data.find('a.article'),
+            $posts = $data.find('.article'),
             $infinite = $data.find('#infinite-link');
+            console.log($posts)
           $posts.imagesLoaded(function() {
             $posts.css('display', 'none');
             $blogList.append($posts);

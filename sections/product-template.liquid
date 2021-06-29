@@ -1,16 +1,19 @@
 <div class="product-template" itemscope itemtype="http://schema.org/Product" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
 
 {% assign offerText = product.metafields.offer_text.offer_text %}
+{% assign hideBanner = product.metafields.accentuate.hide_banner %}
 
-{% if offerText != '' %}
-  <div class="header__custom display-table offer_text">
-    <div class="display-table-cell prlx-txt">
-      <div class="wrapper">
-        {{ product.metafields.offer_text.offer_text }}
+{% unless hideBanner %}
+  {% if offerText != '' %}
+    <div class="header__custom display-table offer_text">
+      <div class="display-table-cell prlx-txt">
+        <div class="wrapper">
+          {{ product.metafields.offer_text.offer_text }}
+        </div>
       </div>
     </div>
-  </div>
-{% endif %}
+  {% endif %}
+{% endunless %}
 
 {% assign header_title = product.title %}
 
@@ -91,9 +94,9 @@
 
       <h1>{{ product.title }}</h1>
 
-      <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+      <div style="{% if product.metafields.accentuate.hide_price %}display: none;{% endif %}" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 
-        <meta itemprop="priceCurrency" content="{{ shop.currency }}">
+        <meta itemprop="priceCurrency" content="{{ shop.currency }}"/>
 
         <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
@@ -158,6 +161,11 @@
         {% endform %}
 
       </div>
+
+      {% if product.metafields.accentuate.hide_price %}
+        <a href="/pages/contact-us" style="margin-top: 2rem;" class="btn btn--regular btn--fill btn--color">Contact Us for Pricing</a>
+      {% endif %}
+
       <div class="product-description rte" itemprop="description">
         {{ product.description }}
         {%- if product.metafields.download_button.size > 0 -%}

@@ -3877,6 +3877,22 @@ hr.thin-line {
 
 }
 
+.template-page {
+  .rte {
+    h3 {
+      font-weight: bold;
+      color: #46937b!important;
+      strong {
+        color: #96B760;
+      }
+      font-size: em(27px);
+      @include at-query($max, $medium) {
+        font-size: em(18px);
+      }
+    }
+  }
+}
+
 // Project meta
 
 .kickstarter__meta {

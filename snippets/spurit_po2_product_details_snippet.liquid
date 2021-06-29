@@ -1,5 +1,5 @@
 {% capture product_output %}{
-    id:{{product.id}},
+    id:{{product.id|default:0}},
     handle:"{{product.handle}}",
     title:{{product.title | json}},
     variants:[
