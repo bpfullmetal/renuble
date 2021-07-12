@@ -17,14 +17,14 @@
     {% if product.featured_image %}
     <div class="product__image-wrapper supports-no-js" style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100}}%;">
     {% assign img_url = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
-      <img 
+      <img
         class="no-js lazyload"
         data-src="{{ img_url }}"
         data-widths="[108, 360, 375, 414, 568, 684, 720, 732, 736, 768, 1024, 1200, 1296, 1512, 1728, 1944, 2048]"
         data-aspectratio="{{ product.featured_image.aspect_ratio }}"
         data-sizes="auto"
         data-parent-fit="width"
-        alt="{{ product.featured_image.alt | escape }}">       
+        alt="{{ product.featured_image.alt | escape }}">
     </div>
     <noscript>
       <img src="{{ product.featured_image | img_url: '580x' }}"
@@ -44,21 +44,25 @@
 
   <p class="h3"><a href="{{ product.url | within: collection }}">{{ product.title }}</a></p>
 
-  <p class="price">
+  {% if product.metafields.accentuate.hide_price %}
+    <a href="/pages/contact-us" style="margin-top: 2rem;" class="btn btn--regular btn--fill btn--color">Contact Us for Pricing</a>
+  {% else %}
+    <p class="price">
 
-    {% if product.price_varies %} {{ 'products.product.on_sale_from' | t }} {% endif %}
-    {% if on_sale %}
-      <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
-    {% else %}
-      <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
-    {% endif %}
-    {{ product.price | money }}
+      {% if product.price_varies %} {{ 'products.product.on_sale_from' | t }} {% endif %}
+      {% if on_sale %}
+        <span class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
+      {% else %}
+        <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+      {% endif %}
+      {{ product.price | money }}
 
-    {% if on_sale %}
-      <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
-      <span class="compare-price">{{ product.compare_at_price | money }}</span>
-    {% endif %}
+      {% if on_sale %}
+        <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+        <span class="compare-price">{{ product.compare_at_price | money }}</span>
+      {% endif %}
 
-  </p>
+    </p>
+  {% endif %}
 
 </div>
