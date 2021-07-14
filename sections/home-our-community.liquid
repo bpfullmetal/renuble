@@ -30,7 +30,7 @@
                         </a>
                     {% endif %}
                     </h3>
-                    {% assign cnt = block.settings.favorites_cnt | plus: 0 %}
+                    {% assign cnt = block.settings.stars | plus: 0 %}
                     <div class="stars">
                         {% for i in (1..5) %}
                             {%  if i <= cnt %}
@@ -93,8 +93,8 @@
         },
         {
             "type": "select",
-            "id": "favorites_cnt",
-            "label": "Favorites",
+            "id": "stars",
+            "label": "Stars",
             "default": "5",
             "options": [
                 {

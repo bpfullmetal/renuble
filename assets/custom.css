@@ -1222,17 +1222,20 @@ svg:not(:root) {
   background-color: #019577;
 }
 
-/* #home-our-community .wrapper {
-  max-width: 1440px;
-} */
+@media (min-width: 1281px) {
+  #home-our-community .wrapper {
+    max-width: 960px;
+    margin:0px auto !important;
+  }  
+}
 
-#home-our-community h2 {
+#home-our-community h2 { 
   color: white;
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
-  font-size: 61px;
-  line-height: 83px;
+  font-size: 48px;
+  line-height: 66px;
   text-align: center;
   color: #FFFFFF;
 }
@@ -1242,8 +1245,7 @@ svg:not(:root) {
 }
 
 #home-our-community .slider-item {
-  /* max-width: 360px; */
-  padding: 20px 15px 30px;
+  padding: 20px 15px;
   background-color: #FFF;
 }
 
@@ -1251,8 +1253,8 @@ svg:not(:root) {
   font-family: Avenir;
   font-style: normal;
   font-weight: 800;
-  font-size: 25px;
-  line-height: 34px;
+  font-size: 20px;
+  line-height: 27px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -1263,8 +1265,8 @@ svg:not(:root) {
   font-family: Avenir;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
-  line-height: 34px;
+  font-size: 20px;
+  line-height: 27px;
   text-align: center;
   color: #000000;
 }
@@ -1289,7 +1291,7 @@ svg:not(:root) {
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 900;
   color: white;
   opacity: 1;
@@ -1310,7 +1312,7 @@ svg:not(:root) {
   }
 
   #home-our-community .slider-item h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px 0px 10px;
   }
 
