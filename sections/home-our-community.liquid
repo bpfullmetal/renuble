@@ -1,0 +1,93 @@
+<div id="home-our-community" class="index-section home-section text-center">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="community-item-lists">
+        {% for block in section.blocks %}
+        <div class="slider-item">
+            <div class="slider-box">
+                <div class="image-wrap">
+                    {% if block.settings.link != blank %}
+                    <a href="{{ block.settings.link }}" target="_blank">
+                    {% endif %}
+                    {% if block.settings.image != blank %}
+                        {% assign img_url = block.settings.image | img_url: 'master' %}
+                        <img class="no-js lazyload" src="{{ img_url }}">
+                    {% else %}
+                        {{ 'logo' | placeholder_svg_tag: 'clients-list placeholder-svg' }}
+                    {% endif %}
+                    {% if block.settings.link != blank %}
+                    </a>
+                    {% endif %}
+                </div>
+                <h3>
+                {% if block.settings.link != blank %}
+                    <a href="{{ block.settings.link }}">
+                {% endif %}
+
+                    {{ block.settings.title }}
+
+                {% if block.settings.link != blank %}
+                    </a>
+                {% endif %}
+                </h3>
+                <p>
+                    {{ block.settings.content }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+"name": "Community Item Lists",
+"max_blocks": 20,
+"settings": [
+    {
+    "type": "text",
+    "id": "title",
+    "label": "Title"
+    }
+],
+"blocks": [
+    {
+    "type": "community_lists",
+    "name": "Image",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "url",
+            "id": "link",
+            "label": "Link",
+            "info": "Optional"
+        },
+        {
+            "type": "text",
+            "id": "content",
+            "label": "Content"
+        }
+    ]
+    }
+],
+"presets": [
+    {
+        "name": "Community Item Lists",
+        "category": "Image",
+        "blocks": [
+            {
+                "type": "community_lists"
+            }
+        ]
+    }
+]
+}
+{% endschema %}
