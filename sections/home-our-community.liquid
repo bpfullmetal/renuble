@@ -1,40 +1,42 @@
 <div id="home-our-community" class="index-section home-section text-center">
-    <h2>{{ section.settings.title }}</h2>
-    <div class="community-item-lists">
-        {% for block in section.blocks %}
-        <div class="slider-item">
-            <div class="slider-box">
-                <div class="image-wrap">
+    <div class="wrapper">
+        <h2>{{ section.settings.title }}</h2>
+        <div class="community-item-lists">
+            {% for block in section.blocks %}
+            <div class="slider-item">
+                <div class="slider-box">
+                    <div class="image-wrap">
+                        {% if block.settings.link != blank %}
+                        <a href="{{ block.settings.link }}" target="_blank">
+                        {% endif %}
+                        {% if block.settings.image != blank %}
+                            {% assign img_url = block.settings.image | img_url: 'master' %}
+                            <img class="no-js lazyload" src="{{ img_url }}">
+                        {% else %}
+                            {{ 'logo' | placeholder_svg_tag: 'clients-list placeholder-svg' }}
+                        {% endif %}
+                        {% if block.settings.link != blank %}
+                        </a>
+                        {% endif %}
+                    </div>
+                    <h3>
                     {% if block.settings.link != blank %}
-                    <a href="{{ block.settings.link }}" target="_blank">
+                        <a href="{{ block.settings.link }}">
                     {% endif %}
-                    {% if block.settings.image != blank %}
-                        {% assign img_url = block.settings.image | img_url: 'master' %}
-                        <img class="no-js lazyload" src="{{ img_url }}">
-                    {% else %}
-                        {{ 'logo' | placeholder_svg_tag: 'clients-list placeholder-svg' }}
-                    {% endif %}
+    
+                        {{ block.settings.title }}
+    
                     {% if block.settings.link != blank %}
-                    </a>
+                        </a>
                     {% endif %}
+                    </h3>
+                    <p>
+                        {{ block.settings.content }}
+                    </p>
                 </div>
-                <h3>
-                {% if block.settings.link != blank %}
-                    <a href="{{ block.settings.link }}">
-                {% endif %}
-
-                    {{ block.settings.title }}
-
-                {% if block.settings.link != blank %}
-                    </a>
-                {% endif %}
-                </h3>
-                <p>
-                    {{ block.settings.content }}
-                </p>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
 

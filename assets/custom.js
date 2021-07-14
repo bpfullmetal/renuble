@@ -50,7 +50,9 @@ $(document).ready(function () {
         dots: false,
         infinite: false,
         speed: 300,
+        centerPadding: '20px',
         slidesToShow: 3,
+        centerMode: false,
         slidesToScroll: 1,
         responsive: [
           {
@@ -60,7 +62,7 @@ $(document).ready(function () {
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 640,
             settings: {
               slidesToShow: 1,
             }

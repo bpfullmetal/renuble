@@ -1213,3 +1213,101 @@ svg:not(:root) {
 .social-icons__list {
   display: flex;
 }
+
+
+
+/*  Home Community List Written by Xiaofeng  */
+#home-our-community {
+  padding: 95px 0px;
+  background-color: #019577;
+}
+
+/* #home-our-community .wrapper {
+  max-width: 1440px;
+} */
+
+#home-our-community h2 {
+  color: white;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 61px;
+  line-height: 83px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#home-our-community .slick-slide {
+  margin: 0px 15px;
+}
+
+#home-our-community .slider-item {
+  /* max-width: 360px; */
+  padding: 20px 15px 30px;
+  background-color: #FFF;
+}
+
+#home-our-community .slider-item h3 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 32px 0px 16px;
+}
+
+#home-our-community .slider-item p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+}
+
+
+#home-our-community .slick-next:before {
+  content: "\f105" !important;
+}
+
+#home-our-community .slick-prev:before {
+  content: "\f104" !important;
+}
+
+
+#home-our-community .slick-next:before,
+#home-our-community .slick-prev:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 28px;
+  font-weight: 900;
+  color: white;
+  opacity: 1;
+}
+
+@media (max-width: 1025px) {
+  #home-our-community {
+    padding: 50px 0px;
+  }
+  #home-our-community h2 {
+    margin: 0px;
+    line-height: 140%;
+  }
+
+  #home-our-community .slider-item h3 {
+    font-size: 20px;
+    margin: 20px 0px 10px;
+  }
+
+  #home-our-community .slider-item p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
