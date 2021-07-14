@@ -204,6 +204,7 @@
                 {% assign review_icon = product.metafields.product_reviews.review_icon[forloop.index0] %}
                 {% assign cnt = product.metafields.product_reviews.review_score[forloop.index0] | plus: 0 %}
                 <img src="{{ review_icon }}" alt="{{ product.metafields.product_reviews.review_title[forloop.index0] }}"/>
+                <h3>{{ product.metafields.product_reviews.review_title[forloop.index0] }}</h3>
                 <div class="stars">
                   {% for i in (1..5) %}
                       {%  if i <= cnt %}
@@ -217,7 +218,6 @@
                       {%  endif %}
                   {% endfor %}
                 </div>
-                <h3>{{ product.metafields.product_reviews.review_title[forloop.index0] }}</h3>
                 <p>{{ product.metafields.product_reviews.review_description[forloop.index0] }}</p>
               </div>    
             {% endfor %}

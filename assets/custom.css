@@ -1269,16 +1269,19 @@ svg:not(:root) {
   color: #000000;
 }
 
-
+#shopify-section-product-template .reviews-section .slick-next::before,
 #home-our-community .slick-next:before {
   content: "\f105" !important;
 }
 
+#shopify-section-product-template .reviews-section .slick-prev::before,
 #home-our-community .slick-prev:before {
   content: "\f104" !important;
 }
 
 
+#shopify-section-product-template .reviews-section .slick-next::before,
+#shopify-section-product-template .reviews-section .slick-prev::before,
 #home-our-community .slick-next:before,
 #home-our-community .slick-prev:before {
   display: inline-block;
@@ -1290,6 +1293,11 @@ svg:not(:root) {
   font-weight: 900;
   color: white;
   opacity: 1;
+}
+
+#shopify-section-product-template .reviews-section .slick-next::before,
+#shopify-section-product-template .reviews-section .slick-prev::before {
+  color: #000 !important;
 }
 
 @media (max-width: 1025px) {
@@ -1314,3 +1322,52 @@ svg:not(:root) {
 
 
 /*** Product Reviews Written By Xiaofeng ***/
+#shopify-section-product-template .reviews-section {
+  margin-top: 30px;
+  padding: 0px 50px;
+}
+
+#shopify-section-product-template .reviews-section .slider-item {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+#shopify-section-product-template .reviews-section .slider-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+
+#shopify-section-product-template .reviews-section .slider-item h3 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px;
+}
+
+#shopify-section-product-template .reviews-section .slider-item .stars {
+  margin: 15px 0px;
+}
+
+#shopify-section-product-template .reviews-section .slider-item p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  max-width: 405px;
+}
+
+@media (max-width: 768px) {
+  #shopify-section-product-template .reviews-section {
+    padding: 0px;
+  }
+}
