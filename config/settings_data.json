@@ -13,8 +13,8 @@
     "color_drawer_text": "#ffffff",
     "color_footer_bg": "#000000",
     "color_footer_text": "#757575",
-    "typography_headings": "raleway_n5",
-    "typography_body": "raleway_n5",
+    "typography_headings": "sans-serif",
+    "typography_body": "raleway_n7",
     "favicon": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
     "share_image": "",
     "social_twitter": "https:\/\/twitter.com\/re_nuble",
@@ -57,7 +57,8 @@
           "menu_product": "",
           "show_announcement": false,
           "home_page_only": true,
-          "announcement_text": "Announce something here",
+          "announcement_text": "",
+          "announcement_link": "",
           "announcement_color_bg": "#429c80",
           "announcement_color_text": "#ffffff"
         }
@@ -79,8 +80,10 @@
           "home-featured-align": "left-img",
           "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.jpg",
           "home-featured-title": "Bringing Back Closed Loop Food",
-          "home-featured-content": "<p><\/p><p><\/p><p><strong>Re-Nuble is an MWBE-certified agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming.<\/strong><\/p><p><\/p><p>Our closed-loop process transforms unrecoverable food byproducts into organic goods while eliminating landfill waste and greenhouse gasses. We are founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.<\/p>",
-          "home-featured-btn-label": ""
+          "home-featured-content": "<p>Headquartered in New York City, Re-Nuble is an MWBE-certified, for-profit social enterprise and agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming.<br\/><br\/>Our closed-loop process transforms unrecoverable food byproducts into water-soluble organic hydroponic nutrients and grow substrates while eliminating landfill waste and greenhouse gases. We are founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.<br\/><br\/><\/p>",
+          "home-featured-btn-label": "",
+          "home-featured-btn-url": "",
+          "home-featured-fullscreen": true
         }
       },
       "feature-columns": {
@@ -142,15 +145,21 @@
         "blocks": {
           "slideshow-0": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "link": ""
+            }
           },
           "slideshow-1": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "link": ""
+            }
           },
           "slideshow-2": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -218,8 +227,8 @@
           "featured-content-0": {
             "type": "text",
             "settings": {
-              "block_title": "At Re-Nuble We Believe...",
-              "content": "<p>that like humans, plants have the ability to heal themselves by generating their own plant vigor using botanical solutions. <\/p><p><\/p><p>We will demonstrate to society that our global food waste streams can serve as a viable and cost efficient way to easily source eco-friendly, biodegradable, and nontoxic plant based solutions for food production. By focusing on sourcing locally available organic inputs for controlled environment agriculture, we can dramatically reduce the fertilizer supply chain&#x27;s carbon emissions and further support the increased movement towards sustainable and regenerative farming.<\/p><p><\/p><p>Check out what inspired our Founder, Tinia Pina, to start Re-Nuble in Food Tank&#x27;s interview found <a href=\"https:\/\/foodtank.com\/news\/2017\/08\/tinia-pina\/\" title=\"https:\/\/foodtank.com\/news\/2017\/08\/tinia-pina\/\"><strong>here<\/strong><\/a>.<\/p>"
+              "block_title": "How Can You Fundamentally Change Your Climate Profile?",
+              "content": ""
             }
           }
         },
@@ -227,32 +236,53 @@
           "featured-content-0"
         ],
         "settings": {
+          "home-page-bg": "shopify:\/\/shop_images\/organic-farmers-reject-hydroponics-with-16-protest-rallies.jpg",
+          "home-featured-btn-label": "Download our pdf",
+          "home-featured-btn-url": "https:\/\/ln3.sync.com\/dl\/1a3de73a0\/rbw5tyb9-rsejf4in-imyr86s2-tvhsxmhi",
+          "section-class": "download_pdf_section",
           "home-page-background-overlay": false
         }
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "71e89a23-abf2-4444-8678-348bab540b5d": {
+            "type": "text",
+            "settings": {
+              "title": "Re-Nuble, Inc.",
+              "richtext": "<p>Re-Nuble is an agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming.<\/p><p><\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p>"
+            }
+          },
+          "aa7cbb73-7c7f-4bae-b3e2-7e67ed902cfd": {
+            "type": "text",
+            "settings": {
+              "title": "HAVE QUESTIONS?",
+              "richtext": "<p><strong>Call Us<\/strong><br\/>646-266-6775<\/p><p><strong>Email Customer Support<\/strong><br\/>wecare@re-nuble.com<\/p><p><strong>Email General Inquiry<\/strong><br\/>info@re-nuble.com<\/p>"
+            }
+          },
+          "7932baed-fbce-4567-8727-b594a34045f6": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "71e89a23-abf2-4444-8678-348bab540b5d",
+          "aa7cbb73-7c7f-4bae-b3e2-7e67ed902cfd",
+          "7932baed-fbce-4567-8727-b594a34045f6"
+        ],
         "settings": {
           "footer_logo": "shopify:\/\/shop_images\/re_nuble_logo_large_transparent_coperight.png",
-          "footer_logo_max_width": "800",
-          "footer_newsletter_enable": false,
-          "subheading": "<p>Keep me in the loop<\/p>",
-          "footer_linklist": "",
-          "show_payment_icons": false
-        }
-      },
-      "1560284845715": {
-        "type": "newsletter",
-        "settings": {
-          "heading": "FOR THOSE WHO WANT TO DIG DEEPER",
-          "subheading": "<p><strong>Receive the deepest and latest<\/strong><\/p><p><\/p><p>Industry insights, updates, and Re-Nuble&#x27;s product information sent straight to your inbox.<\/p><p><\/p><p>Contact us to arrange a <strong>free trial<\/strong> at info@re-nuble.com.<\/p>"
+          "footer_footer_search": true
         }
       },
       "1587563869588": {
         "type": "hubspot-form",
         "settings": {
-          "header_title": "Curious about how this could work for you?",
-          "header_text": "Let's talk"
+          "header_title": "Help your customers reduce their supply chain emissions",
+          "header_text": ""
         }
       },
       "faq-page": {
@@ -262,83 +292,59 @@
             "type": "text",
             "settings": {
               "faq_question": "Why are we doing this?",
-              "faq_answer": "<p>In the current market, other organic-based alternatives pale in performance with regards to sterility and consistency in nutrient delivery. Other&nbsp;soilless farming fertilizers on the market contain chemicals and synthetics not found in our products &ndash; something that sets us apart and addresses the&nbsp;need to grow food and plants indoors using non-toxic, bio-derived fertilizers that are safe and affordable for every-day use.&nbsp;<\/p>\n<p><\/p>\n<p>We help communities and farms around the world reimagine food waste, by transforming it into an important renewable nutrient for closed-loop agriculture.<\/p>"
+              "faq_answer": "<p>Making nutrient compounds from organic sources available to the plant in the same form and at the same rate as synthetic (inorganic) mineral salts is incredibly difficult. We have always held the belief and have at least seven years of research to support that long and complex protein chains can serve as a viable source of nitrogen for plants. In an unadulterated natural environment this is how our living, biological ecosystems thrive. We are doing this because if we need to increase food production by 2050 to meet the demand of the world&#x27;s growing population (according to the UN) then we wish to empower our communities with the ability to cost competitive grow organic (non-chemically laden food) with local, sterilized waste streams. We&#x27;re using proteins, amino acids, amongst other compounds from plants to increase the efficiency of minerals being available to the plant in order to reduce our dependence on synthetic (conventional) mineral salts. There&#x27;s still more work to be done to reach a product that is exclusively sourced from plants but we are close.<\/p>"
             }
           },
           "1595620702759": {
             "type": "text",
             "settings": {
               "faq_question": "What makes your products different?",
-              "faq_answer": "<p>Organic-based, soil and hydroponic liquid fertilizers are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. Our products, derived from vegetative food waste, offer the same performance as a mineral salts but up to 2x more cost effective. Soilless farms will not encounter clogging with our fertilizers which are often caused by other organic fertilizers. Our products are easier to ship &amp; store and furthermore, we reduce the high labor and input costs from frequent organic nutrient monitoring and EC\/pH adjustments.<br><br>We provide a way for soilless farms to practice more sustainable farming methods. By using our nutrient delivery system, we reduce a&nbsp;farm's need for nutrient flushing, allowing for more vigorous root growth and more efficient water and nutrient usage over time. Our technology also promotes the production and maintenance of a diverse bacterial community that is more similar to organic-certified soil farming than mineral salts.<\/p>"
-            }
-          },
-          "1595620728894": {
-            "type": "text",
-            "settings": {
-              "faq_question": "How do your products work?",
-              "faq_answer": "<p>In soilless farming applications, used together with our nutrient delivery system, our nutrient solutions are mixed into an aerated reservoir that is monitored with pH and electroconductivity (EC) sensors.&nbsp;We have formulated Re-Nuble&rsquo;s products to cater to most&nbsp;conventional soilless growing operations; our product application is&nbsp;similar to most nutrient solutions currently available on the market.&nbsp;<\/p>"
+              "faq_answer": "<p>Vegan organic hydroponic nutrients are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. Our products, derived from sterilized vegetative waste, and plant extracts are processed in a way that increases their solubility. This means that additional products, microbes, mechanisms and additional prepartory time isn&#x27;t needed to immediately use our products. We&#x27;ve done the hard work for you.<\/p>"
             }
           },
           "1595620752673": {
             "type": "text",
             "settings": {
               "faq_question": "Is our product organic and if not, why?",
-              "faq_answer": "<p>Currently, Re-Nuble products are not certified organic, but are made from 100% natural vegetative waste. We source verified organic waste that still contains valuable nutrients, so it can be harvested. While we are currently not organic certified as we are waiting for internal review for the certification process, we&rsquo;re confident that we&rsquo;ll be able to get our products certified, making it easier for&nbsp;soilless growers everywhere to grow certified organic food.<\/p>"
+              "faq_answer": "<p>We are currently not organic certified as we are waiting for internal review for the certification process. We’re confident that we’ll be able to get our products certified, making it easier for soil and hydroponic growers everywhere to grow certified organic food.<\/p>"
             }
           },
           "1595620770733": {
             "type": "text",
             "settings": {
               "faq_question": "For what types of growing operations are your products best suited?",
-              "faq_answer": "<p>Our products are ideal for&nbsp;soilless farms of all sizes and growing methods. &nbsp;We are confident in our products&rsquo; suitability for the growth of a variety of crops, among which include leafy greens, and lettuce.<\/p>"
+              "faq_answer": "<p>Our products are ideal for all soilless systems for leafy greens, fruiting crops, hops, cannabis and help. Please check each product page for additional details.<\/p>"
             }
           },
           "1595620785153": {
             "type": "text",
             "settings": {
-              "faq_question": "Does it work with aquaponics?  Aeroponics?",
-              "faq_answer": "<p>We have not fully experimented with the Re-Nuble product in aquaponics, but plan on developing a formula for these systems. We also have not tested Re-Nuble products with aeroponic systems. Due to the mechanics of those growing systems, we do not recommend using Re-Nuble products for aeroponic systems at this time.<\/p>"
+              "faq_question": "Does it work with aquaponics?",
+              "faq_answer": "<p>We have not fully experimented with the Re-Nuble product in Aquaponics.<\/p>"
             }
           },
-          "1595620848530": {
+          "d21c0c2c-ec13-43bf-952d-cfe4f40b1291": {
             "type": "text",
             "settings": {
-              "faq_question": "Is the food waste we use organic?  If not, what’s the possibility that chemicals and pesticides used to grow that food affects the ‘organic’ nature of the solution?",
-              "faq_answer": "<p>We source only organic-certified produce waste from wholesale produce distributor(s). This is because our manufacturing process involves pasteurization and accelerated composting that breaks down the compounds of any residue that may have existed, such as pesticides, herbicides, etc.&nbsp;<strong><a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\">This<\/a>&nbsp;<\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>"
-            }
-          },
-          "1595620867305": {
-            "type": "text",
-            "settings": {
-              "faq_question": "How does your product perform compared to chemical alternatives on the market?",
-              "faq_answer": "<p>We believe that higher quality doesn&rsquo;t mean higher cost, because with closed loop agriculture, we&rsquo;re just turbo-charging how nature designed it to be. After numerous trials we have found that plants receiving our&nbsp;solutions grow at a similar rate to many synthetic mineral salt&nbsp;solutions currently on the market, which is a large achievement in the world of soilless growth formulas. &nbsp;The main&nbsp;difference is that our product is sourced from vegetative waste,&nbsp;not the mined, unsustainable ingredients used in most nutrient&nbsp;solutions growers use today.&nbsp;&nbsp;<\/p>"
-            }
-          },
-          "1595620877608": {
-            "type": "text",
-            "settings": {
-              "faq_question": "How does your product perform compared to chemical alternatives on the market?",
-              "faq_answer": "<p>Given the debate over the last few years pertaining to whether hydroponics and aquaponics are indeed organic, we should look no further to the importance of microbiology in the food systems than to the biggest objections to their addition, which was soil conservation and having a robust microbiological presence.&nbsp; &nbsp;Our products allow for a robust microbial community that grows in both quantity and diversity over time. It is believed by some that these activities create and catalyze ingredients for the plants that make them more robust, grow faster, and make a better tasting and more healthy food product.<\/p>"
+              "faq_question": "Is the food waste we use organic?  If not, what’s the possibility that chemicals and pesticides used to grow that food affects the ‘organic’ nature of the solution?",
+              "faq_answer": "<p>We source unrecoverable, vegetative produce waste from wholesale produce distributors, manufacturers, and processors. This is because our manufacturing process involves pasteurization and accelerated, controlled processing that breaks down the compounds of any residue that may have existed, such as pesticides, herbicides, etc. <a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\" target=\"_blank\"><strong>This<\/strong><\/a><strong> <\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>"
             }
           },
           "1595620897809": {
             "type": "text",
             "settings": {
               "faq_question": "I don't see my question here.",
-              "faq_answer": "<p>Have a question not addressed here? Please&nbsp;<a href=\"https:\/\/www.re-nuble.com\/pages\/contact-us\" title=\"https:\/\/www.re-nuble.com\/pages\/contact-us\"><strong>contact us<\/strong><\/a>; we&rsquo;d love to&nbsp;hear from you!<\/p>"
+              "faq_answer": "<p>Have a question not addressed here? Please <a href=\"https:\/\/www.re-nuble.com\/pages\/contact-us\" title=\"https:\/\/www.re-nuble.com\/pages\/contact-us\"><strong>contact us<\/strong><\/a>; we’d love to hear from you!<\/p>"
             }
           }
         },
         "block_order": [
           "1595620661487",
           "1595620702759",
-          "1595620728894",
           "1595620752673",
           "1595620770733",
           "1595620785153",
-          "1595620848530",
-          "1595620867305",
-          "1595620877608",
+          "d21c0c2c-ec13-43bf-952d-cfe4f40b1291",
           "1595620897809"
         ],
         "settings": {}
@@ -349,55 +355,326 @@
           "header_image": "shopify:\/\/shop_images\/logo.jpg"
         }
       },
-      "1596041899290": {
-        "type": "featured-content",
+      "1617825409ce921979": {
+        "type": "feature-rows",
         "settings": {
-          "home-page-background-overlay": false
+          "text_color": "#343434",
+          "background_color": "rgba(0,0,0,0)",
+          "home-featured-align": "left-img",
+          "image": "shopify:\/\/shop_images\/Booster_Shot_label.png",
+          "home-featured-title": "Booster Shot© Biostimulant",
+          "home-featured-content": "<p>Our water-soluble, liquid biostimulants sourced exclusively from sterilized vegetative waste,  and plant extracts. <strong>Booster Shot© promotes vigorous root growth as a germination accelerant and immunity enhancer.<\/strong><\/p>",
+          "home-featured-btn-label": "Learn More",
+          "home-featured-btn-url": "shopify:\/\/products\/booster-shot",
+          "home-featured-fullscreen": false
         }
       },
-      "1596065185817": {
-        "type": "slideshow",
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "enable_payment_button": false,
+          "social_sharing_products": true,
+          "perfect_title": "Perfect for Growing...",
+          "guarantedd_title": "Guaranteed Analysis",
+          "enable_calulator": true,
+          "calulator_title": "Use our calculator to calculate your potential costs and impact to your bottom line",
+          "how_to_make_title": "",
+          "how_to_make_top_content": "",
+          "how_to_make_image": "shopify:\/\/shop_images\/1_356af3ef-ca2e-4984-a615-c0bb914d5bf6.png",
+          "how_to_make_botton_content": "<p>Closing the Loop, Creating Sustainable Systems<\/p>"
+        }
+      },
+      "16203025882e9d1c70": {
+        "type": "image-carousal",
         "blocks": {
-          "1596065185817-0": {
-            "type": "image",
+          "6e497d34-2ffe-4258-91d7-6c22be5abd60": {
+            "type": "image_list",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1.jpg"
+              "image": "shopify:\/\/shop_images\/Closed_Loop_1.png",
+              "title": "Competitively Transition Towards a Closed Loop Operation",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "46b33aa9-f723-46de-a5a9-b9ad80de14f4": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_a5b1e02c-133d-43a8-a885-e7eb9e05a7e8.png",
+              "title": "Increase Your Profitability",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "24c8ef19-cb8e-4623-9082-4b2b040b3af7": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6.png",
+              "title": "Source Water-Soluble Nutrients From Sterile, Vegetative Waste",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "382b8601-a559-465b-82f8-ac3092cd6350": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4_528f1b50-cdc0-4a88-8f0a-cc5c3241e395.png",
+              "title": "Reduce Your Dependence On Carbon Intensive Mineral Salts",
+              "img_txt": "",
+              "link": ""
             }
           }
         },
         "block_order": [
-          "1596065185817-0"
+          "6e497d34-2ffe-4258-91d7-6c22be5abd60",
+          "46b33aa9-f723-46de-a5a9-b9ad80de14f4",
+          "24c8ef19-cb8e-4623-9082-4b2b040b3af7",
+          "382b8601-a559-465b-82f8-ac3092cd6350"
         ],
-        "settings": {}
-      },
-      "1617825409ce921979": {
-        "type": "feature-rows",
-        "disabled": true,
         "settings": {
-          "text_color": "#343434",
-          "background_color": "#ffffff",
+          "title": "Why Re-Nuble?",
+          "showcontact": false
+        }
+      },
+      "1620307196678c58de": {
+        "type": "feature-rows",
+        "settings": {
+          "text_color": "#111111",
+          "background_color": "rgba(0,0,0,0)",
+          "home-featured-align": "right-img",
+          "image": "shopify:\/\/shop_images\/Away_we_grow_label.png",
+          "home-featured-title": "Away We Grow© 4-1-1 Concentrate",
+          "home-featured-content": "<p>Our hyper-concentrated, water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste.<\/p><p><strong>By using Away We Grow©, a one-acre farm eliminates 3.3 metric tons of CO2 equivalent (CO2e) by eliminating the usage of synthetic mineral salts. Additionally, every dose diverts 18.75 lbs. of CO2e from landfills.<\/strong><\/p>",
+          "home-featured-btn-label": "Learn More",
+          "home-featured-btn-url": "shopify:\/\/products\/away-we-grow",
+          "home-featured-fullscreen": false
+        }
+      },
+      "1620307679175d3e95": {
+        "type": "image-carousal",
+        "blocks": {
+          "1620307679175d3e95-0": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4_d43e714a-6438-42de-8f2b-7d8683cb0e68.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "e01d0b85-ef9f-4916-83f6-2e97c1f07ec0": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_d729577a-753c-4ea0-88cc-a05a41d73451.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "e0095ada-cb03-4c9b-b366-7912d1145f7c": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6_3e6a4ea6-77af-47d9-b903-af8ba47b49b8.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "78c659eb-b03d-4b2b-af43-4fd77611c402": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_8084b259-b1a9-499e-8c11-4cf473704275.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "436ec588-9a2a-4b12-bd5b-4e02be867b52": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_3ea4081a-06e9-45f6-89b5-21749705f542.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "222c3eef-6596-4476-8e59-468a95717732": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_c376cbd5-ac02-42a3-979e-6595ad199246.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1620307679175d3e95-0",
+          "e01d0b85-ef9f-4916-83f6-2e97c1f07ec0",
+          "e0095ada-cb03-4c9b-b366-7912d1145f7c",
+          "78c659eb-b03d-4b2b-af43-4fd77611c402",
+          "436ec588-9a2a-4b12-bd5b-4e02be867b52",
+          "222c3eef-6596-4476-8e59-468a95717732"
+        ],
+        "settings": {
+          "title": "Our Product Standard Commitments",
+          "showcontact": false
+        }
+      },
+      "16203081298202a052": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "16203081298202a052-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Testimonial Quote<\/p>",
+              "author": "Contact Name",
+              "farm_name": "Farm name"
+            }
+          },
+          "16203081298202a052-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Testimonial Quote<\/p>",
+              "author": "Contact Name",
+              "farm_name": "Farm name"
+            }
+          },
+          "16203081298202a052-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Testimonial Quote<\/p>",
+              "author": "Contact Name",
+              "farm_name": "Farm name"
+            }
+          }
+        },
+        "block_order": [
+          "16203081298202a052-0",
+          "16203081298202a052-1",
+          "16203081298202a052-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "162031062926acdc54": {
+        "type": "rich-text",
+        "settings": {
+          "home_page_full_width": false,
+          "section_title": "Our Platform of Sustainable Solutions",
+          "text": "",
+          "text_size": "medium"
+        }
+      },
+      "1620490706138ff0c6": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Publications",
+          "blog": "re-nuble",
+          "post_limit": 3
+        }
+      },
+      "1620491618cc5ad6bb": {
+        "type": "feature-rows",
+        "settings": {
+          "text_color": "#000000",
+          "background_color": "rgba(0,0,0,0)",
+          "home-featured-align": "right-img",
+          "image": "shopify:\/\/shop_images\/ReNu_Terra_bebbe354-1da6-4edc-86c0-877cea36dc57.png",
+          "home-featured-title": "ReNu Terra™",
+          "home-featured-content": "<p>15-20% cheaper than the leading industry substitute, eliminates common synthetic substrate landfill waste. <strong>ReNu Terra<\/strong>™<strong>,  an immediately compostable grow media, designed to fully close the loop without compromising sterility, uniformity, water retention and drainage. Additional value is delivered by its micronutrients and carbon within.<\/strong><\/p>",
+          "home-featured-btn-label": "Learn More",
+          "home-featured-btn-url": "shopify:\/\/products\/renu-terra",
+          "home-featured-fullscreen": false
+        }
+      },
+      "162049168798e82c6b": {
+        "type": "feature-rows",
+        "settings": {
+          "text_color": "#141414",
+          "background_color": "rgba(0,0,0,0)",
           "home-featured-align": "left-img",
-          "image": "shopify:\/\/shop_images\/soilless.jpg",
-          "home-featured-title": "What is Soilless Farming?",
-          "home-featured-content": "<p>The growing of crops in different media besides soil, or in aerated water blended with nutrient solutions<\/p>",
-          "home-featured-btn-label": ""
+          "image": "shopify:\/\/shop_images\/On-site_Food_Waste_Recovery_System_-_Homepage_2.png",
+          "home-featured-title": "On-Site Food Waste Recovery System",
+          "home-featured-content": "<p>Turn your farm into a circular, resource efficient operation. By helping to close the loop, Re-Nuble can return the value of your post production byproducts (e.g. wastewater, roots, and produce trimmings) into value. <strong>Decrease your dependence on external potable water and chemical  inputs.<\/strong><\/p>",
+          "home-featured-btn-label": "Learn More",
+          "home-featured-btn-url": "shopify:\/\/pages\/the-science-of-industrial-grade-organic-hydroponic-nutrients",
+          "home-featured-fullscreen": false
+        }
+      },
+      "16205583693772b72f": {
+        "type": "certificate-items",
+        "disabled": true,
+        "blocks": {
+          "16205583693772b72f-0": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/certification-download_2a24f4a8-f1d6-4f9d-9e10-743e430d8975.png",
+              "title": "Certification download PDF link",
+              "link": ""
+            }
+          },
+          "92d6d759-b373-48f0-972a-80b514571745": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_15.png",
+              "title": "Certification download PDF link",
+              "link": "#"
+            }
+          },
+          "f3c3ae63-bb39-4afe-bd30-ca1854b748f9": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/omri.png",
+              "title": "Certification download PDF link",
+              "link": "#"
+            }
+          }
+        },
+        "block_order": [
+          "16205583693772b72f-0",
+          "92d6d759-b373-48f0-972a-80b514571745",
+          "f3c3ae63-bb39-4afe-bd30-ca1854b748f9"
+        ],
+        "settings": {
+          "title": "Certifications"
+        }
+      },
+      "16209204943da73ceb": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Stay up to date",
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Stay up to date",
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
         }
       }
     },
     "content_for_index": [
       "feature-rows",
-      "feature-columns",
+      "16203025882e9d1c70",
+      "162031062926acdc54",
+      "1620307196678c58de",
       "1617825409ce921979",
-      "1587563869588",
-      "featured-blog",
+      "1620491618cc5ad6bb",
+      "162049168798e82c6b",
       "featured-content",
-      "1560284845715",
-      "1596065185817",
+      "16203081298202a052",
+      "1620307679175d3e95",
+      "1587563869588",
       "kickstarter",
       "faq",
       "slideshow",
       "home-product",
-      "1596041899290"
+      "1620490706138ff0c6",
+      "16205583693772b72f",
+      "16209204943da73ceb"
     ]
   },
   "presets": {
