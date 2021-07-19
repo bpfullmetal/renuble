@@ -1213,3 +1213,163 @@ svg:not(:root) {
 .social-icons__list {
   display: flex;
 }
+
+
+
+/*  Home Community List Written by Xiaofeng  */
+#home-our-community {
+  padding: 95px 0px;
+  background-color: #019577;
+}
+
+@media (min-width: 1281px) {
+  #home-our-community .wrapper {
+    max-width: 960px;
+    margin:0px auto !important;
+  }  
+}
+
+#home-our-community h2 { 
+  color: white;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 66px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#home-our-community .slick-slide {
+  margin: 0px 15px;
+}
+
+#home-our-community .slider-item {
+  padding: 20px 15px;
+  background-color: #FFF;
+}
+
+#home-our-community .slider-item h3 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 32px 0px 16px;
+}
+
+#home-our-community .slider-item p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+#shopify-section-product-template .reviews-section .slick-next::before,
+#home-our-community .slick-next:before {
+  content: "\f105" !important;
+}
+
+#shopify-section-product-template .reviews-section .slick-prev::before,
+#home-our-community .slick-prev:before {
+  content: "\f104" !important;
+}
+
+
+#shopify-section-product-template .reviews-section .slick-next::before,
+#shopify-section-product-template .reviews-section .slick-prev::before,
+#home-our-community .slick-next:before,
+#home-our-community .slick-prev:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 38px;
+  font-weight: 900;
+  color: white;
+  opacity: 1;
+}
+
+#shopify-section-product-template .reviews-section .slick-next::before,
+#shopify-section-product-template .reviews-section .slick-prev::before {
+  color: #000 !important;
+}
+
+@media (max-width: 1025px) {
+  #home-our-community {
+    padding: 50px 0px;
+  }
+  #home-our-community h2 {
+    margin: 0px;
+    line-height: 140%;
+  }
+
+  #home-our-community .slider-item h3 {
+    font-size: 18px;
+    margin: 20px 0px 10px;
+  }
+
+  #home-our-community .slider-item p {
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+
+
+/*** Product Reviews Written By Xiaofeng ***/
+#shopify-section-product-template .reviews-section {
+  margin-top: 30px;
+  padding: 0px 50px;
+}
+
+#shopify-section-product-template .reviews-section .slider-item {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+#shopify-section-product-template .reviews-section .slider-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+
+#shopify-section-product-template .reviews-section .slider-item h3 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px;
+}
+
+#shopify-section-product-template .reviews-section .slider-item .stars {
+  margin: 15px 0px;
+}
+
+#shopify-section-product-template .reviews-section .slider-item p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  max-width: 405px;
+}
+
+@media (max-width: 768px) {
+  #shopify-section-product-template .reviews-section {
+    padding: 0px;
+  }
+}

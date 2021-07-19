@@ -43,4 +43,31 @@ $(document).ready(function () {
         ]
       });
     })
+
+    $('.community-item-lists').each( function (slider) {
+      // const centered = $('.slider-item', this).length < 5
+      $(this).slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        centerPadding: '20px',
+        slidesToShow: 3,
+        centerMode: false,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1280,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 640,
+            settings: {
+              slidesToShow: 1,
+            }
+          }
+        ]
+      });
+    })
 });
