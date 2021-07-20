@@ -197,13 +197,15 @@
 
       {% if product.metafields.product_reviews.size > 0 %}
       <div class="reviews-section">
-        <div class="wrapper">
-          <div class="reivew-slider">
+        <div class="reviews-wrapper">
+          <div class="reviews-slider">
             {% for product_review in product.metafields.product_reviews.review_title %}
               <div class="slider-item">
                 {% assign review_icon = product.metafields.product_reviews.review_icon[forloop.index0] %}
                 {% assign cnt = product.metafields.product_reviews.review_score[forloop.index0] | plus: 0 %}
-                <img src="{{ review_icon }}" alt="{{ product.metafields.product_reviews.review_title[forloop.index0] }}"/>
+                {% unless review_icon == empty %}
+                  <img src="{{ review_icon }}" alt="{{ product.metafields.product_reviews.review_title[forloop.index0] }}"/>
+                {% endunless %}
                 <h3>{{ product.metafields.product_reviews.review_title[forloop.index0] }}</h3>
                 <div class="stars">
                   {% for i in (1..5) %}
@@ -219,12 +221,12 @@
                   {% endfor %}
                 </div>
                 <p>{{ product.metafields.product_reviews.review_description[forloop.index0] }}</p>
-              </div>    
+              </div>
             {% endfor %}
           </div>
         </div>
       </div>
-      {% endif %} 
+      {% endif %}
       </div>
     </div>
     {% unless product.metafields.hide_fields.hide_perfect_for_growing %}
@@ -356,7 +358,7 @@ jQuery(document).ready(function($) {
 	    return false;
 	});
 
-  $('.reivew-slider').slick({
+  $('.reviews-slider').slick({
       loop: true,
       dots: false,
       slidesToShow: 1,

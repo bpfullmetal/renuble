@@ -1226,10 +1226,10 @@ svg:not(:root) {
   #home-our-community .wrapper {
     max-width: 960px;
     margin:0px auto !important;
-  }  
+  }
 }
 
-#home-our-community h2 { 
+#home-our-community h2 {
   color: white;
   font-family: Avenir;
   font-style: normal;
@@ -1300,6 +1300,13 @@ svg:not(:root) {
 #shopify-section-product-template .reviews-section .slick-next::before,
 #shopify-section-product-template .reviews-section .slick-prev::before {
   color: #000 !important;
+}
+
+#shopify-section-product-template .reviews-section .slick-prev {
+  left: -35px;
+}
+#shopify-section-product-template .reviews-section .slick-next {
+  right: -35px;
 }
 
 @media (max-width: 1025px) {
