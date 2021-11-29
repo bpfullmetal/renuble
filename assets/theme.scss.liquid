@@ -2399,6 +2399,10 @@ body.opened-drawer {
   margin-bottom: 30px;
 }
 
+.newsletter .input-group {
+  justify-content: center;
+}
+
 .newsletter__label, .form--success {
  color: $colorFooterText;
  font-size: em(24px);
@@ -3354,6 +3358,14 @@ label {
       background: $colorBtnPrimary;
       &:hover {
         background: $colorBtnPrimaryHover;
+        color: white;
+      }
+    }
+
+    &.btn--alert {
+      background-color: #D7523D;
+      &:hover {
+        background-color: #AE4231;
         color: white;
       }
     }
@@ -4828,10 +4840,19 @@ hr.thin-line {
 */
 
 .home-newsletter {
-
+  .wrapper {
+    margin: auto;
+  }
+  .contact-form {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 100%;
+  }
   .password-input-group {
     margin: 0 auto;
+    max-width: 100%;
   }
+  color: white;
 
   h4 {
     margin-bottom: 30px;
@@ -4841,6 +4862,9 @@ hr.thin-line {
     margin-top: 0;
     padding-top: 2rem;
     padding-bottom: 5rem;
+    @include at-query($max, $medium) {
+      padding-bottom: 2rem;
+    }
   }
 
   label {
@@ -6419,7 +6443,7 @@ hr.thin-line {
     width: 40px;
     height: 40px;
     cursor: pointer;
-
+    z-index: 5;
     &:after {
       position: absolute;
       content: '';
@@ -6442,21 +6466,25 @@ hr.thin-line {
   #shopify-section-newsletter {
     background: transparent;
     margin: auto;
+    max-width: 100%;
+    z-index: 4;
+    .home-section-title {
+      color: #fff !important;
+      text-transform: capitalize;
 
+      &:after {
+        background: #8eb753;
+      }
+    }
+    p {
+      color: white!important;
+    }
     .wrapper.wrapper--margins {
       padding: 0;
 
       form {
         padding: 0;
 
-        .home-section-title {
-          color: #fff !important;
-          text-transform: capitalize;
-
-          &:after {
-            background: #8eb753;
-          }
-        }
 
         p {
           color: #fff;
@@ -6478,7 +6506,6 @@ hr.thin-line {
 @media all and (max-width: $small) {
 
   .password-input-group {
-
     width: 100%;
     margin: 30px auto 35px;
 
