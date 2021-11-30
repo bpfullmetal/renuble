@@ -1763,6 +1763,26 @@ body {
 
     }
 
+    .site-nav__link {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        display: flex;
+        align-items: center;
+        margin-left: 0.5rem;
+      }
+    }
+
+    &:not(.site-nav--has-dropdown) {
+      padding-top: 5px;
+
+      & > a {
+        height: 1.25rem;
+        padding: 0 !important;
+      }
+    }
+
     a.btn--dark {
       @include islightColorBorder(#fff, #fff, #000, #000);
 
@@ -2180,11 +2200,17 @@ body {
     }
 
     > div {
-      background: #eee;
+      background: white;
       padding: 12px 25px 10px;
       border-radius: 3px;
       position: relative;
       top: 5px;
+      border-color: white;
+
+      li {
+        display: flex;
+        justify-content: center;
+      }
     }
 
     .arrow {
@@ -2197,7 +2223,7 @@ body {
       position: absolute;
       pointer-events: none;
       border-color: rgba(238, 238, 238, 0);
-      border-bottom-color: #eee;
+      border-bottom-color: white;
       border-width: 5px;
       margin-left: -5px;
     }

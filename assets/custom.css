@@ -526,7 +526,7 @@ svg:not(:root) {
     overflow: hidden; }
 .icon {
     display: inline-block;
-    width: 20px;
+    width: 12px;
     height: 20px;
     vertical-align: middle;
     fill: currentColor;
