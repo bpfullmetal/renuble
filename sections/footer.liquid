@@ -5,12 +5,16 @@
     {%- assign img_url = section.settings.footer_logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
     <a href="/" itemprop="url" class="footer__logo-link">
-      <img class="no-js lazyload supports-js"
+      <img
+				width="280"
+				height="80"
+				class="no-js lazyload supports-js"
         data-src="{{ img_url }}"
         data-widths="[540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
         data-aspectratio="{{ section.settings.footer_logo.aspect_ratio }}"
         data-sizes="auto"
-        alt="{{ section.settings.footer_logo.alt | escape | default: shop.name }}">
+        alt="{{ section.settings.footer_logo.alt | escape | default: shop.name }}"
+			>
       <noscript>
         <img src="{{ section.settings.footer_logo | img_url: image_size }}"
           srcset="{{ section.settings.footer_logo | img_url: image_size }} 1x, {{ section.settings.footer_logo | img_url: image_size, scale: 2 }} 2x"
