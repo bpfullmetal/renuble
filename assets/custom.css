@@ -1439,3 +1439,62 @@ svg:not(:root) {
     padding: 0px;
   }
 }
+
+/* to hide customers text in header of account page */
+body#account #PageContainer {
+  transform: translateY(-22px);
+  background: white;
+}
+
+/* fix image + text hero style */
+.home-imagebox .content .pull--no {
+  margin-left: auto !important;
+}
+
+#home-imagebox-feature-rows .wrapper {
+  max-width: 100% !important;
+}
+
+#home-imagebox-feature-rows .wrapper .grid__item {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1400px) {
+  .home-imagebox .content .pull--no {
+    margin-left: -8% !important;
+  }
+  
+  #home-imagebox-feature-rows .wrapper {
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  #home-imagebox-feature-rows .wrapper .grid__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-imagebox .content .pull--no {
+    margin-left: 0% !important;
+  }
+
+  #home-imagebox-feature-rows .wrapper {
+    display: flex;
+    width: 100%;
+    margin: unset !important;
+    padding: 0 !important;
+  }
+
+  #home-imagebox-feature-rows .wrapper .grid__item {
+    width: 100%;
+    max-width: calc(100% - 80px);
+    margin: auto !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
