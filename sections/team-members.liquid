@@ -1,0 +1,360 @@
+<div id="team-members" class="team-members-section">
+  <div class="team-members-list">
+    <div class="wrapper">
+      <h2>{{ section.settings.title }}</h2>
+  
+      <div class="members-list">
+  
+      {% for block in section.blocks %}
+        <div
+          id="team-member-box___{{ section.id }}___{{ forloop.index }}"
+          class="member-box"
+          data-photo="{{ block.settings.photo }}"
+          data-name="{{ block.settings.name }}"
+          data-title="{{ block.settings.title }}"
+          data-bio="{{ block.settings.bio }}"
+        >
+          {% if block.settings.photo != blank %}
+            {% assign img_url = block.settings.photo | img_url: 'master' %}
+            <img
+              class="no-js lazyload"
+              width="250"
+              height="250"
+              src="{{ img_url }}"
+            >
+          {% endif %}
+          <div class="member-box-hover">
+            <p class="member-box-name">{{ block.settings.name }}</p>
+            <p class="member-box-title">{{ block.settings.title }}</p>
+          </div>
+        </div>
+      {% endfor %}
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Team member detail modal -->
+  <div id="modal-{{ section.id }}" class="team-members-modal">
+    <div class="team-members-modal_close"></div>
+    <div class="team-members-modal_content">
+      <div class="image-block">
+        <img class="no-js lazyload" src="" />
+      </div>
+      <div class="text-block">
+        <p class="team-member-name"></p>
+        <p class="team-member-title"></p>
+        <div class="line"></div>
+        <p class="team-member-bio"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+#team-members h2 {
+  position: relative;
+  text-align: center;
+}
+
+#team-members .members-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+#team-members .members-list .member-box {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#team-members .members-list .member-box:hover .member-box-hover {
+  bottom: 0;
+}
+
+#team-members .members-list .member-box-hover {
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 10px 8px;
+  border-top: 4px solid #019577;
+  transition: all 0.2s ease-in;
+}
+
+#team-members .members-list .member-box-name {
+  color: #040404;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+#team-members .members-list .member-box-title {
+  color: #040404;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#team-members .members-list .member-box img {
+  width: 100%;
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: cover;
+}
+
+/* Modal styles */
+.team-members-modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFFFFF8;
+  z-index: 99999;
+  visibility: hidden;
+}
+
+.team-members-modal_close {
+  position: absolute;
+  top: 30px;
+  right: 45px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.team-members-modal_close::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 25px;
+  height: 2px;
+  background: #000000;
+  transform: rotate(45deg);
+}
+
+.team-members-modal_close::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 25px;
+  height: 2px;
+  background: #000000;
+  transform: rotate(-45deg);
+}
+
+.team-members-modal_content {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  height: 80%;
+  max-height: 550px;
+  margin: auto;
+}
+
+.team-members-modal_content * {
+  color: #FFFFFF;
+}
+
+.team-members-modal .image-block {
+  width: 50%;
+  height: 70%;
+  background: chartreuse;
+  z-index: 2;
+}
+
+.team-members-modal .image-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-members-modal .text-block {
+  width: 65%;
+  height: 100%;
+  margin-left: -10%;
+  padding: 6% 6% 5% 16%;
+  background: #4A836D;
+}
+
+.team-members-modal .text-block p {
+  margin-bottom: 0;
+}
+
+.team-members-modal .text-block .team-member-name {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.team-members-modal .text-block .team-member-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.team-members-modal .text-block .line {
+  width: 24px;
+  height: 3px;
+  background: #FFFFFF;
+  margin-top: 16px;
+}
+
+.team-members-modal .text-block .team-member-bio {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-top: 36px;
+}
+
+@media (max-width: 1440px) {
+  #team-members .members-list .member-box img {
+    min-height: 240px;
+    max-height: 240px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #team-members .members-list .member-box img {
+    min-height: 200px;
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #team-members .members-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #team-members .members-list .member-box img {
+    min-height: 260px;
+    max-height: 260px;
+  }
+
+  .team-members-modal_content {
+    width: 90%;
+    max-height: 640px;
+  }
+}
+
+@media (max-width: 900px) {
+  #team-members .members-list .member-box img {
+    min-height: 220px;
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  #team-members .members-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #team-members .members-list .member-box img {
+    min-height: 240px;
+    max-height: 240px;
+  }
+
+  #team-members .members-list .member-box-hover {
+    bottom: 0;
+  }
+
+  .team-members-modal_content {
+    flex-direction: column;
+    max-height: unset;
+  }
+
+  .team-members-modal .image-block {
+    width: 100%;
+    max-width: 420px;
+    height: 240px;
+    margin-bottom: 16px;
+  }
+
+  .team-members-modal .text-block {
+    width: 100%;
+    max-width: 420px;
+    margin-left: 0;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  #team-members .members-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #team-members .members-list .member-box img {
+    min-height: 260px;
+    max-height: 260px;
+  }
+
+  .team-members-modal {
+    overflow: auto;
+  }
+}
+</style>
+
+
+{% schema %}
+{
+  "name": {
+    "en": "Team members"
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_list",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "photo",
+          "label": "Photo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "bio",
+          "label": "Bio"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Team Members list",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "image_list"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

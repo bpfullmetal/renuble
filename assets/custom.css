@@ -1498,3 +1498,68 @@ body#account #PageContainer {
     padding-bottom: 40px;
   }
 }
+
+/*
+  Page: TEAM MEMBERS
+*/
+#team-member .main-content .shopify-section {
+  margin-bottom: 80px;
+}
+
+#team-member .home-imagebox .wrapper {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+#team-member .home-imagebox .wrapper h3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF !important;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#team-member .main-content .shopify-section h3::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: 45px;
+  height: 3px;
+  background: #FFFFFF;
+  margin-top: 8px;
+}
+
+#team-member .home-imagebox .wrapper p {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#team-member .main-content .shopify-section h2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+#team-member .main-content .shopify-section h2::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: 45px;
+  height: 3px;
+  background: #019577;
+  margin-top: 12px;
+}
