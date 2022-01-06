@@ -1563,3 +1563,125 @@ body#account #PageContainer {
   background: #019577;
   margin-top: 12px;
 }
+
+/* ACF meta fields */
+/* page custom fields - hero */
+.page-hero-wrapper.overlay {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-hero-wrapper.side-by-side {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero-wrapper.overlay .overlay-text-wrapper {
+  display: none;
+}
+
+.page-hero-wrapper.overlay .overlay-text-content {
+  position: absolute;
+  width: 60%;
+  background: #019578;
+  padding: 80px 20px;
+  margin: 0 100px;
+  text-align: center;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.page-hero-wrapper.side-by-side .overlay-text-wrapper {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 60%;
+  height: 100%;
+  background: #019578;
+  color: white;
+  transform: skew(-16deg);
+  border-left: 4px solid #afdc7b;
+}
+
+.page-hero-wrapper.side-by-side .overlay-text-content {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.page-hero-wrapper .overlay-text-content h2 {
+  color: white;
+  font-size: 2.6em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.page-hero-wrapper.side-by-side .overlay-text-content h2 {
+  font-size: 2.4em;
+}
+
+.page-hero-wrapper .overlay-text-content h2 strong {
+  color: #afdc7b;
+}
+
+.page-hero-wrapper.overlay .overlay-text-content h2 strong {
+  display: block;
+}
+
+@media (max-width: 1400px) {
+  .page-hero-wrapper.overlay .overlay-text-content h2 {
+    font-size: 2.4em;
+  }
+
+  .page-hero-wrapper.side-by-side .overlay-text-content h2 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-hero-wrapper.overlay .overlay-text-content {
+    padding: 50px 20px;
+  }
+
+  .page-hero-wrapper.overlay .overlay-text-content h2 {
+    font-size: 2em;
+  }
+
+  .page-hero-wrapper.side-by-side .overlay-text-content h2 {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-hero-wrapper.overlay .overlay-text-content {
+    padding: 30px 20px;
+    margin: 0;
+  }
+
+  .page-hero-wrapper.overlay .overlay-text-content h2 {
+    font-size: 1.5em;
+  }
+
+  .page-hero-wrapper.side-by-side .overlay-text-content h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-hero-wrapper.overlay .overlay-text-content h2 {
+    font-size: 1.2em;
+  }
+
+  .page-hero-wrapper.side-by-side .overlay-text-content h2 {
+    font-size: 0.8em;
+  }
+}

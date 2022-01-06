@@ -1,9 +1,29 @@
 {% assign header_title = page.title %}
 {% include 'page_header' with header_title %}
 
+{% assign hero_type = page.metafields.hero.type %}
+{% assign hero_header_text = page.metafields.hero.header_text %}
+{% assign hero_image = page.metafields.hero.background_image %}
+
 <div class="wrapper wrapper--margins wrapper__article">
   <div class="rte">
+    {% if hero_image %}
+      <div class="page-hero-wrapper {{ hero_type }}">
+        {% for image in hero_image %}
+          <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+        {% endfor %}
+
+        <div class="overlay-text-wrapper"></div>
+        <div class="overlay-text-content">
+          {% if hero_header_text != '' %}
+            {{ hero_header_text.html }}
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
     {{ page.content }}
+
     <hr class="border-primary w-16 mx-auto">
     <div class="text-center mt-20 mw-750 mx-auto">
       <p class="h3 text-primary font-bold" style="margin-bottom: 2rem;">Working together, we'll help you reduce your carbon emissions and increase your profitability from organics.</p>
