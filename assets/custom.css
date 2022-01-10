@@ -1610,7 +1610,7 @@ body#account #PageContainer {
   position: absolute;
   top: 0;
   right: 3%;
-  width: 40%;
+  width: 42%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -1626,7 +1626,8 @@ body#account #PageContainer {
 }
 
 .page-hero-wrapper.side-by-side .overlay-text-content h2 {
-  font-size: 2.4em;
+  font-size: 2.2em;
+  font-weight: 500;
 }
 
 .page-hero-wrapper .overlay-text-content h2 strong {
@@ -1643,7 +1644,7 @@ body#account #PageContainer {
   }
 
   .page-hero-wrapper.side-by-side .overlay-text-content h2 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }
 
