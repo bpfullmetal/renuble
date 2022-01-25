@@ -1464,7 +1464,7 @@ body#account #PageContainer {
   .home-imagebox .content .pull--no {
     margin-left: -8% !important;
   }
-  
+
   #home-imagebox-feature-rows .wrapper {
     max-width: 100% !important;
     margin: 0 !important;
@@ -1502,16 +1502,16 @@ body#account #PageContainer {
 /*
   Page: TEAM MEMBERS
 */
-#team-member .main-content .shopify-section {
+#team .main-content .shopify-section {
   margin-bottom: 80px;
 }
 
-#team-member .home-imagebox .wrapper {
+#team .home-imagebox .wrapper {
   max-width: 100% !important;
   margin: 0 !important;
 }
 
-#team-member .home-imagebox .wrapper h3 {
+#team .home-imagebox .wrapper h3 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1524,7 +1524,7 @@ body#account #PageContainer {
   text-transform: capitalize;
 }
 
-#team-member .main-content .shopify-section h3::after {
+#team .main-content .shopify-section h3::after {
   content: '';
   position: absolute;
   top: 100%;
@@ -1534,7 +1534,7 @@ body#account #PageContainer {
   margin-top: 8px;
 }
 
-#team-member .home-imagebox .wrapper p {
+#team .home-imagebox .wrapper p {
   color: #FFFFFF;
   font-size: 24px;
   font-weight: 500;
@@ -1543,7 +1543,8 @@ body#account #PageContainer {
   margin-top: 25px;
 }
 
-#team-member .main-content .shopify-section h2 {
+#team .main-content .shopify-section h2 {
+  font-family: Raleway, sans-serif;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1554,7 +1555,7 @@ body#account #PageContainer {
   margin-bottom: 40px;
 }
 
-#team-member .main-content .shopify-section h2::after {
+#team .main-content .shopify-section h2::after {
   content: '';
   position: absolute;
   top: 100%;
