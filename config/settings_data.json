@@ -51,7 +51,7 @@
           "logo_use_inverted": true,
           "logo-inverted": "shopify:\/\/shop_images\/Re-Nuble-Logo-Medium-Transparent_6.58.44_PM.png",
           "logo_max_width": "250",
-          "main_linklist": "main-menu",
+          "main_linklist": "menu-2021",
           "menu_style": "classic",
           "menu_text_color": "is-dark",
           "menu_product": "",
@@ -80,7 +80,7 @@
           "home-featured-align": "left-img",
           "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.jpg",
           "home-featured-title": "Bringing Back Closed Loop Food",
-          "home-featured-content": "<p>Headquartered in New York City, Re-Nuble is an MWBE-certified, for-profit social enterprise and agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming.<br\/><br\/>Our closed-loop process transforms unrecoverable food byproducts into water-soluble organic hydroponic nutrients and grow substrates while eliminating landfill waste and greenhouse gases. We are founded with the mission to help global agricultural communities reimagine localized food waste for more sustainable, environmentally-friendly growing practices.<br\/><br\/><\/p>",
+          "home-featured-content": "<p><strong>Re-Nuble provides the most sustainable growing options to indoor growers. Our sterile liquid, water-soluble, organic hydroponic nutrients (sourced from food byproducts) are cost competitive to synthetic mineral salts. Our grow media is fully recyclable (within 60 days or less) compared to  rockwool and peat. We are pushing the Controlled Environment Agriculture (CEA) industry to become more sustainable, eliminating landfill waste and greenhouse gases. Founded with the mission to help global agricultural communities safely reuse localized food waste, we strive to accelerate environmentally-friendly growing practices.<\/strong><\/p>",
           "home-featured-btn-label": "",
           "home-featured-btn-url": "",
           "home-featured-fullscreen": true
@@ -250,7 +250,7 @@
             "type": "text",
             "settings": {
               "title": "Re-Nuble, Inc.",
-              "richtext": "<p>Re-Nuble is an agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for soilless farming.<\/p><p><\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p>"
+              "richtext": "<p>Re-Nuble is an agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for indoor farms.<\/p><p><\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p>"
             }
           },
           "aa7cbb73-7c7f-4bae-b3e2-7e67ed902cfd": {
@@ -281,7 +281,7 @@
       "1587563869588": {
         "type": "hubspot-form",
         "settings": {
-          "header_title": "Help your customers reduce their supply chain emissions",
+          "header_title": "Help decarbonize the food value chain",
           "header_text": ""
         }
       },
@@ -292,42 +292,42 @@
             "type": "text",
             "settings": {
               "faq_question": "Why are we doing this?",
-              "faq_answer": "<p>Making nutrient compounds from organic sources available to the plant in the same form and at the same rate as synthetic (inorganic) mineral salts is incredibly difficult. We have always held the belief and have at least seven years of research to support that long and complex protein chains can serve as a viable source of nitrogen for plants. In an unadulterated natural environment this is how our living, biological ecosystems thrive. We are doing this because if we need to increase food production by 2050 to meet the demand of the world&#x27;s growing population (according to the UN) then we wish to empower our communities with the ability to cost competitive grow organic (non-chemically laden food) with local, sterilized waste streams. We&#x27;re using proteins, amino acids, amongst other compounds from plants to increase the efficiency of minerals being available to the plant in order to reduce our dependence on synthetic (conventional) mineral salts. There&#x27;s still more work to be done to reach a product that is exclusively sourced from plants but we are close.<\/p>"
+              "faq_answer": "<p>Making nutrient compounds from organic sources available to the plant in the same form and at the same rate as synthetic (inorganic) mineral salts is incredibly difficult. We've always held the belief and have at least seven years of research to support that long and complex protein chains can serve as a viable source of nitrogen for plants. In an unadulterated natural environment, this is how our living, biological ecosystems thrive. <\/p><p>We're doing this because if we need to increase food production by 2050 to meet the demand of the world's growing population (according to the UN), then we wish to empower our communities with the ability to cost competitively grow organic (non-chemically laden food) with local, sterilized waste streams. We're using proteins, amino acids, amongst other compounds from plants to increase the efficiency of minerals being available to the plant in order to reduce our dependence on synthetic (conventional) mineral salts. <\/p><p>There's still more work to be done to reach a product that is exclusively sourced from plants but we're close.<\/p>"
             }
           },
           "1595620702759": {
             "type": "text",
             "settings": {
               "faq_question": "What makes your products different?",
-              "faq_answer": "<p>Vegan organic hydroponic nutrients are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. Our products, derived from sterilized vegetative waste, and plant extracts are processed in a way that increases their solubility. This means that additional products, microbes, mechanisms and additional prepartory time isn&#x27;t needed to immediately use our products. We&#x27;ve done the hard work for you.<\/p>"
+              "faq_answer": "<p>Vegan organic hydroponic nutrients are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. <\/p><p>Our products, derived from sterilized vegetative waste as well as plant extracts, are processed in a way that increases their solubility. This means that additional products, microbes, mechanisms and additional preparatory time isn't needed to immediately use our products. <\/p><p>We've done the hard work for you.<\/p>"
             }
           },
           "1595620752673": {
             "type": "text",
             "settings": {
               "faq_question": "Is our product organic and if not, why?",
-              "faq_answer": "<p>We are currently not organic certified as we are waiting for internal review for the certification process. We’re confident that we’ll be able to get our products certified, making it easier for soil and hydroponic growers everywhere to grow certified organic food.<\/p>"
+              "faq_answer": "<p>We're currently not organic certified as we are waiting for internal review for the certification process. However, we're confident that we’ll be able to get our products certified, making it easier for soil and hydroponic growers everywhere to grow certified organic food.<\/p>"
             }
           },
           "1595620770733": {
             "type": "text",
             "settings": {
               "faq_question": "For what types of growing operations are your products best suited?",
-              "faq_answer": "<p>Our products are ideal for all soilless systems for leafy greens, fruiting crops, hops, cannabis and help. Please check each product page for additional details.<\/p>"
+              "faq_answer": "<p>Our products are ideal for all soilless systems for leafy greens, fruiting crops, hops, cannabis and help. Please check each <a href=\"https:\/\/www.re-nuble.com\/collections\/all\" target=\"_blank\" title=\"https:\/\/www.re-nuble.com\/collections\/all\">product page<\/a> for additional details.<\/p>"
             }
           },
           "1595620785153": {
             "type": "text",
             "settings": {
               "faq_question": "Does it work with aquaponics?",
-              "faq_answer": "<p>We have not fully experimented with the Re-Nuble product in Aquaponics.<\/p>"
+              "faq_answer": "<p>We haven't fully experimented with the Re-Nuble product in Aquaponics.<\/p>"
             }
           },
           "d21c0c2c-ec13-43bf-952d-cfe4f40b1291": {
             "type": "text",
             "settings": {
               "faq_question": "Is the food waste we use organic?  If not, what’s the possibility that chemicals and pesticides used to grow that food affects the ‘organic’ nature of the solution?",
-              "faq_answer": "<p>We source unrecoverable, vegetative produce waste from wholesale produce distributors, manufacturers, and processors. This is because our manufacturing process involves pasteurization and accelerated, controlled processing that breaks down the compounds of any residue that may have existed, such as pesticides, herbicides, etc. <a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\" target=\"_blank\"><strong>This<\/strong><\/a><strong> <\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>"
+              "faq_answer": "<p>We source unrecoverable, vegetative produce byproducts (waste) from wholesale produce distributors, manufacturers, and processors. This is because our manufacturing process involves pasteurization as well as accelerated, controlled processing that breaks down the compounds of any residue that may have existed (such as pesticides, herbicides, etc.).<br\/><br\/><a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\" target=\"_blank\"><strong>This<\/strong><\/a><strong> <\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>"
             }
           },
           "1595620897809": {
@@ -363,7 +363,7 @@
           "home-featured-align": "left-img",
           "image": "shopify:\/\/shop_images\/Booster_Shot_label.png",
           "home-featured-title": "Booster Shot© Biostimulant",
-          "home-featured-content": "<p>Our water-soluble, liquid biostimulants sourced exclusively from sterilized vegetative waste,  and plant extracts. <strong>Booster Shot© promotes vigorous root growth as a germination accelerant and immunity enhancer.<\/strong><\/p>",
+          "home-featured-content": "<p>Our water-soluble, liquid biostimulants sourced exclusively from sterilized vegetative waste, and plant extracts. <strong>Booster Shot© promotes vigorous root growth as a germination accelerant and immunity enhancer.<\/strong><\/p>",
           "home-featured-btn-label": "Learn More",
           "home-featured-btn-url": "shopify:\/\/products\/booster-shot",
           "home-featured-fullscreen": false
@@ -443,7 +443,7 @@
           "home-featured-align": "right-img",
           "image": "shopify:\/\/shop_images\/Away_we_grow_label.png",
           "home-featured-title": "Away We Grow© 4-1-1 Concentrate",
-          "home-featured-content": "<p>Our hyper-concentrated, water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste.<\/p><p><strong>By using Away We Grow©, a one-acre farm eliminates 3.3 metric tons of CO2 equivalent (CO2e) by eliminating the usage of synthetic mineral salts. Additionally, every dose diverts 18.75 lbs. of CO2e from landfills.<\/strong><\/p>",
+          "home-featured-content": "<p>Our water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste.<\/p><p><strong>By using Away We Grow©, a one acre farm eliminates 1.62 metric tons of CO2e from the atmosphere annually and removes 18.75 pounds of CO2e for every gallon of that would otherwise have been released from food waste sent to landfills.<\/strong><\/p>",
           "home-featured-btn-label": "Learn More",
           "home-featured-btn-url": "shopify:\/\/products\/away-we-grow",
           "home-featured-fullscreen": false
@@ -583,7 +583,7 @@
           "home-featured-align": "right-img",
           "image": "shopify:\/\/shop_images\/ReNu_Terra_bebbe354-1da6-4edc-86c0-877cea36dc57.png",
           "home-featured-title": "ReNu Terra™",
-          "home-featured-content": "<p>15-20% cheaper than the leading industry substitute, eliminates common synthetic substrate landfill waste. <strong>ReNu Terra<\/strong>™<strong>,  an immediately compostable grow media, designed to fully close the loop without compromising sterility, uniformity, water retention and drainage. Additional value is delivered by its micronutrients and carbon within.<\/strong><\/p>",
+          "home-featured-content": "<p><strong>ReNu Terra<\/strong>™<strong>,  a compostable grow media (within 60 days or less), designed to remove grow media from landfills without compromising sterility, uniformity, water retention and drainage. Additional value is delivered by its micronutrients and carbon within.<\/strong><\/p>",
           "home-featured-btn-label": "Learn More",
           "home-featured-btn-url": "shopify:\/\/products\/renu-terra",
           "home-featured-fullscreen": false
@@ -654,16 +654,33 @@
           "heading": "Stay up to date",
           "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
         }
+      },
+      "resource-center": {
+        "type": "resource-center",
+        "blocks": {
+          "bbd31aa8-3223-4086-bf16-b60b37b1f35d": {
+            "type": "link_icon",
+            "settings": {
+              "color": "#8eb754",
+              "blog": "re-nuble",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "bbd31aa8-3223-4086-bf16-b60b37b1f35d"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
       "feature-rows",
-      "16203025882e9d1c70",
       "162031062926acdc54",
       "1620307196678c58de",
       "1617825409ce921979",
       "1620491618cc5ad6bb",
       "162049168798e82c6b",
+      "16203025882e9d1c70",
       "featured-content",
       "16203081298202a052",
       "1620307679175d3e95",
