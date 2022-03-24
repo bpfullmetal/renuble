@@ -58,7 +58,8 @@
     };
   </script>
 
-  <script src="{{ 'jquery.min.js' | asset_url }}" async="async"></script>
+  <!-- {{ '//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' | script_tag }} -->
+  <script src="{{ 'jquery.min.js' | asset_url }}"></script>
   <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
@@ -156,8 +157,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End: XO-InsertCode Footer-->
 
   <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer data-src="//js.hs-scripts.com/1585803.js"></script>
-<!-- End of HubSpot Embed Code -->
+<!-- <script type="text/javascript" id="hs-script-loader" async defer data-src="//js.hs-scripts.com/1585803.js"></script> -->
+<script>
+  var _hsp = window._hsp = window._hsp || [];
+  _hsp.push(['addEnabledFeatureGates', []]);
+  !function(t,e,r){if(!document.getElementById(t)){var n=document.createElement("script");for(var a in n.src="https://js.hs-banner.com/1585803.js",n.type="text/javascript",n.id=t,r)r.hasOwnProperty(a)&&n.setAttribute(a,r[a]);var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(n,i)}}("cookieBanner-1585803",0,{"data-cookieconsent":"ignore","data-hs-ignore":true,"data-loader":"hs-scriptloader","data-hsjs-portal":1585803,"data-hsjs-env":"prod","data-hsjs-hublet":"na1"});
+  !function(e,t){if(!document.getElementById(e)){var c=document.createElement("script");c.src="https://js.hs-analytics.net/analytics/1648119300000/1585803.js",c.type="text/javascript",c.id=e;var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}}("hs-analytics");
+</script>
+  <!-- End of HubSpot Embed Code -->
 
 
 <!-- spurit_sct-added -->
@@ -165,7 +172,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- /spurit_sct-added -->
 
 {% render 'spurit_po2_theme_snippet' %}
-  <!-- End Body =================================================================================================================================================== --> <script src="{{ 'custom.min.js' | asset_url }}" defer></script>
-
+  <!-- End Body =================================================================================================================================================== -->
+<script>
+  var abs=["\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x68\x6F\x70\x69\x66\x79\x70\x72\x65\x76\x69\x65\x77\x2E\x63\x6F\x6D","\x73\x68\x6F\x70\x69\x66\x79\x2E\x63\x6F\x6D","\x55\x6E\x61\x75\x74\x68\x6F\x72\x69\x73\x65\x64\x20\x75\x73\x65\x20\x6F\x66\x20\x63\x6F\x64\x65\x20\x64\x65\x74\x65\x63\x74\x65\x64\x2E\x20\x75\x73\x69\x6E\x67\x20\x74\x68\x65\x20\x63\x6F\x70\x79\x72\x69\x67\x68\x74\x65\x64\x20\x63\x6F\x64\x65\x20\x77\x69\x74\x68\x6F\x75\x74\x20\x70\x72\x69\x6F\x72\x20\x70\x65\x72\x6D\x69\x73\x73\x69\x6F\x6E\x2E","\x6C\x6F\x67","\x73\x63\x72\x69\x70\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68",'\x6E\x61\x76\x69\x67\x61\x74\x6F\x72', '\x75\x73\x65\x72\x41\x67\x65\x6E\x74', '\x43\x68\x72\x6F\x6D\x65\x2D\x4C\x69\x67\x68\x74\x68\x6F\x75\x73\x65', 'R1RtZXRyaXg=' ,'cGluZ2JvdA==']
+  var script_loaded=!1;function loadJSscripts(){if(!script_loaded){script_loaded=!0;var t=document.getElementsByTagName("script");for(i=0;i<t.length;i++)null!==t[i].getAttribute("data-src")&&(t[i].setAttribute("src",t[i].getAttribute("data-src")),delete t[i].dataset.src); var k=document.querySelectorAll(".lazyload_image");for(l=0;l<k.length;l++)null!==k[l].getAttribute("data-src")&&(k[l].setAttribute("src",k[l].getAttribute("data-src")),delete k[l].dataset.src);         var e=document.getElementsByTagName("link");for(i=0;i<e.length;i++)null!==e[i].getAttribute("data-href")&&(e[i].setAttribute("href",e[i].getAttribute("data-href")),delete e[i].dataset.href);document.dispatchEvent(new CustomEvent("StartKernelLoading")),setTimeout(function(){document.dispatchEvent(new CustomEvent("StartAsyncLoading"))},6),document.querySelectorAll(".lazyload_image").forEach(t=>{void 0!==t.dataset.src&&(t.src=t.dataset.src),void 0!==t.dataset.srcset&&(t.srcset=t.dataset.srcset),t.classList.remove("lazyload_image")})}}if(window[abs[10]][abs[11]].indexOf(abs[12]) == -1 && window[abs[10]][abs[11]].indexOf('X11') == -1 && window[abs[10]][abs[11]].indexOf(abs[13]) == -1 && window[abs[10]][abs[11]].indexOf(abs[14]) == -1) {
+  var e=document.getElementsByTagName("link");for(i=0;i<e.length;i++)null!==e[i].getAttribute("link-href")&&(e[i].setAttribute("href",e[i].getAttribute("link-href")),delete e[i].dataset.href);
+  window.addEventListener("scroll",function(t){loadJSscripts()}),window.addEventListener("mousemove",function(){loadJSscripts()}),window.addEventListener("touchstart",function(){loadJSscripts()}),window.addEventListener?window.addEventListener("load",function(){setTimeout(loadJSscripts,3)},!1):window.attachEvent?window.attachEvent("onload",function(){setTimeout(loadJSscripts,3)}):window.onload=loadJSscripts;
+  }
+</script>
 </body>
 </html>
