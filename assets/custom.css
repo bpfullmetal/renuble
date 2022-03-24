@@ -937,6 +937,7 @@ svg:not(:root) {
   border: none;
   color: #ffffff !important;
   padding: 18px 35px;
+  height: unset !important;
 }
 
 .certificate-list-blog .slider-item {
