@@ -1473,6 +1473,22 @@ body {
 }
 
 // Logo
+@media (max-width: 768px) {
+  ul.site-nav {
+    > li {
+      margin-bottom: 10px;
+      > a {
+        height: 48px !important;
+        display: flex !important;
+        text-align: left;
+      }
+      > button {
+        width: 100%;
+        text-align: left;
+      }
+    }
+  }
+}
 
 .site-header__logo {
 
@@ -1766,11 +1782,23 @@ body {
     .site-nav__link {
       display: flex;
       align-items: center;
-
+      @media (max-width: 768px) {
+        position: relative;
+        padding-right: 30px !important;
+      }
       .icon {
         display: flex;
         align-items: center;
         margin-left: 0.5rem;
+        @media (max-width: 768px) {
+          position: absolute;
+          right: 0px;
+          top: 15px;
+          svg, path, polygon {
+            
+            fill: #FFF !important;
+          }
+        }
       }
     }
 
@@ -1957,7 +1985,11 @@ body {
         &.site-nav__link--child {
           font-size: 16px;
           margin-left: 18px;
-
+          @media (max-width: 768px) {
+            height: 48px;
+            display: flex;
+            align-items: center;
+          }
           .icon {
             vertical-align: middle;
             margin-top: 2px;
