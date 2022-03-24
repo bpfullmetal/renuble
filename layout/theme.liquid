@@ -31,7 +31,8 @@
   <meta name="theme-color" content="{{ settings.color_primary }}">
 
   {% comment %}{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}{% endcomment %}
-  {{ 'font-awesome.css' | asset_url | stylesheet_tag }}
+  <!-- {{ 'font-awesome.css' | asset_url | stylesheet_tag }} -->
+  {{ 'font-awesome.min.css' | asset_url | stylesheet_tag }}
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   <!-- {{ 'footer.scss.css' | asset_url | stylesheet_tag }} -->
   {{ 'custom.min.css' | asset_url | stylesheet_tag }}
