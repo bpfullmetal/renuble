@@ -33,9 +33,10 @@
   {% comment %}{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}{% endcomment %}
   {{ 'font-awesome.css' | asset_url | stylesheet_tag }}
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
-  {{ 'footer.scss.css' | asset_url | stylesheet_tag }}
-  {{ 'custom.css' | asset_url | stylesheet_tag }}
-  {{ 'slick.css' | asset_url | stylesheet_tag }}
+  <!-- {{ 'footer.scss.css' | asset_url | stylesheet_tag }} -->
+  {{ 'custom.min.css' | asset_url | stylesheet_tag }}
+  <!-- {{ 'slick.css' | asset_url | stylesheet_tag }} -->
+  {{ 'slick.min.css' | asset_url | stylesheet_tag }}
   {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
 
   <script>
@@ -58,7 +59,6 @@
     };
   </script>
 
-  <!-- {{ '//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' | script_tag }} -->
   <script src="{{ 'jquery.min.js' | asset_url }}"></script>
   <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
@@ -67,9 +67,6 @@
   <script src="{{ 'jquery.fancybox.min.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
-  {% comment %}{{ '//cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js' | script_tag }}{% endcomment %}
-
-  {% comment %}{{ content_for_header | replace: '1788445218051414', '' }}{% endcomment %}
 <!-- Header hook for plugins =================================================================================================================================================== -->
 {% comment %}
   {{ content_for_header }}
