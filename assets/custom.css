@@ -1936,3 +1936,9 @@ body#account #PageContainer {
 .product__image .slide {
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  #footer-social {
+    justify-content: center;
+  }
+}
