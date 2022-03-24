@@ -45,8 +45,9 @@
     };
   </script>
 
-  {{ '//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' | script_tag }}
-
+  <!-- {{ '//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' | script_tag }} -->
+  <script src="{{ 'jquery.min.js' | asset_url }}" async="async"></script>
+  
   <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
 
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
