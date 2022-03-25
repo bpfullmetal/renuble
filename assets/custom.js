@@ -45,7 +45,6 @@ $(document).ready(function () {
     })
 
     $('.community-item-lists').each( function (slider) {
-      // const centered = $('.slider-item', this).length < 5
       $(this).slick({
         dots: false,
         infinite: false,
