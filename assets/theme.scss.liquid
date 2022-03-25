@@ -5892,6 +5892,9 @@ hr.thin-line {
   .label {
     text-transform: uppercase;
     color: #90ba55;
+    @media (max-width: 768px) {
+      display: none
+    }
   }
   .page__sharing {
     @include clearfix();
@@ -5911,7 +5914,13 @@ hr.thin-line {
       margin: 0 10px;
 
       a {
-
+        @media (max-width: 768px) {          
+          width: 48px;
+          height: 48px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         display: block;
         margin-top: -8px;
 
@@ -5942,6 +5951,15 @@ hr.thin-line {
       }
     }
 
+    @include at-query(0px, $medium) {
+      padding-left: 0px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @include at-query(0px, $medium) {
+    margin-top: 30px;
   }
 }
 
