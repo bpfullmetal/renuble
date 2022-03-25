@@ -39,7 +39,6 @@
   {{ 'custom.css' | asset_url | stylesheet_tag }}
   <!-- {{ 'slick.css' | asset_url | stylesheet_tag }} -->
   {{ 'slick.min.css' | asset_url | stylesheet_tag }}
-  {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
 
   <script>
     var theme = {
@@ -62,7 +61,6 @@
   </script>
 
   <script src="{{ 'jquery.min.js' | asset_url }}"></script>
-  <!-- <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script> -->
   <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'slick.js' | asset_url }}" defer="defer"></script>
@@ -79,7 +77,10 @@
   {% if template contains 'customers' %}
     {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
   {% endif %}
-
+  {% if template contains 'product' %}
+    {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
+    <!-- {{ 'shopify_common.js' | shopify_asset_url | script_tag }} -->
+  {% endif %}
 <!-- XO-InsertCode -->
 {% include "xo-insertcode-header" %}
 <!-- End: XO-InsertCode Header-->
@@ -113,15 +114,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {{ content_for_layout }}
 
     </main>
-
     {% section 'footer' %}
-
     {% include 'newsletter-popup' %}
-
   </div>
 
   <script type="text/javascript">
-
     {% capture jQuery_plus_icon %} {% include "asset_svg" with "plus" %} {% endcapture %}
     {% capture jQuery_minus_icon %} {% include "asset_svg" with "minus" %} {% endcapture %}
     {% capture jQuery_close_icon %} {% include "asset_svg" with "close" %} {% endcapture %}
@@ -153,16 +150,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- XO-InsertCode -->
 {% include "xo-insertcode-footer" %}
 <!-- End: XO-InsertCode Footer-->
-
-
 {% render 'scripts_render_locally' %}
-
 <!-- spurit_sct-added -->
 {% include 'spurit_sct-theme-snippet' %}
 <!-- /spurit_sct-added -->
-
 {% render 'spurit_po2_theme_snippet' %}
-  <!-- End Body =================================================================================================================================================== -->
+  <!-- End Body  -->
 
 </body>
 </html>
