@@ -994,6 +994,7 @@ select {
   font-size: $baseFontSize;
   line-height: 1.6;
   font-family: $bodyFontStack;
+  font-display: swap;
   color: $colorText;
   font-weight: $bodyFontWeight;
   font-style: $bodyFontStyle;
@@ -1004,6 +1005,7 @@ select {
 h1, h2, h3, h4, h5, h6 {
   display: block;
   font-family: $headerFontStack;
+  font-display: swap;
   font-weight: $headerFontWeight;
   font-style: $headerFontStyle;
   margin: 0 0 0.5em;
@@ -1158,6 +1160,7 @@ blockquote {
 code, pre {
   background-color: #faf7f5;
   font-family: Consolas,monospace;
+  font-display: swap;
   font-size: 1em;
   border: 0 none;
   padding: 0 2px;
@@ -1795,7 +1798,7 @@ body {
           right: 0px;
           top: 15px;
           svg, path, polygon {
-            
+
             fill: #FFF !important;
           }
         }
@@ -2915,6 +2918,7 @@ img {
   text-align: left;
   font-size: em(16px);
   font-family: $headerFontStack;
+  font-display: swap;
   font-weight: $headerFontWeight;
   font-style: $headerFontStyle;
   display: inline-block;
@@ -3318,6 +3322,7 @@ label {
 
   font-family: $headerFontStack;
   font-weight: $headerFontWeight;
+  font-display: swap;
   font-style: $headerFontStyle;
   border-radius: 2px;
   display: inline-block;
@@ -4003,6 +4008,7 @@ hr.thin-line {
   strong {
     display: block;
     font-family: $headerFontStack;
+    font-display: swap;
     font-weight: $headerFontWeightBold;
     font-style: $headerFontStyle;
   }
@@ -4625,6 +4631,7 @@ hr.thin-line {
   h3 {
     font-size: em(34px);
     font-family: $bodyFontStack;
+    font-display: swap;
     font-weight: $bodyFontWeight;
     font-style: $bodyFontStyle;
     margin-bottom: 55px;
@@ -5298,6 +5305,7 @@ hr.thin-line {
 }
 .article__title {
   font-family: $bodyFontStack;
+  font-display: swap;
   color: $colorTitle;
   font-weight: $bodyFontWeightSemiBold;
   font-style: $bodyFontStyle;
@@ -5650,6 +5658,7 @@ hr.thin-line {
 
     font-size: em(16px);
     font-family: $bodyFontStack;
+    font-display: swap;
     font-weight: $bodyFontWeight;
     font-style: $bodyFontStyle;
     margin: 35px 0 -2px;
@@ -5673,6 +5682,7 @@ hr.thin-line {
 
     font-size: em(24px);
     font-family: $headerFontStack;
+    font-display: swap;
     font-weight: $headerFontWeight;
     font-style: $headerFontStyle;
     color: lighten($colorSubtitle, 10%);
@@ -5914,7 +5924,7 @@ hr.thin-line {
       margin: 0 10px;
 
       a {
-        @media (max-width: 768px) {          
+        @media (max-width: 768px) {
           width: 48px;
           height: 48px;
           display: flex;
@@ -6094,6 +6104,7 @@ hr.thin-line {
     h3 {
       font-size: em(16px);
       font-family: $bodyFontStack;
+      font-display: swap;
       font-weight: $bodyFontWeightSemiBold;
       font-style: $bodyFontStyle;
       margin: 0;
@@ -6134,6 +6145,7 @@ hr.thin-line {
   .cart-item__line-price {
     font-size: em(24px);
     font-family: $headerFontStack;
+    font-display: swap;
     font-weight: $headerFontWeightBold;
     font-style: $headerFontStyle;
     color: $colorSubtitle;
@@ -6831,6 +6843,7 @@ button::-moz-focus-inner {
   .mfp-arrow .mfp-b,
   .mfp-arrow .mfp-a {
       font-family: 'FontAwesome';
+      font-display: swap;
       font-size: 48px;
       color: #ccc;
     }
