@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
 
 
   <!-- Google Tag Manager -->
-<script data-src="{{ 'gtm.js'  | asset_url }}" defer></script>
-<!-- End Google Tag Manager -->
+  <script data-src="{{ 'gtm.js'  | asset_url }}" defer></script>
+  <!-- End Google Tag Manager -->
 
   <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
   <meta charset="utf-8">
@@ -31,8 +31,10 @@
   <meta name="theme-color" content="{{ settings.color_primary }}">
 
   {% comment %}{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}{% endcomment %}
-  <!-- {{ 'font-awesome.css' | asset_url | stylesheet_tag }} -->
+  {% comment %}
+  {{ 'font-awesome.css' | asset_url | stylesheet_tag }}
   {{ 'font-awesome.min.css' | asset_url | stylesheet_tag }}
+  {% endcomment %}
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   <!-- {{ 'footer.scss.css' | asset_url | stylesheet_tag }} -->
   {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
