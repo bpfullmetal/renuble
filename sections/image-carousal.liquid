@@ -17,7 +17,9 @@
                       class="no-js lazyload"
                       width="180"
                       height="180"
-                      src="{{ img_url }}"
+                      data-src="{{ img_url }}"
+                      data-widths="[320, 360, 375, 414]"
+                      alt="{{ block.settings.image.alt }}"
                     >
                   {% else %}
                     {{ 'logo' | placeholder_svg_tag: 'clients-list placeholder-svg' }}
