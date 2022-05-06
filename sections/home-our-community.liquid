@@ -11,7 +11,7 @@
                             {% endif %}
                             {% if block.settings.image != blank %}
                               {% assign img_url = block.settings.image | img_url: 'master' %}
-                              <img class="no-js lazyload" src="{{ img_url }}">
+                              <img class="no-js lazyload" src="{{ img_url }}" alt="{{ block.settings.image.alt }}">
                             {% endif %}
                             {% if block.settings.link != blank %}
                               </a>
