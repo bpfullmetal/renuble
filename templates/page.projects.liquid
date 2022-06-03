@@ -1,0 +1,34 @@
+{% include 'page_header' with page.title %}
+
+<div id="ajax-blogs-wrapper" class="template-blog">
+
+</div>
+
+<script>
+  function fetchArticles (url, first) {
+    fetch(url).then(function (response) {
+      // The API call was successful!
+      return response.text();
+    })
+    .then(function (html) {
+
+      // Convert the HTML string into a document object
+      $('#ajax-blogs-wrapper').append(html)
+      if ( first ) postRender()
+
+    }).catch(function (err) {
+      // There was an error
+      console.warn('Something went wrong.', err);
+    });
+  }
+
+  fetchArticles('/blogs/re-nuble/tagged/glens-falls?view=ajax', true);
+
+  function postRender() {
+    $('#infinite-link a').on('click', function(e) {
+      e.preventDefault();
+      console.log(e.target.href)
+      fetchArticles(e.target.href, false)
+    })
+  }
+</script>

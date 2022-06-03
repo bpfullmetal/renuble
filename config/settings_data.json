@@ -167,7 +167,8 @@
           "slideshow-1",
           "slideshow-2"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "faq": {
         "type": "faq",
@@ -347,7 +348,8 @@
           "d21c0c2c-ec13-43bf-952d-cfe4f40b1291",
           "1595620897809"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "hubspot-form-page": {
         "type": "hubspot-form-page",
@@ -362,8 +364,8 @@
           "background_color": "rgba(0,0,0,0)",
           "home-featured-align": "left-img",
           "image": "shopify:\/\/shop_images\/Booster_Shot_label.png",
-          "home-featured-title": "Booster Shot© Biostimulant",
-          "home-featured-content": "<p>Our water-soluble, liquid biostimulants sourced exclusively from sterilized vegetative waste, and plant extracts. <strong>Booster Shot© promotes vigorous root growth as a germination accelerant and immunity enhancer.<\/strong><\/p>",
+          "home-featured-title": "Booster Shot® Biostimulant",
+          "home-featured-content": "<p>Our water-soluble, liquid biostimulants sourced exclusively from sterilized vegetative waste, and plant extracts. <strong>Booster Shot<\/strong>®<strong> promotes vigorous root growth as a germination accelerant and immunity enhancer.<\/strong><\/p>",
           "home-featured-btn-label": "Learn More",
           "home-featured-btn-url": "shopify:\/\/products\/booster-shot",
           "home-featured-fullscreen": false
@@ -442,8 +444,8 @@
           "background_color": "rgba(0,0,0,0)",
           "home-featured-align": "right-img",
           "image": "shopify:\/\/shop_images\/Away_we_grow_label.png",
-          "home-featured-title": "Away We Grow© 4-1-1 Concentrate",
-          "home-featured-content": "<p>Our water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste.<\/p><p><strong>By using Away We Grow©, a one acre farm eliminates 1.62 metric tons of CO2e from the atmosphere annually and removes 18.75 pounds of CO2e for every gallon of that would otherwise have been released from food waste sent to landfills.<\/strong><\/p>",
+          "home-featured-title": "Away We Grow® 4-1-1 Concentrate",
+          "home-featured-content": "<p>Our water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste.<\/p><p><strong>By using Away We Grow<\/strong>®<strong>, a one acre farm eliminates 1.62 metric tons of CO2e from the atmosphere annually and removes 18.75 pounds of CO2e for every gallon of that would otherwise have been released from food waste sent to landfills.<\/strong><\/p>",
           "home-featured-btn-label": "Learn More",
           "home-featured-btn-url": "shopify:\/\/products\/away-we-grow",
           "home-featured-fullscreen": false
@@ -581,9 +583,9 @@
           "text_color": "#000000",
           "background_color": "rgba(0,0,0,0)",
           "home-featured-align": "right-img",
-          "image": "shopify:\/\/shop_images\/ReNu_Terra_bebbe354-1da6-4edc-86c0-877cea36dc57.png",
+          "image": "shopify:\/\/shop_images\/ReNu_Terra_Single_Plug_Transparent_Bckgrnd.png",
           "home-featured-title": "ReNu Terra™",
-          "home-featured-content": "<p><strong>ReNu Terra<\/strong>™<strong>,  a compostable grow media (within 60 days or less), designed to remove grow media from landfills without compromising sterility, uniformity, water retention and drainage. Additional value is delivered by its micronutrients and carbon within.<\/strong><\/p>",
+          "home-featured-content": "<p><strong>ReNu Terra<\/strong>™<strong>,  a fully compostable and inert grow media (within 60 days or less), designed to remove grow media from landfills without compromising sterility, uniformity, water retention and drainage. Additional value is delivered by its  chitin and carbon within.<\/strong><\/p>",
           "home-featured-btn-label": "Learn More",
           "home-featured-btn-url": "shopify:\/\/products\/renu-terra",
           "home-featured-fullscreen": false
@@ -670,7 +672,8 @@
         "block_order": [
           "bbd31aa8-3223-4086-bf16-b60b37b1f35d"
         ],
-        "settings": {}
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -714,30 +717,36 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {}
+          "settings": {
+          }
         },
         "video": {
           "type": "video",
-          "settings": {}
+          "settings": {
+          }
         },
         "feature-rows": {
           "type": "feature-rows",
-          "settings": {}
+          "settings": {
+          }
         },
         "feature-columns": {
           "type": "feature-columns",
           "blocks": {
             "feature-columns-0": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "feature-columns-1": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "feature-columns-2": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -745,26 +754,31 @@
             "feature-columns-1",
             "feature-columns-2"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "kickstarter": {
           "type": "kickstarter",
-          "settings": {}
+          "settings": {
+          }
         },
         "slideshow": {
           "type": "slideshow",
           "blocks": {
             "slideshow-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "slideshow-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "slideshow-2": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -772,22 +786,26 @@
             "slideshow-1",
             "slideshow-2"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "faq": {
           "type": "faq",
           "blocks": {
             "faq-0": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "faq-1": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "faq-2": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -795,11 +813,13 @@
             "faq-1",
             "faq-2"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "home-product": {
           "type": "home-product",
-          "settings": {}
+          "settings": {
+          }
         },
         "featured-blog": {
           "type": "featured-blog",
@@ -812,17 +832,20 @@
           "blocks": {
             "featured-content-0": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
             "featured-content-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "footer": {
           "type": "footer",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "content_for_index": [

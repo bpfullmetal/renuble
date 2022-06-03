@@ -56,7 +56,8 @@
       {% endif %}
 
       {% if template.name == 'index' %}
-        <h1 class="site-header__logo {% if section.settings.logo or inverted_logo_in_use %} display-table use-image" style="max-width:{{ logo_image_width }}px;"{% endif %} itemscope itemtype="http://schema.org/Organization">
+        <h1 class="hidden">{{ shop.name }}</h1>
+        <div class="site-header__logo {% if section.settings.logo or inverted_logo_in_use %} display-table use-image" style="max-width:{{ logo_image_width }}px;"{% endif %} itemscope itemtype="http://schema.org/Organization">
       {% else %}
         <div class="h1 site-header__logo {% if section.settings.logo or inverted_logo_in_use %} display-table use-image" style="max-width:{{ logo_image_width }}px;"{% endif %} itemscope itemtype="http://schema.org/Organization">
       {% endif %}
@@ -95,7 +96,7 @@
       {% endif %}
 
       {% if template.name == 'index' %}
-        </h1>
+        </div>
       {% else %}
         </div>
       {% endif %}

@@ -23,8 +23,15 @@
 			{% elsif template.name == 'password' %}
 				<span>{{ shop.password_message }}</span>
 			{% endif %}
+			<div class="hr-wrapper">
+				<hr />
+			</div>
 
-   			<hr />
+			{% if template contains 'projects' %}
+				<div id="header-description">
+					{{ page.content }}
+				</div>
+			{% endif %}
 
 		</div>
 	</div>
