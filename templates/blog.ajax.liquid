@@ -4,7 +4,7 @@
     <div class="subscribe-link"><span class="label">{{ 'general.sharing.rss_subscribe' | t }}</span><a href="{{ blog.url }}.atom" target="_blank">{% include 'asset_svg' with 'rss' %}</a></div>
   {% endif %}
 
-  {% paginate blog.articles by 3 %}
+  {% paginate blog.articles by 5 %}
 
     <div class="blog-list">
       {% for article in blog.articles %}
