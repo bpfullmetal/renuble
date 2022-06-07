@@ -645,6 +645,7 @@
       },
       "16209204943da73ceb": {
         "type": "newsletter",
+        "disabled": true,
         "settings": {
           "heading": "Stay up to date",
           "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
