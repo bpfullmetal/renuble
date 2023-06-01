@@ -6,7 +6,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: false,
     });
-    $('.why_reunble_slider').each( function (slider) {
+    $('.why_renuble_slider').each( function (slider) {
       const centered = $('.slider-item', this).length < 5
       $(this).slick({
         dots: false,
