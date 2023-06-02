@@ -251,7 +251,7 @@
     {% if product.metafields.product_reviews.size > 0 %}
       <div class="reviews-section">
         <div class="reviews-wrapper">
-          <div class="reviews-slider">
+          <div class="reviews-slider" id="reviews-slider">
             {% for product_review in product.metafields.product_reviews.review_title %}
               <div class="slider-item">
                 {% assign review_icon = product.metafields.product_reviews.review_icon[forloop.index0] %}
@@ -429,22 +429,24 @@
      $('.reviews-slider').slick({
       loop: true,
       dots: false,
-      {% comment %} centerPadding: '20px', {% endcomment %}
+      centerPadding: '20px',
       slidesToShow: slide_cnt,
-      slidesToScroll: 1,
+      slidesToScroll: slide_cnt,
       autoplay: false,
       responsive: [
         {
-          breakpoint: 1280,
+          breakpoint: 1200,
           settings: {
             slidesToShow: 2,
-          },
+            slidesToScroll: 2,
+          }
         },
         {
           breakpoint: 640,
           settings: {
             slidesToShow: 1,
-          },
+            slidesToScroll: 1,
+          }
         },
       ],
     });
