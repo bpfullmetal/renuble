@@ -722,7 +722,19 @@ svg:not(:root) {
 .why_renuble_slider .slider-item {
   width: 20%;
 }
-
+.client-logo-slider {
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  align-items: flex-start !important;
+  align-content: center !important;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  width: 100%;
+}
+.client-logo-slider .slider-item {
+  width: 20%;
+}
 .quotes-wrapper .quote-icon {
   display: none;
 }
@@ -1438,8 +1450,29 @@ svg:not(:root) {
   }
 }
 
+/***------- Client Logo List ------- AJ ***/
+#client-image-list {
+  // background-color: #fff;
+}
+.client-image-list {
+  align-items: center;
+}
+/***------- Client Logo List ------- AJ ***/
+
 /*** Product Reviews Written By Xiaofeng ***/
 #shopify-section-product-template .reviews-section {
+  // #reviews-section {
+  display: flex;
+  flex-direction: row !important;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 50px;
+}
+// #shopify-section-product-template .reviews-section {
+.reviews-slider {
+  display: flex;
+  flex-direction: row !important;
+  width: 100%;
   margin-top: 30px;
   padding: 0px 50px;
 }
@@ -1448,6 +1481,8 @@ svg:not(:root) {
   display: flex !important;
   flex-direction: column;
   align-items: center;
+  padding: 15px !important;
+  margin: 15px !important;
 }
 
 #shopify-section-product-template .reviews-section .slider-item img {
