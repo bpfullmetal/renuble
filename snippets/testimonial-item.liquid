@@ -1,0 +1,18 @@
+<div class="slider-item">
+  <div class="testimonal-credit">
+    {% if author != blank %}
+      <h3>
+        <strong>{{ author | escape }}</strong>
+      </h3>
+    {% endif %}
+    {% if farm_name != blank %}
+      <cite class="stars">( {{ farm_name | escape }} )</cite>
+    {% endif %}
+  </div>
+  <blockquote class="testimonial-quote">
+    <span class="quote-icon">{% include 'icon-quote' %}</span>
+    {% if quote != blank %}
+      <p class="slider-item-text">{{ quote }}</p>
+    {% endif %}
+  </blockquote>
+</div>

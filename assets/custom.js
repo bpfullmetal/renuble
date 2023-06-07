@@ -44,6 +44,31 @@ $(document).ready(function () {
       });
     })
 
+    $('.quotes-slider').each( function (slider) {
+      $(this).slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        centerPadding: '20px',
+        slidesToShow: 3,
+        centerMode: false,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1280,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 640,
+            settings: {
+              slidesToShow: 1,
+            }
+          }
+        ]
+      });
+    })
     $('.community-item-lists').each( function (slider) {
       $(this).slick({
         dots: false,

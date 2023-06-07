@@ -499,12 +499,17 @@
 
 .quotes-slider {
   display: flex;
+  align-items: center;
   max-width: 100%;
 }
 
 .quotes-slide {
   width: 100%;
   flex-shrink: 0;
+
+  // new
+  padding: 25px 15px;
+  // white-space: normal;
 }
 @media only screen and (min-width: 750px) {
   .quotes-slide {
@@ -1394,19 +1399,23 @@ svg:not(:root) {
 }
 
 #shopify-section-product-template .reviews-section .slick-next::before,
-#home-our-community .slick-next:before {
+#home-our-community .slick-next::before,
+.quotes-section .slick-next::before {
   content: "\f105" !important;
 }
 
 #shopify-section-product-template .reviews-section .slick-prev::before,
-#home-our-community .slick-prev:before {
+#home-our-community .slick-prev::before,
+.quotes-section .slick-prev::before {
   content: "\f104" !important;
 }
 
 #shopify-section-product-template .reviews-section .slick-next::before,
 #shopify-section-product-template .reviews-section .slick-prev::before,
-#home-our-community .slick-next:before,
-#home-our-community .slick-prev:before {
+#home-our-community .slick-next::before,
+#home-our-community .slick-prev::before,
+.quotes-section .slick-next::before,
+.quotes-section .slick-prev::before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1419,7 +1428,9 @@ svg:not(:root) {
 }
 
 #shopify-section-product-template .reviews-section .slick-next::before,
-#shopify-section-product-template .reviews-section .slick-prev::before {
+#shopify-section-product-template .reviews-section .slick-prev::before,
+.quotes-section .slick-next::before,
+.quotes-section .slick-prev::before {
   color: #000 !important;
 }
 
@@ -1451,28 +1462,75 @@ svg:not(:root) {
 }
 
 /***------- Client Logo List ------- AJ ***/
-#client-image-list {
-  // background-color: #fff;
-}
+
 .client-image-list {
   align-items: center;
 }
 /***------- Client Logo List ------- AJ ***/
 
-/*** Product Reviews Written By Xiaofeng ***/
-#shopify-section-product-template .reviews-section {
-  // #reviews-section {
-  display: flex;
-  // flex-direction: row !important;
+/***------- Testimonial ------- AJ ***/
+
+.quotes-slide .slider-item {
+  font-family: Avenir;
+  font-style: normal;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  white-space: normal;
   width: 100%;
-  margin-top: 30px;
-  padding: 0px 50px;
+  min-width: 200;
+  margin: 0 10px;
+  text-align: center;
+  background-color: "#fff" !important;
+  // border: 1px solid red;
+  h3 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    max-width: 405px;
+  }
 }
-// #shopify-section-product-template .reviews-section {
+.testimonial-text {
+  // padding: 10px;
+}
+.testimonial-quote {
+  margin-top: 20px;
+}
+.testimonial-credit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.reviews-slider {
+  width: 100%;
+}
 .reviews-slider {
   display: flex;
-  // flex-direction: row !important;
-  width: 100%;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+/***------- Testimonial ------- AJ ***/
+
+/*** Product Reviews Written By Xiaofeng ***/
+#shopify-section-product-template .reviews-section {
   margin-top: 30px;
   padding: 0px 50px;
 }
@@ -1481,8 +1539,6 @@ svg:not(:root) {
   display: flex !important;
   flex-direction: column;
   align-items: center;
-  // padding: 15px !important;
-  margin: 15px !important;
 }
 
 #shopify-section-product-template .reviews-section .slider-item img {
@@ -1503,8 +1559,10 @@ svg:not(:root) {
   margin: 0px;
 }
 
-#shopify-section-product-template .reviews-section .slider-item .stars {
+#shopify-section-product-template .reviews-section .slider-item .stars,
+.slider-item .stars {
   margin: 15px 0px;
+  color: rgb(1, 149, 119);
 }
 
 #shopify-section-product-template .reviews-section .slider-item p {

@@ -1,5 +1,9 @@
-<div class="page-width" data-section-id="{{ section.id }}" data-section-type="quotes">
-  <div class="wrapper">
+<div
+  class="page-width quotes-section wrapper"
+  id="quotes-section"
+  data-section-id="{{ section.id }}"
+  data-section-type="quotes"
+>
   {% if section.settings.title != blank %}
     <div class="section-header text-center">
       <h2>{{ section.settings.title | escape }}</h2>
@@ -8,17 +12,29 @@
 
   {% if section.blocks.size > 0 %}
     <div class="quotes-wrapper" data-slider>
-      <div class="quotes-slider-wrapper" data-slider-container>
-        <div class="quotes-slider" id="Quotes-{{ section.id }}" data-count="{{ section.blocks.size }}" data-slider-track>
-          {% for block in section.blocks %}
-            <div id="slickSlide{{ block.id }}"
-              class="quotes-slide quotes-slide--{{ block.id }}{% if section.blocks.size == 1 %} quotes-slide--single{% endif %}"
-              aria-labelledby="slickDot{{ block.id }}"
-              {{ block.shopify_attributes }}
-              data-slider-slide-index="{{ forloop.index0 }}"
-              data-slider-item>
-
-              <blockquote class="quotes-slider__text text-center">
+      <div
+        class="quotes-slider"
+        id="Quotes-{{ section.id }}"
+        data-count="{{ section.blocks.size }}"
+        data-slider-track
+      >
+        {% for block in section.blocks %}
+          <div
+            id="slickSlide{{ block.id }}"
+            class="quotes-slide quotes-slide--{{ block.id }}{% if section.blocks.size == 1 %} quotes-slide--single{% endif %}"
+            aria-labelledby="slickDot{{ block.id }}"
+            {{ block.shopify_attributes }}
+            data-slider-slide-index="{{ forloop.index0 }}"
+            data-slider-item
+          >
+            {% render 'testimonial-item',
+              id: block.id,
+              quote: block.settings.quote,
+              author: block.settings.author,
+              farm_name: block.settings.farm_name
+            %}
+            {% comment %}
+               <blockquote class="quotes-slider__text text-center">
                 <span class="quote-icon">{% include 'icon-quote' %}</span>
                 {% if block.settings.quote != blank %}
                   <div class="rte-setting rte">{{ block.settings.quote }}</div>
@@ -30,19 +46,29 @@
                   <cite>{{ block.settings.farm_name | escape }}</cite>
                 {% endif %}
               </blockquote>
-            </div>
-          {% endfor %}
-        </div>
+            {% endcomment %}
+          </div>
+        {% endfor %}
       </div>
 
       {% if section.blocks.size > 1 %}
-        <ul class="slick-dots{% if section.blocks.size < 4 %} slick-dots--mobile-only{% endif %}" data-slider-indicators>
+        <ul
+          class="slick-dots{% if section.blocks.size < 4 %} slick-dots--mobile-only{% endif %}"
+          data-slider-indicators
+        >
           {%- for block in section.blocks -%}
-            <li{% if forloop.first %} class="slick-active"{% endif %} data-slider-indicator>
-              <button id="slickDot{{ block.id }}"
+            <li
+              {% if forloop.first %}
+                class="slick-active"
+              {% endif %}
+              data-slider-indicator
+            >
+              <button
+                id="slickDot{{ block.id }}"
                 aria-label="{{ 'sections.slideshow.load_slide' | t: slide_number: forloop.index }}"
                 data-slide-number="{{ forloop.index0 }}"
-                aria-controls="slickSlide{{ block.id }}"></button>
+                aria-controls="slickSlide{{ block.id }}"
+              ></button>
             </li>
           {%- endfor -%}
         </ul>
@@ -53,10 +79,7 @@
   {% if section.blocks.size == 0 %}
     {% include 'no-blocks' %}
   {% endif %}
-  </div>
 </div>
-
-
 
 {% schema %}
 {
