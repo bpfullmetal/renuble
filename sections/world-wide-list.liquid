@@ -1,0 +1,77 @@
+<div id="world-wide-list" class="index-section home-section text-center">
+  <div class="world-wide-list">
+    {% if section.settings.background_image %}
+      <span
+        class="prlx-bg prlx-bg--{{ section.id }} no-js lazyload"
+        data-bgset="{% include 'bgset', image: section.settings.background_image %}"
+        data-sizes="auto"
+        data-parent-fit="cover"></span>
+      <noscript>
+        <span class="prlx-bg prlx-bg--{{ section.id }}" style="background-image: url('{{ section.settings.background_image | img_url: '2048x2048' }}')"></span>
+      </noscript>
+    {% endif %}
+
+    <div class="wrapper">
+      <div class="world-wide-list-wrapper">
+        <h2>{{ section.settings.title }}</h2>
+
+        <div class="items-list">
+          {% for block in section.blocks %}
+            <div class="item-block">
+              <p class="item-block__value">{{ block.settings.value }}</p>
+              <p class="item-block__label">{{ block.settings.label }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style></style>
+
+
+{% schema %}
+  {
+    "name": "World Wide list",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }, {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image_list",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Label"
+          }, {
+            "type": "text",
+            "id": "value",
+            "label": "Value"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "World Wide list",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image_list"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
