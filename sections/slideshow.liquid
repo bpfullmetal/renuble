@@ -12,8 +12,8 @@
 						{% unless block.settings.link == blank %}
 							<a href="{{ block.settings.link }}" class="slide-link slide-link--{{ block.id }}">
 						{% endunless %}
-            {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
-                <div class="lazyload__image-wrapper supports-no-js" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
+                        {% assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+                                <div class="lazyload__image-wrapper supports-no-js" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
 									<img class="no-js lazyload {% unless forloop.first == true %} lazypreload{% endunless %}"
 									{% if forloop.first == true %}
 									src="{{ block.settings.image | img_url: '300x' }}"

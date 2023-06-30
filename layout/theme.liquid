@@ -1,166 +1,189 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<head>
+  <head>
+    <!-- Google Tag Manager -->
+    <script data-src="{{ 'gtm.js'  | asset_url }}" defer></script>
+    <!-- End Google Tag Manager -->
 
+    <script>
+      (function (H) {
+        H.className = H.className.replace(/\bno-js\b/, 'js');
+      })(document.documentElement);
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <!-- Google Tag Manager -->
-  <script data-src="{{ 'gtm.js'  | asset_url }}" defer></script>
-  <!-- End Google Tag Manager -->
+    {% if settings.favicon != blank %}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+    {% endif %}
 
-  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+      {% if template.name == 'password' -%}
+        {{- shop.name -}}
+      {%- else -%}
+        {{- page_title -}}
+        {%- if current_tags -%}
+          {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+        {%- endif -%}
+        {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif -%}
+        {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {%- endif %}
+    </title>
 
-  {% if settings.favicon != blank %}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
-  {% endif %}
+    {% comment %}
+      <link link-href="https://maxcdn.bootstrapcdn.com/font-awesome/6.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    {% endcomment %}
+    <link link-href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  <title>
-    {% if template.name == 'password' %}{{ shop.name }}{% else %}{{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}{% endif %}
-  </title>
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
 
-  <!-- <link link-href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    {% include 'social-meta-tags' %}
+    <link rel="canonical" href="{{ canonical_url }}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.color_primary }}">
+    <meta name="ahrefs-site-verification" content="dca031558150c4748a616e0c16ff202dc0085e66dace08127fe32fd1aef82bf2">
 
-  {% if page_description %}
-    <meta name="description" content="{{ page_description | escape }}">
-  {% endif %}
+    {% comment %}V------ Needed for Font awsesome Icon ------V {% endcomment %}
 
-  {% include 'social-meta-tags' %}
-  <link rel="canonical" href="{{ canonical_url }}">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="{{ settings.color_primary }}">
-  <meta name="ahrefs-site-verification" content="dca031558150c4748a616e0c16ff202dc0085e66dace08127fe32fd1aef82bf2">
-  {% comment %}{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}{% endcomment %}
-  {% comment %}
-  {{ 'font-awesome.css' | asset_url | stylesheet_tag }}
-  {{ 'font-awesome.min.css' | asset_url | stylesheet_tag }}
-  {% endcomment %}
-  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
-  <!-- {{ 'footer.scss.css' | asset_url | stylesheet_tag }} -->
-  {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
-  <!-- {{ 'slick.css' | asset_url | stylesheet_tag }} -->
-  {{ 'slick.min.css' | asset_url | stylesheet_tag }}
+    {{ 'font-awesome.css' | asset_url | stylesheet_tag }}
+    {% comment %} {{ 'font-awesome.min.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
-  <script>
-    var theme = {
-      strings:{
-        sold_out: {{ 'products.product.sold_out' | t | json }},
-        add_to_cart: {{ 'products.product.add_to_cart' | t | json }},
-        unavailable: {{ 'products.product.unavailable' | t | json }},
-        increase_quantity: {{ 'cart.general.increase_quantity' | t | json }},
-        reduce_quantity: {{ 'cart.general.reduce_quantity' | t | json }},
-        addressError: {{ 'map.address_error' | t | json }},
-        addressNoResults: {{ 'map.address_no_results' | t | json }},
-        addressQueryLimit: {{ 'map.address_query_limit_html' | t | json }},
-        authError: {{ 'map.auth_error_html' | t | json }}
-      },
-      settings: {
-        ajax_cart_enable: {% if settings.ajax_cart_enable %}{{ settings.ajax_cart_enable | json }}{% else %}null{% endif %},
-        moneyFormat: {{ shop.money_format | json }}
+    {% comment %}^ ------Needed for Font awsesome Icon------ ^{% endcomment %}
+
+    {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+    <!-- {{ 'footer.scss.css' | asset_url | stylesheet_tag }} -->
+    {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
+    <!-- {{ 'slick.css' | asset_url | stylesheet_tag }} -->
+    {{ 'slick.min.css' | asset_url | stylesheet_tag }}
+
+    <script>
+      var theme = {
+        strings:{
+          sold_out: {{ 'products.product.sold_out' | t | json }},
+          add_to_cart: {{ 'products.product.add_to_cart' | t | json }},
+          unavailable: {{ 'products.product.unavailable' | t | json }},
+          increase_quantity: {{ 'cart.general.increase_quantity' | t | json }},
+          reduce_quantity: {{ 'cart.general.reduce_quantity' | t | json }},
+          addressError: {{ 'map.address_error' | t | json }},
+          addressNoResults: {{ 'map.address_no_results' | t | json }},
+          addressQueryLimit: {{ 'map.address_query_limit_html' | t | json }},
+          authError: {{ 'map.auth_error_html' | t | json }}
+        },
+        settings: {
+          ajax_cart_enable: {% if settings.ajax_cart_enable %}{{ settings.ajax_cart_enable | json }}{% else %}null{% endif %},
+          moneyFormat: {{ shop.money_format | json }}
+        }
+      };
+    </script>
+
+    <script src="{{ 'jquery.min.js' | asset_url }}"></script>
+    <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+
+    <!--
+      Header hook for plugins ===================================================================================================================================================
+    -->
+    {% comment %}
+      {{ content_for_header }}
+    {% endcomment %}
+    {% include 'content_for_header' %}
+
+    {{ template.directory }}
+    {% if template contains 'customers' %}
+      {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+    {% endif %}
+    {% if template contains 'product' %}
+      {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
+      <!-- {{ 'shopify_common.js' | shopify_asset_url | script_tag }} -->
+    {% endif %}
+    <!-- XO-InsertCode -->
+    {% include 'xo-insertcode-header' %}
+    <!-- End: XO-InsertCode Header -->
+
+    <!-- Hotjar Tracking Code for www.re-nuble.com -->
+
+    <script data-src="{{ 'hotjar.js'  | asset_url }}" defer></script>
+  </head>
+
+  <body
+    id="{{ page_title | handle }}"
+    class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NFSF5NB"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- XO-InsertCode -->
+    {% include 'xo-insertcode-body' %}
+    <!-- End: XO-InsertCode Body -->
+
+    <div
+      id="PageContainer"
+      {% if color %}
+        class="{{ color }}"
+      {% endif %}
+    >
+      {% section 'header' %}
+
+      <main class="main-content{% if template.name == blank %} main-content--no-template{% endif %}" role="main">
+        {{ content_for_layout }}
+      </main>
+      {% section 'footer' %}
+      {% include 'newsletter-popup' %}
+    </div>
+
+    <script type="text/javascript">
+      {% capture jQuery_plus_icon %} {% include "asset_svg" with "plus" %} {% endcapture %}
+      {% capture jQuery_minus_icon %} {% include "asset_svg" with "minus" %} {% endcapture %}
+      {% capture jQuery_close_icon %} {% include "asset_svg" with "close" %} {% endcapture %}
+      {% capture jQuery_arrow_down_icon %} {% include "asset_svg" with "arrow_down" %} {% endcapture %}
+      {% capture jQuery_arrow_left_icon %} {% include "asset_svg" with "arrow_left" %} {% endcapture %}
+      {% capture jQuery_arrow_right_icon %} {% include "asset_svg" with "arrow_right" %} {% endcapture %}
+
+      jQuery.themeAssets = {
+        plus: '{{ jQuery_plus_icon | lstrip | rstrip }}',
+        minus: '{{ jQuery_minus_icon | lstrip | rstrip }}',
+        close: '{{ jQuery_close_icon | lstrip | rstrip }}',
+        arrow_down: '{{ jQuery_arrow_down_icon | lstrip | rstrip }}',
+        arrow_left: '{{ jQuery_arrow_left_icon | lstrip | rstrip }}',
+        arrow_right: '{{ jQuery_arrow_right_icon | lstrip | rstrip }}'
       }
-    };
-  </script>
 
-  <script src="{{ 'jquery.min.js' | asset_url }}"></script>
-  <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+      {% if newHash %}
+        $(function() {
+          timber.updateHash('{{ newHash }}');
+        });
+      {% endif %}
+      {% if resetPassword %}
+        $(function() {
+          timber.resetPasswordSuccess();
+        });
+      {% endif %}
+    </script>
 
-<!-- Header hook for plugins =================================================================================================================================================== -->
-{% comment %}
-  {{ content_for_header }}
-  {% endcomment %}
-  {% include 'content_for_header' %}
+    <!-- XO-InsertCode -->
+    {% include 'xo-insertcode-footer' %}
+    <!-- End: XO-InsertCode Footer -->
+    {% render 'scripts_render_locally' %}
+    <!-- spurit_sct-added -->
+    {% include 'spurit_sct-theme-snippet' %}
+    <!-- /spurit_sct-added -->
+    {% render 'spurit_po2_theme_snippet' %}
+    <!-- End Body -->
 
-
-{{ template.directory }}
-  {% if template contains 'customers' %}
-    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
-  {% endif %}
-  {% if template contains 'product' %}
-    {{ 'jquery.fancybox.min.css' | asset_url | stylesheet_tag }}
-    <!-- {{ 'shopify_common.js' | shopify_asset_url | script_tag }} -->
-  {% endif %}
-<!-- XO-InsertCode -->
-{% include "xo-insertcode-header" %}
-<!-- End: XO-InsertCode Header-->
-
-
-<!-- Hotjar Tracking Code for www.re-nuble.com -->
-
-<script data-src="{{ 'hotjar.js'  | asset_url }}" defer></script>
-
-</head>
-
-<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
-
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFSF5NB"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-  <!-- XO-InsertCode -->
-{% include "xo-insertcode-body" %}
-<!-- End: XO-InsertCode Body-->
-
-
-  <div id="PageContainer"{% if color %} class="{{ color }}"{% endif %}>
-
-    {% section 'header' %}
-
-    <main class="main-content{% if template.name == blank %} main-content--no-template{% endif %}" role="main">
-
-      {{ content_for_layout }}
-
-    </main>
-    {% section 'footer' %}
-    {% include 'newsletter-popup' %}
-  </div>
-
-  <script type="text/javascript">
-    {% capture jQuery_plus_icon %} {% include "asset_svg" with "plus" %} {% endcapture %}
-    {% capture jQuery_minus_icon %} {% include "asset_svg" with "minus" %} {% endcapture %}
-    {% capture jQuery_close_icon %} {% include "asset_svg" with "close" %} {% endcapture %}
-    {% capture jQuery_arrow_down_icon %} {% include "asset_svg" with "arrow_down" %} {% endcapture %}
-    {% capture jQuery_arrow_left_icon %} {% include "asset_svg" with "arrow_left" %} {% endcapture %}
-    {% capture jQuery_arrow_right_icon %} {% include "asset_svg" with "arrow_right" %} {% endcapture %}
-
-    jQuery.themeAssets = {
-      plus: '{{ jQuery_plus_icon | lstrip | rstrip }}',
-      minus: '{{ jQuery_minus_icon | lstrip | rstrip }}',
-      close: '{{ jQuery_close_icon | lstrip | rstrip }}',
-      arrow_down: '{{ jQuery_arrow_down_icon | lstrip | rstrip }}',
-      arrow_left: '{{ jQuery_arrow_left_icon | lstrip | rstrip }}',
-      arrow_right: '{{ jQuery_arrow_right_icon | lstrip | rstrip }}'
-    }
-
-    {% if newHash %}
-      $(function() {
-        timber.updateHash('{{ newHash }}');
-      });
-    {% endif %}
-    {% if resetPassword %}
-      $(function() {
-        timber.resetPasswordSuccess();
-      });
-    {% endif %}
-  </script>
-
-<!-- XO-InsertCode -->
-{% include "xo-insertcode-footer" %}
-<!-- End: XO-InsertCode Footer-->
-{% render 'scripts_render_locally' %}
-<!-- spurit_sct-added -->
-{% include 'spurit_sct-theme-snippet' %}
-<!-- /spurit_sct-added -->
-{% render 'spurit_po2_theme_snippet' %}
-  <!-- End Body  -->
-
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1585803.js"></script>
-<!-- End of HubSpot Embed Code -->
-  
-</body>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1585803.js"></script>
+    <!-- End of HubSpot Embed Code -->
+  </body>
 </html>
