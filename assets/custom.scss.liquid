@@ -1986,11 +1986,13 @@ h1.hidden {
   text-align: center;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1200px) {
+    #world-wide-list .items-list .item-block__label {
+        font-size: 26px;
+    }
+}
 
 @media screen and (max-width: 1025px) {
-  #world-wide-list .world-wide-list-wrapper {
-    margin: 100px 0 50px;
-  }
 
   #world-wide-list .items-list {
     grid-template-columns: repeat(2, 1fr);
@@ -2008,7 +2010,7 @@ h1.hidden {
 
 @media screen and (max-width: 640px) {
   #world-wide-list .world-wide-list-wrapper {
-    margin: 80px 0 40px;
+    margin: 60px 0 40px;
   }
 
   #world-wide-list .items-list {
