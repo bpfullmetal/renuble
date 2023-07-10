@@ -251,7 +251,7 @@
             "type": "text",
             "settings": {
               "title": "Re-Nuble, Inc.",
-              "richtext": "<p>Re-Nuble is an agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for indoor farms.<\/p><p><\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p>"
+              "richtext": "<p>Re-Nuble is an agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for indoor farms.<\/p><p><\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p><p><\/p><p><strong>© Copyright 2022 - 2023, Re-Nuble, Inc.<\/strong><\/p>"
             }
           },
           "aa7cbb73-7c7f-4bae-b3e2-7e67ed902cfd": {
@@ -359,6 +359,7 @@
       },
       "1617825409ce921979": {
         "type": "feature-rows",
+        "disabled": true,
         "settings": {
           "text_color": "#343434",
           "background_color": "rgba(0,0,0,0)",
@@ -583,11 +584,11 @@
           "text_color": "#000000",
           "background_color": "rgba(0,0,0,0)",
           "home-featured-align": "right-img",
-          "image": "shopify:\/\/shop_images\/ReNu_Terra_Single_Plug_Transparent_Bckgrnd.png",
+          "image": "shopify:\/\/shop_images\/ReNu_Terra_Website_Image.png",
           "home-featured-title": "ReNu Terra™",
-          "home-featured-content": "<p><strong>ReNu Terra<\/strong>™<strong>,  a fully compostable and inert grow media (within 60 days or less), designed to remove grow media from landfills without compromising sterility, uniformity, water retention and drainage. Additional value is delivered by its  chitin and carbon within.<\/strong><\/p>",
-          "home-featured-btn-label": "Learn More",
-          "home-featured-btn-url": "shopify:\/\/products\/renu-terra",
+          "home-featured-content": "<p><strong>Our ReNu Terra<\/strong>™ <strong>product line is a fully home and industrial compostable and inert grow media. Offered customizable mats, plugs, blocks and slabes it uses proprietary fibers that are both certified Plastic-Free and 100% USDA Biobased. Plus, it's more affordable than leading alternatives...<\/strong><\/p>",
+          "home-featured-btn-label": "Ask Us How",
+          "home-featured-btn-url": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
           "home-featured-fullscreen": false
         }
       },
@@ -645,6 +646,7 @@
       },
       "16209204943da73ceb": {
         "type": "newsletter",
+        "disabled": true,
         "settings": {
           "heading": "Stay up to date",
           "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
@@ -674,6 +676,49 @@
         ],
         "settings": {
         }
+      },
+      "a9d22ea8-9482-49ce-9d14-4e1563225f5a": {
+        "type": "world-wide-list",
+        "blocks": {
+          "a9d22ea8-9482-49ce-9d14-4e1563225f5a-1688154409b52ce163-0": {
+            "type": "image_list",
+            "settings": {
+              "value": "6",
+              "title": "Continents"
+            }
+          },
+          "cce43b0e-7c99-4fb0-8cdb-01f430364f9d": {
+            "type": "image_list",
+            "settings": {
+              "value": "20",
+              "title": "Partners"
+            }
+          },
+          "865823cb-d7c6-4093-8ec7-86a6cc0978b6": {
+            "type": "image_list",
+            "settings": {
+              "value": "12",
+              "title": "Countries"
+            }
+          },
+          "830c7b03-bd32-44e2-a703-9a43609ac367": {
+            "type": "image_list",
+            "settings": {
+              "value": "1M+",
+              "title": "Units sold"
+            }
+          }
+        },
+        "block_order": [
+          "a9d22ea8-9482-49ce-9d14-4e1563225f5a-1688154409b52ce163-0",
+          "cce43b0e-7c99-4fb0-8cdb-01f430364f9d",
+          "865823cb-d7c6-4093-8ec7-86a6cc0978b6",
+          "830c7b03-bd32-44e2-a703-9a43609ac367"
+        ],
+        "settings": {
+          "title": "RE-NUBLE WORLDWIDE",
+          "background_image": "shopify:\/\/shop_images\/world-wide-bg.png"
+        }
       }
     },
     "content_for_index": [
@@ -687,6 +732,7 @@
       "featured-content",
       "16203081298202a052",
       "1620307679175d3e95",
+      "a9d22ea8-9482-49ce-9d14-4e1563225f5a",
       "1587563869588",
       "kickstarter",
       "faq",

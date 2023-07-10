@@ -198,30 +198,13 @@
       {% if product.metafields.product_reviews.size > 0 %}
       <div class="reviews-section">
         <div class="reviews-wrapper">
-          <div class="reviews-slider">
+          <div class="reviews-slider" data-max-slides="1">
             {% for product_review in product.metafields.product_reviews.review_title %}
-              <div class="slider-item">
                 {% assign review_icon = product.metafields.product_reviews.review_icon[forloop.index0] %}
-                {% assign cnt = product.metafields.product_reviews.review_score[forloop.index0] | plus: 0 %}
-                {% unless review_icon == empty %}
-                  <img src="{{ review_icon }}" alt="{{ product.metafields.product_reviews.review_title[forloop.index0] }}"/>
-                {% endunless %}
-                <h3>{{ product.metafields.product_reviews.review_title[forloop.index0] }}</h3>
-                <div class="stars">
-                  {% for i in (1..5) %}
-                      {%  if i <= cnt %}
-                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28" fill="none">
-                        <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#019577"/>
-                      </svg>
-                      {%  else %}
-                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28" fill="none">
-                        <path d="M15 3.23607L17.4167 10.6738L17.6412 11.3647H18.3677H26.1882L19.8613 15.9615L19.2735 16.3885L19.498 17.0795L21.9147 24.5172L15.5878 19.9205L15 19.4934L14.4122 19.9205L8.08533 24.5172L10.502 17.0795L10.7265 16.3885L10.1387 15.9615L3.81184 11.3647H11.6323H12.3588L12.5833 10.6738L15 3.23607Z" stroke="#019577" stroke-width="2" fill="none"/>
-                      </svg>
-                      {%  endif %}
-                  {% endfor %}
-                </div>
-                <p>{{ product.metafields.product_reviews.review_description[forloop.index0] }}</p>
-              </div>
+                {% assign star_count = product.metafields.product_reviews.review_score[forloop.index0] | plus: 0 %}
+                {% assign review_text = product.metafields.product_reviews.review_description[forloop.index0] %}
+                {% assign review_title = product.metafields.product_reviews.review_title[forloop.index0] %}
+                {% render 'review-item', icon: review_icon, star_count: star_count, text: review_text, title: review_title %}
             {% endfor %}
           </div>
         </div>
