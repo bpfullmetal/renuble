@@ -290,6 +290,27 @@
       {% endif %}
     {% endunless %}
 
+    {% if product.metafields.product_video.size > 0 %}
+      <div class="videos-section">
+        <h2 class="text-center">{{ section.settings.perfect_title }}</h2>
+        <div class="videos-grid">
+          {% for product_video in product.metafields.product_video.video_title %}
+            <div class="videos-grid__item" data-youtube-id="{{ product.metafields.product_video.youtube_id[forloop.index0] }}">
+              {% for image in product.metafields.product_video.thumbnail_image[forloop.index0] %}
+                <div class="thumbnail-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
+              {% endfor %}
+              <div class="video-play-icon">
+                <img src="{{ 'video-play.png' | asset_url }}" alt="video play" />
+              </div>
+              <div class="video-title">
+                {{ product.metafields.product_video.video_title[forloop.index0] }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
     {% if product.metafields.title.title %}
       <div class="analysis_section text-center">
         <h2>{{ section.settings.guarantedd_title }}</h2>
@@ -382,6 +403,18 @@
       <a class="btn btn--regular btn--fill btn--color" href="/pages/contact-us">Contact Us</a>
     </div>
   </div>
+
+  <div id="video-modal" class="video-modal">
+    <div class="close-modal-icon">+</div>
+    <div class="video-modal__container">
+      <iframe
+        width="560"
+        height="315"
+        src=""
+        frameborder="0"
+        allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 
@@ -414,6 +447,16 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: false
+    });
+
+    $('.videos-grid__item').click(function(e) {
+      $('#video-modal').addClass('open');
+      $('#video-modal iframe').attr('src', 'https://www.youtube.com/embed/' + $(this).data('youtube-id'));
+    });
+
+    $('#video-modal .close-modal-icon').click(function(e) {
+      $('#video-modal').removeClass('open');
+      $('#video-modal iframe').attr('src', '');
     });
   });
 </script>
