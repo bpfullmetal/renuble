@@ -157,6 +157,7 @@
 
 .perfect_growing_section h2,
 .videos-section h2,
+.resources-section h2,
 .index-sections h2 {
     font-size: 35px;
     font-family: Raleway, sans-serif;
@@ -169,6 +170,7 @@
 
 .perfect_growing_section h2:after,
 .videos-section h2:after,
+.resources-section h2:after,
 .index-sections h2:after {
     content: '';
     position: absolute;
@@ -396,10 +398,13 @@
 .videos-section .videos-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
 }
 
 .videos-section .videos-grid__item {
+    padding: 1rem;
+}
+
+.videos-section .videos-grid__item .item-inner {
     position: relative;
     cursor: pointer;
 }
@@ -473,6 +478,60 @@
     cursor: pointer;
 }
 
+.resources-section .slider-item {
+    padding: 1rem;
+}
+
+.resources-section .resource-item {
+    position: relative;
+}
+
+.resources-section .resource-item .featured-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+}
+
+.resources-section .resource-item .featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resources-section .resource-item .resource-action-icon {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+}
+
+.resources-section .resource-item .resource-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 90%;
+    background: #8EB753;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem 0.5rem 1rem;
+    border-radius: 0 13px 0 0;
+
+    &.blog-resource-title {
+        background: #019577;
+    }
+}
+
+.resources-section .slick-arrow::before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 40px;
+}
+
+.resources-section .slick-arrow.slick-next::before {
+    content: "\f105";
+}
+
 @media only screen and (min-width: 768px) {
     .product-template .product__image {}
 }
@@ -521,6 +580,7 @@
 
     .perfect_growing_section h2,
     .videos-section h2,
+    .resources-section h2,
     .analysis_section h2,
     .faqs-section h2,
     .calculator-title,
@@ -712,6 +772,7 @@ svg:not(:root) {
 
 .perfect_growing_section h2,
 .videos-section h2,
+.resources-section h2,
 .index-sections h2 {
     font-family: Raleway, sans-serif;
     font-size: 35px;
@@ -982,6 +1043,7 @@ svg:not(:root) {
 
     .perfect_growing_section h2,
     .videos-section h2,
+    .resources-section h2,
     .index-sections h2 {
         font-size: 32px;
     }
@@ -1002,6 +1064,7 @@ svg:not(:root) {
 
     .perfect_growing_section h2,
     .videos-section h2,
+    .resources-section h2,
     .index-sections h2 {
         font-size: 24px !important;
     }

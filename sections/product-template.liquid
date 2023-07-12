@@ -296,14 +296,46 @@
         <div class="videos-grid">
           {% for product_video in product.metafields.product_video.video_title %}
             <div class="videos-grid__item" data-youtube-id="{{ product.metafields.product_video.youtube_id[forloop.index0] }}">
-              {% for image in product.metafields.product_video.thumbnail_image[forloop.index0] %}
-                <div class="thumbnail-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
-              {% endfor %}
-              <div class="video-play-icon">
-                <img src="{{ 'video-play.png' | asset_url }}" alt="video play" />
+              <div class="item-inner">
+                {% for image in product.metafields.product_video.thumbnail_image[forloop.index0] %}
+                  <div class="thumbnail-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
+                {% endfor %}
+                <div class="video-play-icon">
+                  <img src="{{ 'video-play.png' | asset_url }}" alt="video play" />
+                </div>
+                <div class="video-title">
+                  {{ product.metafields.product_video.video_title[forloop.index0] }}
+                </div>
               </div>
-              <div class="video-title">
-                {{ product.metafields.product_video.video_title[forloop.index0] }}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if product.metafields.product_resource.size > 0 %}
+      <div class="resources-section">
+        <h2 class="text-center">{{ section.settings.perfect_title }}</h2>
+        <div class="slick-slider resource-slider">
+          {% for product_resource in product.metafields.product_resource.resource_title %}
+            <div class="slider-item">
+              <div class="resource-item">
+                <a href="{{ product.metafields.product_resource.resource_url[forloop.index0] }}">
+                  {% for image in product.metafields.product_resource.featured_image[forloop.index0] %}
+                    <div class="featured-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
+                  {% endfor %}
+                  {% assign isBlogPage = product.metafields.product_resource.is_blog_page[forloop.index0] %}
+                  <div class="resource-action-icon">
+                    {% if isBlogPage == 'true' %}
+                      <img src="{{ 'circle-arrow-right.png' | asset_url }}" alt="arrow right" />
+                    {% else %}
+                      <img src="{{ 'circle-download.png' | asset_url }}" alt="download" />
+                    {% endif %}
+                  </div>
+                  <div class="resource-title {% if isBlogPage == 'true' %}blog-resource-title{% endif %}">
+                    {{ product.metafields.product_resource.resource_title[forloop.index0] }}
+                  </div>
+                </a>
               </div>
             </div>
           {% endfor %}
