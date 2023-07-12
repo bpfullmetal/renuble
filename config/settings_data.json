@@ -635,12 +635,21 @@
               "title": "Certification download PDF link",
               "link": "#"
             }
+          },
+          "78c2e0f9-2f2c-4273-9b79-21769a794c3a": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "title": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "16205583693772b72f-0",
           "92d6d759-b373-48f0-972a-80b514571745",
-          "f3c3ae63-bb39-4afe-bd30-ca1854b748f9"
+          "f3c3ae63-bb39-4afe-bd30-ca1854b748f9",
+          "78c2e0f9-2f2c-4273-9b79-21769a794c3a"
         ],
         "settings": {
           "title": "Certifications"
@@ -721,6 +730,67 @@
           "title": "RE-NUBLE WORLDWIDE",
           "background_image": "shopify:\/\/shop_images\/world-wide-bg.png"
         }
+      },
+      "68ade9f1-d2eb-4ef9-9c49-03a3de494537": {
+        "type": "image-carousal",
+        "blocks": {
+          "68ade9f1-d2eb-4ef9-9c49-03a3de494537-16891756153374846f-0": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "204dccfb-186a-4745-a2fd-12e4aaa1b2f2": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "b386218c-a675-414d-bd21-227ba9610184": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "5f03ad0b-90f4-4805-8738-7c4a0076bafc": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "eb81051b-c267-4361-ab45-fced5cdaec76": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "68ade9f1-d2eb-4ef9-9c49-03a3de494537-16891756153374846f-0",
+          "204dccfb-186a-4745-a2fd-12e4aaa1b2f2",
+          "b386218c-a675-414d-bd21-227ba9610184",
+          "5f03ad0b-90f4-4805-8738-7c4a0076bafc",
+          "eb81051b-c267-4361-ab45-fced5cdaec76"
+        ],
+        "settings": {
+          "title": "Trusted By Our Clients & Partners",
+          "showcontact": false
+        }
       }
     },
     "content_for_index": [
@@ -740,6 +810,7 @@
       "faq",
       "slideshow",
       "home-product",
+      "68ade9f1-d2eb-4ef9-9c49-03a3de494537",
       "1620490706138ff0c6",
       "16205583693772b72f",
       "16209204943da73ceb"
