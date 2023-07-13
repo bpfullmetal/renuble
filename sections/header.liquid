@@ -66,18 +66,26 @@
         {% capture image_size_for_url %}{{ logo_image_width }}x{% endcapture %}
         {% if inverted_logo_in_use and template.name == 'index'  %}
           <a href="/" itemprop="url" class="site-header__logo-link--inverted display-table-cell">
-          <img src="{{ section.settings.logo-inverted | img_url: image_size_for_url }}"
-            srcset="{{ section.settings.logo-inverted | img_url: image_size_for_url }} 1x, {{ section.settings.logo-inverted | img_url: image_size_for_url, scale: 2 }} 2x"
-            alt="{{ section.settings.logo.alt | default: shop.name }}"
-            itemprop="logo">
+            <img
+              width="250"
+              height="74"
+              src="{{ section.settings.logo-inverted | img_url: image_size_for_url }}"
+              srcset="{{ section.settings.logo-inverted | img_url: image_size_for_url }} 1x, {{ section.settings.logo-inverted | img_url: image_size_for_url, scale: 2 }} 2x"
+              alt="{{ section.settings.logo.alt | default: shop.name }}"
+              itemprop="logo"
+            >
           </a>
         {% endif %}
         {% if section.settings.logo %}
           <a href="/" itemprop="url" class="site-header__logo-link display-table-cell{% if inverted_logo_in_use and template.name == 'index' %} logo--hidden{% endif %}">
-            <img src="{{ section.settings.logo | img_url: image_size_for_url }}"
+            <img
+              width="150"
+              height="45"
+              src="{{ section.settings.logo | img_url: image_size_for_url }}"
               srcset="{{ section.settings.logo | img_url: image_size_for_url }} 1x, {{ section.settings.logo | img_url: image_size_for_url, scale: 2 }} 2x"
               alt="{{ section.settings.logo.alt | default: shop.name }}"
-              itemprop="logo">
+              itemprop="logo"
+            >
           </a>
         {% else %}
           <a href="/" itemprop="url" class="site-header__logo-text site-header__logo-link display-table-cell{% if inverted_logo_in_use and template.name == 'index' %} logo--hidden{% endif %}">{{ shop.name }}</a>
@@ -103,8 +111,7 @@
               <li class="site-nav--has-dropdown" aria-haspopup="true">
                 <button class="site-nav__link" aria-expanded="false">
                   {{ link.title | escape }}
-                  <span class="icon icon-plus" aria-hidden="true">{% include 'asset_svg' with 'plus' %}</span>
-                  <span class="icon icon-minus" aria-hidden="true">{% include 'asset_svg' with 'minus' %}</span>
+                  <span class="icon icon-arrow_down" aria-hidden="true">{% include 'asset_svg' with 'arrow_down' %}</span>
                 </button>
                 <ul class="site-nav__dropdown">
                   <div>

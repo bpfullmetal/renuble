@@ -1,0 +1,116 @@
+<div class="wrapper wrapper--margins wrapper__article">
+  <div>
+    {% if section.blocks %}
+      {% assign available_tags = '' %}
+      {% for block in section.blocks %}
+        {% if block.settings.blog %}
+          {% assign blog = block.settings.blog %}
+          {% for tag in blog.all_tags %}
+            {% assign tags_lower = available_tags | downcase %}
+            {% assign tag_lower = tag | downcase %}
+            {% unless tags_lower contains tag_lower %}
+              {% assign available_tags = available_tags | append: tag | append: ',' %}
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% unless available_tags == '' %}
+        {% assign tags_array = available_tags | split: "," %}
+        <select name="blog-filter" class="blog-tag-filter">
+          <option value="" disabled selected>Choose a Topic</option>
+          {% for tag in tags_array %}
+            <option value="{{ tag }}">{{ tag | capitalize }}</option>
+          {% endfor %}
+        </select>
+        <script>
+          // blogs/recipes/tagged/tagname
+          const $selects = document.querySelectorAll('.blog-tag-filter')  //where "xxx" is the id of your select (you'll need to add an id)
+          $selects.forEach( $select => {
+            $select.onchange = function() {
+              var selectedOption = this.value;
+              var shopURL = '{{ shop.url }}'
+              window.location.href =  shopURL + '/pages/resource-tag/?tag=' + selectedOption;
+            }
+          })
+        </script>
+      {% endunless %}
+      <div class="resource-icons">
+        {% for block in section.blocks %}
+          {% assign resource_url = block.settings.link %}
+          {% if block.settings.blog %}
+            {% assign resource_url = block.settings.blog.url %}
+          {% endif %}
+          {% assign icon_color = block.settings.color | default: '#000' %}
+          {% assign link_text = block.settings.link_text | default: 'View All' %}
+          <div class="resource-icon-wrapper">
+            <a class="resource-icon" href="{{ resource_url }}" style="background-color: {{ icon_color }}">
+            </a>
+            {% if block.settings.title %}
+              <h3>
+                <a href="{{ resource_url }}">
+                  {{ block.settings.title }}
+                </a>
+              </h3>
+            {% endif %}
+            {% if block.settings.subtext %}
+              {{ block.settings.subtext }}
+            {% endif %}
+            <a class="see-all-link" href="{{ resource_url }}">
+              {{ link_text }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Resource Center",
+  "blocks": [
+    {
+      "type": "link_icon",
+      "name": "Link Icon",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "subtext",
+          "label": "Subtext"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color"
+        },
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text ie. View All"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link",
+          "info": "Only use this for items that should link to a specific url (not a blog)"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

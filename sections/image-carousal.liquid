@@ -13,7 +13,12 @@
                 {% endif %}
                   {% if block.settings.image != blank %}
                     {% assign img_url = block.settings.image | img_url: 'master' %}
-                    <img class="no-js lazyload" src="{{ img_url }}">
+                    <img
+                      class="no-js lazyload"
+                      width="180"
+                      height="180"
+                      src="{{ img_url }}"
+                    >
                   {% else %}
                     {{ 'logo' | placeholder_svg_tag: 'clients-list placeholder-svg' }}
                   {% endif %}

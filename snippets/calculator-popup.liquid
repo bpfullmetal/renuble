@@ -5,13 +5,14 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
       {{ 'modal.scss.css' | asset_url | stylesheet_tag }}
 
+
       <div class="row">
-          <div class="col-md-10 mx-auto mt-4">
-              <div class="card shadow border-0 mb-4">
-                  <div class="card-body">
+            <div class="col-md-10 mx-auto mt-4">
+                <div class="card shadow border-0 mb-4">
+                    <div class="card-body">
                       <div class="calc-header">
                         <center>
-                            <h2>Away We Grow (AWG) 4-1-1 Projected Usage Rate Calculator</h2>
+                            <h3>Away We Grow (AWG) 4-1-1 Projected Usage Rate Calculator</h3>
                             <small style="font-size: .775em;">Calculations are based on projections from the premium that organic food commands over conventional prices and may vary according to multiple factors. Organic prices were sourced from USDA retail prices in May 2020. MTCO2e per ton of Food Waste Diverted was sourced from WRAP UK.</small>
                         </center>
                       </div>
@@ -21,7 +22,7 @@
                                 Application Rate Per Month Per
                                 Water Stock Tank Gallon (in mL)</label>
                             <div class="col-sm-4">
-                                <input type="text" readonly class="form-control" value="30" id="C5">
+                                <input type="text" readonly class="form-control" value="40" id="C5">
                             </div>
                         </div>
                         <div class="mb-3 row mt-4">
@@ -34,7 +35,7 @@
                             <label for="C7" class="col-sm-8 col-form-label">Application Rate in
                                 Gallons</label>
                             <div class="col-sm-4">
-                                <input type="text" readonly value="0.00793" class="form-control" id="C7">
+                                <input type="text" readonly value="0.01057" class="form-control" id="C7">
                             </div>
                         </div>
                         <div class="mb-3 row mt-4">
@@ -186,10 +187,11 @@
                             </div>
                         </div>
                       </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -208,15 +210,15 @@
                var C19 = 0.2;
                var C20 = 0.6;
 
-               var C9 = C8*0.00793;
+               var C9 = C8*C7;
                var C32 = C9*0.008505;
 
-               $("#C9").val((C8*0.00793).toFixed(2));
+               $("#C9").val((C8*C7).toFixed(2));
                $("#C16").val(((C12-C13)/C12*100).toFixed(2));
                $("#C17").val((C12-C13).toFixed(2));
                $("#C21").val((C17*(1+C19)).toFixed(2));
                $("#C22").val((C17*(1+C20)).toFixed(2));
-               $("#C32").val((C9*0.008505).toFixed(2));
+               $("#C32").val((C9*0.008505).toFixed(3));
                $("#C33").val((C32*12).toFixed(2));
 
 
@@ -224,6 +226,6 @@
             });
 
         });
-        </script>
+    </script>
 
   </div>

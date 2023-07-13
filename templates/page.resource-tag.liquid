@@ -1,0 +1,67 @@
+{%- assign page_url = content_for_header | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |   replace:'\/','/' |    replace:'%20',' ' |    replace:'\u0026','&'  -%}
+{%- assign filter_tag = '' -%}
+{%- for i in (1..1) -%}
+	{%- unless page_url contains "?" -%}{% break %}{%- endunless -%}
+	{%- assign query_string = page_url | split:'?' | last -%}
+	{%- assign qry_parts= query_string | split:'&' -%}
+	{%- for part in qry_parts -%}
+		{%- assign key_and_value = part | split:'=' -%}
+		{%- if key_and_value.size > 1 -%}
+			{% if key_and_value[0] == 'tag' %}
+				{%- assign filter_tag = key_and_value[1] | url_decode -%}
+			{% endif%}
+		{%- endif -%}
+	{%- endfor -%}
+{%- endfor -%}
+
+<div class="header__custom display-table parallax-bg">
+	<div class="display-table-cell prlx-txt">
+		<div class="wrapper wrapper--margins">
+			<h1 itemprop="name">Resource Center</h1>
+      <p>Results for: {{ filter_tag }}</p>
+ 			<hr />
+		</div>
+	</div>
+</div>
+
+{% assign blog_handles = "case-studies,videos-podcasts" | split: "," %}
+
+{% capture 'blog_sections' %}
+  {% for blog_handle in blog_handles %}
+    {% assign blog = blogs[blog_handle] %}
+    {% capture 'articles' %}
+      {% assign article_count = 0 %}
+      {% for article in blog.articles %}
+        {% comment %}Allow to count to 4 to see if there are any more to show but do not show the 4th{% endcomment %}
+        {% if article_count == 4 %}{% break %}{% endif %}
+        {% if article.tags contains filter_tag %}
+          {% assign article_count = article_count | plus: 1 %}
+          {% unless article_count == 4 %}
+            {% include 'blog_item', article: article %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% unless articles == blank %}
+      <div class="wrapper wrapper--margins">
+        <div class="resource-section-header">
+          <h2>{{ blog.title }}</h2>
+          {% if article_count == 2 %}
+            <a href="{{ blog.url }}/tagged/{{ filter_tag }}">See All {{ blog.title }} in Topic: {{ filter_tag | capitalize }}</a>
+          {% endif %}
+        </div>
+        <div class="blog-list">
+          {{ articles }}
+        </div>
+      </div>
+    {% endunless %}
+  {% endfor %}
+{% endcapture %}
+
+{% if blog_sections != empty %}
+  <div id="resources-rows">
+    {{ blog_sections }}
+  </div>
+{% else %}
+  <p>No results</p>
+{% endif %}
