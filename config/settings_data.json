@@ -715,7 +715,7 @@
           "830c7b03-bd32-44e2-a703-9a43609ac367": {
             "type": "image_list",
             "settings": {
-              "value": "1M+",
+              "value": "1000000",
               "title": "Units sold"
             }
           }

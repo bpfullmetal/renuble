@@ -1,80 +1,122 @@
 <div id="world-wide-list" class="index-section home-section text-center">
-    <div class="world-wide-list">
-        {% if section.settings.background_image %}
-        <span
-            class="prlx-bg prlx-bg--{{ section.id }} no-js lazyload"
-            data-bgset="{% include 'bgset', image: section.settings.background_image %}"
-            data-sizes="auto"
-            data-parent-fit="cover"></span>
-        <noscript>
-            <span class="prlx-bg prlx-bg--{{ section.id }}" style="background-image: url('{{ section.settings.background_image | img_url: '2048x2048' }}')"></span>
-        </noscript>
-        {% endif %}
+  <div class="world-wide-list">
+    {% if section.settings.background_image %}
+      <span
+        class="prlx-bg prlx-bg--{{ section.id }} no-js lazyload"
+        data-bgset="{% include 'bgset', image: section.settings.background_image %}"
+        data-sizes="auto"
+        data-parent-fit="cover"></span>
+      <noscript>
+        <span class="prlx-bg prlx-bg--{{ section.id }}" style="background-image: url('{{ section.settings.background_image | img_url: '2048x2048' }}')"></span>
+      </noscript>
+    {% endif %}
 
-        <div class="wrapper">
-        <div class="world-wide-list-wrapper">
-            <h2>{{ section.settings.title }}</h2>
+    <div class="wrapper">
+      <div class="world-wide-list-wrapper">
+        <h2>{{ section.settings.title }}</h2>
 
-            <div class="items-list">
-            {% for block in section.blocks %}
-                <div class="item-block">
-                    {% if block.settings.value %}
-                        <p class="item-block__value">{{ block.settings.value }}</p>
-                    {% endif %}
-                    {% if block.settings.title %}
-                        <p class="item-block__label">{{ block.settings.title }}</p>
-                    {% endif %}
-                </div>
-            {% endfor %}
+        <div class="items-list">
+          {% for block in section.blocks %}
+            <div class="item-block">
+              {% if block.settings.value %}
+                <p class="item-block__value" data-value="{{ block.settings.value }}">{{ block.settings.value }}</p>
+              {% endif %}
+              {% if block.settings.title %}
+                <p class="item-block__label">{{ block.settings.title }}</p>
+              {% endif %}
             </div>
+          {% endfor %}
         </div>
-        </div>
+      </div>
     </div>
+  </div>
+
+  <script>
+    function isInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      return(rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth));
+    }
+
+    var itemsListEle = document.querySelector('#world-wide-list .items-list');
+    var valueItemEles = document.querySelectorAll('.item-block__value');
+    var interval = 1000;
+
+    document.addEventListener('scroll', function() {
+      var isDidCounting = itemsListEle.className.includes('counting');
+      if (! isDidCounting && isInViewport(itemsListEle)) {
+        valueItemEles.forEach((valueItem) => {
+          var startValue = 0;
+          var endValue = parseInt(valueItem.getAttribute('data-value'));
+          var isLargeNum = false;
+          if (endValue >= 1000000) {
+            endValue = endValue / 1000;
+            isLargeNum = true;
+          }
+          var duration = Math.floor(interval / endValue);
+          var counter = setInterval(() => {
+            startValue += 1;
+            valueItem.textContent = startValue + (
+              isLargeNum
+                ? 'K'
+                : ''
+            );
+            if (startValue == endValue) {
+              if (isLargeNum) {
+                valueItem.textContent = '1M+';
+              }
+              clearInterval(counter);
+            }
+          }, duration);
+        })
+
+        itemsListEle.classList.add('counting');
+      }
+    }, {passive: true});
+  </script>
 </div>
 
 {% schema %}
-    {
-        "name": "World Wide list",
-        "max_blocks": 20,
+  {
+    "name": "World Wide list",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }, {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image_list",
+        "name": "Item",
         "settings": [
-        {
+          {
+            "type": "text",
+            "id": "value",
+            "label": "Value"
+          }, {
             "type": "text",
             "id": "title",
-            "label": "Title"
-        }, {
-            "type": "image_picker",
-            "id": "background_image",
-            "label": "Background Image"
-        }
-        ],
-        "blocks": [
-        {
-            "type": "image_list",
-            "name": "Item",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "value",
-                    "label": "Value"
-                },
-                {
-                    "type": "text",
-                    "id": "title",
-                    "label": "Label"
-                }
-            ]
-        }
-        ],
-        "presets": [
-        {
-            "name": "World Wide list",
-            "category": "Image",
-            "blocks": [
-            {
-                "type": "image_list"
-            }
-            ]
-        }
+            "label": "Label"
+          }
         ]
-    }
+      }
+    ],
+    "presets": [
+      {
+        "name": "World Wide list",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image_list"
+          }
+        ]
+      }
+    ]
+  }
 {% endschema %}
