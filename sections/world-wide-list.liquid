@@ -37,40 +37,44 @@
       return(rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth));
     }
 
-    var itemsListEle = document.querySelector('#world-wide-list .items-list');
+    var itemBlockEles = document.querySelectorAll('#world-wide-list .items-list .item-block');
     var valueItemEles = document.querySelectorAll('.item-block__value');
     var interval = 1000;
 
     document.addEventListener('scroll', function() {
-      var isDidCounting = itemsListEle.className.includes('counting');
-      if (! isDidCounting && isInViewport(itemsListEle)) {
-        valueItemEles.forEach((valueItem) => {
-          var startValue = 0;
-          var endValue = parseInt(valueItem.getAttribute('data-value'));
-          var isLargeNum = false;
-          if (endValue >= 1000000) {
-            endValue = endValue / 1000;
-            isLargeNum = true;
-          }
-          var duration = Math.floor(interval / endValue);
-          var counter = setInterval(() => {
-            startValue += 1;
-            valueItem.textContent = startValue + (
-              isLargeNum
-                ? 'K'
-                : ''
-            );
-            if (startValue == endValue) {
-              if (isLargeNum) {
-                valueItem.textContent = '1M+';
-              }
-              clearInterval(counter);
-            }
-          }, duration);
-        })
+      itemBlockEles.forEach((itemBlock) => {
+        var isDidCounting = itemBlock.className.includes('counting');
 
-        itemsListEle.classList.add('counting');
-      }
+        if (! isDidCounting && isInViewport(itemBlock)) {
+          var valueItemEle = itemBlock.querySelector('.item-block__value');
+          var startValue = 0;
+          var endValueStr = valueItemEle.getAttribute('data-value');
+          var endValueNum = endValueStr
+            .replace('M+', '')
+            .replace('M', '')
+            .replace('K+', '')
+            .replace('K');
+          var endValue = parseInt(endValueNum);
+          var suffix = '';
+
+          if (endValueStr !== endValueNum) {
+            suffix = endValueStr.replace(endValueNum, '');
+          }
+
+          if (endValue > 1) {
+            var duration = Math.floor(interval / endValue);
+            var counter = setInterval(() => {
+              startValue += 1;
+              valueItemEle.textContent = startValue + suffix;
+              if (startValue == endValue) {
+                clearInterval(counter);
+              }
+            }, duration);
+          }
+
+          itemBlock.classList.add('counting');
+        }
+      });
     }, {passive: true});
   </script>
 </div>
