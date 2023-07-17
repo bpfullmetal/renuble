@@ -316,25 +316,19 @@
     {% if product.metafields.product_resource.size > 0 %}
       <div class="resources-section">
         <h2 class="text-center">{{ section.settings.perfect_title }}</h2>
-        <div class="slick-slider resource-slider">
+        <div class="resources-list">
           {% for product_resource in product.metafields.product_resource.resource_title %}
-            <div class="slider-item">
-              <div class="resource-item">
+            <div class="resource-item">
+              <div class="resource-item__title">
+                <div class="number-box">{{ forloop.index0 | plus: 1 }}</div>
+                <p>
+                  {{ product.metafields.product_resource.resource_title[forloop.index0] }}
+                </p>
+              </div>
+              <div class="resource-item__download">
+                <img src="{{ 'download.png' | asset_url }}" alt="download" />
                 <a href="{{ product.metafields.product_resource.resource_url[forloop.index0] }}">
-                  {% for image in product.metafields.product_resource.featured_image[forloop.index0] %}
-                    <div class="featured-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
-                  {% endfor %}
-                  {% assign isBlogPage = product.metafields.product_resource.is_blog_page[forloop.index0] %}
-                  <div class="resource-action-icon">
-                    {% if isBlogPage == 'true' %}
-                      <img src="{{ 'circle-arrow-right.png' | asset_url }}" alt="arrow right" />
-                    {% else %}
-                      <img src="{{ 'circle-download.png' | asset_url }}" alt="download" />
-                    {% endif %}
-                  </div>
-                  <div class="resource-title {% if isBlogPage == 'true' %}blog-resource-title{% endif %}">
-                    {{ product.metafields.product_resource.resource_title[forloop.index0] }}
-                  </div>
+                  Download Resource
                 </a>
               </div>
             </div>
