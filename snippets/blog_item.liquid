@@ -8,17 +8,19 @@
 
       {% if article.image %}
         <a href="{{ article.url }}">
-          <figure class="article__img lazyload no-js"
+          <figure
+            class="article__img lazyload no-js"
             data-bgset="{% include 'bgset', image: article.image %}"
             data-widths="[220,440,880]"
             data-sizes="auto"
-            data-parent-fit="cover">
-          </figure>
+            data-parent-fit="cover"></figure>
           <noscript>
-          <figure class="article__img" style="background-image:url('{{ article.image | img_url: '440x440', scale: 2 }}')">
-            <img src="{{ article.image | img_url: '440x440' }}"
-              srcset="{{ article.image | img_url: '440x440' }} 1x, {{ article.image | img_url: '440x440', scale: 2 }} 2x"
-              alt="{{ article.image.alt }}">
+            <figure class="article__img" style="background-image:url('{{ article.image | img_url: '440x440', scale: 2 }}')">
+              <img
+                class="no-js lazyload"
+                src="{{ article.image | img_url: '440x440' }}"
+                srcset="{{ article.image | img_url: '440x440' }} 1x, {{ article.image | img_url: '440x440', scale: 2 }} 2x"
+                alt="{{ article.image.alt }}">
             </figure>
           </noscript>
         </a>

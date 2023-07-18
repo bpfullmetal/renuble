@@ -282,7 +282,10 @@
           <div class="slick-slider common-slider">
             {% for multi_images in product.metafields.image.image %}
               {% for image in multi_images %}
-                <div class="slider-item"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
+                <div class="slider-item"><img
+                    class="no-js lazyload"
+                    src="{{ image.src }}"
+                    alt="{{ image.alt }}" /></div>
               {% endfor %}
             {% endfor %}
           </div>
@@ -298,7 +301,12 @@
             <div class="videos-grid__item" data-youtube-id="{{ product.metafields.product_video.youtube_id[forloop.index0] }}">
               <div class="item-inner">
                 {% for image in product.metafields.product_video.thumbnail_image[forloop.index0] %}
-                  <div class="thumbnail-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
+                  <div class="thumbnail-image">
+                    <img
+                      class="no-js lazyload"
+                      src="{{ image.src }}"
+                      alt="{{ image.alt }}" />
+                  </div>
                 {% endfor %}
                 <div class="video-play-icon">
                   <img src="{{ 'video-play.png' | asset_url }}" alt="video play" />

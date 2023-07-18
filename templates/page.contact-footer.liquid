@@ -13,7 +13,10 @@
     {% if hero_image %}
       <div class="page-hero-wrapper {{ hero_type }}">
         {% for image in hero_image %}
-          <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+          <img
+            class="no-js lazyload"
+            src="{{ image.src }}"
+            alt="{{ image.alt }}" />
         {% endfor %}
 
         <div class="overlay-text-wrapper"></div>
@@ -28,14 +31,17 @@
     {{ page.content }}
 
     {% if footer_icons %}
-    {% assign boxes_size = footer_icons.size | minus: 1 %}
+      {% assign boxes_size = footer_icons.size | minus: 1 %}
       <div class="page-footer-wrapper">
         {% for i in (0..boxes_size) %}
           <div class="footer-box">
             <div class="footer-box-header">
               <div class="icon-container">
                 {% for image in footer_icons[i] %}
-                  <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+                  <img
+                    class="no-js lazyload"
+                    src="{{ image.src }}"
+                    alt="{{ image.alt }}" />
                 {% endfor %}
               </div>
               <h4>{{ footer_titles[i] }}</h4>
