@@ -325,19 +325,8 @@
           {% for reference_to in product.metafields.resources.videos.references %}
             {% assign title = shop.metafields.globals.resource_title[reference_to.index] %}
             {% assign youtube = shop.metafields.globals.resource_youtube[reference_to.index] %}
-            <div class="videos-grid__item" data-youtube-id="{{ youtube }}">
-              <div class="item-inner">
-                {% for image in shop.metafields.globals.resource_image[reference_to.index] %}
-                  <div class="thumbnail-image"><img src="{{ image.src }}" alt="{{ image.alt }}" /></div>
-                {% endfor %}
-                <div class="video-play-icon">
-                  <img src="{{ 'video-play.png' | asset_url }}" alt="video play" />
-                </div>
-                <div class="video-title">
-                  {{ title }}
-                </div>
-              </div>
-            </div>
+            {% assign image = shop.metafields.globals.resource_image[reference_to.index] | first %}
+            {% render 'video-resource-item' title: title, youtube: youtube, image: image %}
           {% endfor %}
         </div>
       </div>
