@@ -1,25 +1,87 @@
-<div>
-  {% for product in collection.products %}
-    {% if product.metafields.resources.videos.size > 0 %}
-      <div class="videos-section">
-        <div class="wrapper">
-          <h2 class="text-center">{{ section.settings.perfect_title }}</h2>
-          <div class="videos-grid">
-            {% for reference_to in product.metafields.resources.videos.references %}
-              {% assign title = shop.metafields.globals.resource_title[reference_to.index] %}
-              {% assign youtube = shop.metafields.globals.resource_youtube[reference_to.index] %}
-              {% assign image = shop.metafields.globals.resource_youtube[reference_to.index] | first %}
-              {% render 'video-resource-item' title: title, youtube: youtube, image: image %}
-            {% endfor %}
+{% assign product_names = '' %}
+{% assign product_video_titles = '' %}
+{% assign collection = collections.all %}
+{% for product in collection.products %}
+  {% if product.metafields.resources.videos.size > 0 %}
+    {% assign product_names = product_names | append: product.title | append: ',' %}
+  {% endif %}
+{% endfor %}
+
+{% assign available_product_names = product_names | split: ',' %}
+
+<div class="videos-list-wrapper">
+  <div class="videos-list-filter">
+    <label>Product</label>
+    <select id="videos-product-filter">
+      <option value="" selected>Select a product</option>
+      {% for product_name in available_product_names %}
+        <option value="{{ product_name }}">{{ product_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="videos-list-content">
+    <div class="product-videos">
+      {% for product in collection.products %}
+        {% if product.metafields.resources.videos.size > 0 %}
+          <div class="product-videos-block">
+            <div class="videos-block-header">
+              <h2>{{ product.title }}</h2>
+              <p class="product-label">Product</p>
+            </div>
+            <div class="videos-grid">
+              {% for reference_to in product.metafields.resources.videos.references %}
+                {% assign title = shop.metafields.globals.resource_title[reference_to.index] %}
+                {% assign youtube = shop.metafields.globals.resource_youtube[reference_to.index] %}
+                {% assign image = shop.metafields.globals.resource_image[reference_to.index] | first %}
+                {% assign product_video_titles = product_video_titles | append: title | append: ',' %}
+                {% render 'video-resource-item' title: title, youtube: youtube, image: image %}
+              {% endfor %}
+            </div>
           </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="other-videos">
+      <div class="product-videos-block">
+        <div class="videos-block-header">
+          <h2>Other Resources</h2>
+        </div>
+        <div class="videos-grid">
+          {% for resource_title in shop.metafields.globals.resource_title %}
+            {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
+            {% if resource_type == 'video' %}
+              {% unless product_video_titles contains resource_title %}
+                {% assign youtube = shop.metafields.globals.resource_youtube[forloop.index0] %}
+                {% assign image = shop.metafields.globals.resource_image[forloop.index0] | first %}
+                {% render 'video-resource-item' title: resource_title, youtube: youtube, image: image %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
-    {% endif %}
-  {% endfor %}
+    </div>
+  </div>
+
+  <script>
+    $('#videos-product-filter').on('change', function(e) {
+      var selectProduct = e.target.value;
+
+      if (selectProduct) {
+        $('.product-videos .product-videos-block').each(function(index) {
+          if ($(this).find('.videos-block-header h2').text() !== selectProduct) {
+            $(this).hide();
+          } else {
+            $(this).show();
+          }
+        });
+      } else {
+        $('.product-videos .product-videos-block').show();
+      }
+    });
+  </script>
 </div>
 
 {% schema %}
-  {
-    "name": "Videos"
-  }
+  {"name": "Videos"}
 {% endschema %}
