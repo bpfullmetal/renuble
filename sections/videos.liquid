@@ -1,0 +1,25 @@
+<div>
+  {% for product in collection.products %}
+    {% if product.metafields.resources.videos.size > 0 %}
+      <div class="videos-section">
+        <div class="wrapper">
+          <h2 class="text-center">{{ section.settings.perfect_title }}</h2>
+          <div class="videos-grid">
+            {% for reference_to in product.metafields.resources.videos.references %}
+              {% assign title = shop.metafields.globals.resource_title[reference_to.index] %}
+              {% assign youtube = shop.metafields.globals.resource_youtube[reference_to.index] %}
+              {% assign image = shop.metafields.globals.resource_youtube[reference_to.index] | first %}
+              {% render 'video-resource-item' title: title, youtube: youtube, image: image %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Videos"
+  }
+{% endschema %}
