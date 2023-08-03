@@ -2584,3 +2584,201 @@ h1.hidden {
         flex-direction: column;
     }
 }
+
+/* Search Page */
+.search-template .search-results-for {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.search-template .search-results-for .search-text {
+    display: inline-block;
+    color: #019577;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.search-template .search-bar .input-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.search-template .search-bar p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.search-template .search-bar .input-wrapper input {
+    margin-bottom: 0 !important;
+}
+
+.search-template .search-bar .input-wrapper button {
+    background: #019577;
+    top: 0 !important;
+
+    &:hover {
+        background: #019577C0;
+    }
+}
+
+.search-results-wrapper .search-results {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.search-results .resources-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.search-results .block-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #019577;
+}
+
+.search-results .resources-block .block-header {
+    margin-bottom: 1rem;
+}
+
+.search-results .block-header h2 {
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.search-results .block-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -1rem 2rem;
+}
+
+.search-results .pdf-resource-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    margin: 0 1rem;
+    border-bottom: 1px solid #000;
+}
+
+.search-results .pdf-resource-item:last-child {
+    border-bottom: none;
+}
+
+.search-results .pdf-resource-item__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.search-results .pdf-resource-item__download {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+@media (max-width: 1280px) {
+    .search-results .block-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .search-results .resources-block {
+        margin-left: 24px;
+    }
+
+    .search-results-collection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .search-results-collection.grid-uniform.small-gutter {
+        margin-left: -2.5%;
+        margin-right: -2.5%;
+    }
+
+    .search-results-collection .large--one-third {
+        width: 50%;
+    }
+
+    .search-results-collection.small-gutter .grid__item {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        clear: none !important;
+        float: none !important;
+    }
+
+    .search-results-collection.collection-list .h3 {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-results-wrapper .search-results {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-results .articles-products-block {
+        margin-bottom: 3rem;
+    }
+
+    .search-results .resources-block {
+        margin-left: 0;
+    }
+
+    .videos-block-content {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search-results .resources-block .block-header {
+        margin-bottom: 0.5rem;
+    }
+
+    .pdf-resource-item,
+    .video-resource-item {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .search-results-collection.collection-list .h3 {
+        margin-top: 16px;
+    }
+
+    .search-results-collection .large--one-third {
+        width: 100%;
+    }
+
+    .videos-block-content {
+        grid-template-columns: 1fr;
+    }
+
+    .pdf-resource-item,
+    .video-resource-item {
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-template .search-bar .input-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-template .search-bar .input-wrapper input {
+        width: 100%;
+        margin-bottom: 1rem !important;
+    }
+}

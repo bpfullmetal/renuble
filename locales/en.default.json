@@ -16,6 +16,9 @@
         "one": "Your search for \"{{ terms }}\" revealed {{ count }} result.",
         "other": "Your search for \"{{ terms }}\" revealed {{ count }} results."
       },
+      "count_results_for": "{{ count }} results for:",
+      "try_another_search": "Not what you were looking for? Try another search",
+      "input_placeholder": "Search products, articles & resources",
       "label": "Search for products on our store",
       "submit": "Search"
     },

@@ -17,7 +17,10 @@
 			      {% if search.results_count == 0 %}
 			        <span>{{ 'general.search.no_results' | t: terms: search.terms }}</span>
 			      {% else %}
-			        <span>{{ 'general.search.results_for' | t: terms: search.terms, count: search.results_count }}</span>
+							<p class="search-results-for">
+								{{ 'general.search.count_results_for' | t: count: search.results_count }}
+								<span class="search-text">{{ search.terms }}</span>
+							</p>
 			      {% endif %}
 			    {% endif %}
 			{% elsif template.name == 'password' %}
@@ -31,6 +34,22 @@
 				<div id="header-description">
 					{{ page.content }}
 				</div>
+			{% endif %}
+
+			{% if template contains 'search' %}
+				<form action="/search" method="get" class="search-bar" role="search">
+					<p>{{ 'general.search.try_another_search' | t }}</p>
+					<div class="input-wrapper">
+						<input
+							type="search"
+							name="q"
+							placeholder="{{ 'general.search.input_placehoder' | t }}"
+							value="{{ search.terms | escape }}">
+						<button type="submit" class="btn btn--regular btn--dark btn--fill">
+							{{ 'general.search.submit' | t }}
+						</button>
+					</div>
+				</form>
 			{% endif %}
 
 		</div>
