@@ -1,4 +1,11 @@
-{% capture header_title %}{{ blog.title }}{% if current_tags %} - {{ current_tags.first }}{% endif %}{% endcapture %}
+{% capture header_title %}
+    {% if current_tags %}
+        {{ current_tags.first }}{% unless current_tags.first.last == 's' %}s{% endunless %}
+    {% else %}
+            {{ blog.title }}
+    {% endif %}
+{% endcapture %}
+
 {% include 'page_header' with header_title %}
 
 <div class="wrapper wrapper--margins">

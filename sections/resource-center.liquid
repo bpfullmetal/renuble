@@ -10,11 +10,7 @@
                 {% if block.settings.tag %}
                 {% assign tags_lower = available_tags | downcase %}
                 {% assign tag_lower = block.settings.tag | downcase %}
-                {% unless tags_lower contains tag_lower %}
-                    
-                    {% comment %} {% assign available_tags = available_tags | append: tag_lower | append: ',' %} {% endcomment %}
                     <option data-url="{{ shop_url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ tag | capitalize }}</option>
-                {% endunless %}
                 {% endif %}
                 {% if block.settings.link %}
                     {% assign title_lower = block.settings.title | downcase %}
