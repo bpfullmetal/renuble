@@ -1208,6 +1208,14 @@ svg:not(:root) {
     flex-direction: column;
 }
 
+.blog-tag-filter-wrapper {
+    width: fit-content;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 2rem auto;
+}
+
 .resource-icons {
     margin: 0 -2rem;
     display: flex;
@@ -1224,8 +1232,11 @@ svg:not(:root) {
 .resource-icon-wrapper .resource-icon {
     width: 200px;
     height: 200px;
+
     border-radius: 200px;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .resource-icon-wrapper h3 {

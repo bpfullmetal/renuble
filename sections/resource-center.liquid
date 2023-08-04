@@ -5,18 +5,24 @@
     </div>
   <div>
     {% if section.blocks %}
-      {% assign available_tags = '' %}
-      {% for block in section.blocks %}
-        {% if block.settings.tag %}
-          {% assign tags_lower = available_tags | downcase %}
-          {% assign tag_lower = block.settings.tag | downcase %}
-          {% unless tags_lower contains tag_lower %}
-            {% assign available_tags = available_tags | append: tag_lower | append: ',' %}
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
-      {% unless available_tags == '' %}
-        {% assign tags_array = available_tags | split: "," %}
+        {% capture 'filter_options' %}
+            {% for block in section.blocks %}
+                {% if block.settings.tag %}
+                {% assign tags_lower = available_tags | downcase %}
+                {% assign tag_lower = block.settings.tag | downcase %}
+                {% unless tags_lower contains tag_lower %}
+                    
+                    {% comment %} {% assign available_tags = available_tags | append: tag_lower | append: ',' %} {% endcomment %}
+                    <option data-url="{{ shop_url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ tag | capitalize }}</option>
+                {% endunless %}
+                {% endif %}
+                {% if block.settings.link %}
+                    {% assign title_lower = block.settings.title | downcase %}
+                    <option data-url="{{ shop_url }}{{ block.settings.link }}" value="{{ title_lower }}">{{ block.settings.title }}</option>
+                {% endif %}
+            {% endfor %}
+        {% endcapture %}
+      {% unless filter_options == '' %}
         <div class="blog-tag-filter-wrapper">
           <label class="blog-tag-filter-label">Search by topic</label>
           <select name="blog-filter" class="blog-tag-filter">
@@ -24,21 +30,21 @@
               value=""
               disabled
               selected>Choose a topic</option>
-            {% for tag in tags_array %}
-              <option value="{{ tag }}">{{ tag | capitalize }}</option>
-            {% endfor %}
+              {{ filter_options }}
           </select>
-          <script>
-            // blogs/recipes/tagged/tagname
-            const $selects = document.querySelectorAll('.blog-tag-filter') // where "xxx" is the id of your select (you'll need to add an id)
-            $selects.forEach($select => {
-              $select.onchange = function() {
-                var selectedOption = this.value;
-                var shopURL = '{{ shop.url }}'
-                window.location.href = shopURL + '/blogs/re-nuble/tagged/' + selectedOption;
-              }
-            })
-          </script>
+            <script>
+                // blogs/recipes/tagged/tagname
+                const $selects = document.querySelectorAll('.blog-tag-filter') // where "xxx" is the id of your select (you'll need to add an id)
+                console.log($selects)
+                $selects.forEach($select => {
+                    $select.addEventListener('change', (event) => {
+                        // Get the selected option value
+                        const $selectedOption = $('option:checked', $select)
+                        var optionUrl = $selectedOption.data('url');
+                        window.location.href = optionUrl;
+                    });
+                })
+            </script>
         </div>
       {% endunless %}
       <div class="resource-icons">
