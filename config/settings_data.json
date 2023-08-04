@@ -692,8 +692,21 @@
               "title": "Articles",
               "tag": "Article",
               "subtext": "",
-              "icon": "shopify:\/\/shop_images\/publication.svg",
+              "icon": "shopify:\/\/shop_images\/article.svg",
               "color": "#8eb754",
+              "blog": "",
+              "link_text": "",
+              "link": ""
+            }
+          },
+          "519dfcaa-ecfd-4b5a-aead-030b5e8cddd2": {
+            "type": "link_icon",
+            "settings": {
+              "title": "News",
+              "tag": "news",
+              "subtext": "",
+              "icon": "shopify:\/\/shop_images\/publication.svg",
+              "color": "#59a998",
               "blog": "",
               "link_text": "",
               "link": ""
@@ -702,7 +715,8 @@
         },
         "block_order": [
           "bbd31aa8-3223-4086-bf16-b60b37b1f35d",
-          "4e7916a7-4826-42e8-9252-f4a85c455eae"
+          "4e7916a7-4826-42e8-9252-f4a85c455eae",
+          "519dfcaa-ecfd-4b5a-aead-030b5e8cddd2"
         ],
         "settings": {
         }
