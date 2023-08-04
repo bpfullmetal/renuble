@@ -87,10 +87,10 @@
     <!--
       Header hook for plugins ===================================================================================================================================================
     -->
-    {% comment %}
+    
       {{ content_for_header }}
-    {% endcomment %}
-    {% include 'content_for_header' %}
+    
+    {% comment %} {% include 'content_for_header' %} {% endcomment %}
 
     {{ template.directory }}
     {% if template contains 'customers' %}
