@@ -1,4 +1,8 @@
+{% assign header_title = page.title %}
 <div class="wrapper wrapper--margins wrapper__article">
+    <div class="header__narrow">
+        <h1 itemprop="name">{{ header_title }}</h1>
+    </div>
   <div>
     {% if section.blocks %}
       {% assign available_tags = '' %}
