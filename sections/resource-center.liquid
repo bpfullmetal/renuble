@@ -8,9 +8,9 @@
         {% capture 'filter_options' %}
             {% for block in section.blocks %}
                 {% if block.settings.tag %}
-                {% assign tags_lower = available_tags | downcase %}
-                {% assign tag_lower = block.settings.tag | downcase %}
-                    <option data-url="{{ shop_url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ tag | capitalize }}</option>
+                    {% assign tags_lower = available_tags | downcase %}
+                    {% assign tag_lower = block.settings.tag | downcase %}
+                    <option data-url="{{ shop_url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ block.settings.tag | capitalize }}</option>
                 {% endif %}
                 {% if block.settings.link %}
                     {% assign title_lower = block.settings.title | downcase %}
