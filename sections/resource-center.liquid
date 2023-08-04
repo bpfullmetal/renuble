@@ -10,11 +10,11 @@
                 {% if block.settings.tag %}
                     {% assign tags_lower = available_tags | downcase %}
                     {% assign tag_lower = block.settings.tag | downcase %}
-                    <option data-url="{{ shop_url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ block.settings.tag | capitalize }}</option>
+                    <option data-url="{{ shop.url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ block.settings.tag | capitalize }}</option>
                 {% endif %}
                 {% if block.settings.link %}
                     {% assign title_lower = block.settings.title | downcase %}
-                    <option data-url="{{ shop_url }}{{ block.settings.link }}" value="{{ title_lower }}">{{ block.settings.title }}</option>
+                    <option data-url="{{ shop.url }}{{ block.settings.link }}" value="{{ title_lower }}">{{ block.settings.title }}</option>
                 {% endif %}
             {% endfor %}
         {% endcapture %}
