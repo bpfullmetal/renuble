@@ -679,16 +679,30 @@
               "title": "Videos",
               "tag": "",
               "subtext": "",
-              "icon": "shopify:\/\/shop_images\/publication.svg",
-              "color": "#8eb754",
+              "icon": "shopify:\/\/shop_images\/video.svg",
+              "color": "#33856b",
               "blog": "",
               "link_text": "",
               "link": "shopify:\/\/pages\/videos"
             }
+          },
+          "4e7916a7-4826-42e8-9252-f4a85c455eae": {
+            "type": "link_icon",
+            "settings": {
+              "title": "Articles",
+              "tag": "Article",
+              "subtext": "",
+              "icon": "shopify:\/\/shop_images\/publication.svg",
+              "color": "#8eb754",
+              "blog": "",
+              "link_text": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "bbd31aa8-3223-4086-bf16-b60b37b1f35d"
+          "bbd31aa8-3223-4086-bf16-b60b37b1f35d",
+          "4e7916a7-4826-42e8-9252-f4a85c455eae"
         ],
         "settings": {
         }
