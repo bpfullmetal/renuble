@@ -47,10 +47,14 @@
           {% assign icon_url = block.settings.icon | img_url: 'master' %}
           {% assign icon_color = block.settings.color | default: '#000' %}
           {% assign link_text = block.settings.link_text | default: 'View All' %}
+          {% assign resource_link = block.settings.link %}
+          {% if tag_name != blank %}
+            {% assign resource_link = '/blogs/re-nuble/tagged/' | append: tag_name%}
+          {% endif %}
           <div class="resource-icon-wrapper">
             <a
               class="resource-icon"
-              href="/blogs/re-nuble/tagged/{{ tag_name }}"
+              href="{{ resource_link }}"
               style="background-color: {{ icon_color }}">
               <div class="icon-wrapper">
                 <img src="{{ icon_url }}" alt="{{ block.settings.title }}" />
@@ -58,7 +62,7 @@
             </a>
             {% if block.settings.title %}
               <h3>
-                <a href="/blogs/re-nuble/tagged/{{ tag_name }}">
+                <a href="{{ resource_link }}">
                   {{ block.settings.title }}
                 </a>
               </h3>
@@ -66,7 +70,7 @@
             {% if block.settings.subtext %}
               {{ block.settings.subtext }}
             {% endif %}
-            <a class="see-all-link" href="/blogs/re-nuble/tagged/{{ tag_name }}">
+            <a class="see-all-link" href="{{ resource_link }}">
               {{ link_text }}
             </a>
           </div>
