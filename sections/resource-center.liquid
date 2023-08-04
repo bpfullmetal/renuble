@@ -8,7 +8,6 @@
             {% capture 'filter_options' %}
                 {% for block in section.blocks %}
                     {% if block.settings.tag != blank %}
-                        {% assign tags_lower = available_tags | downcase %}
                         {% assign tag_lower = block.settings.tag | downcase %}
                         <option data-index="{{ forloop.index }}" data-url="{{ shop.url }}/blogs/re-nuble/tagged/{{ tag_lower }}" value="{{ tag_lower }}">{{ block.settings.tag | capitalize }}</option>
                     {% endif %}
@@ -45,37 +44,38 @@
             {% endunless %}
             <div class="resource-icons">
                 {% for block in section.blocks %}
-                {% assign tag_name = block.settings.tag %}
-                {% assign icon_url = block.settings.icon | img_url: 'master' %}
-                {% assign icon_color = block.settings.color | default: '#000' %}
-                {% assign link_text = block.settings.link_text | default: 'View All' %}
-                {% assign resource_link = block.settings.link %}
-                {% if tag_name != blank %}
-                    {% assign resource_link = '/blogs/re-nuble/tagged/' | append: tag_name%}
-                {% endif %}
-                <div class="resource-icon-wrapper">
-                    <a
-                    class="resource-icon"
-                    href="{{ resource_link }}"
-                    style="background-color: {{ icon_color }}">
-                    <div class="icon-wrapper">
-                        <img src="{{ icon_url }}" alt="{{ block.settings.title }}" />
-                    </div>
-                    </a>
-                    {% if block.settings.title %}
-                    <h3>
-                        <a href="{{ resource_link }}">
-                        {{ block.settings.title }}
+                    {% assign tag_name = block.settings.tag %}
+                    {% assign icon_url = block.settings.icon | img_url: 'master' %}
+                    {% assign icon_color = block.settings.color | default: '#000' %}
+                    {% assign link_text = block.settings.link_text | default: 'View All' %}
+                    {% assign resource_link = block.settings.link %}
+                    {% if tag_name != blank %}
+                        {% assign resource_link = '/blogs/re-nuble/tagged/' | append: tag_name%}
+                    {% endif %}
+                    <div class="resource-icon-wrapper">
+                        <a
+                        class="resource-icon"
+                        href="{{ resource_link }}"
+                        style="background-color: {{ icon_color }}">
+                            <div class="icon-wrapper">
+                                <img src="{{ icon_url }}" alt="{{ block.settings.title }}" />
+                            </div>
                         </a>
-                    </h3>
-                    {% endif %}
-                    {% if block.settings.subtext %}
-                    {{ block.settings.subtext }}
-                    {% endif %}
-                    <a class="see-all-link" href="{{ resource_link }}">
-                    {{ link_text }}
-                    </a>
-                </div>
+                        {% if block.settings.title %}
+                            <h3>
+                                <a href="{{ resource_link }}">
+                                {{ block.settings.title }}
+                                </a>
+                            </h3>
+                        {% endif %}
+                        {% if block.settings.subtext %}
+                            {{ block.settings.subtext }}
+                        {% endif %}
+                        <a class="see-all-link" href="{{ resource_link }}">
+                            {{ link_text }}
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         {% endif %}
     </div>
