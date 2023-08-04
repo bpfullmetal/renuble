@@ -124,4 +124,23 @@ $(document).ready(function () {
             $(modalId).css('visibility', 'hidden');
         })
     })
+
+    $('[id^="team-member-box___"]').click( function () {
+      var id = $(this).attr('id');
+      var sectionId = $(this).attr('id').split('___')[1];
+      var photo = $(`#${id} img`).attr('src');
+      var name = $(this).attr('data-name');
+      var title = $(this).attr('data-title');
+      var bio = $(this).attr('data-bio');
+      var modalId = `#modal-${sectionId}`;
+      $(modalId).css('visibility', 'visible');
+      $(`${modalId} .image-block img`).attr('src', photo);
+      $(`${modalId} .team-member-name`).text(name);
+      $(`${modalId} .team-member-title`).text(title);
+      $(`${modalId} .team-member-bio`).text(bio);
+
+      $('.team-members-modal_close').click( function () {
+        $(modalId).css('visibility', 'hidden');
+      })
+    })
 });
