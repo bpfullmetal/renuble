@@ -676,9 +676,13 @@
           "bbd31aa8-3223-4086-bf16-b60b37b1f35d": {
             "type": "link_icon",
             "settings": {
+              "title": "Videos",
+              "tag": "",
+              "subtext": "",
               "color": "#8eb754",
-              "blog": "re-nuble",
-              "link": ""
+              "blog": "",
+              "link_text": "",
+              "link": "shopify:\/\/pages\/videos"
             }
           }
         },
