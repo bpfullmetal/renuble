@@ -783,6 +783,42 @@
               "img_txt": "",
               "link": ""
             }
+          },
+          "22155368-7ea5-46a6-9e06-472ab7f6edd9": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/nyserda_d0406a2b-c7a2-4f6f-bafb-6f516cf3cb1d.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/secondmuse.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "1e96504a-24e1-4010-814e-449ccf641c02": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/vertue.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "db8eec78-b832-4860-9c17-38df0506bec3": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/launch.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -790,7 +826,11 @@
           "204dccfb-186a-4745-a2fd-12e4aaa1b2f2",
           "b386218c-a675-414d-bd21-227ba9610184",
           "5f03ad0b-90f4-4805-8738-7c4a0076bafc",
-          "eb81051b-c267-4361-ab45-fced5cdaec76"
+          "eb81051b-c267-4361-ab45-fced5cdaec76",
+          "22155368-7ea5-46a6-9e06-472ab7f6edd9",
+          "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033",
+          "1e96504a-24e1-4010-814e-449ccf641c02",
+          "db8eec78-b832-4860-9c17-38df0506bec3"
         ],
         "settings": {
           "title": "Trusted By Our Clients, Partners, & Investors",
