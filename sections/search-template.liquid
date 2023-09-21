@@ -84,51 +84,63 @@
     
         {% assign sp_paginate_by = paginate.page_size %}{% endpaginate %}
       </div>
-  
-      <div class="resources-block">
-        <div class="block-header">
-          <h2>Resource Downloads</h2>
-        </div>
-        <div class="block-content">
-          {% for resource_title in shop.metafields.globals.resource_title %}
+
+      {% capture 'downloads_results' %}
+        {% for resource_title in shop.metafields.globals.resource_title %}
             {% assign resource_title_downcase = resource_title | downcase %}
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
             {% assign resource_key_words = shop.metafields.globals.resource_key_words[forloop.index0] | downcase %}
             {% if resource_type == 'pdf' %}
-              {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
+            {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
                 {% assign pdf = shop.metafields.globals.resource_pdf[forloop.index0] | first %}
                 {% if pdf %}
-                  {% assign pdf_src = pdf.src %}
+                {% assign pdf_src = pdf.src %}
                 {% endif %}
                 <div class="pdf-resource-item">
-                  <p class="pdf-resource-item__title">{{ resource_title }}</p>
-                  <a class="pdf-resource-item__download" href="{{ pdf_src }}">
+                <p class="pdf-resource-item__title">{{ resource_title }}</p>
+                <a class="pdf-resource-item__download" href="{{ pdf_src }}">
                     <img src="{{ 'download.png' | asset_url }}" alt="download" />
-                  </a>
+                </a>
                 </div>
-              {% endif %}
             {% endif %}
-          {% endfor %}
-        </div>
-  
-        <div class="block-header">
-          <h2>Video Resources</h2>
-        </div>
-        <div class="block-content videos-block-content">
-          {% for resource_title in shop.metafields.globals.resource_title %}
+            {% endif %}
+        {% endfor %}
+      {% endcapture %}
+      {% capture 'video_results' %}
+        {% for resource_title in shop.metafields.globals.resource_title %}
             {% assign resource_title_downcase = resource_title | downcase %}
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
             {% assign resource_key_words = shop.metafields.globals.resource_key_words[forloop.index0] | downcase %}
             {% if resource_type == 'video' %}
-              {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
+            {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
                 {% assign youtube = shop.metafields.globals.resource_youtube[forloop.index0] %}
                 {% assign image = shop.metafields.globals.resource_image[forloop.index0] | first %}
                 {% render 'video-resource-item' title: resource_title, youtube: youtube, image: image %}
-              {% endif %}
             {% endif %}
-          {% endfor %}
-        </div>
-      </div>
+            {% endif %}
+        {% endfor %}
+      {% endcapture %}
+        {% if downloads_results != empty or video_results != empty %}
+            <div class="resources-block">
+                {% if downloads_results != empty %}
+                    <div class="block-header">
+                        <h2>Resource Downloads</h2>
+                    </div>
+                    <div class="block-content">
+                        {{ downloads_results }}
+                    </div>
+                {% endif %}
+                
+                {% if video_results != empty %}
+                    <div class="block-header">
+                        <h2>Video Resources</h2>
+                    </div>
+                    <div class="block-content videos-block-content">
+                        {{ video_results }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
 
     </div>
   </div>
