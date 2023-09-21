@@ -837,6 +837,15 @@
               "img_txt": "",
               "link": ""
             }
+          },
+          "478f4edb-e22d-4d61-9226-5f70c854657f": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gsf.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -850,7 +859,8 @@
           "1e96504a-24e1-4010-814e-449ccf641c02",
           "db8eec78-b832-4860-9c17-38df0506bec3",
           "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5",
-          "84f19574-70c7-4565-9474-00bd6d209a01"
+          "84f19574-70c7-4565-9474-00bd6d209a01",
+          "478f4edb-e22d-4d61-9226-5f70c854657f"
         ],
         "settings": {
           "title": "Trusted By Our Clients, Partners, & Investors",
