@@ -141,7 +141,6 @@
       },
       "slideshow": {
         "type": "slideshow",
-        "disabled": true,
         "blocks": {
           "slideshow-0": {
             "type": "image",
@@ -167,12 +166,12 @@
           "slideshow-1",
           "slideshow-2"
         ],
+        "disabled": true,
         "settings": {
         }
       },
       "faq": {
         "type": "faq",
-        "disabled": true,
         "blocks": {
           "faq-0": {
             "type": "text",
@@ -201,6 +200,7 @@
           "faq-1",
           "faq-2"
         ],
+        "disabled": true,
         "settings": {
           "title": "FAQ"
         }
@@ -282,7 +282,7 @@
       "1587563869588": {
         "type": "hubspot-form",
         "settings": {
-          "header_title": "Help decarbonize the food value chain",
+          "header_title": "Help Decarbonize The Food Value Chain",
           "header_text": ""
         }
       },
@@ -390,6 +390,15 @@
       "16203025882e9d1c70": {
         "type": "image-carousal",
         "blocks": {
+          "46b33aa9-f723-46de-a5a9-b9ad80de14f4": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_a5b1e02c-133d-43a8-a885-e7eb9e05a7e8.png",
+              "title": "Increase Your Yields Without Increasing Costs",
+              "img_txt": "",
+              "link": ""
+            }
+          },
           "6e497d34-2ffe-4258-91d7-6c22be5abd60": {
             "type": "image_list",
             "settings": {
@@ -399,20 +408,11 @@
               "link": ""
             }
           },
-          "46b33aa9-f723-46de-a5a9-b9ad80de14f4": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/2_a5b1e02c-133d-43a8-a885-e7eb9e05a7e8.png",
-              "title": "Increase Your Profitability",
-              "img_txt": "",
-              "link": ""
-            }
-          },
           "24c8ef19-cb8e-4623-9082-4b2b040b3af7": {
             "type": "image_list",
             "settings": {
               "image": "shopify:\/\/shop_images\/6.png",
-              "title": "Source Water-Soluble Nutrients From Sterile, Vegetative Waste",
+              "title": "Source Renewable Inputs From Organic Resources",
               "img_txt": "",
               "link": ""
             }
@@ -421,15 +421,15 @@
             "type": "image_list",
             "settings": {
               "image": "shopify:\/\/shop_images\/4_528f1b50-cdc0-4a88-8f0a-cc5c3241e395.png",
-              "title": "Reduce Your Dependence On Carbon Intensive Mineral Salts",
+              "title": "Reduce Your Dependence On Carbon Intensive Inputs",
               "img_txt": "",
               "link": ""
             }
           }
         },
         "block_order": [
-          "6e497d34-2ffe-4258-91d7-6c22be5abd60",
           "46b33aa9-f723-46de-a5a9-b9ad80de14f4",
+          "6e497d34-2ffe-4258-91d7-6c22be5abd60",
           "24c8ef19-cb8e-4623-9082-4b2b040b3af7",
           "382b8601-a559-465b-82f8-ac3092cd6350"
         ],
@@ -529,28 +529,31 @@
           "16203081298202a052-0": {
             "type": "quote",
             "settings": {
-              "title": "Company A",
-              "quote": "<p>Testimonial Quote<\/p>",
-              "author": "Julie Smith",
-              "author_title": "CEO\/Founder"
+              "image": "shopify:\/\/shop_images\/gather.png",
+              "title": "Gather Farms",
+              "quote": "<p>The Micro Mats that we normally use proved to have 2.49 ounces and your Re-Nuble ReNu Terra Mats yielded 2.96 ounces. The roots were much more pronounced on Re-Nuble's.<\/p>",
+              "author": "",
+              "author_title": ""
             }
           },
           "16203081298202a052-1": {
             "type": "quote",
             "settings": {
-              "title": "Company B",
-              "quote": "<p>Testimonial Quote<\/p><p><strong>Another part of the quote<\/strong><\/p>",
-              "author": "Eliza Doolittle",
-              "author_title": "Farmer"
+              "image": "shopify:\/\/shop_images\/magki.png",
+              "title": "Magki Farms",
+              "quote": "<p>So far, we have had a positive experience in using the ReNu Terra Mats. We have grown a number of microgreens on the mats to include Bok choy, broccoli and mustard with great results.<br\/><\/p>",
+              "author": "",
+              "author_title": ""
             }
           },
           "16203081298202a052-2": {
             "type": "quote",
             "settings": {
-              "title": "Company C",
-              "quote": "<p>Testimonial Quote<\/p>",
-              "author": "Marilyn Monroe",
-              "author_title": "CFO"
+              "image": "shopify:\/\/shop_images\/amatek.png",
+              "title": "Amatek Technologies",
+              "quote": "<p>We also experienced similar results with faster growth and higher yields.<\/p>",
+              "author": "",
+              "author_title": ""
             }
           }
         },
@@ -560,7 +563,7 @@
           "16203081298202a052-2"
         ],
         "settings": {
-          "title": "Our Clients Love Us"
+          "title": "Why Growers Love Us"
         }
       },
       "162031062926acdc54": {
@@ -610,7 +613,6 @@
       },
       "16205583693772b72f": {
         "type": "certificate-items",
-        "disabled": true,
         "blocks": {
           "16205583693772b72f-0": {
             "type": "image_list",
@@ -651,6 +653,7 @@
           "f3c3ae63-bb39-4afe-bd30-ca1854b748f9",
           "78c2e0f9-2f2c-4273-9b79-21769a794c3a"
         ],
+        "disabled": true,
         "settings": {
           "title": "Certifications"
         }
@@ -727,14 +730,14 @@
           "a9d22ea8-9482-49ce-9d14-4e1563225f5a-1688154409b52ce163-0": {
             "type": "image_list",
             "settings": {
-              "value": "6",
+              "value": "4",
               "title": "Continents"
             }
           },
           "cce43b0e-7c99-4fb0-8cdb-01f430364f9d": {
             "type": "image_list",
             "settings": {
-              "value": "20",
+              "value": "5",
               "title": "Partners"
             }
           },
@@ -770,7 +773,7 @@
           "68ade9f1-d2eb-4ef9-9c49-03a3de494537-16891756153374846f-0": {
             "type": "image_list",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "image": "shopify:\/\/shop_images\/usda_180_x_180.png",
               "title": "",
               "img_txt": "",
               "link": ""
@@ -779,7 +782,7 @@
           "204dccfb-186a-4745-a2fd-12e4aaa1b2f2": {
             "type": "image_list",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "image": "shopify:\/\/shop_images\/SoSv_db6f117d-2aa4-43b7-b2ed-56e56b07c3b9.png",
               "title": "",
               "img_txt": "",
               "link": ""
@@ -788,7 +791,7 @@
           "b386218c-a675-414d-bd21-227ba9610184": {
             "type": "image_list",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "image": "shopify:\/\/shop_images\/22_fund.png",
               "title": "",
               "img_txt": "",
               "link": ""
@@ -797,7 +800,7 @@
           "5f03ad0b-90f4-4805-8738-7c4a0076bafc": {
             "type": "image_list",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "image": "shopify:\/\/shop_images\/svc_180.webp",
               "title": "",
               "img_txt": "",
               "link": ""
@@ -806,7 +809,70 @@
           "eb81051b-c267-4361-ab45-fced5cdaec76": {
             "type": "image_list",
             "settings": {
-              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
+              "image": "shopify:\/\/shop_images\/jff_bc939c7e-555b-47a1-8ae1-1352fe70581e.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "22155368-7ea5-46a6-9e06-472ab7f6edd9": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/nyserda_d0406a2b-c7a2-4f6f-bafb-6f516cf3cb1d.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/secondmuse.jpg",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "1e96504a-24e1-4010-814e-449ccf641c02": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/vertue.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "db8eec78-b832-4860-9c17-38df0506bec3": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/launch.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bfm.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "84f19574-70c7-4565-9474-00bd6d209a01": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wocstar.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "478f4edb-e22d-4d61-9226-5f70c854657f": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gsf.png",
               "title": "",
               "img_txt": "",
               "link": ""
@@ -818,22 +884,29 @@
           "204dccfb-186a-4745-a2fd-12e4aaa1b2f2",
           "b386218c-a675-414d-bd21-227ba9610184",
           "5f03ad0b-90f4-4805-8738-7c4a0076bafc",
-          "eb81051b-c267-4361-ab45-fced5cdaec76"
+          "eb81051b-c267-4361-ab45-fced5cdaec76",
+          "22155368-7ea5-46a6-9e06-472ab7f6edd9",
+          "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033",
+          "1e96504a-24e1-4010-814e-449ccf641c02",
+          "db8eec78-b832-4860-9c17-38df0506bec3",
+          "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5",
+          "84f19574-70c7-4565-9474-00bd6d209a01",
+          "478f4edb-e22d-4d61-9226-5f70c854657f"
         ],
         "settings": {
-          "title": "Trusted By Our Clients & Partners",
+          "title": "Trusted By Our Clients, Partners, & Investors",
           "showcontact": false
         }
       }
     },
     "content_for_index": [
       "feature-rows",
+      "16203025882e9d1c70",
       "162031062926acdc54",
       "1620307196678c58de",
       "1617825409ce921979",
       "1620491618cc5ad6bb",
       "162049168798e82c6b",
-      "16203025882e9d1c70",
       "featured-content",
       "16203081298202a052",
       "1620307679175d3e95",
