@@ -390,20 +390,20 @@
       "16203025882e9d1c70": {
         "type": "image-carousal",
         "blocks": {
-          "6e497d34-2ffe-4258-91d7-6c22be5abd60": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Closed_Loop_1.png",
-              "title": "Competitively Transition Towards a Closed Loop Operation",
-              "img_txt": "",
-              "link": ""
-            }
-          },
           "46b33aa9-f723-46de-a5a9-b9ad80de14f4": {
             "type": "image_list",
             "settings": {
               "image": "shopify:\/\/shop_images\/2_a5b1e02c-133d-43a8-a885-e7eb9e05a7e8.png",
               "title": "Increase Your Profitability",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "6e497d34-2ffe-4258-91d7-6c22be5abd60": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Closed_Loop_1.png",
+              "title": "Competitively Transition Towards a Closed Loop Operation",
               "img_txt": "",
               "link": ""
             }
@@ -428,8 +428,8 @@
           }
         },
         "block_order": [
-          "6e497d34-2ffe-4258-91d7-6c22be5abd60",
           "46b33aa9-f723-46de-a5a9-b9ad80de14f4",
+          "6e497d34-2ffe-4258-91d7-6c22be5abd60",
           "24c8ef19-cb8e-4623-9082-4b2b040b3af7",
           "382b8601-a559-465b-82f8-ac3092cd6350"
         ],
