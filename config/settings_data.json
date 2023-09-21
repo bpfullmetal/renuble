@@ -819,6 +819,24 @@
               "img_txt": "",
               "link": ""
             }
+          },
+          "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bfm.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
+          "84f19574-70c7-4565-9474-00bd6d209a01": {
+            "type": "image_list",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wocstar.png",
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
@@ -830,7 +848,9 @@
           "22155368-7ea5-46a6-9e06-472ab7f6edd9",
           "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033",
           "1e96504a-24e1-4010-814e-449ccf641c02",
-          "db8eec78-b832-4860-9c17-38df0506bec3"
+          "db8eec78-b832-4860-9c17-38df0506bec3",
+          "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5",
+          "84f19574-70c7-4565-9474-00bd6d209a01"
         ],
         "settings": {
           "title": "Trusted By Our Clients, Partners, & Investors",
