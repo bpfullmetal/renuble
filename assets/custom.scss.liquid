@@ -493,8 +493,11 @@
 .resources-section .resources-list .resource-item {
     display: flex;
     padding: 1.25rem 0;
-    border-bottom: 2px solid #000;
     justify-content: space-between;
+}
+
+.resources-section .resources-list .resource-item:not(:last-of-type) {
+    border-bottom: 2px solid #000;
 }
 
 .resources-section .resources-list .resource-item__title {
@@ -2674,9 +2677,6 @@ h1.hidden {
     justify-content: space-between;
     padding: 0.75rem 0;
     margin: 0 1rem;
-}
-
-.search-results .pdf-resource-item:not(:last-of-type) {
     border-bottom: 1px solid #000;
 }
 
