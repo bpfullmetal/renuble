@@ -432,14 +432,14 @@
 
   <div id="video-modal" class="video-modal">
     <div class="close-modal-icon">+</div>
-    <div class="video-modal__container">
-      <iframe
-        width="560"
-        height="315"
-        src=""
-        frameborder="0"
-        allowfullscreen></iframe>
-    </div>
+        <div class="video-modal__container">
+        <iframe
+            width="560"
+            height="315"
+            src=""
+            frameborder="0"
+            allowfullscreen></iframe>
+        </div>
   </div>
 </div>
 
@@ -475,7 +475,7 @@
       autoplay: false
     });
 
-    $('.videos-grid__item').click(function(e) {
+    $('.video-resource-item').click(function(e) {
       $('#video-modal').addClass('open');
       $('#video-modal iframe').attr('src', 'https://www.youtube.com/embed/' + $(this).data('youtube-id'));
     });

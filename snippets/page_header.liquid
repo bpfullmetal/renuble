@@ -47,15 +47,17 @@
                             {% comment %} {{ 'general.search.count_results_for' | t: count: search.results_count }} {% endcomment %}
                             <span class="search-text">{{ search.terms }}</span>
                         </p>
-                        {% if search.results_count > 0 %}
-                            <p><span class="font-teal"><b>{{ search.results_count }}</b></span> Articles & Products</p>
-                        {% endif %}
-                        {% if search.results_count_videos > 0 %}
-                            <p><span class="font-teal"><b>{{ search_count_videos }}</b></span> Video{% if results_count_videos > 1 %}s{% endif %}</p>
-                        {% endif %}
-                        {% if search.results_count_pdfs > 0 %}
-                            <p><span class="font-teal"><b>{{ search_count_pdfs }}</b></span> Resource Download{% if results_count_pdfs > 1 %}s{% endif %}</p>
-                        {% endif %}
+                        <div style="margin-top: 2rem;">
+                            {% if search.results_count > 0 %}
+                                <p style="font-size: 1.5rem; margin: 0 0 .5rem;"><b class="font-teal">{{ search.results_count }}</b> Articles & Products</p>
+                            {% endif %}
+                            {% if search_count_videos > 0 %}
+                                <p style="font-size: 1.5rem; margin: 0 0 .5rem;"><b class="font-teal">{{ search_count_videos }}</b> Video{% if search_count_videos > 1 %}s{% endif %}</p>
+                            {% endif %}
+                            {% if search_count_pdfs > 0 %}
+                                <p style="font-size: 1.5rem; margin: 0 0 .5rem;"><b class="font-teal">{{ search_count_pdfs }}</b> Resource Download{% if search_count_pdfs > 1 %}s{% endif %}</p>
+                            {% endif %}
+                        </div>
 			      {% endif %}
 			    {% endif %}
 			{% elsif template.name == 'password' %}

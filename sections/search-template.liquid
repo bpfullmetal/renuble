@@ -85,7 +85,7 @@
         {% assign sp_paginate_by = paginate.page_size %}{% endpaginate %}
       </div>
 
-      {% capture 'downloads_results' %}
+      {%- capture 'downloads_results' -%}
         {% for resource_title in shop.metafields.globals.resource_title %}
             {% assign resource_title_downcase = resource_title | downcase %}
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
@@ -105,39 +105,62 @@
             {% endif %}
             {% endif %}
         {% endfor %}
-      {% endcapture %}
-      {% capture 'video_results' %}
+      {%- endcapture -%}
+      {%- capture 'video_results' -%}
         {% for resource_title in shop.metafields.globals.resource_title %}
             {% assign resource_title_downcase = resource_title | downcase %}
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
             {% assign resource_key_words = shop.metafields.globals.resource_key_words[forloop.index0] | downcase %}
             {% if resource_type == 'video' %}
-            {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
-                {% assign youtube = shop.metafields.globals.resource_youtube[forloop.index0] %}
-                {% assign image = shop.metafields.globals.resource_image[forloop.index0] | first %}
-                {% render 'video-resource-item' title: resource_title, youtube: youtube, image: image %}
-            {% endif %}
+                {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
+                    {% assign youtube = shop.metafields.globals.resource_youtube[forloop.index0] %}
+                    {% assign image = shop.metafields.globals.resource_image[forloop.index0] | first %}
+                    {% render 'video-resource-item' title: resource_title, youtube: youtube, image: image %}
+                {% endif %}
             {% endif %}
         {% endfor %}
-      {% endcapture %}
-        {% if downloads_results != empty or video_results != empty %}
+      {%- endcapture -%}
+        {% if downloads_results.size or video_results.size %}
             <div class="resources-block">
-                {% if downloads_results != empty %}
+                {%- if downloads_results != blank -%}
                     <div class="block-header">
                         <h2>Resource Downloads</h2>
                     </div>
                     <div class="block-content">
                         {{ downloads_results }}
                     </div>
-                {% endif %}
+                {%- endif -%}
                 
-                {% if video_results != empty %}
+                {% if video_results != blank %}
                     <div class="block-header">
                         <h2>Video Resources</h2>
                     </div>
                     <div class="block-content videos-block-content">
                         {{ video_results }}
                     </div>
+                    <div id="video-modal" class="video-modal">
+                        <div class="close-modal-icon">+</div>
+                            <div class="video-modal__container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src=""
+                                frameborder="0"
+                                allowfullscreen></iframe>
+                            </div>
+                      </div>
+                    </div>
+                    <script>
+                        $('.video-resource-item').click(function(e) {
+                            $('#video-modal').addClass('open');
+                            $('#video-modal iframe').attr('src', 'https://www.youtube.com/embed/' + $(this).data('youtube-id'));
+                          });
+                      
+                          $('#video-modal .close-modal-icon').click(function(e) {
+                            $('#video-modal').removeClass('open');
+                            $('#video-modal iframe').attr('src', '');
+                          });
+                    </script>
                 {% endif %}
             </div>
         {% endif %}
