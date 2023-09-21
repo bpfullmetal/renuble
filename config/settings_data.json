@@ -539,19 +539,21 @@
           "16203081298202a052-1": {
             "type": "quote",
             "settings": {
-              "title": "Company B",
-              "quote": "<p>Testimonial Quote<\/p><p><strong>Another part of the quote<\/strong><\/p>",
-              "author": "Eliza Doolittle",
-              "author_title": "Farmer"
+              "image": "shopify:\/\/shop_images\/magki.png",
+              "title": "Magki Farms",
+              "quote": "<p>So far, we have had a positive experience in using the ReNu Terra Mats. We have grown a number of microgreens on the mats to include Bok choy, broccoli and mustard with great results.<br\/><\/p>",
+              "author": "",
+              "author_title": ""
             }
           },
           "16203081298202a052-2": {
             "type": "quote",
             "settings": {
-              "title": "Company C",
-              "quote": "<p>Testimonial Quote<\/p>",
-              "author": "Marilyn Monroe",
-              "author_title": "CFO"
+              "image": "shopify:\/\/shop_images\/amatek.png",
+              "title": "Amatek Technologies",
+              "quote": "<p>We also experienced similar results with faster growth and higher yields.<\/p>",
+              "author": "",
+              "author_title": ""
             }
           }
         },
