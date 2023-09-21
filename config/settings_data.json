@@ -699,14 +699,14 @@
           "a9d22ea8-9482-49ce-9d14-4e1563225f5a-1688154409b52ce163-0": {
             "type": "image_list",
             "settings": {
-              "value": "6",
+              "value": "4",
               "title": "Continents"
             }
           },
           "cce43b0e-7c99-4fb0-8cdb-01f430364f9d": {
             "type": "image_list",
             "settings": {
-              "value": "20",
+              "value": "5",
               "title": "Partners"
             }
           },
