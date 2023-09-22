@@ -113,7 +113,7 @@
             {% assign resource_key_words = shop.metafields.globals.resource_key_words[forloop.index0] | downcase %}
             {% if resource_type == 'video' %}
                 {% if resource_title_downcase contains searchTerms or resource_key_words contains searchTerms %}
-                    {% assign youtube = shop.metafields.globals.resource_youtube[forloop.index0] %}
+                    {% assign youtube = shop.metafields.globals.resource_video_url[forloop.index0] %}
                     {% assign image = shop.metafields.globals.resource_image[forloop.index0] | first %}
                     {% render 'video-resource-item' title: resource_title, youtube: youtube, image: image %}
                 {% endif %}

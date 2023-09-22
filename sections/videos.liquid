@@ -32,7 +32,7 @@
             <div class="videos-grid">
               {% for reference_to in product.metafields.resources.videos.references %}
                 {% assign title = shop.metafields.globals.resource_title[reference_to.index] %}
-                {% assign youtube = shop.metafields.globals.resource_youtube[reference_to.index] %}
+                {% assign youtube = shop.metafields.globals.resource_video_url[reference_to.index] %}
                 {% assign image = shop.metafields.globals.resource_image[reference_to.index] | first %}
                 {% assign product_video_titles = product_video_titles | append: title | append: ',' %}
                 {% render 'video-resource-item' title: title, youtube: youtube, image: image %}
@@ -52,7 +52,7 @@
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
             {% if resource_type == 'video' %}
               {% unless product_video_titles contains resource_title %}
-                {% assign youtube = shop.metafields.globals.resource_youtube[forloop.index0] %}
+                {% assign youtube = shop.metafields.globals.resource_video_url[forloop.index0] %}
                 {% assign image = shop.metafields.globals.resource_image[forloop.index0] | first %}
                 {% render 'video-resource-item' title: resource_title, youtube: youtube, image: image %}
               {% endunless %}

@@ -403,6 +403,10 @@
     padding: 1rem;
 }
 
+.video-resource-item:hover .video-play-icon {
+    transform: scale(1.2);
+}
+
 .video-resource-item .item-inner {
     position: relative;
     cursor: pointer;
@@ -425,10 +429,13 @@
     position: absolute;
     top: 0.75rem;
     right: 1rem;
+    pointer-events: none;
+    transition: all .4s ease-in-out
 }
 
 .video-resource-item .video-title {
     position: absolute;
+    pointer-events: none;
     left: 0;
     bottom: 0;
     max-width: 90%;
