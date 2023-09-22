@@ -324,7 +324,7 @@
         <div class="videos-grid">
           {% for reference_to in product.metafields.resources.videos.references %}
             {% assign title = shop.metafields.globals.resource_title[reference_to.index] %}
-            {% assign youtube = shop.metafields.globals.resource_youtube[reference_to.index] %}
+            {% assign youtube = shop.metafields.globals.resource_video_url[reference_to.index] %}
             {% assign image = shop.metafields.globals.resource_image[reference_to.index] | first %}
             {% render 'video-resource-item' title: title, youtube: youtube, image: image %}
           {% endfor %}
@@ -408,17 +408,19 @@
     </div>
   {% endif %}
 
+  {% if section.settings.how_to_make_title or section.settings.how_to_make_top_content or section.settings.how_to_make_image %}
 
-  <div class="how_make_section text-center">
-    <div class="wrapper">
-      <h2>{{ section.settings.how_to_make_title }}</h2>
-      <div class="how_make_content">
-        <h3>{{ section.settings.how_to_make_top_content }}</h3>
-        {{ section.settings.how_to_make_image | img_url: 'master' | img_tag }}
-        <h4>{{ section.settings.how_to_make_botton_content }}</h4>
-      </div>
+    <div class="how_make_section text-center">
+        <div class="wrapper">
+        <h2>{{ section.settings.how_to_make_title }}</h2>
+        <div class="how_make_content">
+            <h3>{{ section.settings.how_to_make_top_content }}</h3>
+            {{ section.settings.how_to_make_image | img_url: 'master' | img_tag }}
+            <h4>{{ section.settings.how_to_make_botton_content }}</h4>
+        </div>
+        </div>
     </div>
-  </div>
+{% endif %}
 
   <div class="not_sure_section text-center">
     <div class="wrapper wrapper--margins">
