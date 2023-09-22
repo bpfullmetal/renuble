@@ -408,7 +408,7 @@
     </div>
   {% endif %}
 
-  {% if section.settings.how_to_make_title or section.settings.how_to_make_top_content or section.settings.how_to_make_image %}
+  {% if section.settings.how_to_make_title != blank or section.settings.how_to_make_top_content != blank or section.settings.how_to_make_image != blank %}
 
     <div class="how_make_section text-center">
         <div class="wrapper">
