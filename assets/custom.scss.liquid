@@ -1287,7 +1287,7 @@ svg:not(:root) {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 901px) {
     .template-blog .blog-list .article .flex {
         flex-direction: row;
     }
@@ -2802,5 +2802,30 @@ h1.hidden {
     .search-template .search-bar .input-wrapper input {
         width: 100%;
         margin-bottom: 1rem !important;
+    }
+}
+
+.article__content_wrapper {
+    width: 100%;
+}
+
+.article__content_wrapper .article__img_wrapper {
+    min-width: 320px;
+}
+
+.template-blog .blog-list .article .article__img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+@media (min-width: 1281px) {
+    .article__content_wrapper .article__img_wrapper {
+        display: flex;
+        flex: 1;
+    }
+
+    .template-blog .article__content {
+        width: 64%;
     }
 }

@@ -7,7 +7,7 @@
     <div class="flex">
 
       {% if article.image %}
-        <a href="{{ article.url }}">
+        <a href="{{ article.url }}" class="article__img_wrapper">
           <figure
             class="article__img lazyload no-js"
             data-bgset="{% include 'bgset', image: article.image %}"
