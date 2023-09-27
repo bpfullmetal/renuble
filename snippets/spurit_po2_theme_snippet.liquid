@@ -45,14 +45,9 @@
 <style> /* Safely hide ATC button */
     body:not(.spo-loaded) [data-shopify="payment-button"], 
 body:not(.spo-loaded).template-product #AddToCart-product-template, 
-body:not(.spo-loaded).template-product form[action="/cart/add"] [type=submit], 
 body:not(.spo-loaded).template-collection #AddToCart-home-product, 
-body:not(.spo-loaded).template-collection form[action="/cart/add"] [type=submit], 
-body:not(.spo-loaded).template-index form[action="/cart/add"] [type=submit], 
 body:not(.spo-loaded) form[action="/cart/add"] [type=submit] {opacity: 0; pointer-events: none}
     body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) button, 
-body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) input[type="submit"], 
-body:not(.spo-loaded) form[action^="/cart"]:not([action^="/cart/add"]):not(#currency_form) input[type="button"], 
 body:not(.spo-loaded) [name="checkout"], 
 body:not(.spo-loaded) [name="goto_pp"], 
 body:not(.spo-loaded) [name="goto_amazon_payments"] {opacity: 0; pointer-events: none}
