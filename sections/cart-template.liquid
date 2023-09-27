@@ -34,7 +34,7 @@
                 {% if property_size > 0 %}
                   {% for p in item.properties %}
                     {% assign first_character_in_key = p.first | truncate: 1, '' %}
-                    {% unless p.last == blank or first_character_in_key == '_' %}
+                    {% unless p.last == blank or p.first == "subscription_id" or p.first == "shipping_interval_frequency" or p.first == "shipping_interval_unit_type" or first_character_in_key == '_' %}
                       <div class="cart-item__property">
                         {{ p.first }}:
                         {% if p.last contains '/uploads/' %}

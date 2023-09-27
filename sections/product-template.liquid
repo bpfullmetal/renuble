@@ -121,7 +121,11 @@
 
           <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
-          {% form 'product', product %}
+          {% form 'product', product, data-productid: product.id %}
+<!-- Begin ReCharge code -->
+{% if product.available %}{% render 'subscription-product' with product as product %}{% endif %}
+<!-- End ReCharge code -->
+
 
             {% if product.compare_at_price_max > product.price %}
               <span id="ComparePriceA11y" class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
@@ -146,7 +150,7 @@
             <div class="form__row{% if product.has_only_default_variant and product.available == false %} form__row--no-variants-sold-out{% endif %}">
 
               <select
-                name="id"
+                name="id" data-productid="{{ product.id }}"
                 id="productSelect-{{ section.id }}"
                 class="product-single__variants">
                 {% for variant in product.variants %}
