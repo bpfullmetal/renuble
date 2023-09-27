@@ -375,7 +375,7 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "enable_payment_button": true,
+          "enable_payment_button": false,
           "social_sharing_products": true,
           "perfect_title": "Perfect for Growing...",
           "guarantedd_title": "Guaranteed Analysis",
