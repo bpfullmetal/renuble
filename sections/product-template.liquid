@@ -122,10 +122,6 @@
           <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
 
           {% form 'product', product, data-productid: product.id %}
-<!-- Begin ReCharge code -->
-{% if product.available %}{% render 'subscription-product' with product as product %}{% endif %}
-<!-- End ReCharge code -->
-
 
             {% if product.compare_at_price_max > product.price %}
               <span id="ComparePriceA11y" class="visually-hidden">{{ 'products.product.sale_price' | t }}</span>
@@ -170,6 +166,10 @@
                   {% endif %}
                 {% endfor %}
               </select>
+
+              <!-- Begin ReCharge code -->
+                {% if product.available %}{% render 'subscription-product' with product as product %}{% endif %}
+            <!-- End ReCharge code -->
 
               <div id="quantity-selector-{{ section.id }}" class="form__column quantity-selector">
                 <input
