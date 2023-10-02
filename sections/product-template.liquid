@@ -145,57 +145,59 @@
 
             <div class="form__row{% if product.has_only_default_variant and product.available == false %} form__row--no-variants-sold-out{% endif %}">
 
-              <select
-                name="id" data-productid="{{ product.id }}"
-                id="productSelect-{{ section.id }}"
-                class="product-single__variants">
-                {% for variant in product.variants %}
-                  {% if variant.available %}
+                <select
+                    name="id" data-productid="{{ product.id }}"
+                    id="productSelect-{{ section.id }}"
+                    class="product-single__variants">
+                    {% for variant in product.variants %}
+                    {% if variant.available %}
 
-                    <option
-                      {% if variant == current_variant %}
-                      selected="selected"
-                      {% endif %}
-                      data-sku="{{ variant.sku }}"
-                      value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
+                        <option
+                        {% if variant == current_variant %}
+                        selected="selected"
+                        {% endif %}
+                        data-sku="{{ variant.sku }}"
+                        value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
 
-                  {% else %}
-                    <option disabled="disabled">
-                      {{ variant.title }} - {{ 'products.product.sold_out' | t }}
-                    </option>
-                  {% endif %}
-                {% endfor %}
-              </select>
+                    {% else %}
+                        <option disabled="disabled">
+                        {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+                        </option>
+                    {% endif %}
+                    {% endfor %}
+                </select>
 
-              <div class="rc-widget-injection-parent"></div>
+                <div class="rc-widget-injection-parent"></div>
 
-              <div id="quantity-selector-{{ section.id }}" class="form__column quantity-selector">
-                <input
-                  type="number"
-                  id="Quantity"
-                  name="quantity"
-                  value="1"
-                  min="1"
-                  class="qty-remove-defaults quantity-selector">
-              </div>
+                <div id="product-form-section">
+                    <div id="quantity-selector-{{ section.id }}" class="form__column quantity-selector">
+                        <input
+                        type="number"
+                        id="Quantity"
+                        name="quantity"
+                        value="1"
+                        min="1"
+                        class="qty-remove-defaults quantity-selector">
+                    </div>
 
               
-              <div class="form__column{% if section.settings.enable_payment_button %} form__column--shopify-payment-btn{% endif %}">
-                <button
-                  type="submit"
-                  name="add"
-                  id="AddToCart-{{ section.id }}"
-                  class="btn btn--fill btn--regular btn--color{% if section.settings.enable_payment_button %} btn--shopify-payment-btn btn--secondary-accent{% endif %}">
-                  <span id="AddToCartText-{{ section.id }}">{{ 'products.product.add_to_cart' | t }}</span>
-                </button>
-                <input
-                  type="hidden"
-                  name="return_to"
-                  value="/checkout/" />
-                {% if section.settings.enable_payment_button %}
-                  {{ form | payment_button }}
-                {% endif %}
-              </div>
+                    <div class="form__column{% if section.settings.enable_payment_button %} form__column--shopify-payment-btn{% endif %}">
+                        <button
+                        type="submit"
+                        name="add"
+                        id="AddToCart-{{ section.id }}"
+                        class="btn btn--fill btn--regular btn--color{% if section.settings.enable_payment_button %} btn--shopify-payment-btn btn--secondary-accent{% endif %}">
+                        <span id="AddToCartText-{{ section.id }}">{{ 'products.product.add_to_cart' | t }}</span>
+                        </button>
+                        <input
+                        type="hidden"
+                        name="return_to"
+                        value="/checkout/" />
+                        {% if section.settings.enable_payment_button %}
+                        {{ form | payment_button }}
+                        {% endif %}
+                    </div>
+                </div>
             </div>
             {%- if product.metafields.accentuate.limit_count -%}
               {% assign inventory_pos = current_variant.inventory_quantity | times: -1 %}
