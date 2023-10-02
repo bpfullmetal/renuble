@@ -13,13 +13,13 @@
     margin: 0;
 }
 
-#rc_container {
+.rc-container-wrapper {
     padding: 0 15px;
     max-width: 450px;
-    #rc_radio_options {
+    .rc-template__legacy-radio {
         display: flex;
         flex-direction: column;
-        .rc_block__type {
+        .rc_widget__option {
             padding: .75rem .75rem 1rem;
             &:not(:last-of-type) {
                 border-bottom: 1px solid rgba(0,0,0,.2);
@@ -35,7 +35,7 @@
             label {
                 font-size: .9rem;
             }
-            &.rc_block__type--active {
+            &.rc-option--active {
                 background: rgba(0, 148, 122, .1);
                 border: 2px solid rgb(0, 148, 122);
                 label {
