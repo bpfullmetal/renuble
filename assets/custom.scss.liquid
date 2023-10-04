@@ -1265,6 +1265,23 @@ svg:not(:root) {
     flex-direction: column;
 }
 
+#resources-rows .article__content_wrapper .article__img_wrapper,
+#home-blog .article__content_wrapper .article__img_wrapper {
+    min-width: unset;
+}
+
+@media (min-width: 641px) and (max-width: 900px) {
+    #resources-rows .blog-list .article,
+    #home-blog .blog-list .article {
+        width: 50%;
+    }
+
+    #resources-rows .blog-list .article:nth-child(3),
+    #home-blog .blog-list .article:nth-child(3) {
+        display: none;
+    }
+}
+
 .blog-tag-filter-wrapper {
     width: fit-content;
     min-width: 260px;
