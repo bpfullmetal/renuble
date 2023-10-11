@@ -169,6 +169,14 @@
 
                 <div class="rc-widget-injection-parent"></div>
 
+                <div class="subscription-policy-wrapper">
+                  <label>Subscription agreement</label>
+                  <div class="subscription-policy-content">
+                    <input type="checkbox" id="subscription-agreement" name="subscription-agreement" />
+                    <p>{{ section.settings.subscription_policy_content }}</p>
+                  </div>
+                </div>
+
                 <div id="product-form-section">
                     <div id="quantity-selector-{{ section.id }}" class="form__column quantity-selector">
                         <input
@@ -482,6 +490,27 @@
       autoplay: false
     });
 
+    setTimeout(() => {
+      $('#product-form-section button').prop('disabled', false);
+      $('.subscription-policy-wrapper').hide();
+
+      $('input.rc_widget__option__input--onetime').change(function() {
+        $('.subscription-policy-wrapper').hide();
+        $('#product-form-section button[type=submit]').prop('disabled', false);
+      });
+
+      $('input.rc_widget__option__input--subsave').change(function() {
+        $('.subscription-policy-wrapper').show();
+
+        var isAgree = $('#subscription-agreement').is(':checked');
+        $('#product-form-section button[type=submit]').prop('disabled', !isAgree);
+      });
+
+      $('#subscription-agreement').change(function() {
+        $('#product-form-section button[type=submit]').prop('disabled', !this.checked);
+      });
+    }, 2000);
+
     /*$('.video-resource-item').click(function(e) {
       $('#video-modal').addClass('open');
       $('#video-modal iframe').attr('src', 'https://www.youtube.com/embed/' + $(this).data('youtube-id') + '?autoplay=1');
@@ -593,6 +622,13 @@
         "type": "richtext",
         "id": "how_to_make_botton_content",
         "label": "How we make Bottom Content"
+      }, {
+        "type": "header",
+        "content": "Recharge subscription policy"
+      }, {
+        "type": "richtext",
+        "id": "subscription_policy_content",
+        "label": "Subscription policy Content"
       }
     ]
   }
