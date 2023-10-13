@@ -499,14 +499,16 @@
     });
 
     setTimeout(() => {
-      $('.subscription-policy-wrapper').hide();
+      var curSubscriptionType = 'onetime';
 
       $('input.rc_widget__option__input--onetime').change(function() {
-        $('.subscription-policy-wrapper').hide();
+        curSubscriptionType = 'onetime';
+        $('.subscription-policy-wrapper').css('display', 'none');
       });
 
       $('input.rc_widget__option__input--subsave').change(function() {
-        $('.subscription-policy-wrapper').show();
+        curSubscriptionType = 'subsave';
+        $('.subscription-policy-wrapper').css('display', 'flex');
         $('.subscription-policy-required').hide();
       });
 
@@ -517,11 +519,15 @@
       $('#AddToCart-product-template').click(function(e) {
         e.preventDefault();
 
-        var isAgree = $('#subscription-agreement').is(':checked');
-        if (isAgree) {
-          $(this).trigger('click');
+        if (curSubscriptionType == 'subsave') {
+          var isAgree = $('#subscription-agreement').is(':checked');
+          if (isAgree) {
+            $(this).closest('form').submit();
+          } else {
+            $('.subscription-policy-required').show();
+          }
         } else {
-          $('.subscription-policy-required').show();
+          $(this).closest('form').submit();
         }
       });
     }, 2000);
