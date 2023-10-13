@@ -55,6 +55,11 @@
     flex-direction: column;
     padding: 0 15px;
     margin-bottom: 30px;
+    
+    a {
+        color: #019578;
+        font-weight: 700;
+    }
 
     label {
         color: #000;
@@ -76,6 +81,28 @@
         p {
             margin-bottom: 0;
         }
+    }
+
+    .policy-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0.5rem 0;
+
+        & > div:not(:last-child) {
+            border-right: 1px solid #019578;
+        }
+
+        a {
+            line-height: 1;
+            margin: 0 0.5rem;
+        }
+    }
+
+    .subscription-policy-required {
+        color: red;
+        font-size: 14px;
+        margin: 0 0.75rem;
     }
 }
 

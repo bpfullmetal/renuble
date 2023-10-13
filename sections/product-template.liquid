@@ -175,6 +175,14 @@
                     <input type="checkbox" id="subscription-agreement" name="subscription-agreement" />
                     <p>{{ section.settings.subscription_policy_content }}</p>
                   </div>
+                  <div class="policy-links">
+                    {% for link in linklists[section.settings.policy_links].links %}
+                      <div><a href={{link.url}} target="_blank">{{ link.title}}</a></div>
+                    {% endfor %}
+                  </div>
+                  <div class="subscription-policy-required">
+                    Please check the box above to indicate that you have read and agree to our subscription policies.
+                  </div>
                 </div>
 
                 <div id="product-form-section">
@@ -491,23 +499,30 @@
     });
 
     setTimeout(() => {
-      $('#product-form-section button').prop('disabled', false);
       $('.subscription-policy-wrapper').hide();
 
       $('input.rc_widget__option__input--onetime').change(function() {
         $('.subscription-policy-wrapper').hide();
-        $('#product-form-section button[type=submit]').prop('disabled', false);
       });
 
       $('input.rc_widget__option__input--subsave').change(function() {
         $('.subscription-policy-wrapper').show();
-
-        var isAgree = $('#subscription-agreement').is(':checked');
-        $('#product-form-section button[type=submit]').prop('disabled', !isAgree);
+        $('.subscription-policy-required').hide();
       });
 
       $('#subscription-agreement').change(function() {
-        $('#product-form-section button[type=submit]').prop('disabled', !this.checked);
+        $('.subscription-policy-required').hide();
+      });
+
+      $('#AddToCart-product-template').click(function(e) {
+        e.preventDefault();
+
+        var isAgree = $('#subscription-agreement').is(':checked');
+        if (isAgree) {
+          $(this).trigger('click');
+        } else {
+          $('.subscription-policy-required').show();
+        }
       });
     }, 2000);
 
@@ -629,6 +644,10 @@
         "type": "richtext",
         "id": "subscription_policy_content",
         "label": "Subscription policy Content"
+      }, {
+        "type": "link_list",
+        "id": "policy_links",
+        "label": "Policy links"
       }
     ]
   }
