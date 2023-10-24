@@ -670,8 +670,8 @@
       "newsletter": {
         "type": "newsletter",
         "settings": {
-          "heading": "Stay up to date",
-          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+          "heading": "Free Shipping!",
+          "subheading": "<p>Sign up to receive updates from Re-Nuble, and get free shipping on your order of <strong>$50 or more<\/strong>.<\/p>"
         }
       },
       "resource-center": {
