@@ -252,7 +252,7 @@
   },
   "products": {
     "product": {
-      "sold_out": "Sold",
+      "sold_out": "Sold Out",
       "on_sale": "Sale",
       "on_sale_from": "From",
       "include_taxes": "Tax included.",
@@ -282,6 +282,13 @@
       "shop_link": "Start shopping",
       "print": "Print",
       "add_to_apple_wallet": "Add to Apple Wallet"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "sold_out_label": "Sold Out"
+      }
     }
   }
 }
