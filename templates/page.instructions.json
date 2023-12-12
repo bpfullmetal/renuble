@@ -9,20 +9,6 @@
         "text_size": "medium"
       }
     },
-    "96542f1b-b181-493e-a35e-cee93187c836": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "#fff",
-        "background_color": "#000",
-        "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/Mesh_Bottom_1020_flat_-_WIP.webp",
-        "home-featured-title": "Talk about your brand",
-        "home-featured-content": "<p>Use this text to share information about your brand with your customers. <strong>Describe a product, share announcements, or welcome customers to your store.<\/strong><\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": false
-      }
-    },
     "feature-rows": {
       "type": "feature-rows",
       "settings": {
@@ -82,7 +68,6 @@
   },
   "order": [
     "16384129693845a927",
-    "96542f1b-b181-493e-a35e-cee93187c836",
     "feature-rows",
     "7ff7ec04-5bb7-4178-9e14-870d8cda9871",
     "f5300e43-2dd8-4707-81fb-295533bb813a",
