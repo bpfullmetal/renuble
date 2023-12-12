@@ -4,8 +4,8 @@
       "type": "rich-text",
       "settings": {
         "home_page_full_width": true,
-        "section_title": "Our Mission",
-        "text": "<p>Creating next generation materials through mycelium biofabrication, and making these capabilities and materials ubiquitous and accessible to everyone, from bespoke local producers to industrial scale facilities. We help people around the world grow better materials for everyday needs.<\/p>",
+        "section_title": "Instructions",
+        "text": "<p>How to Use ReNu Terra Mats<\/p><p>Learn to Grow Like A Pro!<\/p>",
         "text_size": "medium"
       }
     },
@@ -15,9 +15,9 @@
         "text_color": "#ffffff",
         "background_color": "#33856b",
         "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/team-hero-image.png",
-        "home-featured-title": "Team",
-        "home-featured-content": "<p>Ecovative is a diverse group of engineers, biologists, artists and designers — dedicated to the development of high-performance, environmentally conscious materials.<\/p>",
+        "image": "shopify:\/\/shop_images\/Mesh_Bottom_1020_flat_-_WIP.webp",
+        "home-featured-title": "Team{{ page.title }}",
+        "home-featured-content": "<p>Remove ReNu Terra mats from packaging and lay them flat into your mesh bottom 1020 flats.<\/p>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
