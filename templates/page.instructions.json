@@ -9,11 +9,18 @@
         "text_size": "medium"
       }
     },
+    "6060e624-6671-4e1f-b753-5b1dfb49aa2b": {
+      "type": "video",
+      "settings": {
+        "heading": "How to Video",
+        "video_text_color": "video-text-dark"
+      }
+    },
     "feature-rows": {
       "type": "feature-rows",
       "settings": {
-        "text_color": "#ffffff",
-        "background_color": "#33856b",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "left-img",
         "image": "shopify:\/\/shop_images\/Mesh_Bottom_1020_flat_-_WIP.webp",
         "home-featured-title": "1) Lay Mats in 1020 Tray",
@@ -23,43 +30,85 @@
         "home-featured-fullscreen": true
       }
     },
-    "7ff7ec04-5bb7-4178-9e14-870d8cda9871": {
+    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7": {
       "type": "feature-rows",
       "settings": {
-        "text_color": "#ffffff",
-        "background_color": "#33856b",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/team-hero-image.png",
-        "home-featured-title": "Team",
-        "home-featured-content": "<p>Ecovative is a diverse group of engineers, biologists, artists and designers — dedicated to the development of high-performance, environmentally conscious materials.<\/p>",
+        "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden.jpg",
+        "home-featured-title": "2) Wet the mats",
+        "home-featured-content": "<p>Wet the mats by top watering until fully saturated using the shower setting on your sink or hose nozzle. This should take about 10 seconds, and you want to make sure that the entire mats look evenly wetted.<\/p>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
       }
     },
-    "f5300e43-2dd8-4707-81fb-295533bb813a": {
+    "8266f9ee-9017-466a-ba84-cde7c187bcae": {
       "type": "feature-rows",
       "settings": {
-        "text_color": "#ffffff",
-        "background_color": "#33856b",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/team-hero-image.png",
-        "home-featured-title": "Team",
-        "home-featured-content": "<p>Ecovative is a diverse group of engineers, biologists, artists and designers — dedicated to the development of high-performance, environmentally conscious materials.<\/p>",
+        "image": "shopify:\/\/shop_images\/Seeds_-_WIP.jpg",
+        "home-featured-title": "3) Seeding",
+        "home-featured-content": "<p>-Measure out the seeds you wish to sow (quantity recommended<br\/>by seed vendor) and sprinkle them evenly over the wet mat.<\/p><p>-Spray the sown seeds with water.<\/p>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
       }
     },
-    "ffbb9a2d-a334-4cde-96ab-291814b2f43e": {
+    "ae65dcd5-a2a0-4c4e-af04-96773bf159e5": {
       "type": "feature-rows",
       "settings": {
-        "text_color": "#ffffff",
-        "background_color": "#33856b",
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
+        "home-featured-align": "right-img",
+        "image": "shopify:\/\/shop_images\/Germination_-_WIP.png",
+        "home-featured-title": "4) Germination",
+        "home-featured-content": "<p>-Cover the stacked tray, and seeded mat with the lid or dome<br\/>and keep it covered for 2 days.<\/p><p>-After 2 days, check to see if your seeds are filly<br\/>germinated, and remove the lid if they are.<\/p><p>-You can move the tray around when it’s covered, just be<br\/>sure to keep it horizontal at all times.<\/p>",
+        "home-featured-btn-label": "",
+        "home-featured-btn-url": "",
+        "home-featured-fullscreen": true
+      }
+    },
+    "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae": {
+      "type": "feature-rows",
+      "settings": {
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/team-hero-image.png",
-        "home-featured-title": "Team",
-        "home-featured-content": "<p>Ecovative is a diverse group of engineers, biologists, artists and designers — dedicated to the development of high-performance, environmentally conscious materials.<\/p>",
+        "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden.jpg",
+        "home-featured-title": "5) Irrigation",
+        "home-featured-content": "<p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p>",
+        "home-featured-btn-label": "",
+        "home-featured-btn-url": "",
+        "home-featured-fullscreen": true
+      }
+    },
+    "334483dc-d41e-48b8-8be5-776843c6fcbb": {
+      "type": "feature-rows",
+      "settings": {
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
+        "home-featured-align": "right-img",
+        "image": "shopify:\/\/shop_images\/33744_hd.jpg",
+        "home-featured-title": "5) Harvesting",
+        "home-featured-content": "<p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p>",
+        "home-featured-btn-label": "",
+        "home-featured-btn-url": "",
+        "home-featured-fullscreen": true
+      }
+    },
+    "52133736-bfe2-4bff-8472-e5114777b32d": {
+      "type": "feature-rows",
+      "settings": {
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
+        "home-featured-align": "left-img",
+        "image": "shopify:\/\/shop_images\/33744_hd.jpg",
+        "home-featured-title": "7) Eat Your Greens!",
+        "home-featured-content": "<p>Research indicates that microgreens contain up to 40% more phytochemicals (beneficial nutrients and components) than their full-grown counterparts.<\/p>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
@@ -68,9 +117,13 @@
   },
   "order": [
     "16384129693845a927",
+    "6060e624-6671-4e1f-b753-5b1dfb49aa2b",
     "feature-rows",
-    "7ff7ec04-5bb7-4178-9e14-870d8cda9871",
-    "f5300e43-2dd8-4707-81fb-295533bb813a",
-    "ffbb9a2d-a334-4cde-96ab-291814b2f43e"
+    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
+    "8266f9ee-9017-466a-ba84-cde7c187bcae",
+    "ae65dcd5-a2a0-4c4e-af04-96773bf159e5",
+    "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae",
+    "334483dc-d41e-48b8-8be5-776843c6fcbb",
+    "52133736-bfe2-4bff-8472-e5114777b32d"
   ]
 }
