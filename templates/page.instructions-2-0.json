@@ -9,113 +9,18 @@
         "text_size": "medium"
       }
     },
-    "feature-rows": {
-      "type": "feature-rows",
+    "3e5e7355-b29d-4bcf-9424-73d3d3e13149": {
+      "type": "rich-text",
       "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/Mesh_Bottom_1020_flat_-_WIP.webp",
-        "home-featured-title": "1) Lay Mats in 1020 Tray",
-        "home-featured-content": "<p>Remove ReNu Terra mats from packaging and lay them flat into your mesh bottom 1020 flats.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
-    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden.jpg",
-        "home-featured-title": "2) Wet the mats",
-        "home-featured-content": "<p>Wet the mats by top watering until fully saturated using the shower setting on your sink or hose nozzle. This should take about 10 seconds, and you want to make sure that the entire mats look evenly wetted.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
-    "8266f9ee-9017-466a-ba84-cde7c187bcae": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/Seeds_-_WIP.jpg",
-        "home-featured-title": "3) Seeding",
-        "home-featured-content": "<p>-Measure out the seeds you wish to sow (quantity recommended<br\/>by seed vendor) and sprinkle them evenly over the wet mat.<\/p><p>-Spray the sown seeds with water.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
-    "ae65dcd5-a2a0-4c4e-af04-96773bf159e5": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/Germination_-_WIP.png",
-        "home-featured-title": "4) Germination",
-        "home-featured-content": "<p>-Cover the stacked tray, and seeded mat with the lid or dome<br\/>and keep it covered for 2 days.<\/p><p>-After 2 days, check to see if your seeds are filly<br\/>germinated, and remove the lid if they are.<\/p><p>-You can move the tray around when it’s covered, just be<br\/>sure to keep it horizontal at all times.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
-    "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden.jpg",
-        "home-featured-title": "5) Irrigation",
-        "home-featured-content": "<p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
-    "334483dc-d41e-48b8-8be5-776843c6fcbb": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/33744_hd.jpg",
-        "home-featured-title": "6) Harvesting",
-        "home-featured-content": "<p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
-    "52133736-bfe2-4bff-8472-e5114777b32d": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "left-img",
-        "image": "shopify:\/\/shop_images\/EAT_-_WIP.jpg",
-        "home-featured-title": "7) Eat Your Greens!",
-        "home-featured-content": "<p>Research indicates that microgreens contain up to 40% more phytochemicals (beneficial nutrients and components) than their full-grown counterparts.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
+        "home_page_full_width": true,
+        "section_title": "Talk about your brand",
+        "text": "<p>Greeting, and congratulations on your purchase of Re-Nuble’s<br\/>ReNu Terra microgreen mats! You’ve made a great decision to use one of the most<br\/>interesting products in the space that prioritizes sustainability, performance,<br\/>and cost. We’ve provided this guide specifically for users that don’t have<br\/>access to a hydroponic system or automated irrigation system, or that prefer<br\/>growing microgreens manually.<\/p><p> <\/p><p>Here’s what you’ll need to get started:<\/p><p>-A standard 1020 tray with a solid bottom (no holes)<\/p><p>-A standard 1020 insret with a mesh bottom (or holes) that<br\/>fits your solid bottom tray snuggly<\/p><p>-A lid or dome that can cover your tray and insert without<br\/>leaving large gaps open<\/p><p>-A spray bottle<\/p><p>-Your choice of seeds<\/p><p> <\/p><p>1. Preparing your materials:<\/p><p>-Take one ReNu Terra mat out of the packaging and lay it<br\/>flat on your 1020 insert.<\/p><p>-Separately, place your 1020 tray where you plan to grow the<br\/>microgreens and pour 8.5 cups (2L) of water into it.<\/p><p> <\/p><p>2. Wetting the mat:<\/p><p>-The best way to wet the mat is to spray it with your sink<br\/>or shower head while it lays flat in the 1020 insert until it looks fully<br\/>saturated.<\/p><p>-Keep it horizontal while moving it to the 1020 tray with<br\/>water to avoid losing any of the water that the mat has absorbed.<\/p><p> <\/p><p>3. Seeding:<\/p><p>-After wetting it, place the mat in the 1020 insert into the<br\/>1020 tray where you poured in the water.<\/p><p>-Measure out the seeds you wish to sow (quantity recommended<br\/>by seed vendor) and sprinkle them evenly over the wet mat.<\/p><p>-Spray the sown seeds with water.<\/p><p> <\/p><p>4. Germination:<\/p><p>-Cover the stacked tray, and seeded mat with the lid or dome<br\/>and keep it covered for 2 days.<\/p><p>-After 2 days, check to see if your seeds are filly<br\/>germinated, and remove the lid if they are.<\/p><p>-You can move the tray around when it’s covered, just be<br\/>sure to keep it horizontal at all times.<\/p><p> <\/p><p>5. Irrigation:<\/p><p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p><p> <\/p><p>6. Harvesting:<\/p><p>-The best thing to do when you’re ready to harvest is to<br\/>harvest all the microgreens at once.<\/p><p>-Use a knife or scissors to carefully cut the microgreens at<br\/>the stem just above the mat.<\/p><p>-Lay them out in the empty 1020 tray with paper towels laid<br\/>down and tamp them dry before putting them in a bag or container in the fridge,<br\/>then consume within one week.<\/p><p>-Discard the used mat and roots in your compost, and wash<br\/>the tray, insert, and lid with soap and water before reusing them.<\/p><p> <\/p><p>Feel free to experiment and have fun, and let us know what<br\/>ends up working best for you in your situation. Thanks for joining us on our<br\/>mission of sustainable and healthy living, and happy growing!<\/p>",
+        "text_size": "medium"
       }
     }
   },
   "order": [
     "16384129693845a927",
-    "feature-rows",
-    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
-    "8266f9ee-9017-466a-ba84-cde7c187bcae",
-    "ae65dcd5-a2a0-4c4e-af04-96773bf159e5",
-    "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae",
-    "334483dc-d41e-48b8-8be5-776843c6fcbb",
-    "52133736-bfe2-4bff-8472-e5114777b32d"
+    "3e5e7355-b29d-4bcf-9424-73d3d3e13149"
   ]
 }
