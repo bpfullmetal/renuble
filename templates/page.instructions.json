@@ -9,14 +9,6 @@
         "text_size": "medium"
       }
     },
-    "6060e624-6671-4e1f-b753-5b1dfb49aa2b": {
-      "type": "video",
-      "settings": {
-        "heading": "How to Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=SdYr-VXWUVI",
-        "video_text_color": "video-text-dark"
-      }
-    },
     "feature-rows": {
       "type": "feature-rows",
       "settings": {
@@ -118,7 +110,6 @@
   },
   "order": [
     "16384129693845a927",
-    "6060e624-6671-4e1f-b753-5b1dfb49aa2b",
     "feature-rows",
     "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "8266f9ee-9017-466a-ba84-cde7c187bcae",
