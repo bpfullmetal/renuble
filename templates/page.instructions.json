@@ -9,6 +9,15 @@
         "text_size": "medium"
       }
     },
+    "b041ae16-753f-4309-a91c-79a63607b05b": {
+      "type": "rich-text",
+      "settings": {
+        "home_page_full_width": false,
+        "section_title": "Talk about your brand",
+        "text": "<p><a href=\"https:\/\/www.re-nuble.com\/pages\/instructions-renu-terra-classic-mat\" title=\"ReNu Terra Classic Mat Instructions\">ReNu Terra Classic Mat Instructions<\/a><\/p>",
+        "text_size": "medium"
+      }
+    },
     "feature-rows": {
       "type": "feature-rows",
       "settings": {
@@ -110,6 +119,7 @@
   },
   "order": [
     "16384129693845a927",
+    "b041ae16-753f-4309-a91c-79a63607b05b",
     "feature-rows",
     "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "8266f9ee-9017-466a-ba84-cde7c187bcae",
