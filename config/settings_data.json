@@ -556,12 +556,23 @@
               "author": "",
               "author_title": ""
             }
+          },
+          "quote_GxyzgM": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/verticalacres.webp",
+              "title": "Vertical Acres Farm, LLC",
+              "quote": "<p>Yield. As a commercial grower, growing in the most efficient manner possible, while also achieving maximum crop yields is what we strive for. Re-Nuble is able to deliver by increasing our yields, and decreasing our grow times.<\/p>",
+              "author": "Author's name",
+              "author_title": ""
+            }
           }
         },
         "block_order": [
           "16203081298202a052-0",
           "16203081298202a052-1",
-          "16203081298202a052-2"
+          "16203081298202a052-2",
+          "quote_GxyzgM"
         ],
         "settings": {
           "title": "Why Growers Love Us"
