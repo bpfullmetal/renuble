@@ -527,22 +527,12 @@
       "16203081298202a052": {
         "type": "quotes",
         "blocks": {
-          "16203081298202a052-0": {
+          "quote_GxyzgM": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/gather.png",
-              "title": "Gather Farms",
-              "quote": "<p>The Micro Mats that we normally use proved to have 2.49 ounces and your Re-Nuble ReNu Terra Mats yielded 2.96 ounces. The roots were much more pronounced on Re-Nuble's.<\/p>",
-              "author": "",
-              "author_title": ""
-            }
-          },
-          "16203081298202a052-1": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/magki.png",
-              "title": "Magki Farms",
-              "quote": "<p>So far, we have had a positive experience in using the ReNu Terra Mats. We have grown a number of microgreens on the mats to include Bok choy, broccoli and mustard with great results.<br\/><\/p>",
+              "image": "shopify:\/\/shop_images\/verticalacres.webp",
+              "title": "Vertical Acres Farm",
+              "quote": "<p>Yield. As a commercial grower, growing in the most efficient manner possible, while also achieving maximum crop yields is what we strive for. Re-Nuble is able to deliver by increasing our yields, and decreasing our grow times.<\/p>",
               "author": "",
               "author_title": ""
             }
@@ -557,22 +547,32 @@
               "author_title": ""
             }
           },
-          "quote_GxyzgM": {
+          "16203081298202a052-1": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/verticalacres.webp",
-              "title": "Vertical Acres Farm, LLC",
-              "quote": "<p>Yield. As a commercial grower, growing in the most efficient manner possible, while also achieving maximum crop yields is what we strive for. Re-Nuble is able to deliver by increasing our yields, and decreasing our grow times.<\/p>",
+              "image": "shopify:\/\/shop_images\/magki.png",
+              "title": "Magki Farms",
+              "quote": "<p>So far, we have had a positive experience in using the ReNu Terra Mats. We have grown a number of microgreens on the mats to include Bok choy, broccoli and mustard with great results.<br\/><\/p>",
+              "author": "",
+              "author_title": ""
+            }
+          },
+          "16203081298202a052-0": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/gather.png",
+              "title": "Gather Farms",
+              "quote": "<p>The Micro Mats that we normally use proved to have 2.49 ounces and your Re-Nuble ReNu Terra Mats yielded 2.96 ounces. The roots were much more pronounced on Re-Nuble's.<\/p>",
               "author": "",
               "author_title": ""
             }
           }
         },
         "block_order": [
-          "16203081298202a052-0",
-          "16203081298202a052-1",
+          "quote_GxyzgM",
           "16203081298202a052-2",
-          "quote_GxyzgM"
+          "16203081298202a052-1",
+          "16203081298202a052-0"
         ],
         "settings": {
           "title": "Why Growers Love Us"
