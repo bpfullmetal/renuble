@@ -547,6 +547,16 @@
               "author_title": ""
             }
           },
+          "quote_WdBh8A": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/f2f.png",
+              "title": "Farm to Forage",
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "",
+              "author_title": ""
+            }
+          },
           "16203081298202a052-1": {
             "type": "quote",
             "settings": {
@@ -571,6 +581,7 @@
         "block_order": [
           "quote_GxyzgM",
           "16203081298202a052-2",
+          "quote_WdBh8A",
           "16203081298202a052-1",
           "16203081298202a052-0"
         ],
