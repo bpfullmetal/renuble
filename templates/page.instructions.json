@@ -69,9 +69,9 @@
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/Germination_-_WIP.png",
+        "image": "shopify:\/\/shop_images\/RNT_Germination.jpg",
         "home-featured-title": "4) Germination",
-        "home-featured-content": "<p>-Cover the stacked tray, and seeded mat with the lid or dome<br\/>and keep it covered for 2 days.<\/p><p>-After 2 days, check to see if your seeds are filly<br\/>germinated, and remove the lid if they are.<\/p><p>-You can move the tray around when it’s covered, just be<br\/>sure to keep it horizontal at all times.<\/p>",
+        "home-featured-content": "<ol><li>Place the tray cover over stacked tray and do not touch for 2 days.<\/li><li>After 2 days,, check to see if your seeds are fully germinated. Fully Germinated seeds have produced a root and the first leaf. <\/li><li>If fully germinated, remove the lid.<\/li><\/ol><p>If seeds are not fully germinated, spray with more water, replace cover and check again in 1 day.<\/p>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
@@ -85,7 +85,7 @@
         "home-featured-align": "left-img",
         "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden.jpg",
         "home-featured-title": "5) Irrigation",
-        "home-featured-content": "<p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p>",
+        "home-featured-content": "<ol><li>Maintain moisture by checking the tray daily. Aim for about a half an inch of water, and top off with more water as needed. <\/li><\/ol><ul><li>If you want to grow your microgreens longer than one week after germination, be sure to apply fertilizer. <\/li><li>In our testing, for best results, we irrigated every 12 hours with a hydroponic fertilizer wolution at an E.C. of 1.0 ds\/m and a pH of 6.0<\/li><\/ul>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
@@ -97,9 +97,9 @@
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/33744_hd.jpg",
+        "image": "shopify:\/\/shop_images\/Total_Harvest.jpg",
         "home-featured-title": "6) Harvesting",
-        "home-featured-content": "<p>-Check the bottom 1020 tray daily and keep it topped off<br\/>with water to a depth of about half an inch, or about half a fingertip deep.<\/p><p>-If you want to grow your microgreens longer than one week<br\/>after germination, they will need fertilizer.<\/p>",
+        "home-featured-content": "<ol><li>Pull the mat out of its 1020 flat and lay flat on a solid surface.<\/li><li>Use a knife or scissors to carefully cut the micogreens at the stem, just above the mat (about 1 inch from the mat). Harvest all the microgreens at once. <\/li><li>Lay your harvested greens on paper towels and tamp them to dry. <\/li><li>Place the microgreens in your storage container(s) and refrigerate until consumption.<\/li><li>Consume within one week of harvesting. <\/li><li>DIscard the used mat <\/li><\/ol>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
@@ -113,7 +113,7 @@
         "home-featured-align": "left-img",
         "image": "shopify:\/\/shop_images\/EAT_-_WIP.jpg",
         "home-featured-title": "7) Eat Your Greens!",
-        "home-featured-content": "<p>Research indicates that microgreens contain up to 40% more phytochemicals (beneficial nutrients and components) than their full-grown counterparts.<\/p>",
+        "home-featured-content": "<ol><li>Refrigerate until consumption.<\/li><li>Consume with one week of harvesting. <\/li><\/ol>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
