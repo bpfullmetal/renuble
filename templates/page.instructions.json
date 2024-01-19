@@ -2,6 +2,9 @@
   "sections": {
     "16384129693845a927": {
       "type": "rich-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "home_page_full_width": true,
         "section_title": "Instructions",
@@ -18,80 +21,6 @@
         "text_size": "medium"
       }
     },
-    "feature_columns_RAUFCQ": {
-      "type": "feature-columns",
-      "blocks": {
-        "text_hhd6Hb": {
-          "type": "text",
-          "settings": {
-            "home-features-icon": "bell-o",
-            "home-features-title": "Tray",
-            "home-features-content": "<p>A standard 1020 tray with a solid bottom (no holes)<\/p>",
-            "width": "33%"
-          }
-        },
-        "text_9YALcX": {
-          "type": "text",
-          "settings": {
-            "home-features-icon": "bell-o",
-            "home-features-title": "Tray Insert",
-            "home-features-content": "<p>A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/p>",
-            "width": "33%"
-          }
-        },
-        "text_MJhpwP": {
-          "type": "text",
-          "settings": {
-            "home-features-icon": "bell-o",
-            "home-features-title": "Cover",
-            "home-features-content": "<p>A snug fitting cover that goes over both the tray and insert, without any large open gaps. <\/p>",
-            "width": "33%"
-          }
-        },
-        "text_LCeWa3": {
-          "type": "text",
-          "settings": {
-            "home-features-icon": "bell-o",
-            "home-features-title": "Watering Device",
-            "home-features-content": "<p>A spray bottle, or a sink or shower head. <\/p>",
-            "width": "25%"
-          }
-        },
-        "text_zbDGxY": {
-          "type": "text",
-          "settings": {
-            "home-features-icon": "bell-o",
-            "home-features-title": "Seeds",
-            "home-features-content": "<p>Your seeds of choice. <\/p><p>Classic mats -  Ideal for microgreens & leafy greens<\/p><p>Large Seed Format mats - Ideal for deeper rooting plants like spinach & baby greens<\/p>",
-            "width": "33%"
-          }
-        }
-      },
-      "block_order": [
-        "text_hhd6Hb",
-        "text_9YALcX",
-        "text_MJhpwP",
-        "text_LCeWa3",
-        "text_zbDGxY"
-      ],
-      "settings": {
-        "title": "Planting Materials Required"
-      }
-    },
-    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7": {
-      "type": "feature-rows",
-      "settings": {
-        "text_color": "{{ shop.brand.colors.primary[0].background }}",
-        "background_color": "{{ shop.brand.colors.primary[0].background }}",
-        "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden.jpg",
-        "home-featured-title": "2) Wet the mats",
-        "home-featured-content": "<p>Wet the mats by top watering until fully saturated using the shower setting on your sink or hose nozzle. This should take about 10 seconds, and you want to make sure that the entire mats look evenly wetted.<\/p>",
-        "home-featured-btn-label": "",
-        "home-featured-btn-url": "",
-        "home-featured-fullscreen": true
-      }
-    },
     "feature-rows": {
       "type": "feature-rows",
       "settings": {
@@ -100,7 +29,21 @@
         "home-featured-align": "left-img",
         "image": "shopify:\/\/shop_images\/1020_Tray.jpg",
         "home-featured-title": "1) Lay Mats in 1020 Tray",
-        "home-featured-content": "<p>Remove ReNu Terra mats from packaging and lay them flat into your mesh bottom 1020 flats.<\/p>",
+        "home-featured-content": "<ol><li>Remove one ReNu Terra mat form the packaging, and lay it flat in your 1020 insert.<\/li><li>Place your 1020 tray in your intended growing location.<\/li><li>Pour water into tray; we recommend 8.5 cups (2L) of water into it.<\/li><\/ol>",
+        "home-featured-btn-label": "",
+        "home-featured-btn-url": "",
+        "home-featured-fullscreen": true
+      }
+    },
+    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7": {
+      "type": "feature-rows",
+      "settings": {
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
+        "home-featured-align": "right-img",
+        "image": "shopify:\/\/shop_images\/Spray_bottle_1080_x_1080_px.png",
+        "home-featured-title": "2) Wet the mats",
+        "home-featured-content": "<p>Keeping your mat lying flat in the 1020 insert, wet the ReNu Terra mat until it looks <strong>fully saturated<\/strong>. <\/p>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
@@ -114,7 +57,7 @@
         "home-featured-align": "left-img",
         "image": "shopify:\/\/shop_images\/Seeds_-_WIP.jpg",
         "home-featured-title": "3) Seeding",
-        "home-featured-content": "<p>-Measure out the seeds you wish to sow (quantity recommended<br\/>by seed vendor) and sprinkle them evenly over the wet mat.<\/p><p>-Spray the sown seeds with water.<\/p>",
+        "home-featured-content": "<ol><li>Evenly sprinkle your seeds over the wet mat. See quantity as recommended by your manufacturer.<\/li><li>Thoroughly wet the sown seeds with water. <\/li><\/ol><ul><li><strong>Classic mats<\/strong> -  Ideal for<br\/>microgreens & leafy greens.<\/li><li><strong>Large Seed Format mats<\/strong> - Ideal for deeper<br\/>rooting plants like spinach & baby greens.<\/li><\/ul>",
         "home-featured-btn-label": "",
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
@@ -180,9 +123,8 @@
   "order": [
     "16384129693845a927",
     "rich_text_6djckg",
-    "feature_columns_RAUFCQ",
-    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "feature-rows",
+    "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "8266f9ee-9017-466a-ba84-cde7c187bcae",
     "ae65dcd5-a2a0-4c4e-af04-96773bf159e5",
     "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae",
