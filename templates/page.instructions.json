@@ -9,6 +9,15 @@
         "text_size": "medium"
       }
     },
+    "rich_text_6djckg": {
+      "type": "rich-text",
+      "settings": {
+        "home_page_full_width": false,
+        "section_title": "Planting Materials Required",
+        "text": "<ol><li><strong>Tray - <\/strong>A standard 1020 tray with a solid bottom (no holes)<\/li><li><strong>Tray Insert <\/strong>- A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Cover - <\/strong>A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Watering <\/strong>- A spray bottle, or a sink or shower head. <\/li><li><strong>Seeds - <\/strong>Your seeds of choice. <\/li><\/ol><p>Classic mats -  Ideal for microgreens & leafy greens.<\/p><p>Large Seed Format mats - Ideal for deeper rooting plants like spinach & baby greens.<\/p>",
+        "text_size": "medium"
+      }
+    },
     "feature_columns_RAUFCQ": {
       "type": "feature-columns",
       "blocks": {
@@ -170,6 +179,7 @@
   },
   "order": [
     "16384129693845a927",
+    "rich_text_6djckg",
     "feature_columns_RAUFCQ",
     "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "feature-rows",
