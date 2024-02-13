@@ -122,9 +122,10 @@
     "video_TRnhQw": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "How to Use ReNu Terra Mats Video",
         "video_url": "https:\/\/youtu.be\/qM-ZM0MorUw?si=dYSHoX-eIAafshA9",
-        "video_text_color": "video-text-light"
+        "video_text_color": "video-text-light",
+        "cover_image": "shopify:\/\/shop_images\/Screen_Shot_2024-02-13_at_8.15.38_AM.png"
       }
     }
   },
