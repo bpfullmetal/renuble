@@ -123,8 +123,8 @@
       "type": "video",
       "settings": {
         "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=qM-ZM0MorUw&t=2s",
-        "video_text_color": "video-text-dark"
+        "video_url": "https:\/\/youtu.be\/qM-ZM0MorUw?si=dYSHoX-eIAafshA9",
+        "video_text_color": "video-text-light"
       }
     }
   },
