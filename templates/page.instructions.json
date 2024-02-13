@@ -15,7 +15,7 @@
     "rich_text_6djckg": {
       "type": "rich-text",
       "settings": {
-        "home_page_full_width": false,
+        "home_page_full_width": true,
         "section_title": "Planting Materials Required",
         "text": "<ol><li><strong>Tray - <\/strong>A standard 1020 tray with a solid bottom (no holes)<\/li><li><strong>Tray Insert <\/strong>- A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Cover - <\/strong>A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Watering <\/strong>- A spray bottle, or a sink or shower head. <\/li><li><strong>Seeds - <\/strong>Your seeds of choice. <\/li><\/ol><p><em><strong>ReNu Terra Classic Mats<\/strong><\/em> -  Ideal for microgreens & leafy greens.<\/p><p><em><strong>ReNu Terra Large Seed Format Mats<\/strong><\/em> - Ideal for deeper rooting plants like spinach & baby greens.<\/p>",
         "text_size": "medium"
