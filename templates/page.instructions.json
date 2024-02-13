@@ -21,6 +21,22 @@
         "text_size": "medium"
       }
     },
+    "video_rkdKzR": {
+      "type": "video",
+      "settings": {
+        "heading": "Introducing Re-Nuble's ReNu Terra Mats",
+        "video_url": "https:\/\/youtu.be\/EKSsqnPomWw?si=6PTFV8rWGfBuLIRu",
+        "video_text_color": "video-text-dark"
+      }
+    },
+    "video_TRnhQw": {
+      "type": "video",
+      "settings": {
+        "heading": "How to Use ReNu Terra Mats Video",
+        "video_url": "https:\/\/youtu.be\/qM-ZM0MorUw?si=dYSHoX-eIAafshA9",
+        "video_text_color": "video-text-dark"
+      }
+    },
     "feature-rows": {
       "type": "feature-rows",
       "settings": {
@@ -118,35 +134,19 @@
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
       }
-    },
-    "video_TRnhQw": {
-      "type": "video",
-      "settings": {
-        "heading": "How to Use ReNu Terra Mats Video",
-        "video_url": "https:\/\/youtu.be\/qM-ZM0MorUw?si=dYSHoX-eIAafshA9",
-        "video_text_color": "video-text-dark"
-      }
-    },
-    "video_rkdKzR": {
-      "type": "video",
-      "settings": {
-        "heading": "Introducing Re-Nuble's ReNu Terra Mats",
-        "video_url": "https:\/\/youtu.be\/EKSsqnPomWw?si=6PTFV8rWGfBuLIRu",
-        "video_text_color": "video-text-dark"
-      }
     }
   },
   "order": [
     "16384129693845a927",
     "rich_text_6djckg",
+    "video_rkdKzR",
+    "video_TRnhQw",
     "feature-rows",
     "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "8266f9ee-9017-466a-ba84-cde7c187bcae",
     "ae65dcd5-a2a0-4c4e-af04-96773bf159e5",
     "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae",
     "334483dc-d41e-48b8-8be5-776843c6fcbb",
-    "52133736-bfe2-4bff-8472-e5114777b32d",
-    "video_TRnhQw",
-    "video_rkdKzR"
+    "52133736-bfe2-4bff-8472-e5114777b32d"
   ]
 }
