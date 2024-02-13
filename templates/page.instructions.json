@@ -8,7 +8,7 @@
       "settings": {
         "home_page_full_width": true,
         "section_title": "Instructions",
-        "text": "<p><strong>How to Use ReNu Terra Mats.<\/strong><\/p><p>Learn to Grow Like A Pro!<\/p>",
+        "text": "<p><strong>How to Use ReNu Terra Classic Mats.<\/strong><\/p><p>Learn to Grow Like A Pro!<\/p>",
         "text_size": "medium"
       }
     },
@@ -17,7 +17,7 @@
       "settings": {
         "home_page_full_width": false,
         "section_title": "Planting Materials Required",
-        "text": "<ol><li><strong>Tray - <\/strong>A standard 1020 tray with a solid bottom (no holes)<\/li><li><strong>Tray Insert <\/strong>- A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Cover - <\/strong>A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Watering <\/strong>- A spray bottle, or a sink or shower head. <\/li><li><strong>Seeds - <\/strong>Your seeds of choice. <\/li><\/ol><p>Classic mats -  Ideal for microgreens & leafy greens.<\/p><p>Large Seed Format mats - Ideal for deeper rooting plants like spinach & baby greens.<\/p>",
+        "text": "<ol><li><strong>Tray - <\/strong>A standard 1020 tray with a solid bottom (no holes)<\/li><li><strong>Tray Insert <\/strong>- A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Cover - <\/strong>A standard 1020 tray insert, with a mesh bottom (or holes), that tightly fits your 1020 tray.<\/li><li><strong>Watering <\/strong>- A spray bottle, or a sink or shower head. <\/li><li><strong>Seeds - <\/strong>Your seeds of choice. <\/li><\/ol><p><em><strong>ReNu Terra Classic Mats<\/strong><\/em> -  Ideal for microgreens & leafy greens.<\/p><p><em><strong>ReNu Terra Large Seed Format Mats<\/strong><\/em> - Ideal for deeper rooting plants like spinach & baby greens.<\/p>",
         "text_size": "medium"
       }
     },
@@ -69,7 +69,7 @@
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
         "background_color": "{{ shop.brand.colors.primary[0].background }}",
         "home-featured-align": "right-img",
-        "image": "shopify:\/\/shop_images\/RNT_Germination.jpg",
+        "image": "shopify:\/\/shop_images\/Arugula_8-4-23.jpg",
         "home-featured-title": "4) Germination",
         "home-featured-content": "<ol><li>Place the tray cover over stacked tray and do not touch for 2 days.<\/li><li>After 2 days,, check to see if your seeds are fully germinated. Fully Germinated seeds have produced a root and the first leaf. <\/li><li>If fully germinated, remove the lid.<\/li><\/ol><p>If seeds are not fully germinated, spray with more water, replace cover and check again in 1 day.<\/p>",
         "home-featured-btn-label": "",
@@ -118,6 +118,14 @@
         "home-featured-btn-url": "",
         "home-featured-fullscreen": true
       }
+    },
+    "video_TRnhQw": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=qM-ZM0MorUw&t=2s",
+        "video_text_color": "video-text-dark"
+      }
     }
   },
   "order": [
@@ -129,6 +137,7 @@
     "ae65dcd5-a2a0-4c4e-af04-96773bf159e5",
     "907cd5cc-cb77-40c9-8381-c0f8b86cb9ae",
     "334483dc-d41e-48b8-8be5-776843c6fcbb",
-    "52133736-bfe2-4bff-8472-e5114777b32d"
+    "52133736-bfe2-4bff-8472-e5114777b32d",
+    "video_TRnhQw"
   ]
 }
