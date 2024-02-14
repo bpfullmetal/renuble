@@ -10,12 +10,12 @@
           {% assign video_url = 'https://vimeo.com/' | append: video_id %}
       {% endcase %}
     {% endunless %}
-    {% if section.settings.cover_image == blank %}
+    {% comment %} {% if section.settings.cover_image == blank %}
       <div class="placeholder-background">
         {% capture current %}{% cycle 1, 2 %}{% endcapture %}
         {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
       </div>
-    {% endif %}
+    {% endif %} {% endcomment %}
 
   <div class="wrapper wrapper--margins">
 
