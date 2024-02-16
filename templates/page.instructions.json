@@ -21,6 +21,20 @@
         "text_size": "medium"
       }
     },
+    "feature-rows": {
+      "type": "feature-rows",
+      "settings": {
+        "text_color": "{{ shop.brand.colors.primary[0].background }}",
+        "background_color": "{{ shop.brand.colors.primary[0].background }}",
+        "home-featured-align": "left-img",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-02-16_at_9.25.45_AM.png",
+        "home-featured-title": "We Thank You For Your Business!",
+        "home-featured-content": "<p>HI! I'm Tinia the Founder and CEO of Re-Nuble. As a U.S. manufacturer and for-profit social enterprise, we strive to create lasting jobs with true growth and learning opportunities for our team and our community! By choosing to purchase from us, we're able to<em><strong> <\/strong><\/em>reinvest some of our profits into furthering research and development of climate mitigating technologies and supporting 501c3 non-profits that provide an educational component related to developing a sustainable and productive food supply chain.<\/p><p><\/p><p><strong>I am incredibly grateful for you and hope that you subscribe to our newsletter at to receive our next round of discounts offered to all of our subscribers.<\/strong><\/p>",
+        "home-featured-btn-label": "",
+        "home-featured-btn-url": "",
+        "home-featured-fullscreen": true
+      }
+    },
     "video_rkdKzR": {
       "type": "video",
       "settings": {
@@ -37,7 +51,7 @@
         "video_text_color": "video-text-dark"
       }
     },
-    "feature-rows": {
+    "feature_rows_8rUbCN": {
       "type": "feature-rows",
       "settings": {
         "text_color": "{{ shop.brand.colors.primary[0].background }}",
@@ -139,9 +153,10 @@
   "order": [
     "16384129693845a927",
     "rich_text_6djckg",
+    "feature-rows",
     "video_rkdKzR",
     "video_TRnhQw",
-    "feature-rows",
+    "feature_rows_8rUbCN",
     "2ecd86ca-b270-4cc0-a5a6-b22cf70833f7",
     "8266f9ee-9017-466a-ba84-cde7c187bcae",
     "ae65dcd5-a2a0-4c4e-af04-96773bf159e5",
