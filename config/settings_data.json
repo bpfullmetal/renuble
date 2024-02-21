@@ -692,8 +692,8 @@
       "newsletter": {
         "type": "newsletter",
         "settings": {
-          "heading": "Sign Up For The Latest Deals!",
-          "subheading": "<p>Receive updates from Re-Nuble and get free product promotions.<\/p>"
+          "heading": "Unlock 10% Off Your First Order",
+          "subheading": "<p>Plus, exclusive offers, early access to launches, and more.<\/p>"
         }
       },
       "resource-center": {
@@ -847,6 +847,14 @@
               "link": ""
             }
           },
+          "image_list_hEH3cJ": {
+            "type": "image_list",
+            "settings": {
+              "title": "",
+              "img_txt": "",
+              "link": ""
+            }
+          },
           "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033": {
             "type": "image_list",
             "settings": {
@@ -909,6 +917,7 @@
           "5f03ad0b-90f4-4805-8738-7c4a0076bafc",
           "eb81051b-c267-4361-ab45-fced5cdaec76",
           "22155368-7ea5-46a6-9e06-472ab7f6edd9",
+          "image_list_hEH3cJ",
           "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033",
           "1e96504a-24e1-4010-814e-449ccf641c02",
           "db8eec78-b832-4860-9c17-38df0506bec3",
