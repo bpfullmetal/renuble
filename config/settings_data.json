@@ -685,8 +685,8 @@
         "type": "newsletter",
         "disabled": true,
         "settings": {
-          "heading": "Stay up to date",
-          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+          "heading": "Unlock 10% off your first order",
+          "subheading": "<p>Exclusive offers, early access to launches, and more. Directly to your inbox.<\/p>"
         }
       },
       "newsletter": {
