@@ -1046,13 +1046,39 @@ svg:not(:root) {
     display: flex;
     flex-direction: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     align-content: flex-start;
     flex-wrap: wrap;
+    .slick-list {
+        padding: 0!important;
+    }
+    .slick-track {
+        display: flex !important;
+        gap: 1rem!important;
+    }
+
+    .slick-slide {
+        height: inherit !important;
+        & > div {
+            height: 100%;
+        }
+    }
 }
 
 .why_reunble_slider .slider-item {
-    width: 20%;
+    flex: 1;
+    height: 100%;
+    .slider-box {
+        height: 100%;
+        padding: 0;
+    }
+    .image-wrap {
+        margin-right: .75rem;
+    }
+    h4 {
+        font-size: 17px;
+        text-align: left;
+    }
 }
 
 #shopify-section-featured-content {

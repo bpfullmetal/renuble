@@ -43,19 +43,21 @@ $(document).ready(function () {
     }
 
     $('.why_reunble_slider').each(function (slider) {
-        const centered = $('.slider-item', this).length < 5
+        const slideCount = $('.slider-item', this).length
+        const centered = slideCount < 5
         $(this).slick({
             dots: false,
             infinite: false,
             speed: 300,
-            slidesToShow: 5,
+            slidesToShow: slideCount,
             centerMode: centered,
             slidesToScroll: 1,
+            adaptiveHeight: false,
             responsive: [
                 {
                     breakpoint: 1100,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: slideCount - 1,
                     }
                 },
                 {

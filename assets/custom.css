@@ -745,7 +745,7 @@ svg:not(:root) {
 }
 
 .why_reunble_slider .slider-item {
-    width: 20%;
+    flex: 1;
 }
 
 .quotes-wrapper .quote-icon {
