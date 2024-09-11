@@ -14,7 +14,7 @@
               <div class="press-article__image">
                 <div class="press-article__image-wrapper">
                   {% assign featured_image = press.settings.featured_image %}
-                  <img width="auto" height="auto" src="{{ featured_image | image_url: width: '200x' }}"/>
+                  <img width="auto" height="auto" src="{{ featured_image | image_url: width: '400x' }}"/>
                 </div>
               </div>
             {% endif %}
@@ -27,7 +27,7 @@
                 {% if press.settings.company_logo %}
                   {% assign company_logo = press.settings.company_logo %}
                   <div class="press-article__logo">
-                    <img width="auto" height="auto" src="{{ company_logo | image_url: width: '120x' }}"/>
+                    <img width="auto" height="auto" src="{{ company_logo | image_url: width: '240x' }}"/>
                   </div>
                 {% endif %}
               </div>
