@@ -1,14 +1,107 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "press_header": {
       "type": "press-header",
+      "blocks": {
+        "logo_cUz8gc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        },
+        "logo_X4HbMp": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        },
+        "logo_JbNtGV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        },
+        "logo_mcVWKF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        },
+        "logo_EiEMp9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        }
+      },
+      "block_order": [
+        "logo_cUz8gc",
+        "logo_X4HbMp",
+        "logo_JbNtGV",
+        "logo_mcVWKF",
+        "logo_EiEMp9"
+      ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 28
+        "header_text": "A short description to tell the user what they are looking at on this page"
+      }
+    },
+    "press_emXTUc": {
+      "type": "press",
+      "blocks": {
+        "press_MPRRdt": {
+          "type": "press",
+          "settings": {
+            "title": "Press example 1",
+            "url": "https:\/\/google.com",
+            "featured_image": "shopify:\/\/shop_images\/cress.png",
+            "company_logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        },
+        "press_jzYJFa": {
+          "type": "press",
+          "settings": {
+            "title": "Press example 2 with no featured image and no company logo present",
+            "url": "https:\/\/google.com"
+          }
+        },
+        "press_brjYKy": {
+          "type": "press",
+          "settings": {
+            "title": "Press example 3 with a featured image but no company logo",
+            "url": "https:\/\/google.com",
+            "featured_image": "shopify:\/\/shop_images\/Frank_Headshot_black.jpg"
+          }
+        },
+        "press_AqypD3": {
+          "type": "press",
+          "settings": {
+            "title": "Press example 4 with a company logo but no featured image",
+            "url": "https:\/\/Google.com",
+            "company_logo": "shopify:\/\/shop_images\/re_nuble_logo.webp"
+          }
+        }
+      },
+      "block_order": [
+        "press_MPRRdt",
+        "press_jzYJFa",
+        "press_brjYKy",
+        "press_AqypD3"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
-    "press_header"
+    "press_header",
+    "press_emXTUc"
   ]
 }
