@@ -1,6 +1,7 @@
 .press-header__content {
   padding: 3rem 0 4rem;
   display: flex;
+  align-items: flex-end;
   flex-wrap: wrap;
   gap: 2rem;
 }
@@ -21,7 +22,7 @@
 .press-header__content .press-header__content-logo {
   max-width: 120px;
   position: relative;
-  padding: 0 2rem 1rem;
+  padding: 1rem 2rem 0;
 }
 
 .press-header__content .press-header__content-logo img {
@@ -48,7 +49,8 @@
 
 @media screen and (min-width: 1024px) {
   .press-header__content .press-header__content-text {
-    width: 40%;
+    width: auto;
+    max-width: 40%;
   }
   .press-articles  {
     grid-template-columns: 1fr 1fr 1fr;

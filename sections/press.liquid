@@ -5,25 +5,27 @@
     --color-button: {{ scheme.settings.button.red }},{{ scheme.settings.button.green }},{{ scheme.settings.button.blue }};
   {% endstyle %}
 {% endfor %}
-{% paginate shop.metaobjects.press.values by 20 %}
+{% if section.blocks.size > 0 %}
   {% if press_articles %}
     <div class="flex flex-wrap press-articles">
-      {% for press in shop.metaobjects.press.values %}
+      {% for press in section.blocks %}
         <div class="press-article">
-            {% if press.featured_image.value %}
+            {% if press.settings.featured_image %}
               <div class="press-article__image">
                 <div class="press-article__image-wrapper">
-                  {% assign featured_image = press.featured_image.value %}
+                  {% assign featured_image = press.settings.featured_image %}
                   <img width="auto" height="auto" src="{{ featured_image | image_url: width: '200x' }}"/>
                 </div>
               </div>
             {% endif %}
             <div class="press-article__content">
-              <h3 class="h4">{{ press.title.value }}</h3>
+              <h3 class="h4">{{ press.settings.title }}</h3>
               <div class="press-article__content-bottom">
-                <a class="button button--primary" href="{{ press.system.url }}">Read More</a>
-                {% if press.company_logo %}
-                  {% assign company_logo = press.company_logo.value %}
+                {% if press.settings.url != blank %}
+                  <a class="button button--primary" target="_blank" href="{{ press.settings.url }}">Read More</a>
+                {% endif %}
+                {% if press.settings.company_logo %}
+                  {% assign company_logo = press.settings.company_logo %}
                   <div class="press-article__logo">
                     <img width="auto" height="auto" src="{{ company_logo | image_url: width: '120x' }}"/>
                   </div>
@@ -34,7 +36,7 @@
       {% endfor %}
     </div>
   {% endif %}
-{% endpaginate %}
+{% endif %}
 
 {{ 'component-press.css' | asset_url | stylesheet_tag }}
 
@@ -72,7 +74,7 @@
           },
           {
             "type": "image_picker",
-            "id": "logo",
+            "id": "company_logo",
             "label": "Logo"
           },
         ]
