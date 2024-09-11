@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "collapsible_content_Qw9mVU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_HTUJnn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why are we doing this?",
+            "icon": "silhouette",
+            "row_content": "<p>Making nutrient compounds from organic sources available to the plant in the same form and at the same rate as synthetic (inorganic) mineral salts is incredibly difficult. We've always held the belief and have at least seven years of research to support that long and complex protein chains can serve as a viable source of nitrogen for plants. In an unadulterated natural environment, this is how our living, biological ecosystems thrive. <\/p><p>We're doing this because if we need to increase food production by 2050 to meet the demand of the world's growing population (according to the UN), then we wish to empower our communities with the ability to cost competitively grow organic (non-chemically laden food) with local, sterilized waste streams. We're using proteins, amino acids, amongst other compounds from plants to increase the efficiency of minerals being available to the plant in order to reduce our dependence on synthetic (conventional) mineral salts. <\/p><p>There's still more work to be done to reach a product that is exclusively sourced from plants but we're close.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xVMcpU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes your products different?",
+            "icon": "star",
+            "row_content": "<p>Vegan organic hydroponic nutrients are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. <\/p><p>Our products, derived from sterilized vegetative waste as well as plant extracts, are processed in a way that increases their solubility. This means that additional products, microbes, mechanisms and additional preparatory time isn't needed to immediately use our products. <\/p><p>We've done the hard work for you.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Pgd7NL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is our product organic and if not, why?",
+            "icon": "leaf",
+            "row_content": "<p>We're currently not organic certified as we are waiting for internal review for the certification process. However, we're confident that we’ll be able to get our products certified, making it easier for soil and hydroponic growers everywhere to grow certified organic food.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YUPViM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "For what types of growing operations are your products best suited?",
+            "icon": "plant",
+            "row_content": "<p>Our products are ideal for all soilless systems for leafy greens, fruiting crops, hops, cannabis and help. Please check each <a href=\"https:\/\/www.re-nuble.com\/collections\/all\" target=\"_blank\" title=\"https:\/\/www.re-nuble.com\/collections\/all\">product page<\/a> for additional details.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LH8kfD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does it work with aquaponics?",
+            "icon": "washing",
+            "row_content": "<p>We haven't fully experimented with the Re-Nuble product in Aquaponics.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tMWmiA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the food waste we use organic?  If not, what’s the possibility that chemicals and pesticides used to grow that food affects the ‘organic’ nature of the solution?",
+            "icon": "apple",
+            "row_content": "<p>We source unrecoverable, vegetative produce byproducts (waste) from wholesale produce distributors, manufacturers, and processors. This is because our manufacturing process involves pasteurization as well as accelerated, controlled processing that breaks down the compounds of any residue that may have existed (such as pesticides, herbicides, etc.).<br\/><br\/><a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\" target=\"_blank\"><strong>This<\/strong><\/a><strong> <\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Htjhx4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I don't see my question here.",
+            "icon": "chat_bubble",
+            "row_content": "<p>Have a question not addressed here? Please <a href=\"https:\/\/www.re-nuble.com\/pages\/contact-us\" title=\"https:\/\/www.re-nuble.com\/pages\/contact-us\"><strong>contact us<\/strong><\/a>; we’d love to hear from you!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_HTUJnn",
+        "collapsible_row_xVMcpU",
+        "collapsible_row_Pgd7NL",
+        "collapsible_row_YUPViM",
+        "collapsible_row_LH8kfD",
+        "collapsible_row_tMWmiA",
+        "collapsible_row_Htjhx4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_Qw9mVU"
+  ]
+}

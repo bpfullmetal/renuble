@@ -1,1151 +1,421 @@
 {
   "current": {
-    "color_body_bg": "#ffffff",
-    "color_body_bg_alt": "#f9f9f9",
-    "color_primary": "#00947a",
-    "color_secondary": "#141414",
-    "color_borders": "#e9e9e9",
-    "color_text_titles": "#111111",
-    "color_text_general": "#343434",
-    "color_text_alternate": "#7a7a7a",
-    "color_text_buttons": "#ffffff",
-    "color_drawer_background": "#000000",
-    "color_drawer_text": "#ffffff",
-    "color_footer_bg": "#000000",
-    "color_footer_text": "#757575",
-    "typography_headings": "raleway_n7",
-    "typography_body": "raleway_n5",
-    "favicon": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
-    "share_image": "shopify:\/\/shop_images\/re_nuble_logo_registered_72dpi.jpg",
-    "social_twitter": "https:\/\/twitter.com\/re_nuble",
-    "social_facebook": "https:\/\/facebook.com\/re-nuble",
-    "social_google": "",
-    "social_youtube": "",
-    "social_vimeo": "",
-    "social_pinterest": "https:\/\/www.pinterest.com\/renuble\/",
-    "social_snapchat": "",
-    "social_tumblr": "",
-    "social_instagram": "https:\/\/www.instagram.com\/re_nuble",
-    "social_linkedin": "https:\/\/www.linkedin.com\/company\/re-nuble",
-    "social_flickr": "",
-    "social_email": "info@re-nuble.com",
-    "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/ReNuble_logo_tagline.jpg",
-    "checkout_logo_position": "left",
-    "checkout_logo_size": "medium",
-    "checkout_body_background_image": "",
-    "checkout_body_background_color": "#fff",
-    "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_image": "",
-    "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_accent_color": "#197bbd",
-    "checkout_button_color": "#197bbd",
-    "checkout_error_color": "#e32c2b",
+    "logo": "shopify:\/\/shop_images\/re_nuble_logo_registered_300dpi.png",
+    "logo_width": 140,
+    "type_header_font": "raleway_n5",
+    "heading_scale": 110,
+    "type_body_font": "raleway_n4",
+    "body_scale": 105,
+    "page_width": 1200,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 28,
+    "spacing_grid_vertical": 28,
+    "animations_reveal_on_scroll": true,
+    "animations_hover_elements": "none",
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 40,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 26,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "card_style": "card",
+    "card_image_padding": 16,
+    "card_text_alignment": "left",
+    "card_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+    "card_border_thickness": 1,
+    "card_border_opacity": 100,
+    "card_corner_radius": 18,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "collection_card_style": "card",
+    "collection_card_image_padding": 16,
+    "collection_card_text_alignment": "left",
+    "collection_card_color_scheme": "scheme-1",
+    "collection_card_border_thickness": 1,
+    "collection_card_border_opacity": 100,
+    "collection_card_corner_radius": 18,
+    "collection_card_shadow_opacity": 0,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 4,
+    "collection_card_shadow_blur": 5,
+    "blog_card_style": "card",
+    "blog_card_image_padding": 16,
+    "blog_card_text_alignment": "left",
+    "blog_card_color_scheme": "scheme-1",
+    "blog_card_border_thickness": 1,
+    "blog_card_border_opacity": 100,
+    "blog_card_corner_radius": 18,
+    "blog_card_shadow_opacity": 0,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 4,
+    "blog_card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 20,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 0,
+    "media_border_opacity": 10,
+    "media_radius": 20,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 18,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 0,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "top left",
+    "badge_corner_radius": 0,
+    "sale_badge_color_scheme": "scheme-4",
+    "sold_out_badge_color_scheme": "scheme-1",
+    "brand_headline": "Innovator of Sustainable Peat Free Grow Mat \/ Media Solutions",
+    "brand_description": "<p><\/p>",
+    "brand_image_width": 100,
+    "social_facebook_link": "https:\/\/www.facebook.com\/ReNuble\/",
+    "social_instagram_link": "https:\/\/instagram.com\/re_nuble\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@Re_Nuble",
+    "social_tiktok_link": "",
+    "social_twitter_link": "",
+    "social_snapchat_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": false,
+    "cart_type": "drawer",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "cart_color_scheme": "scheme-1",
     "sections": {
-      "header": {
-        "type": "header",
+      "main-password-header": {
+        "type": "main-password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Re-Nuble-Logo-Medium-Transparent_6.58.44_PM.png",
-          "logo_use_inverted": true,
-          "logo-inverted": "shopify:\/\/shop_images\/Re-Nuble-Logo-Medium-Transparent_6.58.44_PM.png",
-          "logo_max_width": "250",
-          "main_linklist": "menu-2021",
-          "menu_style": "classic",
-          "menu_text_color": "is-dark",
-          "menu_product": "",
-          "show_announcement": false,
-          "home_page_only": true,
-          "announcement_text": "",
-          "announcement_link": "",
-          "announcement_color_bg": "#429c80",
-          "announcement_color_text": "#ffffff"
+          "color_scheme": "scheme-3"
         }
       },
-      "video": {
-        "type": "video",
-        "disabled": true,
+      "main-password-footer": {
+        "type": "main-password-footer",
         "settings": {
-          "heading": "Video",
-          "video_url": "",
-          "video_text_color": "video-text-dark"
-        }
-      },
-      "feature-rows": {
-        "type": "feature-rows",
-        "settings": {
-          "text_color": "#ffffff",
-          "background_color": "#33856b",
-          "home-featured-align": "left-img",
-          "image": "shopify:\/\/shop_images\/Webp.net-resizeimage.jpg",
-          "home-featured-title": "Bringing Back Closed Loop Food",
-          "home-featured-content": "<p><strong>Re-Nuble is a research-driven social enterprise dedicated to building environmentally sustainable solutions for the agriculture industry. Our approach is to collaborate with nature to develop solutions that are better for people and planet and seamless for growers (farmers and home growers alike).<\/strong><\/p><p><strong>We are pushing the agriculture industry to become more \"Responsibly, sustainable\", eliminating landfill waste and greenhouse gases. Founded with the mission to help global agricultural communities safely reuse localized food waste, we strive to accelerate environmentally-friendly growing practices.<\/strong><\/p>",
-          "home-featured-btn-label": "",
-          "home-featured-btn-url": "",
-          "home-featured-fullscreen": true
-        }
-      },
-      "feature-columns": {
-        "type": "feature-columns",
-        "blocks": {
-          "feature-columns-1": {
-            "type": "text",
-            "settings": {
-              "home-features-icon": "pagelines",
-              "home-features-title": "Food Waste As Water-Soluble Nutrients Compatible for Soilless Systems",
-              "home-features-content": "<p>Re-Nuble&#x27;s nutrient delivery system&#x27;s production of biologically active compounds from robust bacterial communities, allows for lower nitrate concentrations (in ppms). A farm is able to achieve similar crop growth at a fraction of the nitrate concentration due to robust micro bacterial activity. <\/p>",
-              "width": "33%"
-            }
-          },
-          "feature-columns-2": {
-            "type": "text",
-            "settings": {
-              "home-features-icon": "money",
-              "home-features-title": "When Going Green Makes Dollars And Sense",
-              "home-features-content": "<p>Our cost competitive organic nutrients are comparable in price to mineral salts, while the only commercially used organic alternative is up to 69% more expensive.<\/p>",
-              "width": "33%"
-            }
-          },
-          "feature-columns-0": {
-            "type": "text",
-            "settings": {
-              "home-features-icon": "compass",
-              "home-features-title": "Organic Nutrients That Are All The Way Real",
-              "home-features-content": "<p><\/p><p>We steward transparency in our nutrients as much as we appreciate it in our food supply chain.<\/p>",
-              "width": "33%"
-            }
-          }
-        },
-        "block_order": [
-          "feature-columns-1",
-          "feature-columns-2",
-          "feature-columns-0"
-        ],
-        "settings": {
-          "title": "Technology Benefits"
-        }
-      },
-      "kickstarter": {
-        "type": "kickstarter",
-        "disabled": true,
-        "settings": {
-          "home-kickstarter-title": "Crowdfunding",
-          "home-kickstarter-subtitle": "Campaign tracker",
-          "home-kickstarter-style": "pie",
-          "home-kickstarter-percent": "75",
-          "home-kickstarter-amount": "$1000",
-          "home-kickstarter-backers": "10",
-          "home-kickstarter-url": "https:\/\/www.shopify.com"
-        }
-      },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slideshow-0": {
-            "type": "image",
-            "settings": {
-              "link": ""
-            }
-          },
-          "slideshow-1": {
-            "type": "image",
-            "settings": {
-              "link": ""
-            }
-          },
-          "slideshow-2": {
-            "type": "image",
-            "settings": {
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slideshow-0",
-          "slideshow-1",
-          "slideshow-2"
-        ],
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "faq": {
-        "type": "faq",
-        "blocks": {
-          "faq-0": {
-            "type": "text",
-            "settings": {
-              "home-faq-title": "Question and answers",
-              "home-faq-content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
-            }
-          },
-          "faq-1": {
-            "type": "text",
-            "settings": {
-              "home-faq-title": "Question and answer",
-              "home-faq-content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
-            }
-          },
-          "faq-2": {
-            "type": "text",
-            "settings": {
-              "home-faq-title": "Question and answer",
-              "home-faq-content": "<p>This section doesn’t currently include any content. <strong>Add content to this section using the sidebar.<\/strong><\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "faq-0",
-          "faq-1",
-          "faq-2"
-        ],
-        "disabled": true,
-        "settings": {
-          "title": "FAQ"
-        }
-      },
-      "home-product": {
-        "type": "home-product",
-        "disabled": true,
-        "settings": {
-          "featured_product": "",
-          "enable_payment_button": true,
-          "social_sharing_products": true
-        }
-      },
-      "featured-blog": {
-        "type": "featured-blog",
-        "settings": {
-          "title": "Re-Nuble Blog",
-          "blog": "re-nuble",
-          "post_limit": 3
-        }
-      },
-      "featured-content": {
-        "type": "featured-content",
-        "blocks": {
-          "featured-content-0": {
-            "type": "text",
-            "settings": {
-              "block_title": "How Can You Fundamentally Change Your Climate Profile?",
-              "content": ""
-            }
-          }
-        },
-        "block_order": [
-          "featured-content-0"
-        ],
-        "settings": {
-          "home-page-bg": "shopify:\/\/shop_images\/organic-farmers-reject-hydroponics-with-16-protest-rallies.jpg",
-          "home-featured-btn-label": "Download our pdf",
-          "home-featured-btn-url": "https:\/\/ln3.sync.com\/dl\/1a3de73a0\/rbw5tyb9-rsejf4in-imyr86s2-tvhsxmhi",
-          "section-class": "download_pdf_section",
-          "home-page-background-overlay": false
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "71e89a23-abf2-4444-8678-348bab540b5d": {
-            "type": "text",
-            "settings": {
-              "title": "Re-Nuble, Inc.",
-              "richtext": "<p>Re-Nuble is an agricultural technology company that uses organic cycling science™ technology to transform unrecoverable vegetative food byproducts into a platform of sustainable technologies for indoor farms.<\/p><p><\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p><p><\/p><p><strong>© Copyright 2022 - 2023, Re-Nuble, Inc.<\/strong><\/p>"
-            }
-          },
-          "aa7cbb73-7c7f-4bae-b3e2-7e67ed902cfd": {
-            "type": "text",
-            "settings": {
-              "title": "HAVE QUESTIONS?",
-              "richtext": "<p><strong>Call Us<\/strong><br\/>646-266-9775<\/p><p><strong>Email Customer Support<\/strong><br\/>wecare@re-nuble.com<\/p><p><strong>Email General Inquiry<\/strong><br\/>info@re-nuble.com<\/p>"
-            }
-          },
-          "7932baed-fbce-4567-8727-b594a34045f6": {
-            "type": "menu",
-            "settings": {
-              "menu_title": "Links",
-              "menu": "footer"
-            }
-          }
-        },
-        "block_order": [
-          "71e89a23-abf2-4444-8678-348bab540b5d",
-          "aa7cbb73-7c7f-4bae-b3e2-7e67ed902cfd",
-          "7932baed-fbce-4567-8727-b594a34045f6"
-        ],
-        "settings": {
-          "footer_logo": "shopify:\/\/shop_images\/re_nuble_logo_large_transparent_coperight.png",
-          "footer_footer_search": true
-        }
-      },
-      "1587563869588": {
-        "type": "hubspot-form",
-        "settings": {
-          "header_title": "Help Decarbonize The Food Value Chain",
-          "header_text": ""
-        }
-      },
-      "faq-page": {
-        "type": "faq-page",
-        "blocks": {
-          "1595620661487": {
-            "type": "text",
-            "settings": {
-              "faq_question": "Why are we doing this?",
-              "faq_answer": "<p>Making nutrient compounds from organic sources available to the plant in the same form and at the same rate as synthetic (inorganic) mineral salts is incredibly difficult. We've always held the belief and have at least seven years of research to support that long and complex protein chains can serve as a viable source of nitrogen for plants. In an unadulterated natural environment, this is how our living, biological ecosystems thrive. <\/p><p>We're doing this because if we need to increase food production by 2050 to meet the demand of the world's growing population (according to the UN), then we wish to empower our communities with the ability to cost competitively grow organic (non-chemically laden food) with local, sterilized waste streams. We're using proteins, amino acids, amongst other compounds from plants to increase the efficiency of minerals being available to the plant in order to reduce our dependence on synthetic (conventional) mineral salts. <\/p><p>There's still more work to be done to reach a product that is exclusively sourced from plants but we're close.<\/p>"
-            }
-          },
-          "1595620702759": {
-            "type": "text",
-            "settings": {
-              "faq_question": "What makes your products different?",
-              "faq_answer": "<p>Vegan organic hydroponic nutrients are in demand, but many growers find the available options expensive, inconsistent and low-performing compared to chemical-based options. <\/p><p>Our products, derived from sterilized vegetative waste as well as plant extracts, are processed in a way that increases their solubility. This means that additional products, microbes, mechanisms and additional preparatory time isn't needed to immediately use our products. <\/p><p>We've done the hard work for you.<\/p>"
-            }
-          },
-          "1595620752673": {
-            "type": "text",
-            "settings": {
-              "faq_question": "Is our product organic and if not, why?",
-              "faq_answer": "<p>We're currently not organic certified as we are waiting for internal review for the certification process. However, we're confident that we’ll be able to get our products certified, making it easier for soil and hydroponic growers everywhere to grow certified organic food.<\/p>"
-            }
-          },
-          "1595620770733": {
-            "type": "text",
-            "settings": {
-              "faq_question": "For what types of growing operations are your products best suited?",
-              "faq_answer": "<p>Our products are ideal for all soilless systems for leafy greens, fruiting crops, hops, cannabis and help. Please check each <a href=\"https:\/\/www.re-nuble.com\/collections\/all\" target=\"_blank\" title=\"https:\/\/www.re-nuble.com\/collections\/all\">product page<\/a> for additional details.<\/p>"
-            }
-          },
-          "1595620785153": {
-            "type": "text",
-            "settings": {
-              "faq_question": "Does it work with aquaponics?",
-              "faq_answer": "<p>We haven't fully experimented with the Re-Nuble product in Aquaponics.<\/p>"
-            }
-          },
-          "d21c0c2c-ec13-43bf-952d-cfe4f40b1291": {
-            "type": "text",
-            "settings": {
-              "faq_question": "Is the food waste we use organic?  If not, what’s the possibility that chemicals and pesticides used to grow that food affects the ‘organic’ nature of the solution?",
-              "faq_answer": "<p>We source unrecoverable, vegetative produce byproducts (waste) from wholesale produce distributors, manufacturers, and processors. This is because our manufacturing process involves pasteurization as well as accelerated, controlled processing that breaks down the compounds of any residue that may have existed (such as pesticides, herbicides, etc.).<br\/><br\/><a href=\"http:\/\/whatcom.wsu.edu\/ag\/compost\/fundamentals\/consideration_pesticides.htm\" target=\"_blank\"><strong>This<\/strong><\/a><strong> <\/strong>is a great article that sheds more light on how decomposition\/composting helps eradicate the existence of these chemical residues, if any.<\/p>"
-            }
-          },
-          "1595620897809": {
-            "type": "text",
-            "settings": {
-              "faq_question": "I don't see my question here.",
-              "faq_answer": "<p>Have a question not addressed here? Please <a href=\"https:\/\/www.re-nuble.com\/pages\/contact-us\" title=\"https:\/\/www.re-nuble.com\/pages\/contact-us\"><strong>contact us<\/strong><\/a>; we’d love to hear from you!<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "1595620661487",
-          "1595620702759",
-          "1595620752673",
-          "1595620770733",
-          "1595620785153",
-          "d21c0c2c-ec13-43bf-952d-cfe4f40b1291",
-          "1595620897809"
-        ],
-        "settings": {
-        }
-      },
-      "hubspot-form-page": {
-        "type": "hubspot-form-page",
-        "settings": {
-          "header_image": "shopify:\/\/shop_images\/logo.jpg"
-        }
-      },
-      "1617825409ce921979": {
-        "type": "feature-rows",
-        "disabled": true,
-        "settings": {
-          "text_color": "#343434",
-          "background_color": "rgba(0,0,0,0)",
-          "home-featured-align": "left-img",
-          "image": "shopify:\/\/shop_images\/Booster_Shot_label.png",
-          "home-featured-title": "Booster Shot® Biostimulant",
-          "home-featured-content": "<p>Our water-soluble, liquid biostimulants sourced exclusively from sterilized vegetative waste, and plant extracts. <strong>Booster Shot<\/strong>®<strong> promotes vigorous root growth as a germination accelerant and immunity enhancer.<\/strong><\/p>",
-          "home-featured-btn-label": "Learn More",
-          "home-featured-btn-url": "shopify:\/\/products\/booster-shot",
-          "home-featured-fullscreen": false
-        }
-      },
-      "product-template": {
-        "type": "product-template",
-        "settings": {
-          "enable_payment_button": false,
-          "social_sharing_products": true,
-          "perfect_title": "Perfect for Growing...",
-          "guarantedd_title": "Guaranteed Analysis",
-          "enable_calulator": true,
-          "calulator_title": "Use our calculator to calculate your potential costs and impact to your bottom line",
-          "how_to_make_title": "",
-          "how_to_make_top_content": "",
-          "how_to_make_botton_content": "<p>Closing the Loop, Creating Sustainable Systems<\/p>",
-          "subscription_policy_content": "<p>One or more items in your cart is a deferred or recurring purchase. By continuing with your payment, you agree that your payment method will automatically be charged at the price and frequency listted on this page until it ends or you cancel. All cancellations are subject to the <a href=\"http:\/\/re-nuble.com\" title=\"Cancellation policy\">cancellation policy<\/a>.<\/p>",
-          "policy_links": "privacy-policy-menus"
-        }
-      },
-      "16203025882e9d1c70": {
-        "type": "image-carousal",
-        "blocks": {
-          "46b33aa9-f723-46de-a5a9-b9ad80de14f4": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/2_a5b1e02c-133d-43a8-a885-e7eb9e05a7e8.png",
-              "title": "Increase Your Yields Without Increasing Costs",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "6e497d34-2ffe-4258-91d7-6c22be5abd60": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Closed_Loop_1.png",
-              "title": "Competitively Transition Towards a Closed Loop Operation",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "24c8ef19-cb8e-4623-9082-4b2b040b3af7": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/6.png",
-              "title": "Source Renewable Inputs From Organic Resources",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "382b8601-a559-465b-82f8-ac3092cd6350": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/4_528f1b50-cdc0-4a88-8f0a-cc5c3241e395.png",
-              "title": "Reduce Your Dependence On Carbon Intensive Inputs",
-              "img_txt": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "46b33aa9-f723-46de-a5a9-b9ad80de14f4",
-          "6e497d34-2ffe-4258-91d7-6c22be5abd60",
-          "24c8ef19-cb8e-4623-9082-4b2b040b3af7",
-          "382b8601-a559-465b-82f8-ac3092cd6350"
-        ],
-        "settings": {
-          "title": "Why Re-Nuble?",
-          "showcontact": false
-        }
-      },
-      "1620307196678c58de": {
-        "type": "feature-rows",
-        "settings": {
-          "text_color": "#111111",
-          "background_color": "rgba(0,0,0,0)",
-          "home-featured-align": "right-img",
-          "image": "shopify:\/\/shop_images\/Away_we_grow_label.png",
-          "home-featured-title": "Away We Grow® 4-1-1 Concentrate",
-          "home-featured-content": "<p>Our water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste.<\/p><p><strong>By using Away We Grow<\/strong>®<strong>, a one acre farm eliminates 1.62 metric tons of CO2e from the atmosphere annually and removes 18.75 pounds of CO2e for every gallon of that would otherwise have been released from food waste sent to landfills.<\/strong><\/p>",
-          "home-featured-btn-label": "Learn More",
-          "home-featured-btn-url": "shopify:\/\/products\/away-we-grow",
-          "home-featured-fullscreen": false
-        }
-      },
-      "1620307679175d3e95": {
-        "type": "image-carousal",
-        "blocks": {
-          "1620307679175d3e95-0": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/4_d43e714a-6438-42de-8f2b-7d8683cb0e68.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "e01d0b85-ef9f-4916-83f6-2e97c1f07ec0": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/5_d729577a-753c-4ea0-88cc-a05a41d73451.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "e0095ada-cb03-4c9b-b366-7912d1145f7c": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/6_3e6a4ea6-77af-47d9-b903-af8ba47b49b8.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "78c659eb-b03d-4b2b-af43-4fd77611c402": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/2_8084b259-b1a9-499e-8c11-4cf473704275.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "436ec588-9a2a-4b12-bd5b-4e02be867b52": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/3_3ea4081a-06e9-45f6-89b5-21749705f542.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "222c3eef-6596-4476-8e59-468a95717732": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/1_c376cbd5-ac02-42a3-979e-6595ad199246.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1620307679175d3e95-0",
-          "e01d0b85-ef9f-4916-83f6-2e97c1f07ec0",
-          "e0095ada-cb03-4c9b-b366-7912d1145f7c",
-          "78c659eb-b03d-4b2b-af43-4fd77611c402",
-          "436ec588-9a2a-4b12-bd5b-4e02be867b52",
-          "222c3eef-6596-4476-8e59-468a95717732"
-        ],
-        "settings": {
-          "title": "Our Product Standard Commitments",
-          "showcontact": false
-        }
-      },
-      "16203081298202a052": {
-        "type": "quotes",
-        "blocks": {
-          "quote_GxyzgM": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/verticalacres.webp",
-              "title": "Vertical Acres Farm",
-              "quote": "<p>Yield. As a commercial grower, growing in the most efficient manner possible, while also achieving maximum crop yields is what we strive for. Re-Nuble is able to deliver by increasing our yields, and decreasing our grow times.<\/p>",
-              "author": "",
-              "author_title": ""
-            }
-          },
-          "16203081298202a052-2": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/amatek.png",
-              "title": "Amatek Technologies",
-              "quote": "<p>We also experienced similar results with faster growth and higher yields.<\/p>",
-              "author": "",
-              "author_title": ""
-            }
-          },
-          "quote_WdBh8A": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/f2f.png",
-              "title": "Farm to Forage",
-              "quote": "<p>Re-Nuble ReNu Terra Mats are an excellent choice for hydroponic production. I saw an immediate benefit after using their products. The staff and CEO are amazing and their mission is inspiring. I highly recommend working with them and using their products!<\/p>",
-              "author": "",
-              "author_title": ""
-            }
-          },
-          "16203081298202a052-1": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/magki.png",
-              "title": "Magki Farms",
-              "quote": "<p>So far, we have had a positive experience in using the ReNu Terra Mats. We have grown a number of microgreens on the mats to include Bok choy, broccoli and mustard with great results.<br\/><\/p>",
-              "author": "",
-              "author_title": ""
-            }
-          },
-          "16203081298202a052-0": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/gather.png",
-              "title": "Gather Farms",
-              "quote": "<p>The Micro Mats that we normally use proved to have 2.49 ounces and your Re-Nuble ReNu Terra Mats yielded 2.96 ounces. The roots were much more pronounced on Re-Nuble's.<\/p>",
-              "author": "",
-              "author_title": ""
-            }
-          }
-        },
-        "block_order": [
-          "quote_GxyzgM",
-          "16203081298202a052-2",
-          "quote_WdBh8A",
-          "16203081298202a052-1",
-          "16203081298202a052-0"
-        ],
-        "settings": {
-          "title": "Why Growers Love Us"
-        }
-      },
-      "162031062926acdc54": {
-        "type": "rich-text",
-        "settings": {
-          "home_page_full_width": false,
-          "section_title": "Our Platform of Sustainable Solutions",
-          "text": "",
-          "text_size": "medium"
-        }
-      },
-      "1620490706138ff0c6": {
-        "type": "featured-blog",
-        "settings": {
-          "title": "Publications",
-          "blog": "re-nuble",
-          "post_limit": 3
-        }
-      },
-      "1620491618cc5ad6bb": {
-        "type": "feature-rows",
-        "settings": {
-          "text_color": "#000000",
-          "background_color": "rgba(0,0,0,0)",
-          "home-featured-align": "right-img",
-          "image": "shopify:\/\/shop_images\/ReNu_Terra_Website_Image.png",
-          "home-featured-title": "ReNu Terra™",
-          "home-featured-content": "<p><strong>Our ReNu Terra<\/strong>™ <strong>product line is a fully home and industrial compostable and inert grow media. Offered customizable mats, plugs, blocks and slabes it uses proprietary fibers that are both certified Plastic-Free and 100% USDA Biobased. Plus, it's more affordable than leading alternatives...<\/strong><\/p>",
-          "home-featured-btn-label": "Ask Us How",
-          "home-featured-btn-url": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-          "home-featured-fullscreen": false
-        }
-      },
-      "162049168798e82c6b": {
-        "type": "feature-rows",
-        "settings": {
-          "text_color": "#141414",
-          "background_color": "rgba(0,0,0,0)",
-          "home-featured-align": "left-img",
-          "image": "shopify:\/\/shop_images\/On-site_Food_Waste_Recovery_System_-_Homepage_2.png",
-          "home-featured-title": "On-Site Food Waste Recovery System",
-          "home-featured-content": "<p>Turn your farm into a circular, resource efficient operation. By helping to close the loop, Re-Nuble can return the value of your post production byproducts (e.g. wastewater, roots, and produce trimmings) into value. <strong>Decrease your dependence on external potable water and chemical  inputs.<\/strong><\/p>",
-          "home-featured-btn-label": "Learn More",
-          "home-featured-btn-url": "shopify:\/\/pages\/the-science-of-industrial-grade-organic-hydroponic-nutrients",
-          "home-featured-fullscreen": false
-        }
-      },
-      "16205583693772b72f": {
-        "type": "certificate-items",
-        "blocks": {
-          "16205583693772b72f-0": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/certification-download_2a24f4a8-f1d6-4f9d-9e10-743e430d8975.png",
-              "title": "Certification download PDF link",
-              "link": ""
-            }
-          },
-          "92d6d759-b373-48f0-972a-80b514571745": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/image_15.png",
-              "title": "Certification download PDF link",
-              "link": "#"
-            }
-          },
-          "f3c3ae63-bb39-4afe-bd30-ca1854b748f9": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/omri.png",
-              "title": "Certification download PDF link",
-              "link": "#"
-            }
-          },
-          "78c2e0f9-2f2c-4273-9b79-21769a794c3a": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/fb_profile_logo.jpg",
-              "title": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "16205583693772b72f-0",
-          "92d6d759-b373-48f0-972a-80b514571745",
-          "f3c3ae63-bb39-4afe-bd30-ca1854b748f9",
-          "78c2e0f9-2f2c-4273-9b79-21769a794c3a"
-        ],
-        "disabled": true,
-        "settings": {
-          "title": "Certifications"
-        }
-      },
-      "16209204943da73ceb": {
-        "type": "newsletter",
-        "disabled": true,
-        "settings": {
-          "heading": "Unlock 10% off your first order",
-          "subheading": "<p>Exclusive offers, early access to launches, and more. Directly to your inbox.<\/p>"
-        }
-      },
-      "newsletter": {
-        "type": "newsletter",
-        "settings": {
-          "heading": "Unlock 10% Off Your First Order",
-          "subheading": "<p>Plus, exclusive offers, early access to launches, and more.<\/p>"
-        }
-      },
-      "resource-center": {
-        "type": "resource-center",
-        "blocks": {
-          "bbd31aa8-3223-4086-bf16-b60b37b1f35d": {
-            "type": "link_icon",
-            "settings": {
-              "title": "Videos",
-              "tag": "",
-              "subtext": "",
-              "icon": "shopify:\/\/shop_images\/video.svg",
-              "color": "#33856b",
-              "blog": "",
-              "link_text": "",
-              "link": "shopify:\/\/pages\/videos"
-            }
-          },
-          "4e7916a7-4826-42e8-9252-f4a85c455eae": {
-            "type": "link_icon",
-            "settings": {
-              "title": "Articles",
-              "tag": "Article",
-              "subtext": "",
-              "icon": "shopify:\/\/shop_images\/article.svg",
-              "color": "#8eb754",
-              "blog": "",
-              "link_text": "",
-              "link": ""
-            }
-          },
-          "519dfcaa-ecfd-4b5a-aead-030b5e8cddd2": {
-            "type": "link_icon",
-            "settings": {
-              "title": "News",
-              "tag": "news",
-              "subtext": "",
-              "icon": "shopify:\/\/shop_images\/publication_c82fb9c9-4d72-46f7-9803-b15365f56c2b.svg",
-              "color": "#59a998",
-              "blog": "",
-              "link_text": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "bbd31aa8-3223-4086-bf16-b60b37b1f35d",
-          "4e7916a7-4826-42e8-9252-f4a85c455eae",
-          "519dfcaa-ecfd-4b5a-aead-030b5e8cddd2"
-        ],
-        "settings": {
-        }
-      },
-      "a9d22ea8-9482-49ce-9d14-4e1563225f5a": {
-        "type": "world-wide-list",
-        "blocks": {
-          "a9d22ea8-9482-49ce-9d14-4e1563225f5a-1688154409b52ce163-0": {
-            "type": "image_list",
-            "settings": {
-              "value": "4",
-              "title": "Continents"
-            }
-          },
-          "cce43b0e-7c99-4fb0-8cdb-01f430364f9d": {
-            "type": "image_list",
-            "settings": {
-              "value": "5",
-              "title": "Partners"
-            }
-          },
-          "865823cb-d7c6-4093-8ec7-86a6cc0978b6": {
-            "type": "image_list",
-            "settings": {
-              "value": "12",
-              "title": "Countries"
-            }
-          },
-          "830c7b03-bd32-44e2-a703-9a43609ac367": {
-            "type": "image_list",
-            "settings": {
-              "value": "1M+",
-              "title": "Units sold"
-            }
-          }
-        },
-        "block_order": [
-          "a9d22ea8-9482-49ce-9d14-4e1563225f5a-1688154409b52ce163-0",
-          "cce43b0e-7c99-4fb0-8cdb-01f430364f9d",
-          "865823cb-d7c6-4093-8ec7-86a6cc0978b6",
-          "830c7b03-bd32-44e2-a703-9a43609ac367"
-        ],
-        "settings": {
-          "title": "RE-NUBLE WORLDWIDE",
-          "background_image": "shopify:\/\/shop_images\/world-wide-bg.png"
-        }
-      },
-      "68ade9f1-d2eb-4ef9-9c49-03a3de494537": {
-        "type": "image-carousal",
-        "blocks": {
-          "68ade9f1-d2eb-4ef9-9c49-03a3de494537-16891756153374846f-0": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/usda_180_x_180.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "204dccfb-186a-4745-a2fd-12e4aaa1b2f2": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/SoSv_db6f117d-2aa4-43b7-b2ed-56e56b07c3b9.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "b386218c-a675-414d-bd21-227ba9610184": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/22_fund.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "5f03ad0b-90f4-4805-8738-7c4a0076bafc": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/svc_180.webp",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "eb81051b-c267-4361-ab45-fced5cdaec76": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/jff_bc939c7e-555b-47a1-8ae1-1352fe70581e.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "22155368-7ea5-46a6-9e06-472ab7f6edd9": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/nyserda_d0406a2b-c7a2-4f6f-bafb-6f516cf3cb1d.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "image_list_hEH3cJ": {
-            "type": "image_list",
-            "settings": {
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/secondmuse.jpg",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "1e96504a-24e1-4010-814e-449ccf641c02": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/vertue.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "db8eec78-b832-4860-9c17-38df0506bec3": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/launch.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/bfm.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "84f19574-70c7-4565-9474-00bd6d209a01": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/wocstar.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          },
-          "478f4edb-e22d-4d61-9226-5f70c854657f": {
-            "type": "image_list",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/gsf.png",
-              "title": "",
-              "img_txt": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "68ade9f1-d2eb-4ef9-9c49-03a3de494537-16891756153374846f-0",
-          "204dccfb-186a-4745-a2fd-12e4aaa1b2f2",
-          "b386218c-a675-414d-bd21-227ba9610184",
-          "5f03ad0b-90f4-4805-8738-7c4a0076bafc",
-          "eb81051b-c267-4361-ab45-fced5cdaec76",
-          "22155368-7ea5-46a6-9e06-472ab7f6edd9",
-          "image_list_hEH3cJ",
-          "b32be7ef-c5ce-42ee-a6a5-a5ba0ebfc033",
-          "1e96504a-24e1-4010-814e-449ccf641c02",
-          "db8eec78-b832-4860-9c17-38df0506bec3",
-          "e16f4170-73e8-4c95-8cd4-2df3ef4c71c5",
-          "84f19574-70c7-4565-9474-00bd6d209a01",
-          "478f4edb-e22d-4d61-9226-5f70c854657f"
-        ],
-        "settings": {
-          "title": "Trusted By Our Clients, Partners, & Investors",
-          "showcontact": false
+          "color_scheme": "scheme-3"
         }
       }
     },
     "content_for_index": [
-      "feature-rows",
-      "16203025882e9d1c70",
-      "162031062926acdc54",
-      "1620307196678c58de",
-      "1617825409ce921979",
-      "1620491618cc5ad6bb",
-      "162049168798e82c6b",
-      "featured-content",
-      "16203081298202a052",
-      "1620307679175d3e95",
-      "a9d22ea8-9482-49ce-9d14-4e1563225f5a",
-      "1587563869588",
-      "kickstarter",
-      "faq",
-      "slideshow",
-      "home-product",
-      "68ade9f1-d2eb-4ef9-9c49-03a3de494537",
-      "1620490706138ff0c6",
-      "16205583693772b72f",
-      "16209204943da73ceb"
+
     ],
-    "blocks": {
-      "17151115064775110295": {
-        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
-        "disabled": false,
+    "color_schemes": {
+      "scheme-1": {
         "settings": {
-          "color_brand": "#467C99",
-          "contrast_color": "#FFFFFF",
-          "color_brand_secondary": "#467C99",
-          "corners": "8px",
-          "app_background": "#f9f8f4",
-          "app_container": 1200,
-          "app_vertical_padding": 32,
-          "images_aspect_ratio": "1",
-          "cards_background": "#FFFFFF",
-          "cards_border_color": "rgba(0,0,0,0)"
+          "background": "#eff0f5",
+          "background_gradient": "",
+          "text": "#0e1b4d",
+          "button": "#4770db",
+          "button_label": "#eff0f5",
+          "secondary_button_label": "#0e1b4d",
+          "shadow": "#0e1b4d"
         }
       },
-      "8232603958289840080": {
-        "type": "shopify:\/\/apps\/seo-manager-venntov\/blocks\/seomanager-404\/c54c366f-d4bb-4d52-8d2f-dd61ce8e7e12",
-        "disabled": false,
+      "scheme-2": {
         "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#101010",
+          "button": "#101010",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#101010",
+          "shadow": "#101010"
         }
       },
-      "17992116214976573926": {
-        "type": "shopify:\/\/apps\/seo-manager-venntov\/blocks\/seomanager\/c54c366f-d4bb-4d52-8d2f-dd61ce8e7e12",
-        "disabled": false,
+      "scheme-3": {
         "settings": {
+          "background": "#0e1b4d",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#0e1b4d",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#0e1b4d"
+        }
+      },
+      "scheme-4": {
+        "settings": {
+          "background": "#4770db",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#4770db",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#0e1b4d"
+        }
+      },
+      "scheme-5": {
+        "settings": {
+          "background": "#e32402",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#ffffff",
+          "button_label": "#e32402",
+          "secondary_button_label": "#ffffff",
+          "shadow": "#0e1b4d"
+        }
+      },
+      "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(310deg, rgba(51, 133, 107, 1) 15%, rgba(51, 133, 107, 1) 82%)",
+          "text": "#ffffff",
+          "button": "#33856b",
+          "button_label": "#eff0f5",
+          "secondary_button_label": "#33856b",
+          "shadow": "#33856b"
+        }
+      },
+      "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#101010",
+          "button": "#33856b",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#0e1b4d",
+          "shadow": "#0e1b4d"
+        }
+      },
+      "scheme-02a0cb66-5338-4741-b7e3-63fccb83b87f": {
+        "settings": {
+          "background": "#33856b",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#33856b",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#0e1b4d",
+          "shadow": "#0e1b4d"
         }
       }
     }
   },
   "presets": {
-    "Jumpstart": {
-      "color_body_bg": "#ffffff",
-      "color_body_bg_alt": "#f9f9f9",
-      "color_primary": "#33856B",
-      "color_secondary": "#141414",
-      "color_borders": "#e9e9e9",
-      "color_text_titles": "#111111",
-      "color_text_general": "#343434",
-      "color_text_alternate": "#7a7a7a",
-      "color_text_buttons": "#ffffff",
-      "color_drawer_background": "#000000",
-      "color_drawer_text": "#ffffff",
-      "color_footer_bg": "#000000",
-      "color_footer_text": "#757575",
-      "typography_headings": "montserrat_n5",
-      "typography_body": "raleway_n5",
-      "sections": {
-        "header": {
-          "type": "header",
+    "Default": {
+      "logo_width": 140,
+      "color_schemes": {
+        "scheme-1": {
           "settings": {
+            "background": "#eff0f5",
+            "background_gradient": "",
+            "text": "#0e1b4d",
+            "button": "#4770db",
+            "button_label": "#eff0f5",
+            "secondary_button_label": "#0e1b4d",
+            "shadow": "#0e1b4d"
           }
         },
-        "video": {
-          "type": "video",
+        "scheme-2": {
           "settings": {
+            "background": "#FFFFFF",
+            "background_gradient": "",
+            "text": "#0e1b4d",
+            "button": "#0e1b4d",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#0e1b4d",
+            "shadow": "#0e1b4d"
           }
         },
-        "feature-rows": {
-          "type": "feature-rows",
+        "scheme-3": {
           "settings": {
+            "background": "#0e1b4d",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#0e1b4d",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#0e1b4d"
           }
         },
-        "feature-columns": {
-          "type": "feature-columns",
-          "blocks": {
-            "feature-columns-0": {
-              "type": "text",
-              "settings": {
-              }
-            },
-            "feature-columns-1": {
-              "type": "text",
-              "settings": {
-              }
-            },
-            "feature-columns-2": {
-              "type": "text",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "feature-columns-0",
-            "feature-columns-1",
-            "feature-columns-2"
-          ],
+        "scheme-4": {
           "settings": {
+            "background": "#4770db",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#4770db",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#0e1b4d"
           }
         },
-        "kickstarter": {
-          "type": "kickstarter",
+        "scheme-5": {
           "settings": {
-          }
-        },
-        "slideshow": {
-          "type": "slideshow",
-          "blocks": {
-            "slideshow-0": {
-              "type": "image",
-              "settings": {
-              }
-            },
-            "slideshow-1": {
-              "type": "image",
-              "settings": {
-              }
-            },
-            "slideshow-2": {
-              "type": "image",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "slideshow-0",
-            "slideshow-1",
-            "slideshow-2"
-          ],
-          "settings": {
-          }
-        },
-        "faq": {
-          "type": "faq",
-          "blocks": {
-            "faq-0": {
-              "type": "text",
-              "settings": {
-              }
-            },
-            "faq-1": {
-              "type": "text",
-              "settings": {
-              }
-            },
-            "faq-2": {
-              "type": "text",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "faq-0",
-            "faq-1",
-            "faq-2"
-          ],
-          "settings": {
-          }
-        },
-        "home-product": {
-          "type": "home-product",
-          "settings": {
-          }
-        },
-        "featured-blog": {
-          "type": "featured-blog",
-          "settings": {
-            "blog": "news"
-          }
-        },
-        "featured-content": {
-          "type": "featured-content",
-          "blocks": {
-            "featured-content-0": {
-              "type": "text",
-              "settings": {
-              }
-            }
-          },
-          "block_order": [
-            "featured-content-0"
-          ],
-          "settings": {
-          }
-        },
-        "footer": {
-          "type": "footer",
-          "settings": {
+            "background": "#E32402",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#E32402",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#0e1b4d"
           }
         }
       },
-      "content_for_index": [
-        "video",
-        "feature-rows",
-        "feature-columns",
-        "featured-content",
-        "kickstarter",
-        "faq",
-        "slideshow",
-        "home-product",
-        "featured-blog"
-      ]
+      "type_header_font": "archivo_n7",
+      "heading_scale": 110,
+      "type_body_font": "questrial_n4",
+      "body_scale": 105,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 28,
+      "spacing_grid_vertical": 28,
+      "animations_reveal_on_scroll": true,
+      "animations_hover_elements": "none",
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 40,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 26,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "card",
+      "card_image_padding": 16,
+      "card_text_alignment": "left",
+      "card_color_scheme": "scheme-1",
+      "card_border_thickness": 1,
+      "card_border_opacity": 100,
+      "card_corner_radius": 18,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "card",
+      "collection_card_image_padding": 16,
+      "collection_card_text_alignment": "left",
+      "collection_card_color_scheme": "scheme-1",
+      "collection_card_border_thickness": 1,
+      "collection_card_border_opacity": 100,
+      "collection_card_corner_radius": 18,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "card",
+      "blog_card_image_padding": 16,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "scheme-1",
+      "blog_card_border_thickness": 1,
+      "blog_card_border_opacity": 100,
+      "blog_card_corner_radius": 18,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 20,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 0,
+      "media_border_opacity": 10,
+      "media_radius": 20,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 18,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 0,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "top left",
+      "badge_corner_radius": 0,
+      "sale_badge_color_scheme": "scheme-4",
+      "sold_out_badge_color_scheme": "scheme-1",
+      "brand_headline": "",
+      "brand_description": "<p><\/p>",
+      "brand_image_width": 100,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_snapchat_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": false,
+      "cart_type": "drawer",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "cart_drawer_collection": "",
+      "cart_color_scheme": "scheme-1",
+      "sections": {
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "color_scheme": "scheme-3"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "scheme-3"
+          }
+        }
+      }
     }
   }
 }

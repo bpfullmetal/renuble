@@ -1,0 +1,186 @@
+{
+  "sections": {
+    "slideshow_xWBg8R": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_wqGpLr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Re-nuble_grow_media_products.jpg",
+            "heading": "ReNu Terra Products",
+            "heading_size": "h1",
+            "subheading": "Re-Nuble offers a full line of ReNu Terra® Grow Mats and Hydroponic Grow Media for Large-Scale Commercial Growers and Small to Medium Farms Growers.",
+            "button_label": "Ready to Get Started?",
+            "link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_KMWx4d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vecteezy_greenhouse-growth-in-agriculture-farm-plant-organic_27732340_copy_Large_17e9466c-defa-4cc5-aca0-08d3777f0423.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wqGpLr",
+        "slide_KMWx4d"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "Re-Nuble Nutrient Concentrate",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "columns",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_nHE8RL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cx6Ekx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Grow Mats &  Growing Media",
+            "heading_size": "h1"
+          }
+        },
+        "text_PFKiNX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our standard size Grow Media and Grow Mats fit the majority of off the shelf commercial trays used for Indoor Farming. For our larger commercial customers, we also provide custom cut grow mat sizes to seamlessly fit into your production environment.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_a4K8GK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started with Re-Nuble",
+            "button_link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cx6Ekx",
+        "text_PFKiNX",
+        "button_a4K8GK"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosPXL.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_xWBg8R",
+    "main",
+    "related-products",
+    "image_with_text_nHE8RL"
+  ]
+}

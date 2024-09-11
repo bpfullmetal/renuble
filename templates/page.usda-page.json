@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_Rnci7M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XhLyRh": {
+          "type": "heading",
+          "settings": {
+            "heading": "USDA Climate Smart Project",
+            "heading_size": "h0"
+          }
+        },
+        "text_tH6Bfw": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>USDA Partnerships for Climate-Smart Commodities Project<\/h3>"
+          }
+        },
+        "text_prkik7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In partnership with the U.S. Department of Agriculture (USDA), Re-Nuble is creating a movement to make climate-smart agriculture a tool for our American heroes, our farmers. This project aims to build markets for climate-smart commodities and invest in America's climate-smart producers to strengthen U.S. rural and agricultural communities. This is crucial for a sustainable and thriving agricultural sector. Resilient farms are equipped to adapt and withstand the challenges posed by climate risks, ensuring the continuity of food production and the livelihoods of farmers.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XhLyRh",
+        "text_tH6Bfw",
+        "text_prkik7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_cygNcW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_HDxxGD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By implementing our climate-resilient strategies and our \"Organic Cycling Science\" approach, farms can better absorb and recover from extreme weather events, such as droughts and floods with the added benefit of additional revenue streams. Additionally, resilient farms contribute to the overall health of ecosystems, promoting biodiversity and reducing the need for harmful pesticides and fertilizers. Furthermore, these farms help mitigate climate change by sequestering carbon in the soil and reducing greenhouse gas emissions. We are not only safeguarding the future of our farmers but also ensuring food security, protecting the environment, and building a sustainable future for all.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "heading_ezQk9z": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to  learn more?  Fill out the form below and we will contact you with timely updates and information about the project.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text_HDxxGD",
+        "heading_ezQk9z"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4-Dec-27-2023-09-36-44-9695-PM.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_HygHEX": {
+      "type": "multirow",
+      "blocks": {
+        "row_fMmtt4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-Dec-27-2023-09-36-15-4992-PM.png",
+            "caption": "climate-smart agricultural Production",
+            "heading": "Project Objectives",
+            "text": "<p>The objectives of this project are to support the production and marketing of climate-smart commodities by providing voluntary incentives to producers and landowners, including early adopters.<\/p><ul><li>We aim to implement climate-smart agricultural production practices, activities, and systems on working lands;<\/li><li>Measure, quantify, monitor, and verify the carbon and greenhouse gas (GHG) benefits associated with those practices;<\/li><li>Develop markets; and<\/li><li>Promote the resulting climate-smart commodities.<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_dbfrFW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hubspot_Newsletter_Header_Image-2.png",
+            "caption": "EXPANDING GEOGRAPHY",
+            "heading": "Service Areas",
+            "text": "<ul><li>New York<\/li><li>Michigan<\/li><li>Mississippi<\/li><li>Kentucky<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_fMmtt4",
+        "row_dbfrFW"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_NANgfw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VETcBi": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>With our expertise in feasibility studies, technical assistance, and agronomic support, we are determined to make a significant impact on reducing greenhouse gas (GHG) emissions in the leafy green, mixed vegetable, and poultry industries. Over the course of three years, our collaborative project will partner with Subawardees to implement a groundbreaking on-site method that transforms organic waste into valuable agricultural products for underserved and small-scale farm producers. Through Re-Nuble's innovative strategies, we aim to optimize the production of climate-smart commodities by farm producers that meet the demands and pricing premiums of retail markets. <\/p><p>This project embodies a holistic approach to creating triple bottom-line impact to the vegetable and poultry production industries while ensuring measurable outcomes in terms of GHG reduction. From the very beginning, we aim to incorporate climate-smart methods at every stage, from conception to consumption, setting a new standard of sustainability for the cattle industry. Our ultimate goal is to pave the way for a more environmentally conscious future.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VETcBi"
+      ],
+      "settings": {
+        "title": "<strong>Our Solution<\/strong>",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_zA3FyG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6z6FYy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/usda.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_98gDpL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chapul_Farms_2_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FBRy8i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipm.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_6z6FYy",
+        "column_98gDpL",
+        "column_FBRy8i"
+      ],
+      "settings": {
+        "title": "Our Partnered Subawardees",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_JWaEXV": {
+      "type": "multicolumn",
+      "settings": {
+        "title": "Join us as we set out to make climate-smart agriculture a viable status quo.",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "custom_liquid_rhGLJG": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{padding-left: 180px; padding-right: 100px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"1585803\",\n    formId: \"fc6451f2-769f-4fa3-8df7-34094642661a\"\n  });\n<\/script>",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Rnci7M",
+    "image_with_text_cygNcW",
+    "multirow_HygHEX",
+    "multicolumn_NANgfw",
+    "multicolumn_zA3FyG",
+    "multicolumn_JWaEXV",
+    "custom_liquid_rhGLJG"
+  ]
+}

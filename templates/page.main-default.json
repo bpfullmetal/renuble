@@ -1,0 +1,466 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_eV4EQx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UqXqaT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Instructions",
+            "heading_size": "h1"
+          }
+        },
+        "text_TPK9tM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>How to Use ReNu Terra Classic Mats.<br\/><\/strong>Learn to Grow Like A Pro!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UqXqaT",
+        "text_TPK9tM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_gJq9yb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cFpbEt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Planting Materials Required",
+            "heading_size": "h1"
+          }
+        },
+        "text_ckrYyx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "text_XWzj8y": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li><strong>Seed Flat - <\/strong>A standard 1020 seed flat with a solid bottom (no holes)<\/li><li><strong>Seed Flat Insert <\/strong>- A standard 1020 seed flat insert, with a mesh bottom (or holes), that tightly fits your 1020 seed flat (no holes).<\/li><li><strong>Cover - <\/strong>A standard 1020 seed flat insert, with a mesh bottom (or holes), that tightly fits your 1020 seed flat.<\/li><li><strong>Watering <\/strong>- A spray bottle, or a sink or shower head.<\/li><li><strong>Seeds - <\/strong>Your seeds of choice.<\/li><li><em><strong>ReNu Terra Classic Mats<\/strong><\/em> -  Ideal for microgreens & leafy greens.<\/li><li><em><strong>ReNu Terra Large Seed Format Mats<\/strong><\/em> - Ideal for deeper rooting plants like spinach & baby greens.<br\/><br\/><\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cFpbEt",
+        "text_ckrYyx",
+        "text_XWzj8y"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_kEfhQP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KDjNBJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Thank You For Your Business!",
+            "heading_size": "h2"
+          }
+        },
+        "text_pfnYDn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HI there! I'm Tinia the Founder and CEO of Re-Nuble. As a U.S. manufacturer and for-profit social enterprise, we strive to create lasting jobs with true growth and learning opportunities for our team and our community! By choosing to purchase from us, we're able to<em><strong> <\/strong><\/em>reinvest some of our profits into furthering research and development of climate mitigating technologies and supporting 501c3 non-profits that provide an educational component related to developing a sustainable and productive food supply chain.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KDjNBJ",
+        "text_pfnYDn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-02-16_at_9.25.45_AM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_CbM68U": {
+      "type": "video",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/vimeo.com\/933430427",
+        "cover_image": "shopify:\/\/shop_images\/introducing_Re-Nu_Terra_Mats.jpg",
+        "description": "#hydroponics #microgreens #greenhouse Who doesn't love a good visual? Here'…",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_7hq63F": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/vimeo.com\/933427769",
+        "cover_image": "shopify:\/\/shop_images\/How_to_Use_Re-Nu_Terra_Mats.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_UVH4mF": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_kKEHbp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the Re-Nuble Community",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_YyJKYC": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>By adding yourself to our mailing list, you'll receive exclusive ReNu Terra discounts, micro green and baby green guides and more!<\/p>"
+          }
+        },
+        "email_form_pdhqhV": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_kKEHbp",
+        "paragraph_YyJKYC",
+        "email_form_pdhqhV"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_wk9qj6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_B3Dh3c": {
+          "type": "heading",
+          "settings": {
+            "heading": "1) Lay Mats in 1020 Tray",
+            "heading_size": "h2"
+          }
+        },
+        "text_EiCha3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Remove one ReNu Terra mat from the packaging and lay it flat in your 1020 seed flat insert (with holes or mesh).<\/p><p>Place your 1020 seed flat insert in your 1020 flat (no holes).<\/p><p><br\/><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B3Dh3c",
+        "text_EiCha3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1020_Tray_e42d51f3-cf21-4a50-8ef9-67897bf846bf.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pTeLw3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AhfG9D": {
+          "type": "heading",
+          "settings": {
+            "heading": "2) Wet the mats",
+            "heading_size": "h2"
+          }
+        },
+        "text_DpAKxx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour water into the seed flat until ReNu Terra mat is fully saturated; we recommend 8.5 cups (2L) of water into it.<\/p><p>Lift the 1020 seed flat insert (with holes or mesh) allowing excess water to drain out (30-60 seconds)<\/p><p>Pour out any excess water from the seed flat (no holes)<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AhfG9D",
+        "text_DpAKxx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Spray_bottle_1080_x_1080_px_2ac0cc71-c7b4-4f12-b699-e06a6395ee13.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_qNCLBg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4GytWn": {
+          "type": "heading",
+          "settings": {
+            "heading": "3) Seeding",
+            "heading_size": "h2"
+          }
+        },
+        "text_7eyJ64": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Evenly sprinkle your seeds over the wet mat. See quantity as recommended by your manufacturer.<\/p><p>Thoroughly wet the sown seeds with a spray bottle. <em>(This is to ensure the tops and bottoms of the seeds are in contact with water, which the seed needs to absorb to trigger germination)<\/em><\/p><p><strong>Classic mats<\/strong> - Ideal for<br\/>microgreens & leafy greens.<\/p><p><strong>Large Seed Format mats<\/strong> - Ideal for deeper<br\/>rooting plants like spinach & baby greens.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4GytWn",
+        "text_7eyJ64"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Seeds_-_WIP_5ca96f86-95ad-434e-aa68-b1169fe06c0a.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_P3bGf3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_a6PgcJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "4) Germination",
+            "heading_size": "h2"
+          }
+        },
+        "text_7wQWV8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Place the seed flat cover over the seed flat insert with your mat and seeds. Do not touch it for 2 days.<\/p><p>After 2 days, check to see if your seeds are fully germinated. Fully Germinated seeds have produced a root and the first leaf.<\/p><p>If fully germinated, remove the lid.<\/p><p>If seeds are not fully germinated, spray with more water, replace cover and check again in 1 day.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a6PgcJ",
+        "text_7wQWV8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Arugula2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_hp7L97": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8JJz3b": {
+          "type": "heading",
+          "settings": {
+            "heading": "5) Irrigation",
+            "heading_size": "h2"
+          }
+        },
+        "text_XBz4Ed": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Maintain moisture by checking the seed flat daily. As your microgreens grow bigger, they will require more water.<\/p><p>Lift your seed flat insert. Add water to your bottom seed flat (no holes)<\/p><p>Place your seed flat insert in the seed flat containing water and let it absorb the water.<\/p><p>Lift the seed flat insert. Drain any excess water from the seed flat. Place the seed flat insert back in the seed flat.<\/p><p>If you want to grow your microgreens longer than one week after germination, be sure to apply fertilizer.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8JJz3b",
+        "text_XBz4Ed"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/green-watering-can-pours-water-in-garden_caeb9e6d-be37-4abb-8c23-8918d8f5634c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_JwTQNW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VHnPYA": {
+          "type": "heading",
+          "settings": {
+            "heading": "6) Harvesting",
+            "heading_size": "h2"
+          }
+        },
+        "text_XfBw6z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Remove the ReNu Terra mat from its 1020 seed flat insert and lay flat on a solid surface.<\/p><p>Use a knife or scissors to carefully cut the microgreens at the stem, just above the mat (about 1 inch from the mat). Harvest all the microgreens at once.<\/p><p>Lay your harvested greens on paper towels and tamp them to dry.<\/p><p>Place the microgreens in your storage container(s) and refrigerate until consumption.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VHnPYA",
+        "text_XfBw6z"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Total_Harvest_8a8f8c94-502a-4edf-83bf-2fa2be58dda2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_hhtEAk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WWQ6Ed": {
+          "type": "heading",
+          "settings": {
+            "heading": "7) Eat Your Greens!",
+            "heading_size": "h2"
+          }
+        },
+        "text_BbriWC": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Refrigerate until consumption.<\/li><li>Consume with one week of harvesting. <\/li><\/ol>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WWQ6Ed",
+        "text_BbriWC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EAT_-_WIP_2dcb201b-6e9e-4280-8f52-6b8a7b2e7b2e.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_eV4EQx",
+    "rich_text_gJq9yb",
+    "image_with_text_kEfhQP",
+    "video_CbM68U",
+    "video_7hq63F",
+    "newsletter_UVH4mF",
+    "image_with_text_wk9qj6",
+    "image_with_text_pTeLw3",
+    "image_with_text_qNCLBg",
+    "image_with_text_P3bGf3",
+    "image_with_text_hp7L97",
+    "image_with_text_JwTQNW",
+    "image_with_text_hhtEAk"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "rich_text_YMeDbK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nM6XaJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "RENU TERRA  - FAQ Videos",
+            "heading_size": "h1"
+          }
+        },
+        "text_jcfTgp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>‌In this video series, JC Chidiac, Senior Director of R&D at Re-Nuble, shares answers to  some of the frequently asked questions about our ReNu Terra Mats. Our ReNu Terra Mats are used to grow baby greens and microgreens.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nM6XaJ",
+        "text_jcfTgp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_cYbJrg": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp; <iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/-Y1Iz6BOQN8?si=8nDkO_D6myD34NFK\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n &nbsp;  &nbsp; &nbsp;\n<iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/6xMwm0fIuLM?si=GzahUIxBOBBuGN-R\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_AWCaen": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;<iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/rxUiyszXMJE?si=z6AxMcUfPBraD4y3\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/DvfkH0shDFA?si=_KdSRNP4xrhC2H30\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_jeJYad": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/PaVEQ9bUn5w?si=kmr6Zfv5akebWRYT\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/I2vIT4uFPdc?si=2e--Dtl5wqO_XAsQ\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_QxUUaM": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/fJIKPTQKtl8?si=eSqooWicY-R-T6dc\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"500\" height=\"281\" src=\"https:\/\/www.youtube.com\/embed\/JMDxKpxNDqI?si=JvgXNTFf1fw5q_oG\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_YMeDbK",
+    "custom_liquid_cYbJrg",
+    "custom_liquid_AWCaen",
+    "custom_liquid_jeJYad",
+    "custom_liquid_QxUUaM"
+  ]
+}

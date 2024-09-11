@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "f465fb20-ccf4-42ea-8cc7-f1bb2781659c": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_x74NPn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/organic-farmers-change_your_climate_profile.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "forms": {
+      "type": "apps",
+      "blocks": {
+        "2542c2f9-4805-45f6-a162-cd277d5eec3e": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "143123",
+            "text_color": "#202020",
+            "button_background_color": "#33856b",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "2542c2f9-4805-45f6-a162-cd277d5eec3e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "f465fb20-ccf4-42ea-8cc7-f1bb2781659c",
+    "image_banner_x74NPn",
+    "forms"
+  ]
+}

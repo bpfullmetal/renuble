@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "press_header": {
+      "type": "press-header",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "press_header"
+  ]
+}

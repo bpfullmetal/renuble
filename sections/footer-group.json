@@ -1,0 +1,90 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_b8La8T": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>Re-Nuble, Inc.<\/strong>",
+            "subtext": "<p>Re-Nuble is a climate technology company that uses organic cycling science™ technology to convert waste streams into a platform of sustainable technologies for  agriculture. As a vertically integrated manufacturer, we help both gardeners and commercial farms use more affordable peat-free inputs and biological fertilizers to grow sustainably.<\/p><p><strong>Operating Hours: M - F, 10-5 pm EST<\/strong><\/p><p><strong>© Copyright 2022-2024, Re-Nuble, Inc.<\/strong><\/p>"
+          }
+        },
+        "text_t7Diry": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>HAVE QUESTIONS?<\/strong>",
+            "subtext": "<p><strong>Call Us<\/strong><br\/>646-266-9775<\/p><p><strong>Email Customer Support<\/strong><br\/><a href=\"mailto:wecare@re-nuble.com\" target=\"_blank\" title=\"mailto:wecare@re-nuble.com\">wecare@re-nuble.com<\/a><\/p><p><strong>Email General Inquiry<\/strong><br\/><a href=\"mailto:info@re-nuble.com\" target=\"_blank\" title=\"mailto:info@re-nuble.com\">info@re-nuble.com<\/a><\/p>"
+          }
+        },
+        "link_list_mh64eY": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "text_b8La8T",
+        "text_t7Diry",
+        "link_list_mh64eY"
+      ],
+      "settings": {
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe for updates and news",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 48,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "newsletter",
+    "footer"
+  ]
+}

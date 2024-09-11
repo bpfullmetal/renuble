@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "fb39aba5-3d2a-40aa-a0b6-db67181b47cc": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_A6D6iB": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Home_grower_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "forms": {
+      "type": "apps",
+      "blocks": {
+        "527fd709-9f59-4fec-9106-b15f06a4bd92": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "143588",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "527fd709-9f59-4fec-9106-b15f06a4bd92"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "fb39aba5-3d2a-40aa-a0b6-db67181b47cc",
+    "image_banner_A6D6iB",
+    "forms"
+  ]
+}
