@@ -175,6 +175,11 @@
   justify-content: center;
 }
 
+.footer__list-social .list-social__item .icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
 .footer-block__newsletter {
   text-align: center;
   flex-grow: 1;
