@@ -1140,6 +1140,9 @@ summary::-webkit-details-marker {
   }
 }
 
+body {
+  background-color: blue;;
+}
 deferred-media {
   display: block;
 }
