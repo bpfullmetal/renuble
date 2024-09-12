@@ -88,6 +88,15 @@
             "featured_image": "shopify:\/\/shop_images\/MiniWindTurbine_sstock.webp",
             "company_logo": "shopify:\/\/shop_images\/trellis.png"
           }
+        },
+        "press_cejyWN": {
+          "type": "press",
+          "settings": {
+            "title": "Innovative Technology for Waste Management",
+            "url": "https:\/\/www.foodlogistics.com\/sustainability\/waste-reduction\/article\/22184384\/renuble-innovative-technology-for-waste-management",
+            "featured_image": "shopify:\/\/shop_images\/food-logistics-image.png",
+            "company_logo": "shopify:\/\/shop_images\/food-logistics-logo.png"
+          }
         }
       },
       "block_order": [
@@ -98,7 +107,8 @@
         "press_mELt7c",
         "press_bjXphf",
         "press_qRr3C3",
-        "press_hYAGyY"
+        "press_hYAGyY",
+        "press_cejyWN"
       ],
       "settings": {
       }
