@@ -643,16 +643,6 @@
             "link": ""
           }
         },
-        "column_cHyjb3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/secondmuse_99e81735-260f-4f99-ad18-2e78a9a69819.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_h8KMMr": {
           "type": "column",
           "settings": {
@@ -692,16 +682,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_9DMfLC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gsf.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -711,19 +691,17 @@
         "column_Graerw",
         "column_4wHmmm",
         "column_4UyJMi",
-        "column_cHyjb3",
         "column_h8KMMr",
         "column_NW3wE8",
         "column_CaNxiN",
-        "column_rVhtzR",
-        "column_9DMfLC"
+        "column_rVhtzR"
       ],
       "settings": {
         "title": "Trusted By Our Clients, Partners, & Investors",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 6,
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",

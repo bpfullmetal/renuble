@@ -42,7 +42,6 @@
       assign only_empty_brand = true
     endif
   -%}
-  
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
     or section.settings.show_social
@@ -128,6 +127,9 @@
                       {%- endif -%}
                       {%- if settings.brand_description != blank -%}
                         <div class="rte">{{ settings.brand_description }}</div>
+                      {%- endif -%}
+                      {%- if block.settings.show_social and has_social_icons -%}
+                        {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
                     </div>
                   {%- when 'image' -%}
@@ -237,11 +239,10 @@
             </div>
           {%- endif -%}
 
-          
+          {%- if section.settings.show_social and has_social_icons -%}
+            {%- render 'social-icons', class: 'footer__list-social' -%}
+          {%- endif -%}
         </div>
-        {%- if section.settings.show_social and has_social_icons -%}
-          {%- render 'social-icons', class: 'footer__list-social' -%}
-        {%- endif -%}
       </div>
     {%- endunless -%}
   {%- endif -%}

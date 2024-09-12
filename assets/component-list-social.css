@@ -30,8 +30,3 @@
 .list-social__link:hover .icon {
   transform: scale(1.07);
 }
-
-.footer__list-social.list-social {
-  margin-top: 2rem;
-  justify-content: center;
-}
