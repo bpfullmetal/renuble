@@ -25,10 +25,30 @@
             "featured_image": "shopify:\/\/shop_images\/investing-education-training-concept-funds-260nw-2287034709_copy.jpg",
             "company_logo": "shopify:\/\/shop_images\/farms-com.png"
           }
+        },
+        "press_7DpJhq": {
+          "type": "press",
+          "settings": {
+            "title": "More Than $21.5 Million Announced For Nature-Based Solutions To Lower Emissions And Sequester Carbon",
+            "url": "https:\/\/globalrenewablenews.com\/article\/energy\/category\/climate-change\/155\/1091066\/more-than-21-5-million-announced-for-nature-based-solutions-to-lower-emissions-and-sequester-carbon.html",
+            "featured_image": "shopify:\/\/shop_images\/co-2.png",
+            "company_logo": "shopify:\/\/shop_images\/grn.png"
+          }
+        },
+        "press_zPGLid": {
+          "type": "press",
+          "settings": {
+            "title": "These Startups Envision a Just Transition to a Green Economy",
+            "url": "https:\/\/www.jff.org\/these-startups-envision-a-just-transition-to-a-green-economy\/",
+            "featured_image": "shopify:\/\/shop_images\/pexels-yankrukov-7640741-1200x1200.jpg",
+            "company_logo": "shopify:\/\/shop_images\/jftf.png"
+          }
         }
       },
       "block_order": [
-        "press_UbEQcj"
+        "press_UbEQcj",
+        "press_7DpJhq",
+        "press_zPGLid"
       ],
       "settings": {
       }
