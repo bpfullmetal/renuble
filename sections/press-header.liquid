@@ -1,6 +1,48 @@
+<div class="press-header__content flex">
+  <div class="press-header__content-text">
+    <h1 class="title--primary scroll-trigger animate--fade-in">
+      {{ page.title }}
+    </h1>
+    {% if section.settings.header_text %}
+      {{ section.settings.header_text }}
+    {% endif %}
+  </div>
+  {% if section.blocks.size > 0 %}
+    <div class="press-header__content-logos">
+      {% for block in section.blocks %}
+        {% if block.settings.logo %}
+          <div class="press-header__content-logo">
+            <img width="110px" height="auto" src="{{ block.settings.logo | image_url: width: '200x' }}"/>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+  
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Press Header",
+    "class": "page-width press-header",
+    "settings": [
+      {
+        "type": "text",
+        "id": "header_text",
+        "label": "Header text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "logo",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+          },
+        ]
+      }
+    ]
   }
 {% endschema %}
