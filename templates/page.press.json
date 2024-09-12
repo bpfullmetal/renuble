@@ -61,6 +61,15 @@
             "featured_image": "shopify:\/\/shop_images\/Screenshot_2024-09-12_at_10.12.13_AM-Photoroom.png",
             "company_logo": "shopify:\/\/shop_images\/spectrum-logo.png"
           }
+        },
+        "press_bjXphf": {
+          "type": "press",
+          "settings": {
+            "title": "Scoop: Re-Nuble cultivating",
+            "url": "https:\/\/www.axios.com\/pro\/climate-deals\/2023\/05\/31\/re-nuble-tinia-pina-nyserda-farming-gardening-circular-food-waste-soil",
+            "featured_image": "shopify:\/\/shop_images\/axios-image.webp",
+            "company_logo": "shopify:\/\/shop_images\/axios-logo.png"
+          }
         }
       },
       "block_order": [
@@ -68,7 +77,8 @@
         "press_7DpJhq",
         "press_zPGLid",
         "press_KVFKzP",
-        "press_mELt7c"
+        "press_mELt7c",
+        "press_bjXphf"
       ],
       "settings": {
       }
