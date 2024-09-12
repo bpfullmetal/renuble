@@ -178,6 +178,12 @@
 .footer__list-social .list-social__item .icon {
   width: 3.2rem;
   height: 3.2rem;
+  position: relative;
+}
+
+.footer__list-social .list-social__item .icon img {
+  width: 100%;
+  height: auto;
 }
 
 .footer-block__newsletter {
