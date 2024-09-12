@@ -43,12 +43,22 @@
             "featured_image": "shopify:\/\/shop_images\/pexels-yankrukov-7640741-1200x1200.jpg",
             "company_logo": "shopify:\/\/shop_images\/jftf.png"
           }
+        },
+        "press_KVFKzP": {
+          "type": "press",
+          "settings": {
+            "title": "Urban Vine & Re-Nuble",
+            "url": "https:\/\/www.urbanvine.co\/blog\/re-nuble-usa",
+            "featured_image": "shopify:\/\/shop_images\/urban-vine-featured.jpg",
+            "company_logo": "shopify:\/\/shop_images\/urban-vine-logo.png"
+          }
         }
       },
       "block_order": [
         "press_UbEQcj",
         "press_7DpJhq",
-        "press_zPGLid"
+        "press_zPGLid",
+        "press_KVFKzP"
       ],
       "settings": {
       }
