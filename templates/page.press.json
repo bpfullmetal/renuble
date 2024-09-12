@@ -10,10 +10,32 @@
 {
   "sections": {
     "press_header": {
-      "type": "press-header"
+      "type": "press-header",
+      "settings": {
+      }
+    },
+    "press_w6WPh3": {
+      "type": "press",
+      "blocks": {
+        "press_UbEQcj": {
+          "type": "press",
+          "settings": {
+            "title": "Green grant empowers eco-friendly farming",
+            "url": "https:\/\/www.farms.com\/ag-industry-news\/green-grant-empowers-eco-friendly-farming-155.aspx",
+            "featured_image": "shopify:\/\/shop_images\/investing-education-training-concept-funds-260nw-2287034709_copy.jpg",
+            "company_logo": "shopify:\/\/shop_images\/farms-com.png"
+          }
+        }
+      },
+      "block_order": [
+        "press_UbEQcj"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "press_header"
+    "press_header",
+    "press_w6WPh3"
   ]
 }
