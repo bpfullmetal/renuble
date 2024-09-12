@@ -97,6 +97,15 @@
             "featured_image": "shopify:\/\/shop_images\/food-logistics-image.png",
             "company_logo": "shopify:\/\/shop_images\/food-logistics-logo.png"
           }
+        },
+        "press_HjWQ4p": {
+          "type": "press",
+          "settings": {
+            "title": "SOSV and JetBlue Technology Ventures talk VC climate tech and ESG at TC Sessions: Climate 2022",
+            "url": "https:\/\/techcrunch.com\/2022\/03\/31\/sosv-and-jetblue-technology-ventures-talk-vc-climate-tech-and-esg-at-tc-sessions-climate-2022\/?guccounter=1",
+            "featured_image": "shopify:\/\/shop_images\/climate-tech.webp",
+            "company_logo": "shopify:\/\/shop_images\/tc-logo.png"
+          }
         }
       },
       "block_order": [
@@ -108,7 +117,8 @@
         "press_bjXphf",
         "press_qRr3C3",
         "press_hYAGyY",
-        "press_cejyWN"
+        "press_cejyWN",
+        "press_HjWQ4p"
       ],
       "settings": {
       }
