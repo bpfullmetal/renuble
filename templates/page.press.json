@@ -49,7 +49,7 @@
           "settings": {
             "title": "Urban Vine & Re-Nuble",
             "url": "https:\/\/www.urbanvine.co\/blog\/re-nuble-usa",
-            "featured_image": "shopify:\/\/shop_images\/urban-vine-featured.jpg",
+            "featured_image": "shopify:\/\/shop_images\/urban-vine-2.jpg",
             "company_logo": "shopify:\/\/shop_images\/urban-vine-logo.png"
           }
         },
@@ -70,6 +70,15 @@
             "featured_image": "shopify:\/\/shop_images\/axios-image.webp",
             "company_logo": "shopify:\/\/shop_images\/axios-logo.png"
           }
+        },
+        "press_qRr3C3": {
+          "type": "press",
+          "settings": {
+            "title": "Re-Nuble Aims to Use Food Waste To Make Indoor Agriculture More Sustainable",
+            "url": "https:\/\/thespoon.tech\/re-nubile-aims-to-use-food-waste-to-make-indoor-agriculture-more-sustainable\/",
+            "featured_image": "shopify:\/\/shop_images\/urban-vine-featured.jpg",
+            "company_logo": "shopify:\/\/shop_images\/spoon-logo.webp"
+          }
         }
       },
       "block_order": [
@@ -78,7 +87,8 @@
         "press_zPGLid",
         "press_KVFKzP",
         "press_mELt7c",
-        "press_bjXphf"
+        "press_bjXphf",
+        "press_qRr3C3"
       ],
       "settings": {
       }
