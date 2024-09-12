@@ -11,7 +11,47 @@
   "sections": {
     "press_header": {
       "type": "press-header",
+      "blocks": {
+        "logo_FfDB8i": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/tc-logo.png"
+          }
+        },
+        "logo_xyG3fx": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/axios-logo.png"
+          }
+        },
+        "logo_BG4XRr": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/food-logistics-logo.png"
+          }
+        },
+        "logo_7eKJMG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/spoon-logo.webp"
+          }
+        },
+        "logo_NzdVew": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/urban-vine-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_FfDB8i",
+        "logo_xyG3fx",
+        "logo_BG4XRr",
+        "logo_7eKJMG",
+        "logo_NzdVew"
+      ],
       "settings": {
+        "header_text": ""
       }
     },
     "press_w6WPh3": {
