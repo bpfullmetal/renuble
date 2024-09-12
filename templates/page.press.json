@@ -52,13 +52,23 @@
             "featured_image": "shopify:\/\/shop_images\/urban-vine-featured.jpg",
             "company_logo": "shopify:\/\/shop_images\/urban-vine-logo.png"
           }
+        },
+        "press_mELt7c": {
+          "type": "press",
+          "settings": {
+            "title": "Investment fund trying to create a more sustainable future",
+            "url": "https:\/\/ny1.com\/nyc\/all-boroughs\/CTV\/2023\/11\/25\/investment-fund-trying-to-create-a-more-sustainable-future",
+            "featured_image": "shopify:\/\/shop_images\/Screenshot_2024-09-12_at_10.12.13_AM-Photoroom.png",
+            "company_logo": "shopify:\/\/shop_images\/spectrum-logo.png"
+          }
         }
       },
       "block_order": [
         "press_UbEQcj",
         "press_7DpJhq",
         "press_zPGLid",
-        "press_KVFKzP"
+        "press_KVFKzP",
+        "press_mELt7c"
       ],
       "settings": {
       }
