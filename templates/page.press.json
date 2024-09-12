@@ -79,6 +79,15 @@
             "featured_image": "shopify:\/\/shop_images\/urban-vine-featured.jpg",
             "company_logo": "shopify:\/\/shop_images\/spoon-logo.webp"
           }
+        },
+        "press_hYAGyY": {
+          "type": "press",
+          "settings": {
+            "title": "Unleashing the power of gender-smart climate investing in developed markets",
+            "url": "https:\/\/trellis.net\/article\/unleashing-power-gender-smart-climate-investing-developed-markets\/",
+            "featured_image": "shopify:\/\/shop_images\/MiniWindTurbine_sstock.webp",
+            "company_logo": "shopify:\/\/shop_images\/trellis.png"
+          }
         }
       },
       "block_order": [
@@ -88,7 +97,8 @@
         "press_KVFKzP",
         "press_mELt7c",
         "press_bjXphf",
-        "press_qRr3C3"
+        "press_qRr3C3",
+        "press_hYAGyY"
       ],
       "settings": {
       }
