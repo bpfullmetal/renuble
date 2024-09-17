@@ -10,10 +10,8 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "impact-table",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 28
       }
     }
   },
