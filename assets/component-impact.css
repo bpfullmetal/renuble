@@ -50,7 +50,13 @@ body.gradient {
   border: none;
   background: var(--gradient-background);
   text-align: left;
+  padding: .75rem 1rem;
   /* box-shadow: 0 0 3px rgba(0,0,0,.2); */
+}
+
+.impact-table table thead tr th img {
+  width: 120px;
+  height: auto;
 }
 
 @media screen and (max-width: 900px) {
