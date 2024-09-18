@@ -1,0 +1,218 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "image_with_text_DpPy4i": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JhGJVT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Re-Nuble's Impact",
+            "heading_size": "h2"
+          }
+        },
+        "text_g47AH9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2020, the United Nations held their annual check-in on the Sustainable Development Goals (SDGs). In the COVID era, the conclusion was that it cannot be business-as-usual in order to reach the 2030 agenda. A fresh approach to achieving the 196 targets set out is needed.<br\/><br\/>We decided to revisit our commitment to the UN SDGs to see if we were fully maximizing our efforts to align ourselves with the targets.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JhGJVT",
+        "text_g47AH9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/goals.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LxCM9C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hjGnKV": {
+          "type": "heading",
+          "settings": {
+            "heading": "This is where we stand:",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hjGnKV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "impact-table",
+      "blocks": {
+        "impact_dzzMCM": {
+          "type": "impact",
+          "settings": {
+            "title": "Zero Hunger",
+            "title_long": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+            "color": "#daa63a",
+            "icon": "shopify:\/\/shop_images\/icon-zero-hunger.png",
+            "number": "2",
+            "related_targets": "<p><strong>2.3<\/strong> By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment<\/p><p><strong>2.4<\/strong> By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding and other disasters and that progressively improve land and soil quality<\/p>",
+            "renubles_alignment": "<p>Our innovative approach enables indoor growers to affordably and rapidly yield fully organic produce, combating global food loss challenges. Indoor growers are now able to achieve similar crop growth by using our organic hydroponic nutrients as compared to synthetic mineral salts, but at a fraction of the concentration which is usually needed.<\/p>"
+          }
+        },
+        "impact_eUBW8L": {
+          "type": "impact",
+          "settings": {
+            "title": "Good health and well-being",
+            "title_long": "Ensure healthy lives and promote well-being for all at all ages",
+            "color": "#509c4a",
+            "icon": "shopify:\/\/shop_images\/icon-good-health.png",
+            "number": "3",
+            "related_targets": "<p><strong>3.9<\/strong> By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination<\/p>",
+            "renubles_alignment": "<p>Our nutrient technology effortlessly eliminates the contamination of water systems which indoor growers typically experience through the usage of synthetic mineral salts, leading to soil pollution. Our grow media, sourced from natural raw material, not only helps grow healthy food, but also improves soil health through its ability to fully compost. <\/p>"
+          }
+        },
+        "impact_wFQfLr": {
+          "type": "impact",
+          "settings": {
+            "title": "Quality education",
+            "title_long": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+            "color": "#cf353a",
+            "icon": "shopify:\/\/shop_images\/icon-quality-education.png",
+            "number": "4",
+            "related_targets": "<p><strong>4.4<\/strong> By 2030, substantially increase the number of youth and adults who have relevant skills, including technical and vocational skills, for employment, decent jobs and entrepreneurship<\/p>",
+            "renubles_alignment": "<p>Fixing the problems of the world requires an inclusive approach where everyone has a voice. A key value that drives us is strong equitable access. We engage communities at the local level because we understand that the local community plays a vital role in developing and growing our technologies, opening paths to entrepreneurship and intrapreneurship.<\/p>"
+          }
+        },
+        "impact_fyeTK4": {
+          "type": "impact",
+          "settings": {
+            "title": "Clean water and sanitation",
+            "title_long": "Ensure availability and sustainable management of water and sanitation for all",
+            "color": "#5eaed8",
+            "icon": "shopify:\/\/shop_images\/icon-clean-water.png",
+            "number": "6",
+            "related_targets": "<p><strong>6.3<\/strong> By 2030, improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse globally<\/p>",
+            "renubles_alignment": "<p>Our nutrient technology has been developed to reduce an indoor grower’s need for nutrient flushing, allowing for more rigorous root growth and less nutrient applications over time. As for our grow media, we offer a standardized, sterile, and clean grow media free of pathogens. Post-usage of our grow media, growers can successfully  eliminate dumping of non-compostable materials, minimizing any negative environmental impact through wastewater pollution.<\/p>"
+          }
+        },
+        "impact_6U6aMj": {
+          "type": "impact",
+          "settings": {
+            "title": "Affordable and clean energy",
+            "title_long": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+            "color": "#efbc40",
+            "icon": "shopify:\/\/shop_images\/icon-affordable-clean-energy.png",
+            "number": "7",
+            "related_targets": "<p><strong>7.3<\/strong> By 2030, double the global rate of improvement in energy efficiency<\/p>",
+            "renubles_alignment": "<p>Clean industrial processes are top of mind for us, with energy efficiency and a focus on a closed loop supply chain. As a result, 1 gallon of Away We Grow© Transition removes 18.75 lb of CO2e that would otherwise have been released from food waste sent to landfills. As for ReNu Terra, it has a GHG emissions footprint of 38kg CO2e, lower than rockwool, peat, and coco coir.<\/p><p>Ultimately, we have a deep commitment to minimal (“or zero”) carbon footprint, sustainable agriculture, and green operations. We actively help farms change their climate profile.<\/p>"
+          }
+        },
+        "impact_RLQ77X": {
+          "type": "impact",
+          "settings": {
+            "title": "Industry, innovation and infrastructure",
+            "title_long": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+            "color": "#e57537",
+            "icon": "shopify:\/\/shop_images\/icon-industry-innovation.png",
+            "number": "9",
+            "related_targets": "<p><strong>9.4<\/strong> By 2030, upgrade infrastructure and retrofit industries to make them sustainable, with increased resource-use efficiency and greater adoption of clean and environmentally sound technologies and industrial processes, with all countries taking action in accordance with their respective capabilities<\/p><p><strong>9.5<\/strong> Enhance scientific research, upgrade the technological capabilities of industrial sectors in all countries, in particular developing countries, including, by 2030, encouraging innovation and substantially increasing the number of research and development workers per 1 million people and public and private research and development spending<\/p>",
+            "renubles_alignment": "<p>We consistently seek methods to innovate in order to improve resource efficiency. In addition to providing farms with a closed-loop nutrient system, through our project with the US Department of Agriculture, we help growers reduce their costs, while improving nation-wide environmental conservation efforts. We also continuously identify internal operational improvements through our closed loop supply chain, whether it’s finding energy efficient infrastructure, or working with our suppliers that have clear and ethical commitments to clean technology and the green economy. <\/p>"
+          }
+        },
+        "impact_nkGXkW": {
+          "type": "impact",
+          "settings": {
+            "title": "Reduced inequalities",
+            "title_long": "Reduce inequality within and among countries",
+            "color": "#e13485",
+            "icon": "shopify:\/\/shop_images\/icon-reduced-inequalities.png",
+            "number": "10",
+            "related_targets": "<p><strong>10.2<\/strong> By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status<\/p><p><strong>10.3<\/strong> Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard<\/p>",
+            "renubles_alignment": "<p>Equitable access remains a critical component of the Re-Nuble mission. We provide equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, sexual orientation, gender identity, national origin, age, disability, genetic information, marital status, amnesty or status as a covered veteran in accordance with applicable federal, state and local laws.<\/p>"
+          }
+        },
+        "impact_GUJt6P": {
+          "type": "impact",
+          "settings": {
+            "title": "Sustainable cities and communities",
+            "title_long": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+            "color": "#eba53d",
+            "icon": "shopify:\/\/shop_images\/icon-sustainable-cities.png",
+            "number": "11",
+            "related_targets": "<p><strong>11.6<\/strong> By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management<\/p>",
+            "renubles_alignment": "<p>By sourcing locally or ethically extracted raw material, not only do we dramatically reduce the agriculture industry’s negative environmental impact, which affects regional planning and their air quality, but we also further support the increased movement towards environmental conservation and improved soil health from better waste management. This accelerates the circular economy goal of producing food regeneratively to rebuild the health of the natural world, particularly within urban areas.<\/p>"
+          }
+        },
+        "impact_F86EAd": {
+          "type": "impact",
+          "settings": {
+            "title": "Responsible consumption and production",
+            "title_long": "Ensure sustainable consumption and production patterns",
+            "color": "#d79238",
+            "icon": "shopify:\/\/shop_images\/icon-responsible-consumption.png",
+            "number": "12",
+            "related_targets": "<p><strong>12.2<\/strong> By 2030, achieve the sustainable management and efficient use of natural resources<\/p><p><strong>12.3<\/strong> By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses<\/p><p><strong>12.4<\/strong> By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment<\/p><p><strong>12.5<\/strong> By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse<\/p>",
+            "renubles_alignment": "<p>Re-Nuble is moving the agriculture industry away from environmental degradation and food loss challenges, and instead towards the direction of nutrient-sourcing from the untapped US and global market of vegetative waste, fibers, and upcycled raw material, instead of chemicals and non-compostable items – these are traditionally obtained through unsustainable supply chains. The carbon emissions from the usage of synthetic mineral fertilizer alone is 0.6GT of CO2e, producing a significant environmental and health impact. As for rockwool, one of the most popular grow media, it produces 71.2 kgCO2e per m3, compared to 38.0 kgCO2e per m3 of ReNu Terra. We are changing the impact of agriculture on the environment.. <\/p>"
+          }
+        },
+        "impact_mVRgnd": {
+          "type": "impact",
+          "settings": {
+            "title": "Life on land",
+            "title_long": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification and halt and reverse land degradation and halt biodiversity loss",
+            "color": "#5cb04e",
+            "icon": "shopify:\/\/shop_images\/icon-life-on-land.png",
+            "number": "15",
+            "related_targets": "<p><strong>15.3<\/strong> By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world<\/p>",
+            "renubles_alignment": "<p>By identifying an alternative resource for agriculture inputs, we seek to support land and environmental restoration, where soil health and land degradation would typically occur. Additionally, by reducing food loss through waste streams, we reduce the degradation of waste in landfills which has ecological effects that may lead to landscape changes, loss of habitats and displacement of fauna. Farming generates 16.7M tons of food waste, of which 610,000 tons gets dumped into landfills. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "impact_dzzMCM",
+        "impact_eUBW8L",
+        "impact_wFQfLr",
+        "impact_fyeTK4",
+        "impact_6U6aMj",
+        "impact_RLQ77X",
+        "impact_nkGXkW",
+        "impact_GUJt6P",
+        "impact_F86EAd",
+        "impact_mVRgnd"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image_with_text_DpPy4i",
+    "rich_text_LxCM9C",
+    "main"
+  ]
+}

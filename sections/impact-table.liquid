@@ -1,0 +1,107 @@
+{% if section.blocks.size > 0 %}
+  
+  <div class="impact-table">
+    <table>
+      <thead>
+        <tr>
+          <th style="background-color: #00957A; color: white; text-align: center;">Goal</th>
+          <th style="background-color: rgba(0,149,122,.22)">Related Targets</th>
+          <th style="background-color: rgba(0,149,122,.11)">Re-Nuble's Alignment</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for block in section.blocks %}
+          <tr>
+            <td style="background-color: {{ block.settings.color }}">
+              <div class="impact-table__goal">
+                {% if block.settings.number != blank %}
+                  <div class="impact-number"><span style="color: {{ block.settings.color }};">{{ block.settings.number }}</span></div>
+                {% endif %}
+                {% if block.settings.title != blank %}
+                  <h3>{{ block.settings.title }}</h3>
+                {% endif %}
+                {% if block.settings.icon %}
+                  <img class="impact-icon" width="auto" height="auto" src="{{ block.settings.icon | image_url }}"/>
+                {% endif %}
+                {% if block.settings.title_long != blank %}
+                  {{ block.settings.title_long }}
+                {% endif %}
+              </div>
+            </td>
+            <td style="background-color: {{ block.settings.color | color_modify: 'alpha', 0.15 }}">
+              <div class="impact-table__cell-desc">
+                <h4>Related Targets</h4>
+              </div>
+              {{ block.settings.related_targets }}
+            </td>
+            <td style="background-color: {{ block.settings.color | color_modify: 'alpha', 0.08 }}">
+              <div class="impact-table__cell-desc">
+                <h4>Re-Nuble's Alignment-</h4>
+              </div>
+              {{ block.settings.renubles_alignment }}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {{ 'component-impact.css' | asset_url | stylesheet_tag }}
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Impact table",
+    "class": "page-width impact-wrapper",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Impact table",
+        "settings": {
+        },
+      }
+    ],
+    "blocks": [
+      {
+        "type": "impact",
+        "name": "Impact row",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Brand goal"
+          },
+          {
+            "type": "text",
+            "id": "title_long",
+            "label": "Brand goal (long)"
+          },
+          {
+            "type": "color",
+            "id": "color",
+            "label": "Color"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon"
+          },
+          {
+            "type": "text",
+            "id": "number",
+            "label": "Number"
+          },
+          {
+            "type": "richtext",
+            "id": "related_targets",
+            "label": "Related targets"
+          },
+          {
+            "type": "richtext",
+            "id": "renubles_alignment",
+            "label": "Re-Nuble's alignment"
+          },
+        ]
+      }
+    ]
+  }
+{% endschema %}
