@@ -323,46 +323,51 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_WrdP63": {
-      "type": "rich-text",
+    "image_with_text_PNkR4h": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_b3nkFa": {
+        "heading_R7iYLP": {
           "type": "heading",
           "settings": {
             "heading": "Our Quality Guarantee",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
-        "text_7837UK": {
+        "text_rE6GDU": {
           "type": "text",
           "settings": {
-            "text": "<p>If you don’t achieve a higher ROI by using our ReNu Terra Mats, it's free.  Yes, you read that right. We stand by our promise because we’ve seen the transformative power of our approach time and time again.<\/p><p>With the application of our irrigation guidance, we'll write you a check if you're not happy.<\/p>"
+            "text": "<p>If you don’t achieve a higher ROI by using our ReNu Terra Mats, it's free.  Yes, you read that right. We stand by our promise because we’ve seen the transformative power of our approach time and time again.<\/p><p>With the application of our irrigation guidance, we'll write you a check if you're not happy.<\/p>",
+            "text_style": "body"
           }
         },
-        "button_EeF69y": {
+        "button_B78NJC": {
           "type": "button",
           "settings": {
             "button_label": "",
             "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_b3nkFa",
-        "text_7837UK",
-        "button_EeF69y"
+        "heading_R7iYLP",
+        "text_rE6GDU",
+        "button_B78NJC"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Garet_Extra_Bold_for_titles.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_PEypnQ": {
@@ -830,7 +835,7 @@
     "image_with_text_jjPrgY",
     "image_with_text_wi3pxF",
     "image_with_text_FJit9A",
-    "rich_text_WrdP63",
+    "image_with_text_PNkR4h",
     "multicolumn_PEypnQ",
     "multicolumn_J8Wf3b",
     "image_with_text_MQNknr",
