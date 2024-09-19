@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -104,6 +113,53 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
         "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9Qxdf4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7iTU4M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Quality Guarantee",
+            "heading_size": "h1"
+          }
+        },
+        "text_Lxyz33": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you don’t achieve a higher ROI by using our ReNu Terra Mats, it's free.  Yes, you read that right. We stand by our promise because we’ve seen the transformative power of our approach time and time again.<\/p><p>With the application of our irrigation guidance, we'll write you a check if you're not happy.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_4bdPN3": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7iTU4M",
+        "text_Lxyz33",
+        "button_4bdPN3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Garet_Extra_Bold_for_titles.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -371,6 +427,7 @@
     "main",
     "slideshow_NdhMNa",
     "image_with_text_nayh8n",
+    "image_with_text_9Qxdf4",
     "multicolumn_z9xwfy",
     "image_with_text_m7aMRN",
     "rich_text_Wf339Y",
