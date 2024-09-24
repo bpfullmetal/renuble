@@ -23,12 +23,12 @@
         "slide_dAzzWb": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-bg_01_bright_copy_Large_21410976-e7f3-4736-add6-a1375357319d.jpg",
+            "image": "shopify://shop_images/hero-bg_01_bright_copy_Large_21410976-e7f3-4736-add6-a1375357319d.jpg",
             "heading": "ReNu Terra Products",
             "heading_size": "h1",
             "subheading": "Re-Nuble offers a full line of ReNu Terra® Grow Mats, Plugs, Blocks and Slabs (as Hydroponic Grow Media) for farms of all sizes globally.",
             "button_label": "Ready to Get Started?",
-            "link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -41,12 +41,12 @@
         "slide_7zJnYm": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-bg.original7.jpg",
+            "image": "shopify://shop_images/hero-bg.original7.jpg",
             "heading": "ReNu Terra Products",
             "heading_size": "h1",
             "subheading": "Re-Nuble offers a full line of ReNu Terra® Grow Mats, Plugs, Blocks and Slabs (as Hydroponic Grow Media) for farms of all sizes globally.",
             "button_label": "Ready to Get Started?",
-            "link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -85,7 +85,7 @@
         "text_DPaGF9": {
           "type": "text",
           "settings": {
-            "text": "<p>Our standard size Grow Media and Grow Mats fit the majority of off the shelf commercial trays used for Indoor Farming. For our larger commercial customers, we also provide custom cut grow mat sizes to seamlessly fit into your production environment.<\/p>",
+            "text": "<p>Our standard size Grow Media and Grow Mats fit the majority of off the shelf commercial trays used for Indoor Farming. For our larger commercial customers, we also provide custom cut grow mat sizes to seamlessly fit into your production environment.</p>",
             "text_style": "body"
           }
         },
@@ -93,7 +93,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get a Quote",
-            "button_link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": false
           }
         }
@@ -104,7 +104,7 @@
         "button_QgX3ag"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosPXL.jpg",
+        "image": "shopify://shop_images/MicrosPXL.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -125,31 +125,31 @@
         "column_Q8cdiD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/spinach.png",
+            "image": "shopify://shop_images/spinach.png",
             "title": "Spinach Microgreens Case Study",
-            "text": "<p>Spinach is one of the most water sensitive crops to germinate for soilless cultivation systems. However, our ReNu Terra Mats allow for air-filled substrates provide the right balance of water and oxygen to productively oxygenate your crops. Learn how a popular Singaporean vertical farm was able to replace their less sustainable and affordable substrates with our ReNu Terra Large Seed Format Mats.<\/p>",
+            "text": "<p>Spinach is one of the most water sensitive crops to germinate for soilless cultivation systems. However, our ReNu Terra Mats allow for air-filled substrates provide the right balance of water and oxygen to productively oxygenate your crops. Learn how a popular Singaporean vertical farm was able to replace their less sustainable and affordable substrates with our ReNu Terra Large Seed Format Mats.</p>",
             "link_label": "Download Our Case Study",
-            "link": "https:\/\/share.hsforms.com\/17E31PjoCQbqT10ls_je1IQxzm3"
+            "link": "https://share.hsforms.com/17E31PjoCQbqT10ls_je1IQxzm3"
           }
         },
         "column_Wh4jUX": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cress.png",
+            "image": "shopify://shop_images/cress.png",
             "title": "Cress Microgreens Case Study",
-            "text": "<p>The lack of water retention and mold were urgently in need of a resolution. Currently, locally sourced substrates, diverse that they may be, did not prove to be as effective as our ReNu Terra Classic Mats. Learn how the two alternatives to this farming system supplier paled in performance compared to our amts.<\/p>",
+            "text": "<p>The lack of water retention and mold were urgently in need of a resolution. Currently, locally sourced substrates, diverse that they may be, did not prove to be as effective as our ReNu Terra Classic Mats. Learn how the two alternatives to this farming system supplier paled in performance compared to our mats.</p>",
             "link_label": "Download Our Case Study",
-            "link": "https:\/\/share.hsforms.com\/13bmsE3JcQNmv4UrK7asZbgxzm3"
+            "link": "https://share.hsforms.com/13bmsE3JcQNmv4UrK7asZbgxzm3"
           }
         },
         "column_cEVTgi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pea_shoots.png",
+            "image": "shopify://shop_images/pea_shoots.png",
             "title": "Pea Shoots Case Study",
-            "text": "<p>An industry soilless substrate favorite was put the test with our ReNu Terra Classic Mats to see if a commercial farm's comparable yields for pea shoots could be achieved. Learn if this was, in fact, made possible.<\/p>",
+            "text": "<p>An industry soilless substrate favorite was put the test with our ReNu Terra Classic Mats to see if a commercial farm's comparable yields for pea shoots could be achieved. Learn if this was, in fact, made possible.</p>",
             "link_label": "Download Our Case Study",
-            "link": "https:\/\/share.hsforms.com\/1guRSDxSRQpemydGJVZsmFQxzm3"
+            "link": "https://share.hsforms.com/1guRSDxSRQpemydGJVZsmFQxzm3"
           }
         }
       },
@@ -167,7 +167,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
-        "button_link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+        "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
         "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -188,7 +188,7 @@
         "text_Lxyz33": {
           "type": "text",
           "settings": {
-            "text": "<p>If you don’t achieve a higher ROI by using our ReNu Terra Mats, it's free.  Yes, you read that right. We stand by our promise because we’ve seen the transformative power of our approach time and time again.<\/p><p>With the application of our irrigation guidance, we'll write you a check if you're not happy.<\/p>",
+            "text": "<p>If you don’t achieve a higher ROI by using our ReNu Terra Mats, it's free.  Yes, you read that right. We stand by our promise because we’ve seen the transformative power of our approach time and time again.</p><p>With the application of our irrigation guidance, we'll write you a check if you're not happy.</p>",
             "text_style": "body"
           }
         },
@@ -207,7 +207,7 @@
         "button_4bdPN3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Garet_Extra_Bold_for_titles.png",
+        "image": "shopify://shop_images/Garet_Extra_Bold_for_titles.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -235,7 +235,7 @@
         "text_gymVrJ": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Re-Nuble RENU TERRA offers:<\/strong><\/p><ul><li>Organic Materials<\/li><li>Fully Compostable<\/li><li>Pathogen-Free<\/li><li>Automation Friendly<\/li><li>Consistent Quality<\/li><\/ul>",
+            "text": "<p><strong>Re-Nuble RENU TERRA offers:</strong></p><ul><li>Organic Materials</li><li>Fully Compostable</li><li>Pathogen-Free</li><li>Automation Friendly</li><li>Consistent Quality</li></ul>",
             "text_style": "body"
           }
         },
@@ -243,7 +243,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Started with Re-Nuble",
-            "button_link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": false
           }
         }
@@ -254,7 +254,7 @@
         "button_RUC6tM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Re-Nuble_ReNu_Terra_Comparison_Chart_2.jpg",
+        "image": "shopify://shop_images/Re-Nuble_ReNu_Terra_Comparison_Chart_2.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -282,7 +282,7 @@
         "text_VgzWGb": {
           "type": "text",
           "settings": {
-            "text": "<p>‌In this video series, JC Chidiac, Senior Director of R&D at Re-Nuble, shares answers to  some of the frequently asked questions about our ReNu Terra Mats. Our ReNu Terra Mats are used to grow baby greens and microgreens.<\/p>"
+            "text": "<p>‌In this video series, JC Chidiac, Senior Director of R&D at Re-Nuble, shares answers to  some of the frequently asked questions about our ReNu Terra Mats. Our ReNu Terra Mats are used to grow baby greens and microgreens.</p>"
           }
         }
       },
@@ -305,7 +305,7 @@
         "div {display: flex; justify-content: center;}"
       ],
       "settings": {
-        "custom_liquid": "&nbsp;  &nbsp;  &nbsp; <iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/-Y1Iz6BOQN8?si=8nDkO_D6myD34NFK\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n &nbsp;  &nbsp; &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/6xMwm0fIuLM?si=GzahUIxBOBBuGN-R\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp; <iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/-Y1Iz6BOQN8?si=8nDkO_D6myD34NFK\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n &nbsp;  &nbsp; &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/6xMwm0fIuLM?si=GzahUIxBOBBuGN-R\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32
@@ -317,7 +317,7 @@
         "div {display: flex; justify-content: center;}"
       ],
       "settings": {
-        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/rxUiyszXMJE?si=z6AxMcUfPBraD4y3\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/DvfkH0shDFA?si=_KdSRNP4xrhC2H30\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/rxUiyszXMJE?si=z6AxMcUfPBraD4y3\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/DvfkH0shDFA?si=_KdSRNP4xrhC2H30\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32
@@ -329,7 +329,7 @@
         "div {display: flex; justify-content: center;}"
       ],
       "settings": {
-        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/PaVEQ9bUn5w?si=kmr6Zfv5akebWRYT\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/I2vIT4uFPdc?si=2e--Dtl5wqO_XAsQ\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/PaVEQ9bUn5w?si=kmr6Zfv5akebWRYT\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/I2vIT4uFPdc?si=2e--Dtl5wqO_XAsQ\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32
@@ -341,7 +341,7 @@
         "div {display: flex; justify-content: center;}"
       ],
       "settings": {
-        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/fJIKPTQKtl8?si=eSqooWicY-R-T6dc\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https:\/\/www.youtube.com\/embed\/JMDxKpxNDqI?si=JvgXNTFf1fw5q_oG\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen><\/iframe>",
+        "custom_liquid": "&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/fJIKPTQKtl8?si=eSqooWicY-R-T6dc\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n&nbsp;  &nbsp;  &nbsp;\n<iframe width=\"425\" height=\"239\" src=\"https://www.youtube.com/embed/JMDxKpxNDqI?si=JvgXNTFf1fw5q_oG\" title=\"YouTube video player\" frameborder=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32
@@ -350,7 +350,7 @@
     "multicolumn_NANgfw": {
       "type": "multicolumn",
       "settings": {
-        "title": "<strong> Products Coming Soon<\/strong>",
+        "title": "<strong> Products Coming Soon</strong>",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -379,7 +379,7 @@
         "text_HDxxGD": {
           "type": "text",
           "settings": {
-            "text": "<p>Using our proprietary method, Organic Cycling Science™, we hyper-concentrated vegetative waste to pull out the most essential nutrients. This means maximizing for available growth hormones, enzymes, macro-and micronutrients, and optimizing for water solubility.  This effort was motivated by our interest to reduce our own shipping costs and climate profile, reducing our water shipping weight by 80%, and ensuring that these nutrients are available to your plants. Used for vegetative growth, Chilean Nitrate  (a non-synthetic mineral sourced from natural deposits of caliche ore found in the extremely arid Atacama desert of northern Chile, provides nitrates, sulfates, potassium, and iodine, while the remaining ingredients are from our sterilized, mixed vegetative waste and plant extracts that we process each day. This includes a mix of unrecoverable, residual byproducts from food manufacturing such as carrots, peas, amongst others. Every order will be sold at the minimum packaging level in order to optimize our own carbon footprint. We use food-safe, BPA-free, collapsible, clear liquid packaging. For every 10 of these collapsible liquid packages ordered and used, we will reduce the cost of your next order by $10.00 and provide a free return shipping label for us to receive them for sterilization and reuse. This bioplastic is compostable but will take years to compost. We are always actively seeking the best 100% compostable packaging solutions.<\/p><p><\/p><p><strong>We also sell in 55-gallon drums and 275-gallon totes and can offer significant volume discounts. Please inquire by emailing us at wecare@re-nuble.com<\/strong><\/p>",
+            "text": "<p>Using our proprietary method, Organic Cycling Science™, we hyper-concentrated vegetative waste to pull out the most essential nutrients. This means maximizing for available growth hormones, enzymes, macro-and micronutrients, and optimizing for water solubility.  This effort was motivated by our interest to reduce our own shipping costs and climate profile, reducing our water shipping weight by 80%, and ensuring that these nutrients are available to your plants. Used for vegetative growth, Chilean Nitrate  (a non-synthetic mineral sourced from natural deposits of caliche ore found in the extremely arid Atacama desert of northern Chile, provides nitrates, sulfates, potassium, and iodine, while the remaining ingredients are from our sterilized, mixed vegetative waste and plant extracts that we process each day. This includes a mix of unrecoverable, residual byproducts from food manufacturing such as carrots, peas, amongst others. Every order will be sold at the minimum packaging level in order to optimize our own carbon footprint. We use food-safe, BPA-free, collapsible, clear liquid packaging. For every 10 of these collapsible liquid packages ordered and used, we will reduce the cost of your next order by $10.00 and provide a free return shipping label for us to receive them for sterilization and reuse. This bioplastic is compostable but will take years to compost. We are always actively seeking the best 100% compostable packaging solutions.</p><p></p><p><strong>We also sell in 55-gallon drums and 275-gallon totes and can offer significant volume discounts. Please inquire by emailing us at wecare@re-nuble.com</strong></p>",
             "text_style": "body"
           }
         },
@@ -395,7 +395,7 @@
           "type": "button",
           "settings": {
             "button_label": "Contact Us",
-            "button_link": "https:\/\/share.hsforms.com\/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": false
           }
         }
@@ -407,7 +407,7 @@
         "button_JbXQGz"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Awaywegrowlabel.webp",
+        "image": "shopify://shop_images/Awaywegrowlabel.webp",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
