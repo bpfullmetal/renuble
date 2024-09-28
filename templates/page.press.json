@@ -15,31 +15,31 @@
         "logo_FfDB8i": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/tc-logo.png"
+            "logo": "shopify://shop_images/tc-logo.png"
           }
         },
         "logo_xyG3fx": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/axios-logo.png"
+            "logo": "shopify://shop_images/axios-logo.png"
           }
         },
         "logo_BG4XRr": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/food-logistics-logo.png"
+            "logo": "shopify://shop_images/food-logistics-logo.png"
           }
         },
         "logo_7eKJMG": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/spoon-logo.webp"
+            "logo": "shopify://shop_images/spoon-logo.webp"
           }
         },
         "logo_NzdVew": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/urban-vine-logo.png"
+            "logo": "shopify://shop_images/urban-vine-logo.png"
           }
         }
       },
@@ -61,90 +61,97 @@
           "type": "press",
           "settings": {
             "title": "Green grant empowers eco-friendly farming",
-            "url": "https:\/\/www.farms.com\/ag-industry-news\/green-grant-empowers-eco-friendly-farming-155.aspx",
-            "featured_image": "shopify:\/\/shop_images\/investing-education-training-concept-funds-260nw-2287034709_copy.jpg",
-            "company_logo": "shopify:\/\/shop_images\/farms-com.png"
+            "url": "https://www.farms.com/ag-industry-news/green-grant-empowers-eco-friendly-farming-155.aspx",
+            "featured_image": "shopify://shop_images/investing-education-training-concept-funds-260nw-2287034709_copy.jpg",
+            "company_logo": "shopify://shop_images/farms-com.png"
           }
         },
         "press_7DpJhq": {
           "type": "press",
           "settings": {
             "title": "More Than $21.5 Million Announced For Nature-Based Solutions To Lower Emissions And Sequester Carbon",
-            "url": "https:\/\/globalrenewablenews.com\/article\/energy\/category\/climate-change\/155\/1091066\/more-than-21-5-million-announced-for-nature-based-solutions-to-lower-emissions-and-sequester-carbon.html",
-            "featured_image": "shopify:\/\/shop_images\/co-2.png",
-            "company_logo": "shopify:\/\/shop_images\/grn.png"
+            "url": "https://globalrenewablenews.com/article/energy/category/climate-change/155/1091066/more-than-21-5-million-announced-for-nature-based-solutions-to-lower-emissions-and-sequester-carbon.html",
+            "featured_image": "shopify://shop_images/co-2.png",
+            "company_logo": "shopify://shop_images/grn.png"
           }
         },
         "press_zPGLid": {
           "type": "press",
           "settings": {
             "title": "These Startups Envision a Just Transition to a Green Economy",
-            "url": "https:\/\/www.jff.org\/these-startups-envision-a-just-transition-to-a-green-economy\/",
-            "featured_image": "shopify:\/\/shop_images\/pexels-yankrukov-7640741-1200x1200.jpg",
-            "company_logo": "shopify:\/\/shop_images\/jftf.png"
+            "url": "https://www.jff.org/these-startups-envision-a-just-transition-to-a-green-economy/",
+            "featured_image": "shopify://shop_images/pexels-yankrukov-7640741-1200x1200.jpg",
+            "company_logo": "shopify://shop_images/jftf.png"
           }
         },
         "press_KVFKzP": {
           "type": "press",
           "settings": {
             "title": "Urban Vine & Re-Nuble",
-            "url": "https:\/\/www.urbanvine.co\/blog\/re-nuble-usa",
-            "featured_image": "shopify:\/\/shop_images\/urban-vine-2.jpg",
-            "company_logo": "shopify:\/\/shop_images\/urban-vine-logo.png"
+            "url": "https://www.urbanvine.co/blog/re-nuble-usa",
+            "featured_image": "shopify://shop_images/urban-vine-2.jpg",
+            "company_logo": "shopify://shop_images/urban-vine-logo.png"
           }
         },
         "press_mELt7c": {
           "type": "press",
           "settings": {
             "title": "Investment fund trying to create a more sustainable future",
-            "url": "https:\/\/ny1.com\/nyc\/all-boroughs\/CTV\/2023\/11\/25\/investment-fund-trying-to-create-a-more-sustainable-future",
-            "featured_image": "shopify:\/\/shop_images\/Screenshot_2024-09-12_at_10.12.13_AM-Photoroom.png",
-            "company_logo": "shopify:\/\/shop_images\/spectrum-logo.png"
+            "url": "https://ny1.com/nyc/all-boroughs/CTV/2023/11/25/investment-fund-trying-to-create-a-more-sustainable-future",
+            "featured_image": "shopify://shop_images/Screenshot_2024-09-12_at_10.12.13_AM-Photoroom.png",
+            "company_logo": "shopify://shop_images/spectrum-logo.png"
           }
         },
         "press_bjXphf": {
           "type": "press",
           "settings": {
             "title": "Scoop: Re-Nuble cultivating",
-            "url": "https:\/\/www.axios.com\/pro\/climate-deals\/2023\/05\/31\/re-nuble-tinia-pina-nyserda-farming-gardening-circular-food-waste-soil",
-            "featured_image": "shopify:\/\/shop_images\/axios-image.webp",
-            "company_logo": "shopify:\/\/shop_images\/axios-logo.png"
+            "url": "https://www.axios.com/pro/climate-deals/2023/05/31/re-nuble-tinia-pina-nyserda-farming-gardening-circular-food-waste-soil",
+            "featured_image": "shopify://shop_images/axios-image.webp",
+            "company_logo": "shopify://shop_images/axios-logo.png"
           }
         },
         "press_qRr3C3": {
           "type": "press",
           "settings": {
             "title": "Re-Nuble Aims to Use Food Waste To Make Indoor Agriculture More Sustainable",
-            "url": "https:\/\/thespoon.tech\/re-nubile-aims-to-use-food-waste-to-make-indoor-agriculture-more-sustainable\/",
-            "featured_image": "shopify:\/\/shop_images\/urban-vine-featured.jpg",
-            "company_logo": "shopify:\/\/shop_images\/spoon-logo.webp"
+            "url": "https://thespoon.tech/re-nubile-aims-to-use-food-waste-to-make-indoor-agriculture-more-sustainable/",
+            "featured_image": "shopify://shop_images/urban-vine-featured.jpg",
+            "company_logo": "shopify://shop_images/spoon-logo.webp"
           }
         },
         "press_hYAGyY": {
           "type": "press",
           "settings": {
             "title": "Unleashing the power of gender-smart climate investing in developed markets",
-            "url": "https:\/\/trellis.net\/article\/unleashing-power-gender-smart-climate-investing-developed-markets\/",
-            "featured_image": "shopify:\/\/shop_images\/MiniWindTurbine_sstock.webp",
-            "company_logo": "shopify:\/\/shop_images\/trellis.png"
+            "url": "https://trellis.net/article/unleashing-power-gender-smart-climate-investing-developed-markets/",
+            "featured_image": "shopify://shop_images/MiniWindTurbine_sstock.webp",
+            "company_logo": "shopify://shop_images/trellis.png"
           }
         },
         "press_cejyWN": {
           "type": "press",
           "settings": {
             "title": "Innovative Technology for Waste Management",
-            "url": "https:\/\/www.foodlogistics.com\/sustainability\/waste-reduction\/article\/22184384\/renuble-innovative-technology-for-waste-management",
-            "featured_image": "shopify:\/\/shop_images\/food-logistics-image.png",
-            "company_logo": "shopify:\/\/shop_images\/food-logistics-logo.png"
+            "url": "https://www.foodlogistics.com/sustainability/waste-reduction/article/22184384/renuble-innovative-technology-for-waste-management",
+            "featured_image": "shopify://shop_images/food-logistics-image.png",
+            "company_logo": "shopify://shop_images/food-logistics-logo.png"
           }
         },
         "press_HjWQ4p": {
           "type": "press",
           "settings": {
             "title": "SOSV and JetBlue Technology Ventures talk VC climate tech and ESG at TC Sessions: Climate 2022",
-            "url": "https:\/\/techcrunch.com\/2022\/03\/31\/sosv-and-jetblue-technology-ventures-talk-vc-climate-tech-and-esg-at-tc-sessions-climate-2022\/?guccounter=1",
-            "featured_image": "shopify:\/\/shop_images\/climate-tech.webp",
-            "company_logo": "shopify:\/\/shop_images\/tc-logo.png"
+            "url": "https://techcrunch.com/2022/03/31/sosv-and-jetblue-technology-ventures-talk-vc-climate-tech-and-esg-at-tc-sessions-climate-2022/?guccounter=1",
+            "featured_image": "shopify://shop_images/climate-tech.webp",
+            "company_logo": "shopify://shop_images/tc-logo.png"
+          }
+        },
+        "press_MeKH9d": {
+          "type": "press",
+          "settings": {
+            "title": "Food Waste Into Nutrients!: Tinia Pina / Founder & CEO of AgTech Startup, Re-Nuble",
+            "url": ""
           }
         }
       },
@@ -158,7 +165,8 @@
         "press_qRr3C3",
         "press_hYAGyY",
         "press_cejyWN",
-        "press_HjWQ4p"
+        "press_HjWQ4p",
+        "press_MeKH9d"
       ],
       "settings": {
       }
