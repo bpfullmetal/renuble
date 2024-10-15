@@ -1,16 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/re_nuble_logo_registered_300dpi.png",
+    "logo": "shopify://shop_images/re_nuble_logo_registered_300dpi.png",
     "logo_width": 140,
+    "favicon": "shopify://shop_images/re_nuble_logo.webp",
     "type_header_font": "raleway_n5",
     "heading_scale": 110,
     "type_body_font": "raleway_n4",
@@ -106,15 +107,15 @@
     "badge_corner_radius": 0,
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-1",
-    "brand_headline": "Innovator of Sustainable Peat Free Grow Mat \/ Media Solutions",
-    "brand_description": "<p><\/p>",
+    "brand_headline": "Innovator of Sustainable Peat Free Grow Mat / Media Solutions",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/ReNuble\/",
-    "social_instagram_link": "https:\/\/instagram.com\/re_nuble\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@Re_Nuble",
+    "social_facebook_link": "https://www.facebook.com/ReNuble/",
+    "social_instagram_link": "https://instagram.com/re_nuble/",
+    "social_youtube_link": "https://www.youtube.com/@Re_Nuble",
     "social_tiktok_link": "",
     "social_twitter_link": "",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/re-nuble",
+    "social_linkedin_link": "https://www.linkedin.com/company/re-nuble",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -392,7 +393,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-1",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
