@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "press_header": {
@@ -41,6 +41,12 @@
           "settings": {
             "logo": "shopify://shop_images/urban-vine-logo.png"
           }
+        },
+        "logo_pm8aYw": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/inc_118222a3-d43b-40c4-b123-b26b7536b0a0.png"
+          }
         }
       },
       "block_order": [
@@ -48,7 +54,8 @@
         "logo_xyG3fx",
         "logo_BG4XRr",
         "logo_7eKJMG",
-        "logo_NzdVew"
+        "logo_NzdVew",
+        "logo_pm8aYw"
       ],
       "settings": {
         "header_text": ""
@@ -155,6 +162,24 @@
             "featured_image": "shopify://shop_images/Screen_Shot_2024-09-28_at_3.34.25_PM.png",
             "company_logo": "shopify://shop_images/nhk_1.png"
           }
+        },
+        "press_4Y3Uea": {
+          "type": "press",
+          "settings": {
+            "title": "Why This Venture Capitalist is Investing in the Founders of the Future",
+            "url": "https://www.inc.com/sherrell-dorsey/why-this-venture-capitalist-is-investing-in-the-founders-of-the-future/90989473",
+            "featured_image": "shopify://shop_images/gayle-jennings-obyrne-1257013279.webp",
+            "company_logo": "shopify://shop_images/inc_118222a3-d43b-40c4-b123-b26b7536b0a0.png"
+          }
+        },
+        "press_NNziKj": {
+          "type": "press",
+          "settings": {
+            "title": "Empowerment Through Tech: Black Entrepreneurs Using Digital Resources to Thrive, Support Community",
+            "url": "https://www.washingtoninformer.com/black-owned-businesses-thrive-digital/",
+            "featured_image": "shopify://shop_images/Tinia_Pina_Re-Nuble.webp",
+            "company_logo": "shopify://shop_images/washingtoninformer.webp"
+          }
         }
       },
       "block_order": [
@@ -168,7 +193,9 @@
         "press_hYAGyY",
         "press_cejyWN",
         "press_HjWQ4p",
-        "press_eYzmPA"
+        "press_eYzmPA",
+        "press_4Y3Uea",
+        "press_NNziKj"
       ],
       "settings": {
       }
