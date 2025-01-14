@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -142,6 +142,16 @@
             "link": "https://share.hsforms.com/13bmsE3JcQNmv4UrK7asZbgxzm3"
           }
         },
+        "column_yzaAtH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Erosion_Control_Banner_2_13.png",
+            "title": "Arugula  Case Study",
+            "text": "<p>Persistent root rot and stalled production were urgently in need of a solution. Our ReNu Terra Classic Mats not only solved for both root rot and production effeciencies, but also helped to completely eliminate pathogen issues for this farm.</p>",
+            "link_label": "Download Our Case Study",
+            "link": "https://share.hsforms.com/1IKXQCRoQQpGEqJsY2Pozfwxzm3"
+          }
+        },
         "column_cEVTgi": {
           "type": "column",
           "settings": {
@@ -156,6 +166,7 @@
       "block_order": [
         "column_Q8cdiD",
         "column_Wh4jUX",
+        "column_yzaAtH",
         "column_cEVTgi"
       ],
       "settings": {
