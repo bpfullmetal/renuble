@@ -24,7 +24,7 @@
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 10,
             "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
             "text_alignment_mobile": "left"
@@ -225,12 +225,31 @@
             "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_383k9U": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/basil-bunch-cultivation-348689_1.jpg",
+            "heading": "\"We have had a positive experience in using the ReNu Terra Mats. We have grown a number of microgreens on the mats to include Bok choy, broccoli and mustard with great results.\"",
+            "heading_size": "h2",
+            "subheading": "Magki Farms",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_6wD9G6",
         "slide_8wM3YP",
-        "slide_wQ6VF7"
+        "slide_wQ6VF7",
+        "slide_383k9U"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -702,6 +721,139 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_iCBdNh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hkVxCE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/usda_180_x_180.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_C9kWEY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SoSv_db6f117d-2aa4-43b7-b2ed-56e56b07c3b9.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wD7GtT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/22_fund.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Graerw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/svc_180.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4wHmmm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/jff_bc939c7e-555b-47a1-8ae1-1352fe70581e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4UyJMi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/nyserda_d0406a2b-c7a2-4f6f-bafb-6f516cf3cb1d.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h8KMMr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vertue.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NW3wE8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/launch.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CaNxiN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bfm.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rVhtzR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cebip.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hkVxCE",
+        "column_C9kWEY",
+        "column_wD7GtT",
+        "column_Graerw",
+        "column_4wHmmm",
+        "column_4UyJMi",
+        "column_h8KMMr",
+        "column_NW3wE8",
+        "column_CaNxiN",
+        "column_rVhtzR"
+      ],
+      "settings": {
+        "title": "Trusted By Our Clients, Partners, & Investors",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_MQNknr": {
       "type": "image-with-text",
       "blocks": {
@@ -846,140 +998,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_iCBdNh": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_hkVxCE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/usda_180_x_180.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_C9kWEY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/SoSv_db6f117d-2aa4-43b7-b2ed-56e56b07c3b9.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wD7GtT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/22_fund.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Graerw": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/svc_180.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4wHmmm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/jff_bc939c7e-555b-47a1-8ae1-1352fe70581e.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4UyJMi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/nyserda_d0406a2b-c7a2-4f6f-bafb-6f516cf3cb1d.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_h8KMMr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/vertue.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NW3wE8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/launch.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_CaNxiN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/bfm.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rVhtzR": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/cebip.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_hkVxCE",
-        "column_C9kWEY",
-        "column_wD7GtT",
-        "column_Graerw",
-        "column_4wHmmm",
-        "column_4UyJMi",
-        "column_h8KMMr",
-        "column_NW3wE8",
-        "column_CaNxiN",
-        "column_rVhtzR"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Trusted By Our Clients, Partners, & Investors",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_BhL7bb": {
       "type": "multicolumn",
       "blocks": {
@@ -1057,10 +1075,10 @@
     "image_with_text_PNkR4h",
     "multicolumn_PEypnQ",
     "multicolumn_J8Wf3b",
+    "multicolumn_iCBdNh",
     "image_with_text_MQNknr",
     "image_banner_pc79ei",
     "image_with_text_p9qcdb",
-    "multicolumn_iCBdNh",
     "multicolumn_BhL7bb",
     "featured_blog_bLmK8M"
   ]
