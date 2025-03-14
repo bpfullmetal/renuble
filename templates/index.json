@@ -17,14 +17,14 @@
           "settings": {
             "image": "shopify://shop_images/organic-farmers-change_your_climate_profile.webp",
             "heading": "Circular Solutions that Maximize Farm Performance",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "subheading": "Re-Nuble's aerated ReNu Terra grow mats boosts yields, strengthen plant health, and optimize indoor farm efficiency—all while eliminating waste.",
             "button_label": "Learn More",
             "link": "shopify://pages/contact-us",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 10,
             "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
             "text_alignment_mobile": "left"
