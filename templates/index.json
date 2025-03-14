@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -16,15 +16,15 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/organic-farmers-change_your_climate_profile.webp",
-            "heading": "Soilless/Hydroponic Grow Media and Grow Mats",
+            "heading": "Circular Solutions that Maximize Farm Performance",
             "heading_size": "h1",
-            "subheading": "Re-Nuble is committed to helping all growers make healthy, clean food more affordable and readily available using hydroponic grow media. The growing media that you use for your crop’s roots matters, and Re-Nuble provides proprietary hydroponic grow media, our ReNu Terra Mats, that oxygenates crops at the root, uniquely balances oxygen and water and produces a higher yield. Re-Nuble also offers standardized, sterile, and clean grow media free of pathogens. You can cut ReNu Terra Mats in large rolls or standard cuts for microgreens, baby greens, or other horticultural substrate needs, whether you are a commercial farmer or home grower.",
+            "subheading": "Re-Nuble's aerated ReNu Terra grow mats boosts yields, strengthen plant health, and optimize indoor farm efficiency—all while eliminating waste.",
             "button_label": "Learn More",
             "link": "shopify://pages/contact-us",
             "button_style_secondary": false,
-            "box_align": "middle-right",
+            "box_align": "middle-center",
             "show_text_box": true,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 10,
             "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
             "text_alignment_mobile": "left"
@@ -45,46 +45,201 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_qALzfj": {
-      "type": "rich-text",
+    "multicolumn_VKG4CK": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_PBhYG7": {
-          "type": "heading",
+        "column_ExYR7t": {
+          "type": "column",
           "settings": {
-            "heading": "The New Frontier of Closed Loop Food",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/1_c32398ad-91cb-44eb-a6b9-8706881619a6.png",
+            "title": "",
+            "text": "<h3><strong>Improves root and plant health and increases yields</strong></h3>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_FHAGUa": {
-          "type": "text",
+        "column_kWQnP6": {
+          "type": "column",
           "settings": {
-            "text": "<p>Re-Nuble is a research-infused social enterprise committed to crafting eco-conscious and category-defining solutions for the agricultural and gardening sector. Our approach revolves around partnering with nature to cultivate innovations that benefit both humanity and the environment while also offering an improved and cost-effective experience for all growers, be they large farmers or home cultivators.</p><p>We're driving the agriculture sector towards greater responsibility and sustainability, aiming to eradicate landfill waste and reduce greenhouse gas emissions. Our inception was driven by the goal of assisting global agricultural communities in safely repurposing local food waste as we endeavor to hasten the adoption of eco-friendly growing methods. Re-Nuble believes in having a high-quality horticulture substrate that supports water availability, increased air supply, low density, and structural integrity. </p>"
+            "image": "shopify://shop_images/2_a701ce09-49eb-4d0a-89d8-c5adf0aeb25d.png",
+            "title": "",
+            "text": "<h3><strong>Cuts grow cycle times and harvest time by up to 20%</strong></h3>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "button_Vh6g4t": {
-          "type": "button",
+        "column_rRrtQQ": {
+          "type": "column",
           "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/3_e0c75627-b963-480f-89dc-0d052f6f0b49.png",
+            "title": "",
+            "text": "<h3><strong>Controls mold, algae, root rot & pathogen risk</strong></h3>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_PBhYG7",
-        "text_FHAGUa",
-        "button_Vh6g4t"
+        "column_ExYR7t",
+        "column_kWQnP6",
+        "column_rRrtQQ"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_38gppF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iUTMNq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Optimize Plant Growth  with ReNu Terra Mats",
+            "heading_size": "h1"
+          }
+        },
+        "text_4UkaQR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ReNu Terra Grow Mats are air-filled and porous hydroponic mats that drive superior crop growth, provide a balanced oxygen to water ratio and reduce pathogen risk. </p><p></p><p>Made from rigorously third party tested jute fibers that have been strategically placed for optimal air flow, ReNu Terra Mats are ideal for vertical farms, greenhouses, and home growers alike.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Yce9TG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iUTMNq",
+        "text_4UkaQR",
+        "button_Yce9TG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MicrosPXL.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_qTBK7Y": {
+      "type": "multicolumn",
+      "disabled": true,
+      "settings": {
+        "title": "Trusted By Farms Globally",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_VMcXAe": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_6wD9G6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/vecteezy_greenhouse-growth-in-agriculture-farm-plant-organic_27732340_copy_Large_17e9466c-defa-4cc5-aca0-08d3777f0423.jpg",
+            "heading": "\"As a commercial grower, growing in the most efficient manner possible while also achieving maximum crop yields is what we strive for. Re-Nuble delivered by increasing our yields and decreasing our growth times.”",
+            "heading_size": "h2",
+            "subheading": "Vertical Acres Farms",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8wM3YP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_cd30d640-ae38-4f49-b970-5102c0a7eed6.png",
+            "heading": "\"ReNu Terra Mats are an excellent choice for hydroponic production. I saw an immediate benefit after using their products. The staff and CEO are amazing and their mission is inspiring. I highly recommend working with them and using their products!\"",
+            "heading_size": "h2",
+            "subheading": "Farm to Forage",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_wQ6VF7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/verticalfarm_LEDlighting_sstock.jpg",
+            "heading": "“Switching to the ReNu Terra Mat has been a game-changer for our cultivation process. Before this product, we faced persistent root disease issues that devastated our seedlings and stalled production. Since making the switch, those problems are a thing of the past.”",
+            "heading_size": "h2",
+            "subheading": "Boston-based Vertical Farm",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_6wD9G6",
+        "slide_8wM3YP",
+        "slide_wQ6VF7"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 9,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_UyPh4W": {
@@ -123,6 +278,7 @@
         "column_Y9NRxP",
         "column_8U7nyx"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why Re-Nuble?",
         "heading_size": "h1",
@@ -173,6 +329,7 @@
         "text_qEh7bf",
         "button_6qdEmi"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -213,6 +370,7 @@
         "text_WPRRiP",
         "button_C9JFTe"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/ReNu_Terra_Website_Image_9e61347c-c5ea-493e-8f38-b324e71b6e5b.png",
         "height": "adapt",
@@ -260,6 +418,7 @@
         "text_qnJyyH",
         "button_JHMHjE"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Away_we_grow_label_cb7e6a36-78b5-4016-b751-6926b499ab79.png",
         "height": "adapt",
@@ -307,6 +466,7 @@
         "text_eWC8PM",
         "button_8RH7wz"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/On-site_Food_Waste_Recovery_System_-_Homepage_2.png",
         "height": "medium",
@@ -328,6 +488,7 @@
       "blocks": {
         "heading_R7iYLP": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Our Quality Guarantee",
             "heading_size": "h1"
@@ -354,6 +515,7 @@
         "text_rE6GDU",
         "button_B78NJC"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Garet_Extra_Bold_for_titles.png",
         "height": "adapt",
@@ -431,9 +593,8 @@
         "column_nc9dE8",
         "column_k84Gcf"
       ],
-      "custom_css": [
-
-      ],
+      "disabled": true,
+      "custom_css": [],
       "settings": {
         "title": "Our Product Standard Commitments",
         "heading_size": "h2",
@@ -522,6 +683,7 @@
         "column_e9pTRV",
         "column_TEqh4y"
       ],
+      "disabled": true,
       "settings": {
         "title": "Why Growers Love Us",
         "heading_size": "h1",
@@ -634,6 +796,53 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "image_with_text_p9qcdb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_emzmx6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Driving Performance for Indoor Vertical Farms</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_T7Rak6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how our ReNu Terra Classic Mats not only solved for both root rot and production effeciencies, but also helped to completely eliminate pathogen issues for this farm. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_ncaanC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Access Case Study",
+            "button_link": "https://share.hsforms.com/1IKXQCRoQQpGEqJsY2Pozfwxzm3",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_emzmx6",
+        "text_T7Rak6",
+        "button_ncaanC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Erosion_Control_Banner_2_13.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_iCBdNh": {
@@ -752,6 +961,7 @@
         "column_CaNxiN",
         "column_rVhtzR"
       ],
+      "disabled": true,
       "settings": {
         "title": "Trusted By Our Clients, Partners, & Investors",
         "heading_size": "h1",
@@ -769,6 +979,51 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_BhL7bb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Q79cBx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Classic-quarter-inch_Transparent-BG.png",
+            "title": "<strong>ReNu Terra Mats</strong>",
+            "text": "<p>Provides optimal oxygen-to-water ratio, improves crop yield, helps prevent excessive waterlogging, and actively lowers oxygen levels. Outperforms other Hydroponic grow media, including Coco Coir, Rockwool, Peat and Hemp.</p><h4>AVAILABLE NOW</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XXccC3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Awaywegrowlabel_6beffe46-cceb-4992-a20d-ad76a8c49122.webp",
+            "title": "<strong>Away We Grow® 4-1-1 Concentrate</strong>",
+            "text": "<p>Our water-soluble, liquid organic hydroponic nutrients sourced predominantly from sterilized vegetative waste. We hyper-concentrated vegetative waste to pull out the most essential nutrients.</p><h4>COMING SOON</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Q79cBx",
+        "column_XXccC3"
+      ],
+      "settings": {
+        "title": "Our Circular Product Line",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Learn More",
+        "button_link": "shopify://pages/contact-us",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_blog_bLmK8M": {
       "type": "featured-blog",
       "settings": {
@@ -777,7 +1032,7 @@
         "blog": "re-nuble",
         "post_limit": 3,
         "columns_desktop": 3,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
         "show_image": true,
         "show_date": true,
         "show_author": false,
@@ -785,51 +1040,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_banner_gfVFaz": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_Twxi9H": {
-          "type": "heading",
-          "settings": {
-            "heading": "How Can You Fundamentally Change Your Climate Profile?",
-            "heading_size": "h1"
-          }
-        },
-        "buttons_cMRAGy": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "DOWNLOAD OUR PDF",
-            "button_link_1": "https://cdn.shopify.com/s/files/1/1224/8296/files/Re-Nuble_ClimateProfile_Overview5.pdf?v=1716426859",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Twxi9H",
-        "buttons_cMRAGy"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/world-wide-bg.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "slideshow",
-    "rich_text_qALzfj",
+    "multicolumn_VKG4CK",
+    "image_with_text_38gppF",
+    "multicolumn_qTBK7Y",
+    "slideshow_VMcXAe",
     "multicolumn_UyPh4W",
     "rich_text_Ay3TaC",
     "image_with_text_jjPrgY",
@@ -840,8 +1058,9 @@
     "multicolumn_J8Wf3b",
     "image_with_text_MQNknr",
     "image_banner_pc79ei",
+    "image_with_text_p9qcdb",
     "multicolumn_iCBdNh",
-    "featured_blog_bLmK8M",
-    "image_banner_gfVFaz"
+    "multicolumn_BhL7bb",
+    "featured_blog_bLmK8M"
   ]
 }

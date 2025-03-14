@@ -18,7 +18,7 @@
     "body_scale": 105,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 28,
+    "spacing_grid_horizontal": 20,
     "spacing_grid_vertical": 28,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
@@ -143,9 +143,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
