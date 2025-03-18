@@ -205,9 +205,9 @@
           "background": "#ffffff",
           "background_gradient": "linear-gradient(310deg, rgba(51, 133, 107, 1) 15%, rgba(51, 133, 107, 1) 82%)",
           "text": "#ffffff",
-          "button": "#33856b",
-          "button_label": "#eff0f5",
-          "secondary_button_label": "#33856b",
+          "button": "#ffffff",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
           "shadow": "#33856b"
         }
       },
@@ -229,7 +229,7 @@
           "text": "#ffffff",
           "button": "#33856b",
           "button_label": "#ffffff",
-          "secondary_button_label": "#0e1b4d",
+          "secondary_button_label": "#ffffff",
           "shadow": "#0e1b4d"
         }
       }
