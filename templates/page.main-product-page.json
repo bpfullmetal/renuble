@@ -112,7 +112,7 @@
         "text_DPaGF9": {
           "type": "text",
           "settings": {
-            "text": "<p>Unlike other Jute mat production, Re-Nuble’s production process provides a barrier against food-born pathogen risks and drive ssuperior crop growth. We’re proud to say our mats have no heavy metals, herbicides and pesticides and are completely plastic free, ensuring the highest standard of quality.</p><p></p><p>With two variations of mats, Classic and Large Seed, ReNu Terra Mats are made to fit multiple use cases and growing needs. </p><p>Mat sizes are available in <strong>10\"x20\", 5\"x5\". </strong></p><p><strong>Custom sizes </strong>are available as needed.</p>",
+            "text": "<p>Unlike other Jute mat production, Re-Nuble’s production process provides a barrier against food-born pathogen risks and drive ssuperior crop growth. </p><p>We’re proud to say our mats have <strong>no heavy metals, herbicides and pesticides </strong>and are completely <strong>plastic free</strong>, ensuring the highest standard of quality.</p><p></p><p>With two variations of mats, Classic and Large Seed, ReNu Terra Mats are made to fit multiple use cases and growing needs. </p><p>Mat sizes are available in <strong>10\"x20\", 5\"x5\". </strong></p><p><strong>Custom sizes </strong>are available as needed.</p>",
             "text_style": "body"
           }
         }
@@ -123,7 +123,7 @@
       "settings": {
         "image": "shopify://shop_images/ReNu-Terra-Mat_side-view_Transparent-BG_1.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -148,7 +148,7 @@
             "subheading": "",
             "button_label": "",
             "link": "",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -198,6 +198,7 @@
         "slide_6QLp33",
         "slide_DgWraJ"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -398,14 +399,14 @@
         "heading_xfLKmm": {
           "type": "heading",
           "settings": {
-            "heading": "Re-Nuble vs Competition",
-            "heading_size": "h2"
+            "heading": "How do our mats compare to other substrates?",
+            "heading_size": "h1"
           }
         },
         "text_gymVrJ": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Re-Nuble RENU TERRA offers:</strong></p><ul><li>Organic Materials</li><li>Fully Compostable</li><li>Pathogen-Free</li><li>Automation Friendly</li><li>Consistent Quality</li></ul>",
+            "text": "<ul><li>100% Biodegradable</li><li>Drives Moisture Retention</li><li>Sterile & Pathogen-Free</li><li>Automation Friendly</li><li>High Air Porosity</li></ul>",
             "text_style": "body"
           }
         },
@@ -423,7 +424,6 @@
         "text_gymVrJ",
         "button_RUC6tM"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Re-Nuble_ReNu_Terra_Comparison_Chart_2.jpg",
         "height": "medium",
@@ -633,11 +633,12 @@
         "text_9PnP6p",
         "button_CjVXjp"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Copy_of_Sell_Sheet_Portrait_1_Green_and_Orange_Real_Estate_Home_Business_Vibrant_Dynamic_Sell_Sheet_Real_Estate.png",
+        "image": "shopify://shop_images/Screenshot_2025-03-18_at_1.31.46_PM.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
