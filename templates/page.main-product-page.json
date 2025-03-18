@@ -23,32 +23,14 @@
         "slide_dAzzWb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/hero-bg_01_bright_copy_Large_21410976-e7f3-4736-add6-a1375357319d.jpg",
-            "heading": "ReNu Terra Products",
+            "image": "shopify://shop_images/IMG_2726_1_1.jpg",
+            "heading": "<strong>ReNu Terra Grow Mats</strong>",
             "heading_size": "h1",
-            "subheading": "Re-Nuble offers a full line of ReNu Terra® Grow Mats, Plugs, Blocks and Slabs (as Hydroponic Grow Media) for farms of all sizes globally.",
-            "button_label": "Ready to Get Started?",
+            "subheading": "ReNu Terra Hydroponic Grow Mats perfectly balance water and oxygen levels, improve yields by up-to 20% and outperform leading mat competitors.",
+            "button_label": "Get Started",
             "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_7zJnYm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/hero-bg.original7.jpg",
-            "heading": "ReNu Terra Products",
-            "heading_size": "h1",
-            "subheading": "Re-Nuble offers a full line of ReNu Terra® Grow Mats, Plugs, Blocks and Slabs (as Hydroponic Grow Media) for farms of all sizes globally.",
-            "button_label": "Ready to Get Started?",
-            "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
@@ -58,8 +40,7 @@
         }
       },
       "block_order": [
-        "slide_dAzzWb",
-        "slide_7zJnYm"
+        "slide_dAzzWb"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -72,49 +53,225 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_with_text_nayh8n": {
-      "type": "image-with-text",
+    "multicolumn_yYzMJr": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_c8zFKM": {
-          "type": "heading",
+        "column_NxR8Hm": {
+          "type": "column",
           "settings": {
-            "heading": "Grow Mats for Trays",
-            "heading_size": "h1"
+            "title": "",
+            "text": "<h2><strong>Third Party Lab Verified</strong></h2>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text_DPaGF9": {
-          "type": "text",
+        "column_7BbCaK": {
+          "type": "column",
           "settings": {
-            "text": "<p>Our standard size Grow Media and Grow Mats fit the majority of off the shelf commercial trays used for Indoor Farming. For our larger commercial customers, we also provide custom cut grow mat sizes to seamlessly fit into your production environment.</p>",
-            "text_style": "body"
+            "title": "",
+            "text": "<h2><strong>Home & Industrial Compostable</strong></h2>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "button_QgX3ag": {
-          "type": "button",
+        "column_Qj8QPm": {
+          "type": "column",
           "settings": {
-            "button_label": "Get a Quote",
-            "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-            "button_style_secondary": false
+            "title": "",
+            "text": "<h2><strong>Food-Born Pathogen Free</strong></h2>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_c8zFKM",
-        "text_DPaGF9",
-        "button_QgX3ag"
+        "column_NxR8Hm",
+        "column_7BbCaK",
+        "column_Qj8QPm"
       ],
       "settings": {
-        "image": "shopify://shop_images/MicrosPXL.jpg",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nayh8n": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_DPaGF9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike other Jute mat production, Re-Nuble’s production process provides a barrier against food-born pathogen risks and drive ssuperior crop growth. We’re proud to say our mats have no heavy metals, herbicides and pesticides and are completely plastic free, ensuring the highest standard of quality.</p><p></p><p>With two variations of mats, Classic and Large Seed, ReNu Terra Mats are made to fit multiple use cases and growing needs. </p><p>Mat sizes are available in <strong>10\"x20\", 5\"x5\". </strong></p><p><strong>Custom sizes </strong>are available as needed.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_DPaGF9"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ReNu-Terra-Mat_side-view_Transparent-BG_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "section_color_scheme": "scheme-02a0cb66-5338-4741-b7e3-63fccb83b87f",
         "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_DhBFKE": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_eftaJm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_dcc8dc77-985f-40ff-952e-4a7d0e2514cc.png",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6QLp33": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_DgWraJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_08f77db4-adb1-4b64-83ef-2448d658f33a.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eftaJm",
+        "slide_6QLp33",
+        "slide_DgWraJ"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 9,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "multicolumn_pKmJBD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9Ke9pn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/spinach.webp",
+            "title": "",
+            "text": "<h4>Learn how a popular Singaporean vertical farm was able to replace their less sustainable and affordable substrates with our ReNu Terra Large Seed Format Mats.</h4>",
+            "link_label": "Access Case Study",
+            "link": "https://share.hsforms.com/17E31PjoCQbqT10ls_je1IQxzm3"
+          }
+        },
+        "column_UzdhpF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cress.webp",
+            "title": "",
+            "text": "<h4>The lack of water retention and mold were urgently in need of a resolution. Learn how the two alternatives to this farming system supplier paled in performance compared to our mats.</h4>",
+            "link_label": "Access Case Study",
+            "link": "https://share.hsforms.com/13bmsE3JcQNmv4UrK7asZbgxzm3"
+          }
+        },
+        "column_87Gqna": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/arugula.webp",
+            "title": "",
+            "text": "<h4>Learn how our ReNu Terra Classic Mats not only solved for both root rot and production efficiencies, but also helped to completely eliminate pathogen issues for this farm.</h4>",
+            "link_label": "Access Case Study",
+            "link": "https://share.hsforms.com/1IKXQCRoQQpGEqJsY2Pozfwxzm3"
+          }
+        },
+        "column_MVHeYy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pea_shoots.webp",
+            "title": "",
+            "text": "<h4>An industry soilless substrate favorite was put to the test with our ReNu Terra Classic Mats to deterrmine comparable yields for pea shoots. Learn if this was, in fact, made possible.</h4>",
+            "link_label": "Access Case Study",
+            "link": "https://share.hsforms.com/1guRSDxSRQpemydGJVZsmFQxzm3"
+          }
+        }
+      },
+      "block_order": [
+        "column_9Ke9pn",
+        "column_UzdhpF",
+        "column_87Gqna",
+        "column_MVHeYy"
+      ],
+      "settings": {
+        "title": "<strong>ReNu Terra Success Case Studies</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Get Started",
+        "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -169,6 +326,7 @@
         "column_yzaAtH",
         "column_cEVTgi"
       ],
+      "disabled": true,
       "settings": {
         "title": "We provide grow mats and media to all farm sizes",
         "heading_size": "h2",
@@ -217,6 +375,7 @@
         "text_Lxyz33",
         "button_4bdPN3"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Garet_Extra_Bold_for_titles.png",
         "height": "adapt",
@@ -264,6 +423,7 @@
         "text_gymVrJ",
         "button_RUC6tM"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Re-Nuble_ReNu_Terra_Comparison_Chart_2.jpg",
         "height": "medium",
@@ -285,6 +445,7 @@
       "blocks": {
         "heading_AwtDzh": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "RENU TERRA  - FAQ Videos",
             "heading_size": "h2"
@@ -292,6 +453,7 @@
         },
         "text_VgzWGb": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>‌In this video series, JC Chidiac, Senior Director of R&D at Re-Nuble, shares answers to  some of the frequently asked questions about our ReNu Terra Mats. Our ReNu Terra Mats are used to grow baby greens and microgreens.</p>"
           }
@@ -301,6 +463,7 @@
         "heading_AwtDzh",
         "text_VgzWGb"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -312,6 +475,7 @@
     },
     "custom_liquid_fMNg8d": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {display: flex; justify-content: center;}"
       ],
@@ -324,6 +488,7 @@
     },
     "custom_liquid_9aVcrL": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {display: flex; justify-content: center;}"
       ],
@@ -336,6 +501,7 @@
     },
     "custom_liquid_qzXzja": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {display: flex; justify-content: center;}"
       ],
@@ -348,6 +514,7 @@
     },
     "custom_liquid_EXzM4e": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {display: flex; justify-content: center;}"
       ],
@@ -360,6 +527,7 @@
     },
     "multicolumn_NANgfw": {
       "type": "multicolumn",
+      "disabled": true,
       "settings": {
         "title": "<strong> Products Coming Soon</strong>",
         "heading_size": "h1",
@@ -417,6 +585,7 @@
         "caption_jBxRFV",
         "button_JbXQGz"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Awaywegrowlabel.webp",
         "height": "medium",
@@ -432,12 +601,136 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "image_with_text_YKdxaR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_q3ECQW": {
+          "type": "heading",
+          "settings": {
+            "heading": "How do our mats compare to other substrates?",
+            "heading_size": "h1"
+          }
+        },
+        "text_9PnP6p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For a more detailed breakdown, check out our substrate page <a href=\"https://landingpage.re-nuble.com/renu-terra-vs.-substrates\" target=\"_blank\" title=\"https://landingpage.re-nuble.com/renu-terra-vs.-substrates\"><strong>here.</strong></a></p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_CjVXjp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_q3ECQW",
+        "text_9PnP6p",
+        "button_CjVXjp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_Sell_Sheet_Portrait_1_Green_and_Orange_Real_Estate_Home_Business_Vibrant_Dynamic_Sell_Sheet_Real_Estate.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
+        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_zLrhgU": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_JkTity": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/20240730_154606_1.jpg",
+            "heading": "\"We trialed the ReNu Terra Classic Mats and saw significantly better germination rates and vigor..so much so that we're completely switching to the new mats. Our chefs have also noticed a significant difference in the quality of our microgreens.\"",
+            "heading_size": "h2",
+            "subheading": "Auburn University",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_CVnxAM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/5_db073e24-0cee-4737-b72a-a449c45ffea6.png",
+            "heading": "\"We wrapped our first microgreen grow using the five Re-Nuble mats. Re-Nuble actually had a 30% greater yield give or take.\"",
+            "heading_size": "h2",
+            "subheading": "Amatek Technology",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pmr8y7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Spinach_Baby_Greens_-_Artisan_Greens_copy_Large_53737267-af29-415b-96bb-79e9b4003bdc.jpg",
+            "heading": "\"We recently switched to the ReNu Terra Mats as we wanted something that was labor effecient, did well with automation and was sterile. We saw great success with the ReNu Terra Mats and saw great germination and flavor profile. We're happy we made the switch!\"",
+            "heading_size": "h2",
+            "subheading": "Mighty Harvest",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JkTity",
+        "slide_CVnxAM",
+        "slide_pmr8y7"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "main",
     "slideshow_NdhMNa",
+    "multicolumn_yYzMJr",
     "image_with_text_nayh8n",
+    "slideshow_DhBFKE",
+    "multicolumn_pKmJBD",
     "multicolumn_z9xwfy",
     "image_with_text_9Qxdf4",
     "image_with_text_m7aMRN",
@@ -447,6 +740,8 @@
     "custom_liquid_qzXzja",
     "custom_liquid_EXzM4e",
     "multicolumn_NANgfw",
-    "image_with_text_cygNcW"
+    "image_with_text_cygNcW",
+    "image_with_text_YKdxaR",
+    "slideshow_zLrhgU"
   ]
 }
