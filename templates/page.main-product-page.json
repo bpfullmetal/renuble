@@ -210,6 +210,51 @@
         "accessibility_info": ""
       }
     },
+    "multicolumn_7mHqBc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bETQme": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ReNu-Terra-Mat_side-view_Transparent-BG_1.png",
+            "title": "<strong>ReNu Terra Classic Mat</strong>",
+            "text": "<ul><li>Ideal for <strong>smaller seeds</strong> like Brocolli, Kale, Arugula, Mustard and Basil</li><li>Does <strong>not</strong> replace loose media such as Soil or Peat</li><li>Needs <strong>more frequent</strong> watering as mats hold less water and dry faster</li><li>Has enhanced grow media durability and structural integrity</li><li>Mat Thickness is<strong> 1/4 Inch</strong> and more compressed</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HkiqBt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ReNu-Terra-Mat_side-view_Transparent-BG_1.png",
+            "title": "<strong>ReNu Terra Large Seed Mat</strong>",
+            "text": "<ul><li>Ideal for<strong> larger seeds</strong> like Spinach, Beets, Cilantro, and Pea Shoots</li><li><strong>Replaces</strong> loose media such as Soil or Peat</li><li>Needs <strong>less frequent</strong> watering as mats hold more water and dry slower</li><li>Has enhanced grow media durability and structural integrity</li><li>Mat Thickness is <strong>3/8 Inch</strong> and <strong>less compressed</strong></li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bETQme",
+        "column_HkiqBt"
+      ],
+      "settings": {
+        "title": "Which ReNu Terra Mat is right for you?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Get Started",
+        "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_pKmJBD": {
       "type": "multicolumn",
       "blocks": {
@@ -433,7 +478,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+        "color_scheme": "scheme-026efe56-666c-4d22-a5a2-777c317a3ca7",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 20,
@@ -731,6 +776,7 @@
     "multicolumn_yYzMJr",
     "image_with_text_nayh8n",
     "slideshow_DhBFKE",
+    "multicolumn_7mHqBc",
     "multicolumn_pKmJBD",
     "multicolumn_z9xwfy",
     "image_with_text_9Qxdf4",
