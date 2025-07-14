@@ -24,9 +24,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Arugula_RNT_2.jpg",
-            "heading": "<strong>ReNu Terra Grow Mats</strong>",
+            "heading": "<strong>Baby Greens with ReNu Terra</strong>",
             "heading_size": "h1",
-            "subheading": "ReNu Terra Hydroponic Grow Mats for microgreens and baby greens perfectly balance water and oxygen levels, improve yields by up-to 20% and outperform leading mat competitors.",
+            "subheading": "Proven ReNu Terra Mats give your baby greens a higher germination rate, consistent yields and a cleaner, easier grow.",
             "button_label": "Get Started",
             "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": true,
@@ -60,7 +60,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>Third Party Lab Verified</strong></h2>",
+            "text": "<h2><strong>High Germination</strong></h2>",
             "link_label": "",
             "link": ""
           }
@@ -69,7 +69,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>Home & Industrial Compostable</strong></h2>",
+            "text": "<h2><strong>Comparable Yields to Soil</strong></h2>",
             "link_label": "",
             "link": ""
           }
@@ -78,7 +78,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>Food-Born Pathogen Free</strong></h2>",
+            "text": "<h2><strong>Lightweight & Compostable</strong></h2>",
             "link_label": "",
             "link": ""
           }
@@ -112,7 +112,7 @@
         "text_DPaGF9": {
           "type": "text",
           "settings": {
-            "text": "<p>Re-Nuble’s production process provides a barrier against food-born pathogen risks and creates porous pockets for the right balance of water and oxygen. </p><p>We’re proud to say our mats have <strong>no heavy metals, herbicides and pesticides </strong>and are completely <strong>plastic free</strong>, ensuring the highest standard of quality.</p><p></p><p>With two variations of mats, <strong>Classic Mats and Large Seed Mats</strong>, ReNu Terra Mats are made to fit multiple use cases and growing needs. </p><p>Mat sizes are available in <strong>10\"x20\", 5\"x5\". </strong></p><p><strong>Custom sizes </strong>are available as needed.</p>",
+            "text": "<p>In Re-Nuble's real-world trials, we stacked three ReNu Terra mats high and seeded them with baby greens, achieving a flawless higher germination rate compared to traditional soil flats. </p><p>With just a modest 17% increase in light intensity, ReNu Terra Mats reached yields by week six that were fully on par with soil, proving these mats can deliver consistent, high-quality baby greens without the mess or variability of dirt.</p>",
             "text_style": "body"
           }
         }
@@ -121,13 +121,13 @@
         "text_DPaGF9"
       ],
       "settings": {
-        "image": "shopify://shop_images/ReNu-Terra-Mat_side-view_Transparent-BG_1.png",
+        "image": "shopify://shop_images/Screenshot_2025-07-14_at_12.39.34_PM.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "section_color_scheme": "scheme-02a0cb66-5338-4741-b7e3-63fccb83b87f",
         "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
         "image_behavior": "none",
