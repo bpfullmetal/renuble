@@ -64,6 +64,15 @@
     "press_w6WPh3": {
       "type": "press",
       "blocks": {
+        "press_L4dy8q": {
+          "type": "press",
+          "settings": {
+            "title": "HortiBiz Interview with Hugh Dever",
+            "url": "https://www.podbean.com/media/share/pb-tf4vg-18f55fa",
+            "featured_image": "shopify://shop_images/Screenshot_2025-07-15_at_9.21.06_AM.png",
+            "company_logo": "shopify://shop_images/1_c32398ad-91cb-44eb-a6b9-8706881619a6.png"
+          }
+        },
         "press_UbEQcj": {
           "type": "press",
           "settings": {
@@ -183,6 +192,7 @@
         }
       },
       "block_order": [
+        "press_L4dy8q",
         "press_UbEQcj",
         "press_7DpJhq",
         "press_zPGLid",
@@ -197,8 +207,7 @@
         "press_4Y3Uea",
         "press_NNziKj"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
