@@ -23,7 +23,7 @@
         "slide_dAzzWb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/IMG_3728.heic",
+            "image": "shopify://shop_images/Blog_Banner_6.png",
             "heading": "<strong>USDA-Backed Fertilizer Expansion </strong>",
             "heading_size": "h1",
             "subheading": "Re-Nuble is transforming food waste into powerful, sustainable fertilizers - now with USDA support.",
@@ -152,9 +152,9 @@
         "text_DPaGF9"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2025-07-14_at_1.40.44_PM.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
+        "image": "shopify://shop_images/Spinach_Baby_Greens_-_Artisan_Greens_copy_Large_53737267-af29-415b-96bb-79e9b4003bdc.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
