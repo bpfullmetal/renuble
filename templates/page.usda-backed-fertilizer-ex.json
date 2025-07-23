@@ -17,6 +17,42 @@
         "padding_bottom": 28
       }
     },
+    "slideshow_NdhMNa": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_dAzzWb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3728.heic",
+            "heading": "<strong>USDA-Backed Fertilizer Expansion </strong>",
+            "heading_size": "h1",
+            "subheading": "Re-Nuble is transforming food waste into powerful, sustainable fertilizers - now with USDA support.",
+            "button_label": "",
+            "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_dAzzWb"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "rich_text_TDzxnM": {
       "type": "rich-text",
       "blocks": {
@@ -46,42 +82,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "slideshow_NdhMNa": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_dAzzWb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_3728.heic",
-            "heading": "<strong>USDA-Backed Fertilizer Expansion </strong>",
-            "heading_size": "h1",
-            "subheading": "Re-Nuble is transforming food waste into powerful, sustainable fertilizers - now with USDA support.",
-            "button_label": "Get Started",
-            "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_dAzzWb"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_yYzMJr": {
@@ -680,8 +680,8 @@
   },
   "order": [
     "main",
-    "rich_text_TDzxnM",
     "slideshow_NdhMNa",
+    "rich_text_TDzxnM",
     "multicolumn_yYzMJr",
     "image_with_text_nayh8n",
     "slideshow_DhBFKE",
