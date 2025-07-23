@@ -17,6 +17,37 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_TDzxnM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8NCBg9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powering the Future of U.S. Agriculture with Circular Manufacturing",
+            "heading_size": "h1"
+          }
+        },
+        "text_VKBNc7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Re-Nuble is leading the next generation of climate-resilient agriculture by turning local food waste into powerful, sustainable fertilizers and nutrient alternatives. </p><p>With support from the USDA Fertilizer Production Expansion Program (FPEP) with a $2M initiative, we’re expanding our production capacity and impact, starting in Rochester, NY.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8NCBg9",
+        "text_VKBNc7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "slideshow_NdhMNa": {
       "type": "slideshow",
       "blocks": {
@@ -24,9 +55,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/IMG_3728.heic",
-            "heading": "<strong>Baby Greens with ReNu Terra</strong>",
+            "heading": "<strong>USDA-Backed Fertilizer Expansion </strong>",
             "heading_size": "h1",
-            "subheading": "Proven ReNu Terra Mats give your baby greens a higher germination rate, consistent yields and a cleaner, easier grow.",
+            "subheading": "Re-Nuble is transforming food waste into powerful, sustainable fertilizers - now with USDA support.",
             "button_label": "Get Started",
             "link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
             "button_style_secondary": true,
@@ -60,7 +91,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>High Germination</strong></h2>",
+            "text": "<h2><strong>Made in the U.S.A. Locally Sourced, Produced and Distributed.</strong></h2>",
             "link_label": "",
             "link": ""
           }
@@ -69,7 +100,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>Comparable Yields to Soil</strong></h2>",
+            "text": "<h2><strong>Circular by Design  through Nutrient Rich Grow Media</strong></h2>",
             "link_label": "",
             "link": ""
           }
@@ -78,7 +109,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h2><strong>Lightweight & Compostable</strong></h2>",
+            "text": "<h2><strong>Backed by Research & Supported by the USDA</strong></h2>",
             "link_label": "",
             "link": ""
           }
@@ -112,7 +143,7 @@
         "text_DPaGF9": {
           "type": "text",
           "settings": {
-            "text": "<p>In Re-Nuble's real-world trials, we stacked three ReNu Terra mats high and seeded them with baby greens, achieving a flawless higher germination rate compared to traditional soil flats. </p><p>With just a modest 17% increase in light intensity, ReNu Terra Mats reached yields by week six that were fully on par with soil, proving these mats can deliver consistent, high-quality baby greens without the mess or variability of dirt.</p>",
+            "text": "<p>A few centralized players dominate the U.S. fertilizer industry, rely heavily on imported inputs, and contribute significantly to agricultural emissions. </p><p>Fertilizer costs are volatile, and distribution is costly, especially for small and mid-sized farms.<br/><br/>Re-Nuble’s distributed, circular manufacturing model is designed to solve this by:<br/>- Sourcing regionally available food waste<br/>- Processing it into consistent, nutrient-rich fertilizers<br/>- Locating production near key farming and food manufacturing hubs<br/>- Offering affordable, carbon-conscious alternatives to synthetic fertilizers<br/><br/>With this USDA-backed project, we’re scaling our model to reach more producers for more resilient supply chains.</p>",
             "text_style": "body"
           }
         }
@@ -210,118 +241,6 @@
         "accessibility_info": ""
       }
     },
-    "multicolumn_7mHqBc": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bETQme": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/1_4_inch.png",
-            "title": "<strong>ReNu Terra Classic Mat</strong>",
-            "text": "<ul><li>Ideal for <strong>smaller seeds</strong> like Brocolli, Kale, Arugula, Mustard and Basil</li><li>Does <strong>not</strong> replace loose media such as Soil or Peat</li><li>Needs <strong>more frequent</strong> watering as mats hold less water and dry faster</li><li>Has enhanced grow media durability and structural integrity</li><li>Mat Thickness is<strong> 1/4 Inch</strong> and more compressed</li><li>Solves for root air access</li></ul>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_HkiqBt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/3_8.png",
-            "title": "<strong>ReNu Terra Large Seed Mat</strong>",
-            "text": "<ul><li>Ideal for<strong> larger seeds</strong> like Spinach, Beets, Cilantro, and Pea Shoots</li><li><strong>Replaces</strong> loose media such as Soil or Peat</li><li>Needs <strong>less frequent</strong> watering as mats hold more water and dry slower</li><li>Has enhanced grow media durability and structural integrity</li><li>Mat Thickness is <strong>3/8 Inch</strong> and <strong>less compressed</strong></li><li>Solves for root air access</li></ul>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_bETQme",
-        "column_HkiqBt"
-      ],
-      "settings": {
-        "title": "Which ReNu Terra Mat is right for you?",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Get Started",
-        "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-        "color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_pKmJBD": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_9Ke9pn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/spinach.webp",
-            "title": "",
-            "text": "<h4>Learn how a popular Singaporean vertical farm was able to replace their less sustainable and affordable substrates with our ReNu Terra Large Seed Format Mats.</h4>",
-            "link_label": "Access Case Study",
-            "link": "https://share.hsforms.com/17E31PjoCQbqT10ls_je1IQxzm3"
-          }
-        },
-        "column_UzdhpF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/cress.webp",
-            "title": "",
-            "text": "<h4>The lack of water retention and mold were urgently in need of a resolution. Learn how the two alternatives to this farming system supplier paled in performance compared to our mats.</h4>",
-            "link_label": "Access Case Study",
-            "link": "https://share.hsforms.com/13bmsE3JcQNmv4UrK7asZbgxzm3"
-          }
-        },
-        "column_87Gqna": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/arugula.webp",
-            "title": "",
-            "text": "<h4>Learn how our ReNu Terra Classic Mats not only solved for both root rot and production efficiencies, but also helped to completely eliminate pathogen issues for this farm.</h4>",
-            "link_label": "Access Case Study",
-            "link": "https://share.hsforms.com/1IKXQCRoQQpGEqJsY2Pozfwxzm3"
-          }
-        },
-        "column_MVHeYy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/pea_shoots.webp",
-            "title": "",
-            "text": "<h4>An industry soilless substrate favorite was put to the test with our ReNu Terra Classic Mats to deterrmine comparable yields for pea shoots. Learn if this was, in fact, made possible.</h4>",
-            "link_label": "Access Case Study",
-            "link": "https://share.hsforms.com/1guRSDxSRQpemydGJVZsmFQxzm3"
-          }
-        }
-      },
-      "block_order": [
-        "column_9Ke9pn",
-        "column_UzdhpF",
-        "column_87Gqna",
-        "column_MVHeYy"
-      ],
-      "settings": {
-        "title": "<strong>ReNu Terra Success Case Studies</strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Get Started",
-        "button_link": "https://share.hsforms.com/10u8qKLxPTBmJ6CaBvExw7gxzm3",
-        "color_scheme": "scheme-02a0cb66-5338-4741-b7e3-63fccb83b87f",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_z9xwfy": {
       "type": "multicolumn",
       "blocks": {
@@ -390,6 +309,60 @@
         "padding_bottom": 60
       }
     },
+    "multicolumn_rmF8gT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mTFFFC": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PGjanQ": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LETTdf": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mTFFFC",
+        "column_PGjanQ",
+        "column_LETTdf"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Led by industry experts in sustainability, agriculture, and supply chain innovation",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_9Qxdf4": {
       "type": "image-with-text",
       "blocks": {
@@ -436,53 +409,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_with_text_m7aMRN": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_xfLKmm": {
-          "type": "heading",
-          "settings": {
-            "heading": "How do our mats compare to other substrates?",
-            "heading_size": "h1"
-          }
-        },
-        "text_gymVrJ": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>100% Biodegradable</li><li>Drives Moisture Retention</li><li>Sterile & Pathogen-Free</li><li>Automation Friendly</li><li>High Air Porosity</li></ul>",
-            "text_style": "body"
-          }
-        },
-        "button_RUC6tM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https://landingpage.re-nuble.com/renu-terra-vs.-substrates",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_xfLKmm",
-        "text_gymVrJ",
-        "button_RUC6tM"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/ROOTS.jpg",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-fc8bc2d3-8f2d-478a-b0cc-5cf529fe80ad",
-        "color_scheme": "scheme-02a0cb66-5338-4741-b7e3-63fccb83b87f",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "rich_text_Wf339Y": {
@@ -772,15 +698,14 @@
   },
   "order": [
     "main",
+    "rich_text_TDzxnM",
     "slideshow_NdhMNa",
     "multicolumn_yYzMJr",
     "image_with_text_nayh8n",
     "slideshow_DhBFKE",
-    "multicolumn_7mHqBc",
-    "multicolumn_pKmJBD",
     "multicolumn_z9xwfy",
+    "multicolumn_rmF8gT",
     "image_with_text_9Qxdf4",
-    "image_with_text_m7aMRN",
     "rich_text_Wf339Y",
     "custom_liquid_fMNg8d",
     "custom_liquid_9aVcrL",
