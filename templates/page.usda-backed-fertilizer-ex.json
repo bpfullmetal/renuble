@@ -315,6 +315,7 @@
         "column_mTFFFC": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-23_at_10.22.49_AM.png",
             "title": "Hugh Dever, CEO (ex-Procter & Gamble, Fresh Express)",
             "text": "",
             "link_label": "",
@@ -324,6 +325,7 @@
         "column_PGjanQ": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-23_at_10.23.14_AM.png",
             "title": "Jeff Scott, COO  (18+ years in ops)",
             "text": "",
             "link_label": "",
@@ -333,6 +335,7 @@
         "column_LETTdf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-23_at_10.23.25_AM.png",
             "title": "Alicia Noel, Senior PM (USDA project lead, global ag strategist)n",
             "text": "",
             "link_label": "",
@@ -342,6 +345,7 @@
         "column_JEU7Nd": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-23_at_10.23.07_AM.png",
             "title": "- Riyana Razalee, Director of Sustainability (Columbia University)",
             "text": "",
             "link_label": "",
@@ -351,6 +355,7 @@
         "column_GMjqnx": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-07-23_at_10.22.59_AM.png",
             "title": "Frank Henderson, Horticultural Research Specialist (Cornell hydroponics expert)",
             "text": "",
             "link_label": "",
