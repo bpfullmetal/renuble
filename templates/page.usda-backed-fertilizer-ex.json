@@ -315,8 +315,8 @@
         "column_mTFFFC": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Hugh Dever, CEO (ex-Procter & Gamble, Fresh Express)",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -324,8 +324,8 @@
         "column_PGjanQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Jeff Scott, COO  (18+ years in ops)",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -333,8 +333,26 @@
         "column_LETTdf": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Alicia Noel, Senior PM (USDA project lead, global ag strategist)n",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JEU7Nd": {
+          "type": "column",
+          "settings": {
+            "title": "- Riyana Razalee, Director of Sustainability (Columbia University)",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GMjqnx": {
+          "type": "column",
+          "settings": {
+            "title": "Frank Henderson, Horticultural Research Specialist (Cornell hydroponics expert)",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -343,7 +361,9 @@
       "block_order": [
         "column_mTFFFC",
         "column_PGjanQ",
-        "column_LETTdf"
+        "column_LETTdf",
+        "column_JEU7Nd",
+        "column_GMjqnx"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -354,7 +374,7 @@
         "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -628,9 +648,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/20240730_154606_1.jpg",
-            "heading": "\"We trialed the ReNu Terra Classic Mats and saw significantly better germination rates and vigor..so much so that we're completely switching to the new mats. Our chefs have also noticed a significant difference in the quality of our microgreens.\"",
+            "heading": "Supported by mission-aligned investors including The 22 Fund, SoS Ventures, Chisos Fund, NYSERDA, and Enduring Planet",
             "heading_size": "h2",
-            "subheading": "Auburn University",
+            "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -639,50 +659,12 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_CVnxAM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/20230620_084533.jpg",
-            "heading": "\"We wrapped our first microgreen grow using the five Re-Nuble mats. Re-Nuble actually had a 30% greater yield give or take.\"",
-            "heading_size": "h2",
-            "subheading": "Amatek Technology",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_pmr8y7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Spinach_Baby_Greens_-_Artisan_Greens_copy_Large_53737267-af29-415b-96bb-79e9b4003bdc.jpg",
-            "heading": "\"We recently switched to the ReNu Terra Mats as we wanted something that was labor effecient, did well with automation and was sterile. We saw great success with the ReNu Terra Mats and saw great germination and flavor profile. We're happy we made the switch!\"",
-            "heading_size": "h2",
-            "subheading": "Mighty Harvest",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_JkTity",
-        "slide_CVnxAM",
-        "slide_pmr8y7"
+        "slide_JkTity"
       ],
       "settings": {
         "layout": "full_bleed",
