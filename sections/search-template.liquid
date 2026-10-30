@@ -85,7 +85,7 @@
         {% assign sp_paginate_by = paginate.page_size %}{% endpaginate %}
       </div>
 
-      {%- capture 'downloads_results' -%}
+      {%- capture downloads_results -%}
         {% for resource_title in shop.metafields.globals.resource_title %}
             {% assign resource_title_downcase = resource_title | downcase %}
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
@@ -106,7 +106,7 @@
             {% endif %}
         {% endfor %}
       {%- endcapture -%}
-      {%- capture 'video_results' -%}
+      {%- capture video_results -%}
         {% for resource_title in shop.metafields.globals.resource_title %}
             {% assign resource_title_downcase = resource_title | downcase %}
             {% assign resource_type = shop.metafields.globals.resource_type[forloop.index0] %}
@@ -169,4 +169,16 @@
   </div>
 
 </div>
-{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}
+{% if sp_paginate_by %}{% render 'spurit_po2_collection_template_snippet', paginate_by: sp_paginate_by %}{% endif %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- capture 'downloads_results' -%}"
+  to: "{%- capture downloads_results -%}"
+  position: 3709..3742
+- from: "{%- capture 'video_results' -%}"
+  to: "{%- capture video_results -%}"
+  position: 4896..4925
+{%- endcomment -%}

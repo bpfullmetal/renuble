@@ -26,10 +26,10 @@
 
 {% assign blog_handles = "case-studies,videos-podcasts" | split: "," %}
 
-{% capture 'blog_sections' %}
+{% capture blog_sections %}
   {% for blog_handle in blog_handles %}
     {% assign blog = blogs[blog_handle] %}
-    {% capture 'articles' %}
+    {% capture articles %}
       {% assign article_count = 0 %}
       {% for article in blog.articles %}
         {% comment %}Allow to count to 4 to see if there are any more to show but do not show the 4th{% endcomment %}
@@ -65,3 +65,16 @@
 {% else %}
   <p>No results</p>
 {% endif %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% capture 'blog_sections' %}"
+  to: "{% capture blog_sections %}"
+  position: 1043..1070
+- from: "{% capture 'articles' %}"
+  to: "{% capture articles %}"
+  position: 1158..1180
+{% endcomment %}
